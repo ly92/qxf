@@ -1,0 +1,6 @@
+
+传统硬件	IBM	HP	EMC	HDS	NETAPP
+操作系统	Linux	AIX	HPUX	　	　
+传统软件	oracle	db2	中间件	备份软件	　
+虚拟化	vmware	KVM	hyper-V	PowerVM	　
+热点技术	云		大数据	docker	分布式	超融合
