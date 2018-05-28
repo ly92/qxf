@@ -213,7 +213,7 @@ operation{
 7、商城上拉自动刷新
 8、企业采购需求文档
 9、微信第三方登录
-10、爬虫
+10、爬虫-------end
 11、企业购1.0优化项
 12、代测代卖代存优化项整理-------end
 13、优惠券发放
@@ -230,5 +230,69 @@ operation{
 2、代存功能设计
 3、定制代测服务--整机服务
 4、三方比价的公司名称
-5、
+
+0528
+1、企业购2.0版本
+2、erp开发
+3、pc端开发
+
+0528--微信登录
+"-----------返回数据--------"
+{
+  "openid" : "oe3xNv097lImuiZgh2pWWZiZwD8I",
+  "unionid" : "odQepvwBj1UfsUW7lOfVMngTkBEw",
+  "refresh_token" : "10_jTHq3u-pdFi91WbCEXn_KlEnJJQ8VVPRO2nhnUM8F-kdsr2REtPm8_-5CROiomj9gjg3kqWFtClLUfNtIcp1ykRc4ghtfrB2CRR6NreF0qw",
+  "scope" : "snsapi_userinfo",
+  "access_token" : "10_-32Jqkg-HZsk4cyTtKu7NIEZa1YoxJUIa5tqc1wzXKw6YEVyVjmIufX0zZubrCny5nqOEhaCgF3df9ZnJmvX51QXA7HLIduDznaA_WysT7A",
+  "expires_in" : 7200
+}
+"-----------返回数据--------"
+{
+  "openid" : "oe3xNv097lImuiZgh2pWWZiZwD8I",
+  "refresh_token" : "10_jTHq3u-pdFi91WbCEXn_KlEnJJQ8VVPRO2nhnUM8F-kdsr2REtPm8_-5CROiomj9gjg3kqWFtClLUfNtIcp1ykRc4ghtfrB2CRR6NreF0qw",
+  "scope" : "snsapi_base,snsapi_userinfo,",
+  "access_token" : "10_-32Jqkg-HZsk4cyTtKu7NIEZa1YoxJUIa5tqc1wzXKw6YEVyVjmIufX0zZubrCny5nqOEhaCgF3df9ZnJmvX51QXA7HLIduDznaA_WysT7A",
+  "expires_in" : 7200
+}
+"-----------返回数据--------"
+{
+  "openid" : "oe3xNv097lImuiZgh2pWWZiZwD8I",
+  "unionid" : "odQepvwBj1UfsUW7lOfVMngTkBEw",
+  "refresh_token" : "10_-GFS7M3BMoHUBrs5jGAAuGs1bMrbneaj-k45uxLnuB-r_nshyyQzxJx2vTLHvwsm83ww2r1An52R7SMshpgw6KD8BupglIe_G1luatylrEA",
+  "scope" : "snsapi_userinfo",
+  "access_token" : "10_PqL7aMlc1XdgkIcqavgDF14DnThwmLLAb8-Vaz8uM5aKHuoGH2gly6M5JsZddSQkgr_ORYKbzIXRbz2q8ognk4NSnQJLmtUaO20i2swLzV4",
+  "expires_in" : 7200
+}
+"-----------返回数据--------"
+{
+  "city" : "",
+  "headimgurl" : "http:\/\/thirdwx.qlogo.cn\/mmopen\/vi_32\/SNppfDgdH4XWA6l1Tfhd2N429JJDRUkq5ZofdsXfnWSibeLVXmwa67e0pFHOdGdWicSpGGaddDd9CGAB8icDCxwUA\/132",
+  "unionid" : "odQepvwBj1UfsUW7lOfVMngTkBEw",
+  "privilege" : [
+
+  ],
+  "openid" : "oe3xNv097lImuiZgh2pWWZiZwD8I",
+  "nickname" : "勇哥",
+  "language" : "zh_CN",
+  "province" : "",
+  "sex" : 0,
+  "country" : ""
+}
+
+
+0528
+微信登录设想
+目前七小服需要手机登录后获取到userId（七小服用户身份的凭证）然后才能请求七小服的接口。采用微信第三方登录时在微信app中同意登录后会返回openid（微信用户身份的凭证）和用户的头像名称等信息，如果此微信ID未记录在后台则提示绑定手机号需要手机验证码，如果手机号为七小服用户则直接绑定然后返回用户userid，如果手机号不为七小服用户则自动注册成为七小服用户返回userid并发送短信通知初始密码为“000000”，如果已经记录在后台则查看是否已经绑定手机号，如果已经绑定手机号则直接返回userid，如果未绑定手机号则提示绑定手机号需要手机验证码，如果手机号为七小服用户则直接绑定然后返回用户userid，如果手机号不为七小服用户则自动注册成为七小服用户返回userid并发送短信通知初始密码为“000000”
+1、更换微信号：使用新的微信号授权登录时会提示未绑定手机号，此时通过手机号以及验证码可直接替换原微信号
+2、更换手机号：暂时不允许此操作，如需更改联系客服（原因：有此需求的说明在七小服有多个账户，七小服应当掌握这个信息）
+
+
+
+
+
+
+
+
+
+
 
