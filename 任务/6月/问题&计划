@@ -98,47 +98,9 @@ X 在两家公司用的是同一手机号
 0607
 温馨提示
 工程师开始工作到结束工作时间段内需要对工程师的移动轨迹做下记录，切换至后台时仍会保持GPS连接，相比其他操作会消耗更多的电量。
-extension HomeViewController : BTKTraceDelegate{
-    func onGet(_ message: BTKPushMessage!) {
-        if message.type == 0x03{
-            let content = message.content as! BTKPushMessageFenceAlarmContent
-            if Int(content.actionType.rawValue) == 1{
-                print(content.monitoredObject)
-                print("进入")
-                print(content.fenceName)
-            }else if Int(content.actionType.rawValue) == 2{
-                print(content.monitoredObject)
-                print("离开")
-                print(content.fenceName)
-            }
-        }else if message.type == 0x04{
-            let content = message.content as! BTKPushMessageFenceAlarmContent
-            if Int(content.actionType.rawValue) == 1{
-                print(content.monitoredObject)
-                print("进入")
-                print(content.fenceName)
-            }else if Int(content.actionType.rawValue) == 2{
-                print(content.monitoredObject)
-                print("离开")
-                print(content.fenceName)
-            }
-        }
-    }
-    func onStartService(_ error: BTKServiceErrorCode) {
-        print(error.hashValue)
-    }
-    func onStartGather(_ error: BTKGatherErrorCode) {
-        print(error.hashValue)
-    }
-    func onStopGather(_ error: BTKGatherErrorCode) {
-        print(error.hashValue)
-    }
-    func onStopService(_ error: BTKServiceErrorCode) {
-        print(error.hashValue)
-    }
-    func onSetCacheMaxSize(_ error: BTKSetCacheMaxSizeErrorCode) {
-        print(error.hashValue)
-    }
-}
 
 
+
+0608
+1、售后字数
+2、图片拉伸
