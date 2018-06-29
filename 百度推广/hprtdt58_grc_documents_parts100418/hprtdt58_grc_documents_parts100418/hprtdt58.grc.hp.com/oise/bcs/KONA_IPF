@@ -1,0 +1,173 @@
+******************* Product / Case Handling *******************
+RoHS Silent Roll product 
+
+Capture the appropriate Serial Number for use in SAW Unit Configuration, 
+PC Tracker or CSN to determine RoHS product level compliance. 
+
+Products listed as Modified or EMEA-Only are Compliant Products. All compliant 
+products must comply with the RoHS directives and must be supported with Modified spares.
+
+See http://na2.know.hp.com/teams/RoHS%20Service%20Delivery%20Implementation/default.aspx  
+or email rohsservicedeliveryprogramteam@hp.com for additional information.
+
+If unable to capture the serial number, obtain the purchase or install date from the 
+customer and compare with the compliance date below. 
+
+Compliance Date:  July, 1st 2006
+
+The ROHS status of a part is UNKNOWN unless marked with "(compliant)" or "(noncomp)".
+You may order a compliant part for a not compliant server in case the noncompliant part is unavailable
+
+The Qualifier has to check for parts compliancy himself with the above mentioned 
+tools and is solely repsonsible for this!
+***************************************************************
+
+===================== Kona - rx8640 - AB297A =======================
+
+
+---------------------------- System Backplane -------------------------
+System Backplane rx8640        AB297-69602
+Clock Oscillator Kit           AB297-63002
+
+
+---------------------------- Cell -------------------------------------
+#All cellboards come with 2 CPU modules mounted on the board.
+#Not needed CPUs should be removed from new cell and returned in the 
+#provided anti-static bags and compartments.
+#Take over the ZIF Dust Covers from the old cell for any empty CPU slots.
+#CPUs are FRUs. No need to exchange the complete cellboard if CPU fails. 
+#Check MP:CM>DF output for "X - Cell Board Processor Module (FRU)"
+#See also http://wtec.cup.hp.com/~cpuhwcb/IA64/rx8640_7640/kmix_cell_table.htm
+
+Cell + 2x 1.6GHz  6MB Mad9M     AB313-69007(noncomp) AB313-69107(compliant)   Cell with 2 Mad9M CPUs
+Cell + 2x 1.4GHZ 12MB Montecito AB313-69004   Cell with 2 Montecito modules
+Cell + 2x 1.6GHZ 18MB Montecito AB313-69005   Cell with 2 Montecito modules
+Cell + 2x 1.6GHZ 24MB Montecito AB313-69006   Cell with 2 Montecito modules
+Cell + 2x 1.4GHZ 12MB Montevale AB313-69013   Cell with 2 Montevale modules; min. FW 4.0
+Cell + 2x 1.6GHZ 18MB Montevale AB313-69014   Cell with 2 Montevale modules; min. FW 4.0
+Cell + 2x 1.6GHZ 24MB Montevale AB313-69015   Cell with 2 Montevale modules; min. FW 4.0
+
+CPU Mod. 1.6GHz  6MB Mad9M      AB548-69001(noncomp) AB548-69002(compliant)   Mad9M CPU
+CPU Mod. 1.4GHZ 12MB Montecito  AB451-69001   Montecito module
+CPU Mod. 1.6GHZ 18MB Montecito  AB584-69001   Montecito module
+CPU Mod. 1.6GHZ 24MB Montecito  AB452-69001   Montecito module
+CPU Mod. 1.4GHZ 12MB Montevale  AD362-69001   Montevale module; min. FW 4.0
+CPU Mod. 1.6GHZ 18MB Montevale  AD365-69001   Montevale module; min. FW 4.0
+CPU Mod. 1.6GHZ 24MB Montevale  AD368-69001   Montevale module; min. FW 4.0
+
+CPU Turbo Cooler Fan            AB388-00005   for CPUs only, not for DNA (CC chip); old part#: A6436-67001   
+CC TURBO COOLER FAN             A6093-00276   for Cell Controller (CC) only, not for CPU;
+
+1GB DDR2 DIMM (single)          A9843-69001   
+2GB DDR2 DIMM (single)          A9846-69001
+4GB DDR2 DIMM (single)          A9849-69001
+8GB DDR2 DIMM (single)          AB456-69001   min. FW 4.0; check Note below for DIMMs mismatch issue
+# Attention! - There are two different styles of 8GB DIMMs which cannot be mixed in an echelon!
+# The part number AB456-69001 did not changed. - You will get the new style DIMMs now.
+# Check installed 8GB DIMMs with MP:CM>DF command to decide if you need to order one or two DIMMs:
+# AB456BX (DF output:  MAMM-8GB AB456-60301) -> new style installed -> order one DIMM
+# AB456AX (DF output: SAMM2-8GB AB456-60201) -> old style installed -> order two DIMMs; replace both DIMMs of echelon!
+
+
+---------------------------- I/O --------------------------------------
+PCI-X 2.0 Card Cage Assembly    AB297-69001   contains the PCI-X 2.0 Backplane
+PCI-E/PCI-X Card Cage Assembly  AB297-69006   contains combined PCI-Express/PCI-X Backplane; min. FW 4.0
+PCI OLR Assy with 16 Paddles    A6093-67114(noncomp) A6093-67214(compliant)   old part#: A6093-67014; includes also PCI OLR Switch cable
+Core I/O, MP                    AB314-69001
+Mass Storage Backplane          AB297-60104   connects internal disks and SCSI cables
+
+#Internal Disks/Removable Media in new rx8640 systems:
+Removable DAT 72GB (DDS4)       393484-001
+DVD + RW Drive                  AB351-67002
+U320  36GB 15K RPM SCSI Disk    AB420-69001
+U320  73GB 15K RPM SCSI Disk    AB421-69001
+U320 146GB 10K RPM SCSI Disk    AB422-69001
+U320 146GB 15K RPM SCSI Disk    AD206-69001
+U320 300GB 10K RPM SCSI Disk    AB423-69001
+U320 300GB 15K RPM SCSI Disk    AD261-69001 
+
+Filler for internal disk slot   A6198-60003   carbon colored
+Filler for DVD/DDS slot         A6912-00014   carbon colored
+Removable Media Rail Kit        A6752-67011   blue plastic rails attached to DAT or DVD
+
+#Possible Internal Disks/Removable Media in upgrades to rx8640: 
+INTERNAL DAT40i 40GB DRIVE      C5686-69203   quartz gray colored
+INTERNAL DAT40i 40GB DRIVE      C5686-69204   same as C5686-69203 but carbon colored
+INTERNAL DVD DEVICE             A9879-67001   in Olympia upgrades
+INTERNAL DVD+RW DEVICE	        AB351-62001(noncomp) AB351-67002(compliant)   
+INTERNAL SCSI-2 DVD ROM         A5220-67003   in Keystone upgrades
+INT. HOTPLUG DISK 18GB 10k      A6537-69002   in Keystone upgrades; gray colored; ST318404LC, ST318406LC, MAN3184MC, Atlas 10k III 18.4 SCA, IC35L018UCD210-0, DK32DJ-18MC
+INT. HOTPLUG DISK 36GB 10k      A6538-69002   in Keystone upgrades; gray colored; Ultra160; ST336704LC, ST336706LC, MAN3367MC, Atlas 10k III 36.7 SCA, IC35L036UCD210-0, DK32DJ-36MC
+INT. HOTPLUG DISK 36GB 15k      A6541-69002   in Keystone upgrades; gray colored; Ultra160; ST336752LC, MAM3367MC, IC35L036UCPR15-0
+INT. HTPLG U320 DISK 36GB 15k   A9896-69001(noncomp) AB420-69001(compliant)   in Olympia upgrades; carbon colored; Ultra320; ST336753LC, MAS3367NC
+INT. HTPLG U320 DISK 36GB 15k   A7329-69001   in Keystone upgrades; gray colored; Ultra320; ST336753LC, MAS3367NC
+INT. HOTPLUG DISK 73GB 10k      A6539-69002   in Keystone upgrades; gray colored; Ultra160; ST373405LC, MAN3735MC, Atlas 10K III 73.4 SCA, IC35L072UCD210-0, DK32DJ-72MC
+INT. HTPLG U320 DISK 73GB 10k   A7285-69002   in Keystone upgrades; gray colored; Ultra320; HP 73.4GST373307LC, HP 73.4GMAP3735NC
+INT. HTPLG U320 DISK 73GB 15k   A9897-69001(noncomp) AB421-69001(compliant)   in Olympia upgrades; carbon colored; Ultra320; MAS3735xx 
+INT. HTPLG U320 DISK 146GB 10k  A9898-69002(noncomp) AB422-69001(compliant)   in Olympia upgrades; carbon colored; Ultra320;
+INT. HTPLG U320 DISK 146GB 10k  A7287-69002   in Keystone upgrades; gray colored; Ultra320;
+
+
+---------------------------- Power ------------------------------------
+Bulk Power Supply (BPS)         A6093-69021   alt. part#: 0950-3794(noncomp) 0957-2183(compliant)
+PCI-X N+1 Power Module          0950-4637
+VRM for System Backplane Rail 2 0950-4624     order two to replace both VRMs (#2 & #3) on VRM Rail 2; for details see: http://enhanced1.sharepoint.hp.com/teams/esssupport/InsideESSSupport/InsideWTEC/ISmid/Documents/IS_minutes/IS%20meeting%20minutes%200709.mht#kona
+VRM for PCI-X 2.0 Backplane     0950-4741     VRM# 1-4; old part#: 0950-4622
+VRM for cell, low-voltage       0950-4741     VRM# 1-12 & 14-15; old part#: 0950-4622
+VRM for cell, high-voltage      0950-4709(compliant)     VRM# 0 & 13
+VRM for Systembackplane 3.3V    0950-4624     VRM# 2 & 3 order two and replace both
+PCA, AC Distribution            A6093-67007(noncomp) A6093-60107(compliant)
+PCA, DC Distribution            A6093-67008(noncomp) A6093-60108(compliant)
+
+
+---------------------------- Fans -------------------------------------
+Smart Fan Front                 A6093-67017(noncomp) A6093-67117(compliant)   cabinet fan# 0-8
+Smart Fan Rear                  A6093-67018(noncomp) A6093-67118(compliant)   cabinet fan# 9-20
+Smart Fan PCI-X I/O             A6752-67030(noncomp) A6752-04071(compliant)   I/O fan# 0-5; same as in Matterhorn
+CPU Turbo Cooler Fan            AB388-00005   for CPUs only, not for DNA (CC chip); old part#: A6436-67001   
+CC TURBO COOLER FAN             A6093-00276   for Cell Controller (CC) only, not for CPU; 
+
+
+---------------------------- Cables -----------------------------------
+Cable, E-Link Set               AB301-2008A   for connection to a SEU
+Cable, Fan Assy Front           A6093-63038
+Cable, Fan Assy Rear            A6093-63039
+Cable, Mass Storage Bundle      AB297-2003C   SCSI cable bundle to internal disks & DVD/DDS
+Cable, Mass Storage Power       AB297-2002A   
+Cable, Internal Smart Array     A7027-63003
+Cable, DC Distribution Signal   A6093-63040   old part#: A6093-63014(noncomp) A6093-63040(compliant)
+Cable, PCI OLR Switch           AB297-2010A?  changed !?!
+Cable, Intrusion Switch         A6093-63044   old part#: A6093-63025(noncomp) A6093-63044(compliant); cable to all cover open/closed switches (sensors)
+
+
+---------------------------- Miscs ------------------------------------
+Front Panel Display PCA         AB297-60103   including cable
+Front Panel Light Pipe Assy     AB297-2102A
+Cover, Front Plastic Bezel      A6912-04009   carbon colored Front Bezel without nameplate
+Nameplate rx8640                AB297-2111A   for Front Bezel; carbon colored
+Cover, Right Side               A6093-04121
+Cover, Left Side                A6093-04122
+Cover, Top                      A6093-04120
+Kona/Keystone Chassis           A6093-04020
+Jack Knob/Chassis Threads Kit   A6093-04125   Kit with backplane Jack Screw to fix system backplane and threads in chassis for this screw
+Intrusion Switch                5040-6317     cover open/closed switch (sensor)
+AC cable Strain Relief Kit      A6093-67029   see Service Note A6093A-13
+Cable Mgmt Towel Bar Kit        A6093-04046
+Blue Knurled Knob               A6093-00180   for towel bar, if missing; 10-24 nut
+Cell Air Baffle Kit             A6913-67016   not at GSL currently (not like to fail)
+Cell Extractor Latch Kit        AB297-2113A   contains front (left; A6913-04027) and rear (right; A6913-04028) latch
+Cell Board Air Baffle Kit       A6093-67016   contains: 1x 1460-2711 Spring Damper / 1x A6093-00148 Damper / 1x A6093-00151 Hinge, Damper / 1x A6093-40014 Card Guide, Front / 1x A6093-40015 Card Guide, Rear
+Front Bezel Snap Attach         C2786-40002
+Cell Card Guide, Front          A6093-40014
+Cell Card Guide, Rear           A6093-40015
+Core I/O Plastic Guide Rail 2   0403-1119     4 per chassis; 6” (15.2 cm) long; see Advisory c01295698
+Power Supply EMI Filler Assy    A6093-04018
+Spring Latch Repl. Kit          5002-1655     only for new rack rails
+Tool, DIMM Remover REV.C        A5201-68017   see Advisory c01081033: Make sure you have REV.C tool, as only this is compatible with DDR2 DIMMs.
+Tool, DIMM Installer            A5201-68003   same as for Superdome
+Tool, Antistatic Mat 24X36      A5201-68004   same as for Superdome; with ground strip
+Lift for Kona server            HPE-LIFT-SERVER   local part# for Keystone-Lift
+
+-----------------------------------------------------------------------
+                 Page Owner:  Holger Goetker
+                 Last update: 30-Mar-2010 by Holger Goetker

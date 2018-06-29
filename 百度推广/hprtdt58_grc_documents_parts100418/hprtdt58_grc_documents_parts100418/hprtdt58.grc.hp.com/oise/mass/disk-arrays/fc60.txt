@@ -1,0 +1,66 @@
+******************* Product / Case Handling *******************
+All parts and products mentioned on this page are non-RoHS compliant because they were obsolete before July 1st, 2006.
+***************************************************************
+
+==SKILL Product:FC60    Group:DISK-ARRAYS          Sys_flag:== A5277A ==
+========================================================================
+== F&W DISK ARRAY ======================================================
+
+
+A5277A/AZ - Controller Enclosure Replaceable Parts
+-----------------------------------------------------------------------
+Field Replaceable Units                         Part Number: 
+
+HP-UX Controller Module 3,5V w/32 MB SIMM         A5278-69008 
+Windows NT Controller Module w/32 MB SIMM         A5635-69002 
+256MB DIMM Module ( 1x o. 2x per Ctrl.)           5065-5201 
+128MB DIMM Module ( 1x per Ctrl. )                A5278-60002 
+ 16MB SIMM Module (    5V model  )                A5278-60004 
+ 16MB SIMM Module (  3.5V model  )                A5278-60005    
+Battery Backup Module                             A5277-69009  
+Controller Fan Module                             A5277-60003
+Power Supply Modules                              A5277-69008 
+Power Supply Fan Module                           A5277-60002
+Front Door Assembly                               A5277-60001   
+Terminator, SCSI, 68 pin, LVD                     5021-1121
+2M SCSI VHDCI                                     5064-2494 oder 5064-2500
+Media Interface Adptr.(GBIC of FC60)              5064-2464
+Midplane                                          348-0037572
+Battery Harness Cable 12V                         348-0038144
++5v Power Harness                                 348-0038143
+Battery Harness                                   348-0038145
+Power Supply & Fan Housing                        348-0038942
+Controller Cage/Backplane                         348-0037572
+Controller Enclosure                              348-0038142
+20 top cover screws 6-32x3/16 T10                 0588-001MH
+
+A5294A/AZ - Disk Enclosure Replaceable Parts
+-----------------------------------------------------------------------
+Field Replaceable Units                         Part Number 
+ 
+ 9GB LP, 10k, LVD disk                            A5276-69003  ST39102LC  & ST39103LC  & ST39204LC & DMVS09D
+18GB HH, 10k, LVD disk                            A5282-69003  ST118202LC & ST318203LC & ST318404LC &DMVS18D & FUJITSU MAJ3182MC
+18GB HH, 15k, LVD disk                            A5633-69001  ST318451LC
+36GB 10k disk                                     A5595-69003  ST136403LC & ST336704LC & MAJ3364MC & ST336706LC
+36GB 15k, U160 disk                               A6275-69001  ST336752LC
+73GB LVD disk (nur NT)                            A5622-69002  ST173404LC 
+73GB LVD disk, 10k, Ultra 3                       A6276-69001  ST373405LC
+Disk filler assembly                              A5236-40024 
+HDD carrier assembly                              A5236-60006   
+Bus Control Card (BCC)                            A5272-69010
+Power supply                                      A5236-69023 
+Fan                                               A5236-60003 
+Fan Cable                                         A5236-60019
+Backplane and mezzanine assy.                     A5272-69003   
+Mezzanine board                                   A5236-60021    
+
+------------------------------------------------------------------------
+
+Half-U rack filler panel                   J1525-60001
+Rail kit, E3660 series                     A5250-60001
+Rail kit, Rack System/E                    A5251-60001 
+Rail kit, Rittal 9000 racks                A5635-60001 
+
+========================================================================
+
+last change: 27.06.2003 Sascha Brzoska, Mass Team, CRC Ratingen 

@@ -1,0 +1,173 @@
+******************* Product / Case Handling *******************
+This server is non-RoHS compliant because it was obsolete before July 1st, 2006.
+
+However, you may order a compliant part for a non-compliant server
+in case the non-compliant part is unavailable.
+The ROHS status of a part is UNKNOWN unless marked with "(compliant)" or "(noncomp)".
+***************************************************************
+
+== 9000/8X7 === NOVA =========================|===============================
+
+=== PROCESSOR PCAs ===========================================================
+
+!!! CPU replacement need ss_config to set SW_ID & SW_CAP !!!
+
+Nova Lo Processor (32 MHz)  A1751-69003   807/F10
+Nova Med Processor(48 MHz)  A1703-69316   Z 817/827/F20/H20
+Nova Hi Processor (48 MHz)  A1703-69317   Z 837/847/857/F30/G30/H30/I30
+Nova Hi Processor (64 MHz)  A1703-69243   Z 867/877/G40/H40/I40
+Nova Hi Processor (96 MHz)  A1703-69577   887/897/G50/H50/I50
+Air-Baffle Assembly         A1703-60090   order if 887/897 requested
+Nova Mega  Proc.  (96 MHz)  A2982-69201   G60/H60/I60
+Nova Hydra Proc.  (96 MHz)  A2362-69201   G70/H70/I70
+Air-Baffle Assembly         A2362-60003   for Hydra Nova Proc.
+
+=== BACKPLANEs ===============================================================
+Backplane, 2-slot           A1703-60002   807/817/837/F10/F20/F30
+Backplane, 6-slot 48 MHz    A1703-69037   Z 827/847
+Backplane, 6-slot 64/96MHz  A1703-69038   Z 867/887
+Backplane,12-slot 48 MHz    A1703-69013   Z 857/I30
+Backplane,12-slot 64/96MHz  A1703-69036   Z 877/897/I40/I50/I60
+Backplane,12-slot 96MHz     A2362-69002   I70
+Backplane, 4-slot 48 MHz    A1703-69089   Z G30
+Backplane, 4-slot 64/96MHz  A1703-69087   G40/G50/G60
+Backplane, 4-slot 96 MHz    A2971-69001   G70
+Backplane, 8-slot 48 MHz    A1703-69088   Z H20/H30
+Backplane, 8-slot 64/96MHz  A1703-69086   Z H40/H50/H60
+Backplane, 8-slot 96 MHz    A2970-69001   H70
+
+=== NON-EXCHANGE ASSEMBLIES ==================================================
+Power Supply                0957-0077     incl. PCM & FAN; no Battery
+Power Supply (Hydra Nova)   0957-0257     incl. PCM & FAN; no Battery
+DC ON/OFF SWITCH	    A1703-60015
+
+Front Bezel                 A1703-60023   Standard Chassis
+Rear Bezel                  A1703-40002   Standard Chassis
+Bkpl Clip Right             A1703-40006
+Bkpl Clip Left              A1703-40007
+Two-board adapter           5062-9367
+SCSI Cable Internal (1,5m)  A1703-63007   Standard Chassis
+SCSI Cable Internal (3,0m)  A1703-63008   Expanded Chassis
+2 Slot Card Guide           A1703-40008
+** 3 1/2 Disk Brkt          A1703-00010     
+BBUP Battery                1420-0507     One per Power Supply!
+Timex Chip (Flt Pt.)        1820-8504
+Floating Point Chip 48MHz   A2293-60001
+Floating Point Chip 64MHz   A2293-60002
+
+=== MULTIFUNCTION I/O ========================================================
+
++     - 807S only                                                                                                                                                            +
+Multi I/O                   A1751-69011   Z MUX-DDP/MODEM/CONSOLE
+SCSI IODC ROM               1818-5476       
+Cable, DDC 6-port           A1751-61001
+
++     - MUX/SCSI/CENTRONICS                                                                                                                                   +
+Multi I/O UX                A1703-69042   Z (!)8/16 MUX/SCSI/CENTRONICS
+** SCSI IODC ROM            A1703-81022   for A1703-69022/-69032        
+MUX  IODC ROM               A1703-81031   for A1703-69022/-69032 
+Cable, 8-port to ADP II     5062-3074     (!)
+Cable, 16-port to ADP & DDP A1703-69305   Z 
+ADP II / MDP                5062-3054     (!)
+DDP                         5062-3066
+
++     - MUX/SCSI/CENTRONICS old version                                                                                                     +
+** MUX/SCSI/CENTRONICS  ****              Old Version, obsolete !
+** Multi I/O UX             A1703-69004   Old Version !
+** SCSI IODC ROM            A1703-81024   for A1703-69004       
+** Cable, 8-port to ADP II  40299-60003        
+** ADP II                   5062-3054
+** (!) Order those parts for defective MULTI I/O A1703-69004 !!
+
++     - SCSI/CONSOLE/LAN                                                                                                                                        -+
+Multi I/O UX                A1703-69204   Z A2441A, requires HPUX 9.0 !!
+SCSI IODC ROM               A1703-81023
+Cable, 5m Console           A1703-63003
+
+=== MEMORY PCAs ==============================================================
+4 MEG MEM Brd               A2230-69001   Z 
+8  MEG MEM Brd              A2231-69001   Z 
+8 MB KELLY MEMORY PCA       KELEMS01      ! Multi Vendor Memory.
+16 MEG MEM Brd              A2232-69001   Z 
+16 MB KELLY MEMORY PCA      KELEMS18      ! Multi Vendor Memory.
+32 MEG MEM Brd              A2511-69001   Z 
+32 MB KELLY MEMORY PCA      KELEMS19      ! Multi Vendor Memory.
+64 MEG MEM Brd              A2516-69001   Z 
+64 MB KELLY MEMORY PCA      KELEMS20      ! Multi Vendor Memory.
++     - Memory Extender                                                                                                                                             +
+Memory Extender             A1703-60005   807/817/827/837/847/857
+Memory Extender(64/96MHz)   A1703-60031   867/877/887/897 
+
+=== DISK-DRIVES ==============================================================
+
++     - Old 3,5" Disk Drives                                                                                                                              -+
+SCSI, 234 MB DRIVE          C2233-69162   Z  ** C2470 S **
+SCSI, 328 MB DRIVE          C2234-69162   Z  ** C2471 S **
+SCSI, 422 MB DRIVE          C2235-69162   Z  ** C2472 S **
+SCSI, CNTLR PCA             C2235-69009   Z  ($) 234MB, 328MB, 422MB Disk's
+SCSI, CNTLR PCA             C2235-69024   Z  ($) 234MB, 328MB, 422MB Disk's
+**
+** ($) Please order both Controllers !!
+**
+
++     - Old 5,25" Disk Drives                                                                                                                              +
+SCSI, 670 MB DRIVE          97556-69162   Z  ** C2473 S **
+SCSI, 1.3 GB DRIVE          97560-69162   Z  ** C2474 S **
+SCSI, CNTLR PCA             97560-69021   Z  fuer 670MB u. 1,3GB Disk's
+
++     - New 3,5" and 5,25" Disk Drives                                                                                                     -+
+SCSI, 566 MB DRIVE, 3.5"    C2244-69365   Z  ** C2244M1 ** Prod. A2444A
+SCSI, 1.0 GB DRIVE, 3.5"    C2247-69365   Z  ** C2247M1 ** Prod. A2445A
+SCSI, 2.0 GB DRIVE, 5.25"   C3010-69365   Z  ** C3010M1 ** Prod. A2446A
+SCSI, 2.0 GB DRIVE, 3.5"    C2490-69365   Z  ** C2490AM ** Prod. A3087A
+SCSI, 1.0 GB Slimline       A3182-69001      ** DEC/SEAGA. Prod. A3182A
+SCSI, 2.0 GB DRIVE, 3.5"    A3191-69001   Z  **         ** Prod. ST1240N
+
++     - Terminators                                                                                                                                                       +
+TERMINATOR SCSI II          1252-3932     High Density
+TERMINATOR SCSI II          1252-3920     Low Density 
+TERMINATOR SCSI II          1810-1176     Int. Terminator Disk, DDS C1502A
+TERMINATOR SCSI II          1810-1555     Int. Term. DDS C1503/04A (3x)
+TERMINATOR SCSI II          1252-4414     Terminator for internal Cable 
+
+=== TAPE-DRIVES ==============================================================
+DDS-DRIVE (1,3 GB)          C1536-67203   LEDs one upon the other 
+DDS Substitution Kit        C1503-67202   1,3GB      -> 2,0GB
+RFI Shield                  A1703-60075   Order this for Substitution Kit 
++                                                                                                                                                                                              +
+MECH, DDS DRIVE (2 GB)      C1503-69201   LEDs side-by-side
+                                          replaces C1502 (1.3GB) drives
+Firmware Revision 10.7      C1503-89211   Firmware Upgrade Tool  
++                                                                                                                                                                                              +
+MECH, DDS DRIVE (4-8 GB)    C1504-69201   LEDs side-by-side, DCLZ
+Firmware Revision 10.7      C1504-89215   Firmware Upgrade Tool  
++                                                                                                                                                                                              +
+For Infos on differences between C1533 and C1539 drives please refer to
+http://hprtdt58.grc.hp.com/documents/massstor/dds/C1539-67203.html
+DDS-2 (Andronicus Kit)      C1539-67203   LEDs side-by-side, DDS-2, 4-16GB
+                                          Kit: drive, bezel, bracket.
+                                          Replaces C1533 (Othello) drives !
+                                          -> please make a note for the CEs!
+DDS-2 (Andronicus Drive)    C1539-69202   LEDs side-by-side, DDS-2, 4-16GB
+                                          replaces C1539 drives.
+                                          only drive, no 5 1/4" bezel!
+Andronicus Front Pnl 3.5"   C1534-60116   Only needed for standalone C1533 
+                                          is replaced. Color: Flint gray
++                                                                                                                                                                                              +
+MECH, QIC (544 MB)          D2034-69006   525 MB SCSI Drive
+
++      TAPE DRIVE MISC Parts                                                                                                                              -+
+60m Tape DDS                92283A        5 Pieces 
+90m Tape DDS                92283B        5 Pieces
+525 MB QIC Tape             D2510A        5 Pieces
+Cleaning DDS-Tape           92283K      
+
+=== CD-ROM DRIVE =============================================================
+CD-ROM Drive 3301B          C2293-69004   Z 
+CD-ROM Caddy                C2293-80001
+
+=== MISC =====================================================================
+Timex Chip Tool             8710-1944
+Serie800 Emergency Kit      A1809-TAPES 
+
+

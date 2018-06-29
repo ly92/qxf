@@ -1,0 +1,96 @@
+******************* Product / Case Handling *******************
+All parts and products mentioned on this page are non-RoHS compliant because they were obsolete before July 1st, 2006.
+***************************************************************
+
+==SKILL Product:C2247    Group:SCSI-FW-DISKS        Sys_flag:n
+== A3311A Deskside Storage Enclosure  =========!==============================
+== A3312A Rackmount Storage Enclosure =========!==============================
+
++
+| There are SE modules with ID string "WD" and WD Module mit ID string "N".  |
+| Please always check what kind of module really is needed! Look for example |
+| for a module label (SE or WD) or look for the SCSI bus type (ioscan).      |
+| ST32272WC maybe A3517A (2GB SE) or A3318A (2GB WD)                         |
+| ST34572WC maybe A3646A (4GB SE) or A3647A (4GB WD)                         |
+| ST34573WC maybe A3646A (4GB SE) or A3647A (4GB WD)                         |
+| ST19171N  maybe A3649A (9GB WD) or SE (standalone, not Hotswap)            |
++                                                                                                                                                                                              +
+| SCSI problems with the Jamaica Box? See Header Board Service Note!         |
+| http://snserver.mayfield.hp.com/products/A3319A/A3319A-01/index.htm        |
+| Header Board Kit SE         C3595-60196                                    |
+| Header Board Kit WD         C3595-60197                                    |
++                                                                                                                                                                                              +
+
+++ SE DISK MODULES +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+1  GB SE  DISK MODULE   A3314-69001   5400RPM ST31230N  LP
+2  GB SE  DISK MODULE   A3517-69003   7200RPM ST32550N  ST32171N ST32272N
+4  GB SE  DISK MODULE   A3319-69001   7200RPM ST15150N  HH
+4  GB SE  DISK MODULE   A3646-69003   7200RPM ST34371N
+
+++ FW DISK MODULES +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+1  GB DF  DISK MODULE   A3315-69001   5400RPM ST31230W  LP
+2  GB DF  DISK MODULE   A3318-69004   7200RPM ST32550W  ST32171W ST32272WC
+4  GB DF  DISK MODULE   A3320-69002   7200RPM ST15150W  HH (needs two slots in HASS)
+4  GB DF  DISK MODULE   A3647-69003   7200RPM ST34371W  ST34572WC  ST34573WC
+9  GB DF  DISK MODULE   A3649-69002   7200RPM ST19171W  HH (needs two slots in HASS)
+9  GB DF  DISK MODULE   A5238-69001   7200RPM ST39173W  LP // IBM DGHS09Y
+9  GB DF  DISK MODULE   A5285-69002   7200RPM ST39175LC ST39236LC
+18 GB DF  DISK MODULE   A5239-69001   7200RPM ST118373WC ST118273WC
+18 GB DF  DISK MODULE   A5286-69002   7200RPM ST318275LC ST318436LC  (alt. Part #: A5528-69001: disk only, no housing!)
+
+
+++ DDS TAPE MODULE +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+8 GB DDS TAPE MODULE    A3322-69001
+DDS3     TAPE MODULE    A3640-69001   Product A3640A
+ 
+++ MISC MODULES ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+FAN   MODULE            A3326-67002   Service Note A3311A-08
+POWER MODULE            A3538-69003   REV. E *                    
++                                                                                                                                                                                              +
+| On failure of a power supply: order 2 power supplies     Martin Ilg 6.6.98 |
+| and replace if revision D or lower. See also Service Note:                 |
+| http://snserver.mayfield.hp.com/products/A3312A/A3312A-04/index.htm        |
++                                                                                                                                                                                              +
+
+++ MISC PARTS ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+BACKPLANE, DESKSIDE     A3311-69002
+BACKPLANE, RACKMOUNT    A3312-69002
+Terminator SE  68pin    5063-5324
+Terminator FWD 68pin    A1658-63013   SCSI-3 active (old part-#: A1658-62024)
+
+
+++ How to interprete Seagate Modelstrings ++++++++++++++++++++++++++++++++++++
+
+example: ST318275LC:
+
+ S T      3      18275    LC 
+Seagate  Form  Capacity Interface 
+Techn.  Factor
+
+Form Factor 
+ 
+1 3.5-inch, half-height, 1.6-inch high 
+2 5.25-inch, half-height, 1.6-inch high 
+3 3.5-inch, low-profile (LP), 1-inch high 
+4 5.25-inch, full height 
+5 3.5-inch, 0.75-inch high 
+6 9-inch 
+7 1.8-inch 
+8 8-inch 
+9 2.5-inch, 0.75-inch high 
+
+
+Interface  
+ 
+DC   Differential, 80-pin Single Connector Attachment (SCA) 
+LC   Low Voltage Differential, 80-pin SCA 
+LCV  Same as LC, but with an increased cache size
+LW   Low Voltage Differential, 68-pin Wide SCSI Connector 
+LWV  Same as LW, but with an increased cache size
+N    SCSI, 50-pin Narrow SCSI Connector 
+ND   Differential, 50-pin Narrow SCSI Connector 
+W    SCSI, 68-pin Wide SCSI Connector 
+WC   SCSI, 80-pin SCA (Hot Swapable) 
+WD   Differential, 68-pin Wide SCSI Connector 
+FC   Fibre Channel, 40-pin SCA 
+FCV  Same as FC, but with an increased cache size

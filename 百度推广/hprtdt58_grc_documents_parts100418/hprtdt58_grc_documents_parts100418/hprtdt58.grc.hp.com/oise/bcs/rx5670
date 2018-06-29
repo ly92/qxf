@@ -1,0 +1,106 @@
+******************* Product / Case Handling *******************
+This server is non-RoHS compliant because it was obsolete before July 1st, 2006.
+
+However, you may order a compliant part for a non-compliant server
+in case the non-compliant part is unavailable.
+The ROHS status of a part is UNKNOWN unless marked with "(compliant)" or "(noncomp)".
+***************************************************************
+
+==SKILL Product:NETSERV  Group:PC                   Sys_flag:y
+== Itanium 2 SERVER RX5670 ==========================!===============================
+
+
+**** BOARDS / CPU / RAM ****
+Baseboard (System Board)                  A6695-69206
+LAN / SCSI Core PCA                       A6794-69001(noncomp) A6794-69101(compliant)
+MP / SCSI Core PCA                        A6695-69101
+VGA / USB Core PCA (Windows / Linux)      A6869-67501                     	
+I/O Backplane                             A6695-69004                    
+
+CPU Extender Board                        A6695-69005                    
+CPU 900MHz                                A6820-69101   POD is included.
+CPU   1GHz                                A6836-69001   POD is included.
+If a customer has 1GHz exchange with
+1.3GHz as per errata60 service note !
+CPU 1.3GHz                                A9809-69001   POD is included.
+CPU 1.5GHz                                A9810-69001   POD is included.
+
+Power Converter                           A5191-69105                                
+
+
+**** Memory ****
+Memory Extender                           A6747-69001
+DIMM, 256MB, DDR-SDRAM, PC2100            A6833-60001                      
+DIMM, 512MB, DDR-SDRAM, PC2100            A6746-69001
+DIMM,   1GB, DDR-SDRAM, PC2100            A6834-69001
+DIMM,   2GB, DDR-SDRAM, PC2100            A6835-69001
+
+***** POWER *****
+Display Board                             A5191-60013   includes Power Switch
+Display Board Cable                       A5191-63011
+
+Power Supply                              A5527-69001                 
+
+
+**** HDD intern ****
+Disk / Media Backplane                    A5191-67104
+ 18GB, U160, 10k                          A6736-69001
+ 18GB, U160, 15k                          A6845-69002
+ 36GB, U160, 10k                          A6737-69002  HP36.4GMAM3367MC
+ 36GB, 15k                                A6846-69002  HP36.4GMAS3367NC
+ 73GB, U2                                 A6276-69001
+ 73GB, U160                               0950-4228
+ 73GB, U320, 15k                          A9761-69001  HP73.4G ST373453 Productnumber: A9760A
+146GB, U320, 10k                          A7080-69002
+
+**** ARRAY****
+NetRAID-2m (P7749A)                       P7749-67001
+alternative order P3475-69004, but this needs FW update !
+
+Smart Array SA5302 (A9825A)               335891-001 
+Alternative order "red" parts : 
+171383-001  sa5302
+171387-001  128mb cache                       
+
+Smart Array SA5304 (A9826A)               345334-001
+Alternative order "red" parts : 
+171383-001  sa5302
+171384-001  2 CH SCSI expansion card                       
+262012-001  256mb cache
+
+
+**** I/O Cards ****
+2Gb FC HBA for HPUX (A6795A)              A6795-69001
+2Gb FC HBA for Windows/Linux (A7298A)     A7298-69001
+2GB Dual Channel FiberCh. Card (A6826A)   A6826-69001
+2Gb PCI-X FC HBA for Windows (AB232A)     313045-002
+alternative order "red" part 313045-002 
+
+2Gb PCI-X FC HBA for Linux (AB234A)       283384-001
+alternative order "red" part 283384-001
+
+**** FAN/FDD/CDROM ****
+DVD-ROM Drive, Slimline                   A5220-67003           
+
+Cassis Fan Assy (172mm)                   A6695-04006                        
+Card Cage Fan Assy (119mm)                A5191-04003
+Power Coverter Fan Assy                   A5191-67006
+Rear Fan Cable                            A5191-63009
+Front Fan Cable                           A5191-63010
+
+
+******** CABLES/ADAPTER **********
+SCSI Cable from Lithium Card J3 to Disk Media Backplane J6 for Disks A and B    A5191-63006
+SCSI Cable from Procurium Card to Disk Media Backplane J7 for Disks C and D     A6695-63001
+SCSI Cable from Lithium Card J4 to Disk Media Backplane J5 for DVD              A6695-63002
+SCSI Cable from Disk Media Backplane to Internal DVD                            A6695-63009
+NetRAID SCSI Cable CH0                    A6695-63007
+NetRAID SCSI Cable CH1                    A6695-63008
+Smart Array Cable Port 1                  A9828-63001
+Smart Array Cable Port 2                  A9828-63002
+M-Cable for MP                            A6144-63001(noncomp) A6144-63007(compliant)
+
+---------------------------------------------------------------------------------------
+This page is supported by Gerhard Meyer +49 (0)5141 930901
+Last Update: 2005 January 18. by Gerhard Meyer
+---------------------------------------------------------------------------------------

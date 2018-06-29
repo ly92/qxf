@@ -1,0 +1,232 @@
+******************* Product / Case Handling *******************
+This server is non-RoHS compliant because it was obsolete before July 1st, 2006.
+
+However, you may order a compliant part for a non-compliant server
+in case the non-compliant part is unavailable.
+The ROHS status of a part is UNKNOWN unless marked with "(compliant)" or "(noncomp)".
+***************************************************************
+
+== A29xxA; A135xA, A658xA; J43xxA === PowerTrust UPS; PowerTrust II UPS; Racksystem/E R Series XR ===================
+
+++ UPS PARTS A2941A ++++++++
+UPS, 600VA Floor Standing   0957-0063           UPS with Battery included !
+RS-232 Cable, 2,5m          5061-2575           9-Pin M / 9-Pin F
+RS-232 Cable, 2,5m          5061-2569           9-Pin M / 25-Pin M
+Input Power Cord            8120-1689
+Output Power Cord  2,4m     8120-1625           Male (C14) / Female (C13)
+Fuse, 10A                   2110-0395
+
+=====================================================================================================================
+
+++ UPS PARTS A2994A ++++++++
+UPS, 1,3 kVA Electronic	    0957-0265 		(floor standing)
+UPS, Battery Pack 60V/10Ah  0957-0069           UPS contains 2 Battery Packs!      
+RS-232 Cable, 2,5m          5061-2575           9-Pin M / 9-Pin F
+RS-232 Cable, 2,5m          5061-2569           9-Pin M / 25-Pin M
+Input Power Line Cord       8120-5336
+Output Power Cord  2,4m     8120-1625           Male (C14) / Female (C13)
+Output Power Cord  5m       8120-6366           Male (C14) / Female (C13)
+Output Power Cord           8120-6371           Male (C16) / Female (C15)
+Output Power Cord           8120-6412           Male (C16) / Female (C15)
+
+=====================================================================================================================
+
+++ UPS PARTS A2996A ++++++++
+UPS, 1,3 kVA Electronic	    0957-0065		(rack mounted)
+UPS, Battery Pack 60V/10Ah  0957-0069           UPS contains 2 Battery Packs!
+RS-232 Cable, 2,5m          5061-2575           9-Pin M / 9-Pin F
+RS-232 Cable, 2,5m          5061-2569           9-Pin M / 25-Pin M
+Input Power Line Cord       8120-6355           Female (C15)
+Output Power Cord  2,4m     8120-1625           Male (C14) / Female (C13)
+Output Power Cord  5m       8120-6366           Male (C14) / Female (C13)
+Output Power Cord only PDU  8120-6358           Male (C14) / Female (C15)
+
+=====================================================================================================================
+
+++ UPS PARTS A2997A ++++++++
+UPS, 1,8 kVA Electronic     0957-0066		
+UPS, Battery Pack 60V/10Ah  0957-0069           UPS contains 3 Battery Packs!
+RS-232 Cable, 2,5m          5061-2575           9-Pin M / 9-Pin F
+RS-232 Cable, 2,5m          5061-2569           9-Pin M / 25-Pin M
+Input Power Line Cord       8120-6357           Female (C19)
+Output Power Cord  2,4m     8120-1625           Male (C14) / Female (C13)
+Output Power Cord  5m       8120-6366           Male (C14) / Female (C13)
+Output Power Cord only PDU  8120-6358           Male (C14) / Female (C15)
+Fuse, 10A                   2110-0395
+
+=====================================================================================================================
+
+++ UPS PARTS A2998A ++++++++ (electrician for exchange of Electronic necessary!)
+UPS, 3 kVA Electronic       0957-0068		(Info an DISPI: Mit USV Unterstuetzung!) (includes BIM)
+UPS, 3 kVA Electronic       0957-0067           !!! US-Version !!!
+UPS, Battery Pack 60V/10Ah  0957-0069           UPS contains 4 Battery Packs!
+BIM			    0957-0076           Battery Interconnect Module (Safety Service Note A2998A-01S)
+RS-232 Cable, 2,5m          5061-2575           9-Pin M / 9-Pin F
+RS-232 Cable, 2,5m          5061-2569           9-Pin M / 25-Pin M
+UPS, Cont. Panel&Label Kit  0957-0072
+UPS, Interlock Assembly     0950-2457
+UPS, Batt. Box hairness     0957-0071           
+UPS, Fan Assembly           0957-0070
+Output Power Cord  2,4m     8120-1625           Male (C14) / Female (C13)
+Output Power Cord  5m       8120-6366           Male (C14) / Female (C13)
+Output Power Cord only PDU  8120-6358           Male (C14) / Female (C15)
+Output Power Cord to PDU    8120-6884           see http://smomvts.rose.hp.com/cgi-win/image.exe?8120-6884
+UPS, Battery Box            0950-2453           includes Batteries
+
+=====================================================================================================================
+
+++ UPS PARTS A3589A ++++++++ (online exchange of Electronic and Batteries possible)
+UPS, 5,5kVA Electronic unit 0957-2072           (Info an DISPI: Mit USV Unterstuetzung!)
+Replacement Battery Packs   0957-0267           24V/17Ah, UPS contains 10 Battery Packs!
+Service Bypass Unit         0957-0270           (electrician and downtime necessary for exchange of service bypass unit)
+Battery Box without Battery 0957-0273
+
+=====================================================================================================================
+
+++ PowerTrust II-LR UPS ++ 
+Electronic for A1354A 2kVA/1.4kW	A1354-69002          
+Electronic for A1356A 3kVA/2.1kW	A1356-69002         
+Battery Pack A1357A			1420-0575    (online exchange of Battery Pack possible) 
+						     (Info an DISPI: Mit USV Unterstuetzung!)
+SNMP/Web Card A1359A			A1359-60001
+Bezel Assy, Battery 			A1353-60003 
+Bezel Assy, ECU 			A1353-60002 
+Bezel Clips, Plastic 			C2786-40002
+Cable, Battery Pos 30cm 		A1357-60001 
+Cable, Battery Neg 30cm 		A1357-60002 
+Cable, RS-232 DB9/DB9 			5064-6202 
+Cable, RS-232 DB9/DB25, PCI Mux	 	5064-6203 
+Cable RS-232 DB9/DB25, MDP Mux 		5064-6204  
+Cable, RS-232 DB9/DB9, Extend 		5064-6205 
+Deskside Hardware Kit 			A1363-60001 
+Nameplate, PowerTrust II-LR 		A1353-80001 
+Rack Mount Kit, RB II 			A1362-60001 
+Rack Mount Kit, RB I 			A1361-60001 
+Rack Mounting Bracket, RB II  		5063-1291 
+Rack Mounting Bracket, RB I  		A1361-60003 
+Rear tie down, RB II 			A1362-60002 
+Rear tie down, RB I 			A1361-60002 
+Power Cord, 200V, Central Europe 	8120-6899 
+Screws, Connector plates 		5063-1295 
+
+=====================================================================================================================
+
+++ PowerTrust II-MR UPS ++ (bei Elektronik und/oder Batterie Austausch Info an DISPI: Mit USV Unterstuetzung!)	
+(online exchange of Electronic and Batteries possible)		   
+Electronic for A6583A 4.5kVA/4.0kW 	0957-2069  
+Electronic for A6584A 9.0kVA/6.5kW  	0957-2070   
+Electronic for A6585A 12.0kVA/8.0kW 	0957-2071 
+single Battery Pack A6586A		1420-0866
+(A6584A and A6585A contain pairs of battery packs)
+SNMP/Web Card A6593A			A6593-62001	
+I/O Box only				A6588-63001			
+Bezel Assy, Battery  			A6586-62001  
+Bezel Assy, ECU, 4.5kW  		A6583-62001   
+Bezel Assy, ECU, 6.5kW/8.0kW 		A6584-62001   
+Cable, Battery 				A6586-63001   
+Cable, RS-232 DB9/DB25, MDP Mux 	5064-6204 
+Cable, RS-232 DB9/DB25, PCI Mux 	5064-6203  
+Cable, RS-232 DB9/DB9, Extend 		5064-6205  
+Cable, RS-232 DB9/DB9, NT 		5064-6208   
+Dry contact closure card (for NT) 	A6597-60001 
+Cable, RS-232 DB9/DB9, Standard 	5064-6202 
+PTP Comm. Card 				A6583-60001   
+Rackmount Kit, RB I  			A6601-62001   
+Rackmount Kit, RB II  			A6583-62002   
+Rackmounting Bracket 			5063-1296   
+Rear tie down, RB I  			A6601-00001   
+RS232 Cable Adapter 			5064-6209    
+
+=====================================================================================================================
+
+++ Racksystem/E R3000 XR (J4367A) (online exchange of Electronic and Batteries possible) ++
+Product (J43xx) is not RoHS compliant!
+
+Electronic Module			216097-001
+UPS & ERM Battery Module (19 kg)	204503-001 (UPS contains 1 Battery Pack, ERM 2)
+						   (Info an DISPI: Mit USV Unterstuetzung!)
+Serial cable				204508-001 (Produkt#: 212161-B21) 1-1
+Single Port Serial Card			204514-001
+UPS chassis international		222386-021
+UPS Bezel				320853-001
+ERM Chassis (10 kg)			5065-7259
+ERM Bezel				289583-001
+ERM Cable				216092-001
+complete UPS R3000 with batteries	407395-002 (ROHS compliant)
+Complete ERM (housing and batteries)	407398-001 (ROHS compliant)
+
+	ERM: Extended Runtime Module
+
+=====================================================================================================================
+
+++ Racksystem/E R5500 XR (AF416A) (online exchange of Electronic and Batteries possible) ++
+
+UPS Electronic Module(int)		349994-B31 (NON ROHS)  407418-B31(ROHS compl)
+UPS Battery Module 			407419-001 (ROHS compl) (2 necessary)
+Whole unit replacement                  353405-B31 (NON ROHS) 407416-B31 (ROHS compl)
+ERM replacement 			353404-001 (NON_ROHS) 4077439-001 (ROHS) complete with housing and batteries
+Serial Cable                            204508-001
+
+=====================================================================================================================
+
+++ Racksystem/E R6000 XR (J4370A) (online exchange of Electronic and Batteries possible) ++
+Product (J43xx) is not RoHS compliant!
+International Electronic		401864-001
+International Chassis			401862-001 (Info an DISPI: Mit USV Unterstuetzung!)
+UPS & ERM Battery Module (34 kg)	401863-001 (each has 2 Battery Modules !)
+						   (Info an DISPI: Mit USV Unterstuetzung!)
+Serial Cable				122922-001 (Produkt#: 295245-004) crossed
+Communications Board			401868-001
+UPS Bezel Bottom			335139-001
+UPS Bezel Top				335137-001
+ERM Chassis				401867-001
+ERM Bezel				401866-001
+ERM Cable				216092-001
+	ERM: Extended Runtime Module
+
+=====================================================================================================================
+
+++ Racksystem/E R12000 XR (J4373A) (online exchange of Electronic and Batteries possible) ++
+Product (J43xx) is not RoHS compliant!	
+Electronic Module (9,5 kg)		228289-001 (UPS contains 4 Electronic Modules)
+UPS Battery Module (27 kg)		228288-001 (UPS contains 4 Battery Modules)
+						   (Info an DISPI: Mit USV Unterstuetzung!)
+Supervisory Board			228290-001
+Serial Cable				204508-001 (Produkt#: 212161-B21) 1-1
+UPS Chassis (43 kg)			228285-001 (Info an DISPI: Mit USV Unterstuetzung!)
+LCD Bezel				228286-001
+Supervisory Bezel			335133-001
+UPS Bezel				228287-001 (UPS has 3 Bezels of this type)
+ERM Battery Set (2*33 kg)		252050-001 (ERM has 2 Batteries, order 1*Set!)
+						   (Info an DISPI: Mit USV Unterstuetzung!)
+ERM Chassis (17 kg)			5065-7265  (Info an DISPI: Mit USV Unterstuetzung!)
+ERM Bezel				252049-001
+	ERM: Extended Runtime Module
+
+=====================================================================================================================			
+
+++ R12000/3 3phases UPS ++
+
+SPS-UPS, R12KVA, 6U, INTL                   438768-B31 (complete 12KVA UPS with batteries)
+SPS-ERM, R8KVA, R12KVA, 3U                  438762-001 (complete 8KVA  UPS with batteries)
+Electronics module INTL                     442812-B31 (8kVA, 12kVA,parallel models)
+UPS battery module                          407419-001
+Parallel UPS Card                           439326-001 
+UPS Management Card                         434203-001
+UPS bezel kit                               439327-001
+ERM unit                                    438762-001
+Rack, Power Bus Bar, and Wireway            457015-001
+Output Module INTL                          456811-001
+
+=====================================================================================================================
+
+++ Powercables ++
+10A, C-14 (male) to C-13 (female) cable 0.5m,               142257-B28     10A plug (for entrylevel servers)
+16A, C-19 (female) to C-20 (male)cable ,(2.5m),             295633-B22     16A plug (for midrange servers)
+16A, C-19 to IEC320 C-20 Cable,(2m),                        AF574A 
+16A, C-19 to IEC320 C-20 Cable,(1.2m),                      AF575A
+16A, C-19 to IEC320 C-20 Cable,(1m),                        E7798A
+
+---------------------------------------------------------------------------------------
+Last Update: 23.04.2009 André Wisomirski andre.wisomirski@hp.com
+---------------------------------------------------------------------------------------

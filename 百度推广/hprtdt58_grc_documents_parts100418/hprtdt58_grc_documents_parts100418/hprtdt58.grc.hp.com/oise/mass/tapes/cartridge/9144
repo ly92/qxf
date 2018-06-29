@@ -1,0 +1,79 @@
+******************* Product / Case Handling *******************
+All parts and products mentioned on this page are non-RoHS compliant because they were obsolete before July 1st, 2006.
+***************************************************************
+
+==SKILL Product:9144     Group:CARTRIDGE-TAPES      Sys_flag:n
+== 9144 ======================================|===============================
+
+FRC-Austausch Geraet        9144A-FRC
+
+++ COMMON PARTS ++++++++++++
+DRIVE MECHANISM             09144-69501     Z 
+FRONT PANEL PCA             09144-88866     
+POWER SUPPLY UNIT           09133-67120
+
+** wenn 9144 schon einmal repariert wurde und ein PCA defekt ist, sollten
+** immer folgende PCA's und Kabel bestellt werden, da man nicht absehen
+** kann, welche PCA's eingebaut sind.
+
+HOST DEPENDENT CONT. (HDC)  07940-69195     Z 
+DEVICE DEPENDENT CONT.(DDC) 09144-69522     Z 
+CONVERSION KIT              09144-67201     Z incl. RWS,SBCONT,Washer,Screw
+FRONT PANEL CABLE           09144-61612       F.Panel-[SBCONToder(DDC/HDC)]
+POWER CABLE ASSY            09144-61610       PSU - R/W/S - Drive
+CABLE 50-WAY RIBBON         09144-61614       R/W/S - [SBCONToder(DDC/HDC)]
+
+** wenn 9144 noch nicht repariert wurde, dann die Parts
+** aus folgender Liste mittels der Seriennummer auswaehlen.
+
+++ 5 PCA Version +++++++++++                  2418Axxxxx =< SN < 2440A00779
+HOST DEPENDENT CONTR. (HDC) 07940-69195     Z 
+DEVICE DEPENDENT CONT.(DDC) 09144-69522     Z 
+READ/WRITE/SERVO (R/W/S)PCA 09144-69528     Z   +  ersetzt R/W und S PCA
+FRONT PANEL CABLE           09144-61612       <-+
+POWER CABLE ASSY            09144-61610       <-+  zum R/W/S mitbestellen
+CABLE 50-WAY RIBBON         09144-61614       <-+
+CABLE POWER ASSY            09144-61602       fuer getr. R/W und S
+CABLE DDC - R/W - S         09144-61601       fuer getrennte R/W und S
+CABLE HDC - DDC             09144-61606       fuer getrennte HDC und DDC
+
+++ 4 PCA Version +++++++++++                  2440A00779 =< SN < 2444A01281
+HOST DEPENDENT CONT. (HDC)  07940-69195     Z 
+DEVICE DEPENDENT CONT.(DDC) 09144-69522     Z 
+READ/WRITE/SERVO (R/W/S)PCA 09144-69528     Z   +  ersetzt R/W und S PCA
+FRONT PANEL CABLE           09144-61612       <-+
+POWER CABLE ASSY            09144-61610       <-+  zum R/W/S mitbestellen
+CABLE 50-WAY RIBBON         09144-61614       <-+
+CABLE POWER ASSY            09144-61602       fuer getr. R/W und S
+CABLE DDC - R/W - S         09144-61601       fuer getrennte R/W und S
+CABLE HDC - DDC             09144-61606       fuer getrennte HDC und DDC
+
+++ 3 PCA Version +++++++++++                  2444A01281 =< SN < 2542Axxxxx
+SINGLE BOARD CONTR.(SBCONT) 09144-69515     Z 
+READ/WRITE/SERVO (R/W/S)PCA 09144-69528     Z   +  ersetzt R/W und S PCA
+FRONT PANEL CABLE           09144-61612       <-+
+POWER CABLE ASSY            09144-61610       <-+  zum R/W/S mitbestellen
+CABLE 50-WAY RIBBON         09144-61614       <-+
+
+++ 2 PCA Version +++++++++++                  2542Axxxxx =< SN =< 2613xxxxx
+**                                            2542Exxxxx =< SN =< 2613xxxxx
+**                                            SN >= 2808Exxxxx
+SINGLE BOARD CONTR.(SBCONT) 09144-69515     Z 
+READ/WRITE/SERVO (R/W/S)PCA 09144-69528     Z 
+FRONT PANEL CABLE           09144-61612       F.Panel-[SBCONToder(DDC/HDC)]
+POWER CABLE ASSY            09144-61610       PSU - R/W/S - Drive
+CABLE 50-WAY RIBBON         09144-61614       R/W/S - [SBCONToder(DDC/HDC)]
+
+++ 1 PCA Version +++++++++++                  2613xxxxxx =< SN =< 2808xxxxxx
+CABLE DRIVE MOTOR           09144-61615
+CONVERSION KIT 2 PCA        09144-67201     Z ersetzt Drive Elektr. PCA
+
+++ COMMON MECHANICS ++++++++
+FAN ASSEMBLY                3160-0528
+**FAN GRILLE                07941-00026
+TOP SHROUD ASSY             09144-88865
+**FRONT FOOD                09144-48303
+BUMPER FOOT REAR            0403-0427
+LED WINDOW                  09144-48101
+** UNLOAD BUTTON            09144-47404     
+KEY CAP, WHITE              5041-1203         for AC line switch

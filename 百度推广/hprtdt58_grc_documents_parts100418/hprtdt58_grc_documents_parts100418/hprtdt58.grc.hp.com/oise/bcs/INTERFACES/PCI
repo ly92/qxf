@@ -1,0 +1,256 @@
+******************* Product / Case Handling *******************
+This Page includes some RoHS Silent Roll product 
+
+Capture the appropriate Serial Number for use in SAW Unit Configuration, 
+PC Tracker or CSN to determine RoHS product level compliance. 
+
+Products listed as Modified or EMEA-Only are Compliant Products. All compliant 
+products must comply with the RoHS directives and must be supported with Modified spares.
+
+See http://na2.know.hp.com/teams/RoHS%20Service%20Delivery%20Implementation/default.aspx  
+or email rohsservicedeliveryprogramteam@hp.com for additional information.
+
+If unable to capture the serial number, obtain the purchase or install date from the 
+customer and compare with the compliance date below. 
+
+Compliance Date:  July, 1st 2006
+
+The ROHS status of a part is UNKNOWN unless marked with "(compliant)" or "(noncomp)".
+You may order a compliant part for a not compliant server in case the noncompliant part is unavailable
+
+The Qualifier has to check for parts compliancy himself with the above mentioned 
+tools and is solely repsonsible for this!
+***************************************************************
+
+==SKILL Product:INFO     Group:INFO                 Sys_flag:y
+== PCI INTERFACES  =====================================================
+==
+
++++ SCSI ++++++++++++++++++++++++++++++
+PCI-SCSI3,DIFF ULTRA/WIDE 	A4800-69002 (HVD)   (not supported with hpux 11.23)
+    Internal Terminator    	1252-6520
+Single Port Ultra2 SCSI   	A5149-69101 (LVD)   A, L, N, V2500  (No Exchange Part) 
+Single Port Ultra160 SCSI 	A6828-60101         A6828A (no A180 and V-Class Support !)
+
+Dual Port Ultra2 SCSI     	A5150-69101 (LVD)   A, L, N, V2500
+Dual Port Ultra160 SCSI   	A6829-60001         HPUX/Win/Linux A6829A (no A180 and V-Class Support !)
+Dual Port Ultra320 SCSI   	A6961-60011         A7173A (no A180 and V-Class Support !)
+							  (EFI Rom onboard)
+							  
+Dual Port F/W-SCSI-2      	A5159-60001 (HVD)   A, L, N, V2500, 
+                                                    A5159-69001 cannot be ordered!
+Dual Port F/W-SCSI-2      	A5159B              For Itanium use Version B only!
+                                                    (B has EFI ROM, not supported with hpux 11.23)
+
+2 port 100BT/2 port Ultra2  	A5838-69101        (LVD)   A, L, N-Class (no boot on vpars)
+2 Port GigE/2 port U320 	AB290-69001 
+
+Ultra 160 SCSI HBA (A7059A)	A6828-60101         Win/Linux
+
+2-port Ultra 160 SCSI HBA (A6829A)	A6829-60101	Win/Linux/HPUX
+2-port Ultra 160 SCSI HBA (A7060A) 	A6829-60101	Win/Linux
+
+2-port Ultra 320 SCSI HBA (A7060A)      A6961-60011     HP-UX/Win/OVMS/Linux 
+
+
++++ RAID ++++++++++++++++++++++++++++++
+Raid 4Si PCI 4-Port Ultra-2 RAID        A5856-69101 (LVD)     L,N-Class 
+
+4-channel Ultra 160 RAID (A7143A)  	A7143-69001
+
+SA6402 (A9890A)  (A9890-69001 no longer orderable)
+SA6400 Base board, 2 SCSI CH.     	309520-001   	**Part State:Modified(included battery)**
+128MB battery buffered cache      	309521-001                             (included battery for cache module)
+Battery, 3.6V, 500 mAh NiMH             307132-001 	2 packs are needed 
+
+
+SA6404 (A9891A)  (A9891-69001 no longer orderable)
+SA6400 Base board, 2 SCSI CH.     	309520-001    	**Part State:Modified(included battery)**
+256MB battery buffered cache      	309522-001                             (included battery for cache module)
+SA6400 2 CH. SCSI extension       	309523-001
+Battery, 3.6V, 500 mAh NiMH             307132-001 	2 packs are needed 
+
+SA P400/ 256 SAS Controller 		405831-001       PCIe Card ---> for usage in RX2660
+SA P400/ 256 SAS Controller		405832-001       PCIe Card ---> for usage in RX36/6600, BL860c, SB40c
+512MB battery backed write cache     
+(BBWC) memory board - 72-bit, DDR	405835-001
+256MB battery backed write cache 
+(BBWC) memory board - 40-bit, DDR	405836-001
+
+SAS RAID Controller P600    		370855-001	PCI-X card
+256MB Mem. for P600			309522-001
+Battery for P600		      	307132-001
+
+SAS RAID Controller P800           	398647-001    	PCIe Card
+DIMM, DDR2, 512MB Module          	398645-001
+DIMM, DDR2, 256MB Module            	398644-001
+DIMM, DDR2, 1GB Module                  398646-001
+Battery Charger Module 4x, V500HTX  	398648-001
+
+Smart Array SA5302 (A9825A)             335891-001 
+Alternative order "red" parts : 
+SA5302					171383-001
+128mb cache                       	171387-001
+4.8V battery - 300mAh, 			120978-001 
+
+Smart Array SA5304 (A9826A)             345334-001
+Alternative order "red" parts : 
+SA5302					171383-001  
+2 CH SCSI expansion card                171384-001  
+256mb cache				262012-001  
+
+NetRAID-2m (P7749A)                     P7749-67001
+alternative order P3475-69004, but this needs FW update !
+
++++ LAN +++++++++++++++++++++++++++++++
+PCI-10/100 BASE LAN ADAPTOR A3738-69001           BNC,RJ45,AUI 	
+1-port PCI 100Base-T adpt.  B5509-66001           A, L, N-Class only, A5230A
+4 Port 100BaseTX LAN        A5506-69101		  A, N, L-Class       A5506A
+                                                  (PHKL_20994 and 39.46)
+4 Port 100BaseTX LAN        A5506-69102		  A, N, L-Class       A5506B
+                                                  PHNE_21887  min. DART 50 (Sep 2000)
+1000 BaseSX Single Port     A4926-60001		  L, N, V-Class (fibre)
+1000 BaseSX Single Port	    A6847-67101		  A400,A500,L,N,rp7410,rp8400,Superdome
+                                                  one duplex SC fibre connector
+                                                  (NOTE: Driver is igelan) 
+                                                  rx-System with Linux: BCM5701 Gigabit Ethernet
+1000 BaseT  Single Port	    A6825-67101           A400,A500,L,N,rp7410,rp8400,Superdome
+                                                  RJ45 connector 
+                                                  (NOTE: Driver is igelan)
+1000 BASE-T ADAPTER         A4929-69001           A, L, N, V-Class 
+                                                  (RJ45, 10/100/1000 BaseT)
+PCI-X 2GB FC/1000BASE-SX HB A9782-60002           A9782A
+PCI-X 2G FC/1000Base-T HBA  A9784-60002           A9784A
+
+PCI-FDDI DUAL ATTACH LAN    A3739-69001
+SC-MIC ADAPTER CABLE 0.3m   A4700-67073
+
+802.5 Token Ring LAN 	    A5783-60001		  A, L, N, V-Class
+
+1000Base-T HBA (A7061A)	    A6825-6710		  Win/Linux
+1000Base-SX HBA (A7073A)    A6847-67101           Win/Linux
+
+2-port 1000Base-SX (A7011A) A7011-69001		  
+2-port 1000Base-T  (A7012A) A7012-67001		  
+
+1-port 1000Base-T PCI-X     AD331-60001           AD331A
+1-port 1000Base-SX PCI-X    AD332-60001           AD332A
+
+FC2142SR 4GB PCI-E              397739-001        A8002A
+FC2242SR 4GB PCI-e, DC          397740-001        A8003A
+
+
+
++++ FC ++++++++++++++++++++++++++++++++
+PCI-FIBRE CHANNEL 1062Mbs               A3740-69101     FC-AL
+
+PCI-Fibre Channel                       A3726-69006     V-Class only !! (S/N A3725A-46)
+PCI-FIBRE CHANNEL -fabric-              A5158-69001     FC SAN (fabric !!)
+
+PCI 2GBps FC-Adapter (A6795A)           A6795-69001     (ioscan: Tachyon XL2)      
+PCI 2GBps Dual Port FC	(A6826A)        A6826-69001     (rp7410/rp8400 needs min. PDC 16.012)
+
+PCI-X 2GB FC/1000BASE-SX HB (A9782A)    A9782-69001 / A9782-60002          
+PCI-X 2G FC/1000Base-T HBA (A9784A)     A9784-69001
+PCI-X 2x1000BASE-T/2x2GB FC (AB465A)    AB465-69001
+
+PCI-x 4GB FC SINGLE PORT HBA (AB378A)   AB378-69001
+PCI-X 4GB SINGLE PORT HBA (AB378B)      AB378-69101   
+PCI-X 2.0 2 Port 4Gb HBA  (AB379A)      AB379-69001    
+PCI-X 2.0 2 Port 4Gb HBA  (AB379B)      AB379-69101 (or AB379-67101) 
+
+PCI-X 4GB FC/ 1000B-T Combo  (AD193A)   AD193-69001    
+PCI-X 2 Port 4 GB/ 2*1000B-T (AD194A)   AD194-69001    
+
+PCI-X 2GB FC Emulex LP982 (A7298A) 	A7298-69001	      Windows
+PCI-X 2GB FC Emulex LP9802 (AB232A)     313045-002	      Windows
+PCI-X 2GB FC Emulex LP1050 (AB466A)   	366028-001	      Windows
+PCI-X 2GB FC Emulex LP1050 (AB467A)	366027-001 	      Windows
+
+PCI-x 2GB FC QLOGIC QLA2340 (A7538A)    A7538-69001           LINUX
+
+FC2143 4GB PCI-X 2.0 Emulex     410984-001     AD167A LP1150    WIN/LINUX
+FC2243 4GB PCI-X 2.0 DC Emulex  410985-001     AD168A LP11002   WIN/LINUX
+FC1143 PCI-X 2.0 4GB Qlogic     410986-001     AB429A WIN/LINUX
+
+PCIe 1Port 4Gb FC  (AD299A)     AD299-67001    
+PCIe FC1242SR 4GB  (AD300A)     407621-001     PCIe 2Port 4Gb Fibre Channel HBA
+PCIe 4GB FC/ 1000B-T 		AD221-60001    AD221A EMULEX HP-UX/openVMS
+PCIe 2x 4GB FC/ 2x 1000B-T 	AD222-60001    AD222A EMULEX HP-UX/openVMS
+PCIe 2x 4GB FC/ 2x 1000B-SX	AD393-60001    AD393A EMULEX HP-UX/openVMS
+
+
+FC Software Driver Matrix: see http://techcom.cup.hp.com/dir_fcms/swreftbl.html
+
+
+
++++ WAN +++++++++++++++++++++++++++++++
+Hyperfabric Interconnect    		A4919-69001		  N-Class, V-Class
+Hyperfabric Loopback Cable  		A4919-63001	
+HyperFabric2 Fiber Adapter (A6386A)	A6386-69001
+
+
+2 Port X.25 Interface Card  J3525-69101		  L, N, V-Class, Matterhorn, Keystone, Superdome, rx2600, rx5670
+4 Port X.25 Interface Card  5063-1322		  L, N, V-Class, Matterhorn, Keystone, Superdome
+
++++ HIPPI +++++++++++++++++++++++++++++
+PCI Serial HIPPI-800        A5801-69001
+
+
++++ ATM++++++++++++++++++++++++++++++
+PCI ATM 155Mbps MMF Adapter (A5513A)  	A5513-69002
+
++++ Infiniband+++++++++++++++++++++++
+2-port 4X Infinband HBA (AB286A)   	AB286-69001
+ 
++++ MUX +++++++++++++++++++++++++++++++
+#new PCI MUX (pci_mux1 driver)
+#see also http://herkules.deu.hp.com/documents/periph/pci_mux/
+PCI  8 port MUX            AD278-60001 needs fanout cable 
+8 port fanout cable        AD278-2000A 4 feet Octopus Cable & DB 25 Loop back  
+Converter DB25-RJ45        AD278-2001A Cable conversion kit from DB25 to RJ45 
+
+PCI 64 port MUX            AD279-60001: Adapter, PCI 64P Serial MUX (up to 4 16-port panels)
+cable to port module       AD279-2000A: 5 feet EBI Cable, DB25 Loop Back, & RJ45 Loop Back.
+KIT, 16Port RS232 RJ45     AD280-2000A  Rj45 port module. This KIT includes the following part numbers:
+                        -> AD280-67001: 16P MUX RS232 RJ45 Port Module
+                        -> AD280-67002: 16P MUX Module 16" EBI Cable
+KIT, 16Port RS232 DB25     AD281-2000A  DB25 port module. This KIT includes the following part numbers:
+                        -> AD281-67001: 16P MUX RS232 RJ45 Port Module
+                        -> AD281-67002: 16P MUX Module 16" EBI Cable
+
+Power Supply               AD280-2001A only needed for 3rd and 4th port module
+
+
+#old PCI MUX (pci_mux0 driver)
+PCI  8 port MUX            A6748-69001  (old part J3592-69101) A, L, N, V, rp84x0, rp74x0, SD, see Advisory: c00801412 
+PCI  8 port MUX            AD278-60001  rx7640, rx8640, SX2000, Driver: pci_mux1 // diff. Cable than A6748A
+PCI 64 port MUX            A6749-69001  (old part J3593-69001) A, L, N, V, Keystone, Superdome
+
+Use J3592/J3593 if available, else use the new parts A6748A / A6749A
+(see http://wwwtpec.grenoble.hp.com/lmx_mount/supplan/psp/8/psp8435.htm
+for more details)
+
+16 Port RS232 RJ45 Module   J2484-69010		  A, L, N, V-Class
+16 Port RS232 DB25 Module   J2485-69010
+16 Port RS422 RJ45 Module   J2501-69010		  A, L, N, V-Class
+Port Module Power Supply    J2483-60010  one must be connected to 1st port module
+RJ45 to HP-RJ45 converters  J2488A
+RJ45 to HP-DB25 converters  J3830A
+
+
+25feet cable to port module J3595-63001
+MUX card Port Module cable  J2483-60013
+
+PCI USB Card                A6150-60001(noncomp) 30-10119-02(compliant)           
+PCI Graphics Card           A6150-60002(noncomp) 30-10119-02(compliant)           Achtung!! Das angeschlossene Grafikterminal kann
+                                                  NICHT als Systemconsole genutzt werden (not supported!)
+
+HP Open VMS 3D/2D PCI Graphic Card (AB551A)       30-10119-01(noncomp) 30-10119-02(compliant)
+Card, Graphics for Itanium Systems (A6869A)	  A6869-67501
+
+
+
+
+last update: 03.03.2008 Günter Hagenguth
+

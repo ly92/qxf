@@ -1,0 +1,115 @@
+******************* Product / Case Handling *******************
+RoHS compliant product 
+***************************************************************
+
+============================================================================
+Merlion / rx2660 / AB419A  
+
+Two versions of the rx2660 exist:
+1.) rx2660 DC    - data center, this is the normal rackmounted server
+2.) rx2660 OFS   - office friendly server - this is the silent version
+                   for office use
+Some parts can be used in both versions, other only in one of the versions.
+For details see
+http://herkules.deu.hp.com/documents/systems/rx2660/RX2660_OFS.pdf
+http://herkules.deu.hp.com/documents/systems/rx2660/rx2660_OFS_Training_QA.doc 	
+============================================================================
+
+PCA, Systemboard		AB419-69001 #only for rack version
+PCA, Systemboard		AB419-69004 #office friendly or rack version
+PCA, Systemboard                AB419-69005 #firmware 3.01 installed - supports Montvale CPUs
+PCA, IO Backplane, PCI-X	AB419-69002
+PCA, IO Backplane, PCIe/PCI-X	AB419-69003     Combo
+PCA, SAS Backplane		AB419-67010
+PCA, Diagnostic Panel         AB419-67005
+PCA, Display/Fan Board		AB419-67004(rack version) AB419-67019(office friendly)
+PCA, I/O Fan Board		AB419-67009(rack version) AB419-67020(office friendly)
+
+#CPUs only for normal (rack) version:
+CPU Module 1,4GHz/12MB		AD252-6900A	Itanium Dual Core Montecito
+CPU Module 1,6GHz/18MB		AB577-69018	Itanium Dual Core Montecito
+CPU Module 1,6GHz/6MB		AD249-6900A	Itanium Single Core
+
+#for both office friendly or rack version:
+CPU Module 1,4GHz/12MB		AH237-6900A	Itanium Dual Core Montecito
+CPU Module 1,6GHz/18MB		AH238-6900A	Itanium Dual Core Montecito
+CPU Module 1,6GHz/6MB		AH236-6900A	Itanium Single Core
+CPU Module 1,4GHz/12MB		AD390-69001	Itanium Dual Core Montvale 9120N
+CPU Module 1,6GHz/18MB          AD391-69001     Itanium Dual Core Montvale 9140M
+CPU Module 1,6GHz/12MB		AD392-6900A 	Itanium Single Core Montvale 9110N
+
+512MB DIMM DDR2                 AB563-69001
+1GB DIMM DDR2                   AB564-69001    old part#; use till gone; see Note below
+1GB DIMM DDR2                   AB564-69002    new part#; min SFW required 3.01; see Note below
+2GB DIMM DDR2                   AB565-69001    old part#; use till gone; see Note below
+2GB DIMM DDR2                   AB565-69002    new part#; min SFW required 3.01; see Note below
+4GB DIMM DDR2                   AB566-69001    old part#; use till gone; see Note below
+4GB DIMM DDR2                   AB566-69002    new part#; min SFW required 3.01; see Note below
+Note: Old and new 1, 2 & 4GB DIMMs can be mixed, but SFW 3.01 is needed for new DIMM parts.
+See also ENGINEERING NOTICE c01290203 "rx2660, rx3600, rx6600, BL860c - 1GB, 2GB, 4GB DIMM Transition"
+http://saw.cce.hp.com/km/saw/view.do?docId=emr_na-c01290203
+
+----------------------------------------------------------------------------
+Internal Devices
+
+36GB SAS Disk 10k		376596-001  
+36GB SAS Disk 15k		432322-001 
+72GB SAS Disk 10k		376597-001
+72GB SAS Disk 15k               432321-001
+146GB SAS Disk 10k              432320-001	Single Port SAS disk
+146GB SAS Disk 10k              418399-001	Dual Port SAS-disk
+
+DVD Drive 8x (Slimline)		AD142-2100B see http://ci2005.cup.hp.com/list_details.php?issue=3209
+DVD+RW Drive 8x (Slimline)    	AD143-2100B (old was AD143-2100A)
+
+------------------------------------------------------------------------------
+CABLES
+
+Cable Kit 			AB419-67012	includes:
+ 						 Fan/display signal cable
+ 						 Diag panel to display/fan bd signal cable
+ 						 I/O fan bd to display/fan bd signal cable
+ 						 DVD signal cable
+ 						 SAS power cable
+ 						 Display/fan bd to system bd power cable
+						 CPU power cable
+SAS data cable			AB419-67013
+
+-----------------------------------------------------------------------------
+POWER / FANs
+
+Bulk Power Supply		403781-001(rack version) AB419-67023(office friendly)
+                                AB419-67023 can also be used for Rack version , see http://sawpro.atlanta.hp.com/km/saw/view.do?docId=emr_na-c00965508
+
+BPS Riser board			407750-001
+
+FAN Assembly			407747-001(rack version) AB419-67021(office friendly)
+
+----------------------------------------------------------------------------
+MISC
+
+#keep in mind that there is a SAS HBA integrated in the systemboard (unsupported on windows)
+#optional, an additional SAS RAID card P400 can be ordered
+PCIe Expansion Board		AB419-67008	required for optional P400 Raid Core I/O contr.
+Smart Array P400 Controller	405831-001	optional, installed in Slot on Systemboard
+Smart Array P400 Cache Module	405836-001	256MB
+Smart Array P400 Bat. Charger	398648-001
+Smart Array P400 Bat. Cable	409124-001
+
+Audio Card			AB620-60503
+Trusted Platform Module (TPM)	406059-001
+HDD (SAS) filler panel		376383-002
+DVD filler panel		229567-002
+Tool CPU Replacement 2.5mm Hex	8710-2446
+Front Bezel			AB419-67014	without diag display board
+Top Cover			AB419-67015(rack version) AB419-67022(both rack and office friendly)
+Airflow Guide			AB419-67016	includes hex tool
+PDH/MP Battery (CR2032)		234556-001    # two Batteries exist on the system board; 
+                                              # do not exchange battery if BMC FW is 05.24;
+                                              # see WTEC CI rx2660 - potential firmware corruption issue
+Battery Clip (pack of two)      AB419-3400A   # see http://sawpro.atlanta.hp.com/km/saw/view.do?docId=emr_na-c01272606
+
+
+============================================================================
+                 Page Owner:  Stefan Stechemesser
+                 Last update: 16-Mar-2010 by Holger Goetker

@@ -1,0 +1,229 @@
+******************* Product / Case Handling *******************
+RoHS Silent Roll product 
+
+Capture the appropriate Serial Number for use in SAW Unit Configuration, 
+PC Tracker or CSN to determine RoHS product level compliance. 
+
+Products listed as Modified or EMEA-Only are Compliant Products. All compliant 
+products must comply with the RoHS directives and must be supported with Modified spares.
+
+See http://na2.know.hp.com/teams/RoHS%20Service%20Delivery%20Implementation/default.aspx  
+or email rohsservicedeliveryprogramteam@hp.com for additional information.
+
+If unable to capture the serial number, obtain the purchase or install date from the 
+customer and compare with the compliance date below. 
+
+Compliance Date:  July, 1st 2006
+
+The ROHS status of a part is UNKNOWN unless marked with "(compliant)" or "(noncomp)".
+You may order a compliant part for a not compliant server in case the noncompliant part is unavailable
+
+The Qualifier has to check for parts compliancy himself with the above mentioned 
+tools and is solely repsonsible for this!
+***************************************************************
+
+==SKILL Product:Server  Group:IA64                  Sys_flag:y
+== Itanium 2 Server rx4640 =====================================
+
+
+***************************************************************************************************************
+Important!!!!    Actual Safety-Service-Note  A6961A-08-S       Important !!!!
+                 =======================================
+
+rx4640 and rp4440 Power Supply Safety Issue !
+
+Should be done during every onsite-repair of these servers !
+
+Install a metal retention clip (part number 5001-5690) to the rear of all affected power supplies in the system. 
+****************************************************************************************************************
+
+
+
+**** BOARDS / CPU / RAM ****     any system that is not already running SFW 3.11 or later should not use A6961-69301 to avoid this autoboot problem.
+  
+PCA, Processor Extender 	 		A6961-69007(noncomp) A6961-69207(compliant)
+
+PCA, I/O Baseboard                              A6961-69501(noncomp) A6961-69511(compliant) (includes VRMs; has SFW >= 4.10 to support Montecito CPUs, see Note below)
+(PCA, I/O Baseboard                             A6961-69401(noncomp) A6961-69411(compliant) (includes VRMs; old part number! -> Order only if A6961-69501/A6961-69511 are not available and no Montecito CPUs are installed as it has SFW 3.17 for use with Mad9M A2 stepping and all earlier versions only, see Note below; see U160 SCSI note below))
+#Note 1: Order I/O baseboard A6961-69501 / A6961-69511 for all CPU types now, as it should have the new BMC FW >= 4.03 installed now, which solves the Current Issue 2693 with mx2 (Hondo) CPUs.
+#        See also http://ci2005.cup.hp.com/list_details.php?issue=2693
+#Note 2: If the I/O Baseboard being removed during the repair is at firmware revision SFW 2.13 and the system had never previously been upgraded to SFW 3.11, then it is possible the system could experience an autoboot problem.  
+#        See also http://ci2005.cup.hp.com/list_details.php?issue=1723
+ 
+PCA, 16-slot memory board	 		A6961-69204(noncomp) A6961-69804(compliant) (Multiple SBE dimm replacements = Service Note A6961A-02C/A7124A-02)
+PCA, 32-slot memory board 			A9739-69007(noncomp) A9739-69008(compliant) SFW > 1.13 (old Part-#: A7124-60002 / Service Note A6961A-02C)
+PCA, Midplane Riser Board (Apian)  		A6961-67005(noncomp) A6961-67105(compliant)
+PCA, SCSI Backplane/Management Assembly 	A6961-67024(noncomp) A6961-67205(compliant) (includes Simplex board)   
+PCA, SCSI Duplex Board (HP-UX) 			A6961-67106(noncomp) A6961-67206(compliant)
+***************************************************************************************************
+The older PCA's A6961-67057 and A6961-67006 do not support Ultra 320 mode operation because they 
+have loaded the GEM318 SAF-TE management ship.
+***************************************************************************************************
+PCA, Front Panel Display	 		A6961-67108
+PCA, Quickfind Diagnostic Board 	  	A6961-67009(noncomp) A6961-67109(compliant)   (Includes plastic cover and label)
+PCA, Power Distribution Board			A6961-67015(noncomp) A6961-67115(compliant)
+PCA, I/O Bd to DVD Connectivity (IDE/USB)	A6961-67013
+
+Lan Core I/O  					A6825-67101
+Lan Core I/O Dual-Port                          AB352-67001    with newer systems (wake-on LAN port A)
+U160 Core I/O Dual-channel              	A6829-67001
+U320 Core I/O Dual-channel                      A6961-67011    with newer systems
+!!Caution!! Server can be shipped with SA64xx in slot 1
+
+ 
+**** CPUs ****  see A1 / A2 note at the bottom of this document
+
+1.3 GHz Itanium 2 CPU                   A7159-69101
+1.5 GHz Itanium 2 CPU                   A7158-69101 
+1.6 GHz/6MB Itanium 2 PROCESSOR MOD     A9732-69001  (A1 Stepping)
+1.1 GHz DUAL CORE PROCESSOR             A9730-69001(noncomp) A9730-69101(compliant)
+1.5 GHz/4 MB Itanium Mad9M Processor    A9731-69002(noncomp) A9731-69003(compliant)  (A2 Stepping)
+1.6 GHz/6 MB Itanium Mad9M Processor    A9732-69002(noncomp) A9732-69003(compliant)  (A2 Stepping)
+1.6 GHz/9 MB Itanium Mad9M Processor    A9733-69002(noncomp) A9733-69003(compliant)  (A2 Stepping)
+1.6 GHz/18MB Itanium DualCore MonteCito AD139-69001 (FW >= 04.10 and HPUX 11.23 HWE0606 necessary!!)
+1.6 GHz/24MB Itanium DualCore MonteCito AD268-69001 (FW >= 04.10 and HPUX 11.23 HWE0606 necessary!!)
+ 
+
+**** Memory ****
+
+#Memory 1.7 " Dimms have been replaced with 1.2 " Dimms.
+#See WTEC/KMINE 4000076558   
+***NOTE: IF REPEATED SBE OCCURRED AND DIMMS ALREADY REPLACED MULTIPLE TIMES SEE Service Note A6961A-02C/A7124A-02 ***
+  
+256 MB DIMM DDR-SDRAM pc2100			A6967-67001 ORDER 1818-8797 ORDER A6967AX 
+512 MB DIMM  					A6968-67001 ORDER A6968AX 
+
+***Note: for Dimms >= 1GB: SFW>= 02.13 , BMC>=02.30 see Service Note A6961A-02C !!!
+***Memory Carrier must be A7124-60002 or A6961-60004 with EDC>=A-4420 
+1 GB DIMM					A6969-69001 Productnumber is A6969AX
+2 GB DIMM					A6835-69001
+
+4 GB DIMM 					AB475-69001   (see info below concerning compatibility)
+ 
+ 
+***** POWER *****
+  
+Power Supply	 				A6961-67125(noncomp) A6961-67225(compliant) old number was 0950-4428
+DC-DC Converter (VRM, 3.3V)			0950-4419 if not avaiable order iobaseboard A6961-69401(noncomp) A6961-69411(compliant)
+DC-DC Converter (VRM, 5.0V) 			0950-4418 if not avaiable order iobaseboard A6961-69401(noncomp) A6961-69411(compliant)
+DC-DC Converter (VRM, 12.0V)			0950-4417 if not avaiable order iobaseboard A6961-69401(noncomp) A6961-69411(compliant)
+ 
+**** Internal Devices ****
+  
+36GB  Ultra320 15K RPM SCSI Disk (A6981A)	A9896-69001(noncomp) AB420-69001(compliant)
+73GB  Ultra320 15K RPM SCSI Disk (A6983A)	A9897-69001(noncomp) AB421-69001(compliant)
+146GB Ultra320 10K RPM SCSI Disk (A6984A)	A9898-69002(noncomp)(old part#: A9898-69001) AB422-69001(compliant)  
+300GB Ultra320 10k RPM SCSI Disk (AB423)	AB423-69001(compliant)
+DVD-ROM/CD-ROM Drive                            A7163-04001 TEAC DV-28E-B
+DVD-ROM/CD-RW Drive                             A7007-04001 TEAC DW-224E
+DVD+RW OPTICAL DRIVE				AB349-67101 
+ 
+**** FAN ****
+  
+I/O Fan Fan 0 + 1				A6961-04055
+Power Supply Fan Fan 2				A6961-04028
+ 
+**** I/O Cards ****
+  
+2Gb FC HBA for HPUX (A6795A)			A6795-69001
+2Gb FC HBA for Windows/Linux (A7298A)		A7298-69001
+2GB Dual Channel FiberCh. Card (A6826A)		A6826-69001
+2Gb PCI-X FC HBA for Windows (AB232A)  		313045-002  (alternative order "red" part 313045-002)
+2Gb PCI-X FC HBA for Linux (AB234A)  		283384-001  (alternative order "red" part 283384-001)
+SA6400 Base board, 2 SCSI CH.			309520-001
+128MB battery buffered cache			309521-001
+SA6404 (A9891A) (A9891-69001 no longer orderable)
+SA6400 Base board, 2 SCSI CH.			309520-001
+SA640X Battery, 3.6V, 500 mAh NiMH              307132-001 	2 packs are needed 
+256MB battery buffered cache			309522-001
+SA6400 2 CH. SCSI extension	 		309523-001
+
+
+******** CABLES **********
+  
+Cable, Internal SCSI 				A6961-63006(noncomp) A6961-63017(compliant)
+Cable, Visual Diagnostic to Midplane		A6961-63005(noncomp) A6961-63016(compliant)
+Cable, Power Distribution to Midplane Ribbon 	A6961-63004(noncomp) A6961-63015(compliant)
+Cable, Power Distribution to Midplane 10 PIN	A6961-63003(noncomp) A6961-63014(compliant)
+Cable, SCSI Controller Jumper			A6961-63011(noncomp) A6961-63020(compliant)
+Cable, SCSI Backplane to Midplane		A6961-63008(noncomp) A6961-63018(compliant)
+Cable, Display to IDE to Midplane 		A6961-63002(noncomp) A6961-63013(compliant)
+ 
+**** Misc ****
+  
+PCI Card OL* Divider  				A6961-67020  (doorbell and latch is included in this assembly)
+PCI Retention Clip 				A6961-67021
+Filler, Memory, Air Blocker			A6961-40034
+System battery					1420-0386 (CR2330, 23mm diameter, 3mm size)
+KIT, HANDLE, I/O                                A6961-04089  lever to seat I/O Baseboard; see also WTEC CI ID 2,529
+ 
+**** Rack Parts ****
+
+Rack Mount Hardware, Right                      A6977-67001  (included with Left bracket in kit) http://partsurfer.hp.com/cgi-bin/spi/showphoto?partnumber=A6977-67001
+Rack Mount Hardware, Left                       A6977-67002  (included with Right bracket in kit) http://partsurfer.hp.com/cgi-bin/spi/showphoto?partnumber=A6977-67002
+Bezel - Rack Mount                              A6961-67022
+Rackless Kit                                    A6979-04001
+ 
+
+
+
+4GB DIMMs are not compatible with some memory board revisions.  
+ 
+Memory Board	Board Rev	4 GB DIMMs Compatible?
+------------------------------------------------------- 
+A6961-60004 	A3 			no
+A7124-60002 	A2 			no
+A6961-60104 	A4 			yes
+A7124-60102 	A3 			yes
+A6961-60204 	A5 			yes
+A7124-60202 	A4 			yes
+ 
+
+
+CPU A1 / A2 note:
+=================
+A1 to A2 Stepping (Mad9M)
+Intel has changed the Mad9M processor for this system from version A1 to A2. 
+This is sometimes referred to as "A1/A2 stepping." As a result, HP is switching 
+from its current offering of Mad9M processors (A1) to the next offering of this 
+Mad9M processor (A2). 
+
+To accomplish this transition, HP will:
+
+o Continue to stock A1 processors at GSO for a minimum of two years. 
+These will be used to support customers with installed A1s. After two years, 
+customers with A1 processors that need a replacement part will be required to use A2s. 
+Over that period A1 processors will be phased out and A2s will be phased in.
+Support any customer with A2s installed with A2 replacement processors.
+
+o Add a "Readme" to the product short term and incorporate into the manuals formally 
+within about six months.
+
+o Update the remove and replace procedures in the service documentation with instructions 
+on how to implement this processor change and firmware update.The FW upgrade instructions 
+are included in the Release Notice that is included in the download bundle. These procedures 
+shouldn't change although new firmware will be referenced.
+To download the firmware, go to http://www.hp.com/bizsupport.
+
+o Provide notification to the field via the support organization.
+
+The current cut-over date from A1 to A2 by manufacturing is set for June 15th. The services 
+FCS date for the A2 product is set for late June 2005.
+For non cell-based systems, A1 and A2 processors can be mixed within the same system on the 
+condition that the firmware is updated to the latest version available for the system and 
+that all the processors installed are of the same frequency and cache size. 
+Note: A2 processors will not work with firmware prior to - for rx1620 system firmware rev.2.18; 
+BMC rev. 3.48; MP rev.E 3.15
+
+NOTE:
+After the firmware has been downloaded to the server, proceed with attaching the Processor 
+Add-On Products to the server using the Server Installation Guide. The installation guide 
+is provided:
+o On the CD-ROM that shipped with Server
+o On the http://docs.hp.com Web site
+
+
+---------------------------------------------------------------------------------------
+Last Update: 02.03.2010 Holger Goetker
+---------------------------------------------------------------------------------------
+

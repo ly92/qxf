@@ -1,0 +1,121 @@
+******************* Product / Case Handling *******************
+This server is non-RoHS compliant because it was obsolete before July 1st, 2006.
+
+However, you may order a compliant part for a non-compliant server
+in case the non-compliant part is unavailable.
+The ROHS status of a part is UNKNOWN unless marked with "(compliant)" or "(noncomp)".
+***************************************************************
+
+===================== Keystone - rp8400 - A6093A ======================
+
+
+---------------------------- System Backplane -------------------------
+SYSTEM BACKPLANE WITH SCREE B. A6093-69301(noncomp) A6093-69401(compliant)   with new SEU (KIOX) connectors; old part# A6093-69001 may still be used if no SEU is connected
+SCREE BOARD                    1253-5394     needed for FW update to rev. >=4.0 - see Service Note A6093A-12A
+
+
+----------------------------  Cell  -----------------------------------
+CELL WITH PDH RISER BOARD      A6094-69103   order also Cleaning Kit
+CPU 650MHz WITH SOCKET (2.x)   A6443-69001   order also Cleaning Kit
+CPU 750MHz WITH SOCKET         A6444-69001   IMPORTANT NOTE: This part can have version 3.x or 2.x, Firmware Version >=4.0 is required for 3.x.; order also 1 Cleaning Kit
+CPU 875MHz WITH SOCKET (3.x)   A6435-69001   order also Cleaning Kit
+
+CLEANING KIT
+If just replacing a CPU  use   A3639-67035  contains: 4 individually wrapped alcohol wipes.
+For system board replacement or moving a CPU use the Cleaning Kit.     
+CLEANING KIT                   A3639-70101   contains: 4 CPU Sockets, 4 thermstrate pads, 4 EMI O-rings, 1 IPA wipe & cleaning manual
+CPU PCX-W SOCKET               1253-0703     just one single CPU-socket
+
+CELL BOARD BATTERY             234556-001     CR2032, 3V; on the PDH Riser Board
+256MB DIMM (SINGLE)            A6802-69101
+512MB DIMM (SINGLE)            A6097-69001   replaced by A5198-69101 (min. FW 5.0 (PDC 16.011)); use till gone
+1GB   DIMM (SINGLE)            A6098-69001   replaced by A6098-69101; NOTE: Do NOT mix A6098-69001 and A6098-69101 in same rank! See ENGINEERING ADVISORY c00875986.
+2GB   DIMM (SINGLE)            A6100-69001   (min. PDC: 16.011)
+
+
+---------------------------- I/O --------------------------------------
+PCI CARD CAGE ASSY             A6093-69015   contains the PCI Backplane
+PCI OLR Assy with 16 Paddles   A6093-67114(noncomp) A6093-67214(compliant)   old part#: A6093-67014; includes also PCI OLR Switch cable
+PCI OLR PADDLE ASSY            A6093-40041   old part#: A6093-67020
+PCI SEPARATER WITH LIGHTPIPE   5065-7443
+PCI FILLER PLATE               5001-6892
+CORE I/O, MP A6096A            A6096-69201   old Core I/O; has no MP SEL LED!
+CORE I/O, MP A7109A            A7109-69001   new Core I/O; has MP SEL LED!
+BATTERY FOR MP                 234556-001     CR2032, 3V; for new and old MP
+MASS STORAGE BACKPLANE         A6093-67003
+INTERNAL DAT40i 40GB DRIVE     C5686-69203   ioscan will return the Product ID: HP C5683A
+INTERNAL SCSI-2 DVD ROM        A5220-67003
+REMOVABLE MEDIA RAIL KIT       A6752-67011   blue plastic rails attached to DAT or DVD
+INT. HOTPLUG DISK 18GB 10k     A6537-69002   ST318404LC, ST318406LC, MAN3184MC, Atlas 10k III 18.4 SCA, IC35L018UCD210-0, DK32DJ-18MC
+INT. HOTPLUG DISK 36GB 10k     A6538-69002   ST336704LC, ST336706LC, MAN3367MC, Atlas 10k III 36.7 SCA, IC35L036UCD210-0, DK32DJ-36MC
+INT. HOTPLUG DISK 36GB 15k     A6541-69002   ST336752LC, MAM3367MC, IC35L036UCPR15-0
+INT. HTPLG U320 DISK 36GB 15k  A7329-69001   ST336753LC, MAS3367NC
+INT. HOTPLUG DISK 73GB 10k     A6539-69001   ST373405LC, MAN3735MC, Atlas 10K III 73.4 SCA, IC35L072UCD210-0, DK32DJ-72MC
+INT. HTPLG U320 DISK 73GB 10k  A7285-69002   HP 73.4GST373307LC, HP 73.4GMAP3735NC
+INT. HTPLG U320 DISK 146GB 10k A7287-69002  
+FILLER FOR INTERNAL DISK SLOT  A6198-60002
+
+
+---------------------------- Power ------------------------------------
+BULK POWER SUPPLY              A6093-69021   alternate part RoHS compliant: 0957-2183
+PCI POWER MODULE               A6093-69123 (noncomp) 0957-2187(compliant)
+VRM FOR PCI BACKPLANE          0950-4352     old. part#: 0950-3793 - see Service Note A6093A-17B 
+VRM FOR PCI-X BACKPLANE        0950-4122(noncomp) 0950-4708(compliant)     VRM# 1-4;
+VRM FOR CELL, LOW VOLTAGE      0950-4448     VRM# 0-3 & 5-9; order 8! - Don't mix part# or vendors! - see Service Note A6093A-17B
+VRM FOR CELL, HIGH VOLTAGE     0950-4353     VRM# 10-12    ; order 3! - Don't mix part# or vendors! - see Service Note A6093A-17B 
+PCA, AC DISTRIBUTION           A6093-67007(noncomp) A6093-60107(compliant)
+PCA, DC DISTRIBUTION           A6093-67008(noncomp) A6093-60108(compliant)
+
+
+---------------------------- Fans -------------------------------------
+SMART FAN FRONT ASSY           A6093-67017(noncomp) A6093-67117(compliant)   cabinet fan# 0-8
+SMART FAN REAR ASSY            A6093-67018(noncomp) A6093-67118(compliant)   cabinet fan# 9-20
+SMART FAN PCI I/O ASSY         A6093-67019
+
+
+---------------------------- Cables -----------------------------------
+CABLE, FAN ASSY FRONT          A6093-63000(noncomp) A6093-63038(compliant)
+CABLE, FAN ASSY REAR           A6093-63001(noncomp) A6093-63039(compliant)
+CABLE, MASS STORAGE RIBBON     A6093-63028(noncomp) A6093-63055(compliant)
+CABLE, MASS STORAGE POWER      A6093-63008(noncomp) A6093-63048(compliant)
+CABLE, DC DISTRIBUTION SIGNAL  A6093-63014(noncomp) A6093-63040(compliant)
+CABLE, PCI OLR SWITCH          AB297-63001(noncomp) AB297-2010A(compliant)   old part#: A6093-63006 / -63027
+CABLE, RS487 INTERNAL (SEU)    A6093-63012(noncomp) A6093-63049(compliant)
+CABLE, RS487 EXTERNAL (SEU)    A6434-63003   for connection to a SEU 
+SBA CABLE SET                  A6093-63005(noncomp) A6093-63058(compliant)   for connection to a SEU
+CABLE, INTRUSION SWITCH        A6093-63025(noncomp) A6093-63044(compliant)   cable to all cover open/closed switches (sensors)
+POWER CORD, C19/CEE 7-7 4.5M   8120-6899
+
+
+---------------------------- Miscs ------------------------------------
+FRONT PANEL PCA                A6093-67005(noncomp) A6093-67105(compliant)
+FRONT PANEL PLASTIC ASSY       A6093-04049
+COVER, FRONT PLASTIC W. NAME   A6093-04048   Front Bezel with name rp8400
+COVER, FRONT PLASTIC NO NAME   A6093-04117   Front Bezel without nameplate -> order add. plate!
+NAMEPLATE RP8400               A6093-40002   for Front Bezel A6093-04117
+COVER, RIGHT SIDE ASSY         A6093-04055
+COVER, LEFT SIDE ASSY          A6093-04069
+COVER, TOP ASSY                A6093-04056
+KEYSTONE CHASSIS               A6093-04020
+BKPLN JACK SREW KNOB KIT       A6093-04125   Jack Screw to fix system backplane
+INTRUSION SWITCH               5040-6317     cover open/closed switch (sensor)
+AC CABLE STRAIN RELIEF KIT     A6093-67029   see Service Note A6093A-13
+CABLE MGMT TOWEL BAR KIT       A6093-04046
+SPACER, CMA THREADED           A6093-00309   see Service Note A6093A-06
+BLUE KNURLED KNOB              A6093-00180   for towel bar, if missing; 10-24 nut
+CELL BOARD AIR BAFFLE KIT      A6093-67016   contains: 1x 1460-2711 Spring Damper / 1x A6093-00148 Damper / 1x A6093-00151 Hinge, Damper / 1x A6093-40014 Card Guide, Front / 1x A6093-40015 Card Guide, Rear
+FRONT BEZEL SNAP ATTACH        C2786-40002
+CARD GUIDE, FRONT (QTY 2)      A6093-40014   Cell Guide Rail
+CARD GUIDE, REAR  (QTY 2)      A6093-40015
+CORE I/O PLASTIC GUIDE RAIL 1  0403-1126     5 inches long; one per chassis; cannot be ordered thru the normal channels – open CPR for CC
+CORE I/O PLASTIC GUIDE RAIL 2  0403-1119     3 per chassis; cannot be ordered thru the normal channels – open CPR for CC
+POWER SUPPLY EMI FILLER ASSY   A6093-04018
+SPRING LATCH PEPL. KIT         5002-1655     only for new rack rails
+BACKPLANE REO CABLE SHROUDS    A6434-04041   to attach SEU to an older system backplane; should come with SEU
+TOOL, DIMM REMOVER             A5201-68005   same as for Superdome
+TOOL, DIMM INSTALLER           A5201-68003   same as for Superdome
+TOOL, ANTISTATIC MAT 24X36     A5201-68004   same as for Superdome; with ground strip
+LIFT FOR KEYSTONE SERVER       HPE-LIFT-SERVER   local part# for Keystone-Lift
+
+-----------------------------------------------------------------------
+       Last update on 15-Oct-2009 by Holger Goetker

@@ -1,0 +1,80 @@
+******************* Product / Case Handling *******************
+RoHS Silent Roll product 
+
+Capture the appropriate Serial Number for use in SAW Unit Configuration, PC Tracker or CSN to determine RoHS product level compliance. 
+
+Products listed as Modified or EMEA-Only are Compliant Products.  All compliant products must comply with the RoHS directives and must be supported with Modified spares.
+
+See http://na2.know.hp.com/teams/RoHS%20Service%20Delivery%20Implementation/default.aspx  
+or email rohsservicedeliveryprogramteam@hp.com for additional information.
+
+If unable to capture the serial number, obtain the purchase or install date from the customer and compare with the compliance date below. 
+
+Compliance Date:  TBD
+
+The parts mentioned on this page are not compliant!
+The Qualifier has to check for parts compliancy himself with the above mentioned tools and is solely repsonsible for this!
+***************************************************************
+
+== C7508A/B  5300 SCSI-Sure Store Tape Array System   ===========
+== KWOLEK - Program ===
+
+Devices can be exchanged hot plug, see PSP for more details
+
+The HP Surestore Tape Array 5300 is a 19” 3U rack enclosure that
+holds from one to four tape drives or DVD devices.
+The 5300 can accommodate two full-height (FH) tape drives or four
+half-height (HH) devices or a combination of two half-height and
+one full-height device. With the ability to scale up from a single
+racked tape drive module to four (from 24 to 800 GB compressed capacity),
+the Tape Array 5300 allows the customer to mix and match rack modules
+as needed, including:
+
+• Ultrium 230 tape drives (Full Height)
+• Ultrium 215 tape drives (Half Height)
+• SDLT 220 tape drives (Full Height)
+• DLT 80 tape drives (Full Height)
+• DLTvs80 tape drives (Half Height)
+• DAT40 or DAT24 tape drives (Half Height)  (ioscan DAT40: C5683A)
+• DAT72 (Carbon) tape drives (Half Height)  (inquiries: C7487A)
+• DVD-ROM drives (Half Height)
+
+When the Tape Array 5300 was designed, it was designed for low cost,
+and as such uses High Density 68pin connectors.
+
+==============================================================================
+++  PARTS  ===================================================================
+
+5021-1121	C2370A 68 VHD  LVD/SE multimode Terminator for Tape Array 5500
+5183-2657	C2364A 68 HD   LVD/SE multimode Terminator for Tape Array 5300
+
+
+C7508-67009 	Mounting rail kit
+C7508-67008	Rear blanking plates (Set)
+C7508-67006	Half height filler plates
+C7508-67005	Tape array front panel
+C7508-67004	Power supply unit
+C7508-67003	Fan module assembly
+C7508-67002	Manageability card
+C7508-67201	Main chassis,with backplane and LED's
+		No fan, no manageability card, 
+                No PSU. Blanking panels for single fan/PSU operation.
+		No filler panels or front panel
+
+C7470-69201	C7470A Ultrium 230 tape drives (Full Height)
+C7492-69202     C7492A Ultrium 215 tape drives (Half Height)
+C7456-69202	C7456A DLT 80 tape drives (Full Height)
+C7507-69201	C7507A DLTvs80 tape drives (Half Height)
+C7497-69201	C7497A DAT40 (Caesar) SCSI LVD tape drives (Half Height, DDS-4 C5683A)
+C7498-69201	C7498A DAT24 SCSI SE tape drives (Half High, DDS-3 C1537 )
+C7499-67201	C7499A DVD-ROM drives (Half Height)
+
+Q1592-67201     DVD+RW M-DRV CB M-DRV CB DVD+RW (Carbon Black)  (replacement of C7499A)
+Q1524-69201     Q1524A DAT72m (Carbon) SCSI LVD tape drive
+Q1512-69201     Q1512B  LTO 460m (400Gb / 30Mbs--> Ultrium-2)
+Q1540-69201     Q1540A  LTO 960m (800GB / 160MB/sec-->  Ultrium -3)
+
+
+
+last update: 15.03.2006 Kai Jansen, CRC Ratingen 
+                                 

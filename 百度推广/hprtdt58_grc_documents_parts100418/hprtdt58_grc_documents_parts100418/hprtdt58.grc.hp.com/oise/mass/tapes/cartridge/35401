@@ -1,0 +1,44 @@
+******************* Product / Case Handling *******************
+All parts and products mentioned on this page are non-RoHS compliant because they were obsolete before July 1st, 2006.
+***************************************************************
+
+==SKILL Product:35401    Group:CARTRIDGE-TAPES      Sys_flag:n
+== 35401 =====================================!===============================
+
+++ PCA'S +++++++++++++++++++
+R/W/SERVO PCA               09144-69528     Z 
+HDC PCA                     07940-69195     Z 
+HDC ROM KIT                 09144-10311 
+DDC PCA                     09144-69522     Z 
+DDC PROC ROM KIT            09144-10356       
+MDC PCA                     35401-60108
+MERLIN ROM KIT              35401-10303 
+MICRO SWITCH PCA            35401-60094 
+FRONT PANEL PCA             35401-60093 
+POWER SUPPLY                09133-67120 
+
+++ MISC ++++++++++++++++++++
+DRIVE MECH ASSY             09144-69501     Z 
+AUTOCHANGER MECH ASSY       35401-69100     Z 
+FRONT PANEL CONTROL ASSY    35401-60029
+DOOR ASSY <2922E            35401-60037
+** DOOR ASSY >2922E         35401-60004     
+DOOR LOCK ASSY              35401-60039 
+EJECT SOLENOID+BRCKT <2922E 35401-60027       
+EJECT SOLENOID+BRCKT >2922E 35401-60027
+DOOR UPGRADE KIT            35401-67021
+FASTENER                    35401-60016 
+CABLE COUPLING ASSY         35401-67200 
+TOP SHROUD                  35401-60020 
+FAN ASSY                    35401-68503 
+MAGAZINE                    35401-40000 
+FRONT DOOR                  09121-48303 
+SWITCH, MICRO-PROTECT       35401-80046
+MICROSWITCH, CUA            35401-80061
+
+++ CABLES ++++++++++++++++++
+CABLE, HDC/MDC/DDC          35401-61601 
+CABLE, SENSOR/MTR           35401-61602 
+CABLE, POWER                35401-61603 
+CABLE, MDC/FRT PANEL        35401-61600 
+CABLE, MECH/DDC             35401-61607 

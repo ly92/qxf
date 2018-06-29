@@ -1,0 +1,88 @@
+******************* Product / Case Handling *******************
+All parts and products mentioned on this page are non-RoHS compliant because they were obsolete before July 1st, 2006.
+***************************************************************
+
+== SKILL Product:SMART   Group:SCSI-TAPE        Sys_flag:n
+
+== SCSI-Mass Storage SMART Storage Enclosure ===========
+
+Prod No.	Type	Description			Part Number
+------------------------------------------------------------------------
+
+C6378A		 D	 40/80GB DLT 8000 WD 68 HD FH	C6378-69201 	
+C6379A		 R	 40/80GB DLT 8000 WD 68 HD FH	C6379-69201 
+C6374A		 D	 35/70GB DLT 7000 WD 68 HD FH	C6374-69002
+C6375A		 R	 35/70GB DLT 7000 WD 68 HD FH	C6375-69002
+C4318RZ#105	 F	 35/70GB DLT 7000 WD 68 HD FH	C6375-69002
+C6380A		 D	 20/40GB DLT 4000 SE 50 HD FH	C6380-69001
+C6381A		 R	 20/40GB DLT 4000 SE 68 HD FH	C6381-69001
+C4318RZ#107	 F	 20/40GB DLT 4000 SE 68 HD FH	C6381-69001
+C6382A		 D	 20/40GB DLT 4000 ND 50 HD FH	C6382-69001
+C6383A		 R	 20/40GB DLT 4000 ND 68 HD FH	C6383-69001
+C4318RZ#106	 F	 20/40GB DLT 4000 ND 68 HD FH	C6383-69001
+
+C4317A		 E	 2U Enclosure 68 HD		C4317-60003
+C4318A		 E	 3U Enclosure 68 HD		C4318-60002
+C4317RZ		 E	 2U Enclosure 68 HD		C4317-60003
+C4318RZ		 E	 3U Enclosure 68 HD		C4318-60002
+
+C4310A		 D	 12 x CD ROM SEN 50 HD HH	C4310-60017
+C4311A		 R	 12 x CD ROM SEN 68 HD HH	C4311-60002
+C4317RZ#101	 F	 12 x CD ROM SEN 68 HD HH	C4311-63002
+
+C6362A		 D	 4/8GB DDS-2 Tape SE 50 HD HH	C6362-69002
+C6363A		 R	 4/8GB DDS-2 Tape SE 68 HD HH	C6363-69002
+C4317RZ#102	 F	 4/8GB DDS-2 Tape SE 68 HD HH	C6363-69002
+ 
+C6364A		 D	 12/24GB DDS-3 Tape SE 50 HD HH C6364-69004
+C6365A		 R	 12/24GB DDS-3 Tape SE 68 HD HH C6365-69002
+C4317RZ#103	 F	 12/24GB DDS-3 Tape SE 68 HD HH C6365-69002
+
+C6366A		 D	 12/24GB Autol.Tape SE 50 HD FH C6366-69006
+C6367A		 R	 12/24GB Autol.Tape SE 68 HD FH C6367-69002
+C4318RZ#104	 F	 12/24GB Autol.Tape SE 68 HD FH C6367-69002
+ 
+C6384A		 D	 2 GB Disk SE 50 HD HH		C6384-69002
+C6386A		 D	 4 GB Disk SE 50 HD HH		C6386-69007
+C6387A		 R	 4 GB Disk SE 68 HD HH		C6387-69002
+C6388A		 D	 4 GB Disk SEW 68 HD HH		C6388-69005
+C6390A		 D	 4 GB Disk WD 68 HD HH		C6390-69002
+C6391A		 R	 4 GB Disk WD 68 HD HH		C6391-69002
+C6392A		 D	 9 GB Disk SE 50 HD HH		C6392-69002
+C6393A		 R	 9 GB Disk SE 68 HD HH		C6393-69002
+C6394A		 D	 9 GB Disk SEW 68 HD HH		C6394-69002
+C6396A		 D	 9 GB Disk WD 68 HD HH		C6396-69002
+C6397A		 R	 9 GB Disk WD 68 HD HH		C6397-69002 
+
+
+
+D = Desktop Device Module (includes base chasis, device, PS, fan, E-Pac, front bezel, I/O bezel w/push ID switch and dual high-density 50 or 68-pin SCSI connectors, top Cover, power cord
+
+E = Empty 2U/3U Enclosure
+
+R = Rack Ready Device Module (D minus rubber feet, add locking lever, and single high Density 68-pin SCSI-2 connector to interface with high-density 68-pin blind-mate Connector on rear of 2U/3U rackmount enclosure)
+
+F = Factory-Integrated 2U/3U rack-mounted enclosure ( empty or includes R in 1.1 or 1.6 meter EIA cabinet)
+
+SE = Single-Ended Narrow
+
+SEW= Single-Ended Wide
+
+WD = Wide Differential
+
+ND = Narrow Differential
+
+HD = High Density PIN
+
+HH = Half Height (2U)
+
+FH = Full Height (3U)
+
+Narrow devices are SCSI-2
+
+Wide devices are SCSI-3
+
+All device models have dual ports!!!
+
+
+last change: 28.11.2002 Sascha Brzoska, Mass, CRC Ratingen 

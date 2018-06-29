@@ -1,0 +1,133 @@
+******************* Product / Case Handling *******************
+All parts and products mentioned on this page are non-RoHS 
+compliant because they were obsolete before July 1st, 2006.
+***************************************************************
+
+==SKILL Product:INFO     Group:INFO                 Sys_flag:y
+== NIO INTERFACES FOR S800 ===================!===============================
+
+++ NIO HPIB Interface ++++++
+NIO HPIB PCA  *28650A*      28650-69004     Z  808/815 & 8X2 only !!
+HPIB Firmware *28650A*      28650-81010 
+Fuse, 5A/125V               2110-0520
+** 
+NIO HPIB PCA  *28650B*      28650-69102        8X7 / HPUX  8.02 required !!
+HPIB Firmware *28650B*      28650-81009 
+Fuse, 5A/125V               2110-0520
+
+++ NIO SCSI/Parallel PCA +++
+NIO SCSI/Parallel PCA       28655-69004     Z 
+Fuse 125V 2A                2110-0517
+IO_DC Rom (Rev. 4)          28655-81004
+Terminators (on PCA)        1810-0676
+SCSI SE Terminator          1252-3920
+SCSI Standoff Jackscrew     5180-1344          Rund, Schlitz mit Innengewinde
+SCSI Standoff Jackscrew     0380-4123          Sechskant mit Innengewinde
+
+++ NIO SCSI Fast/Wide PCA ++
+HP-PB F/W Diff. SCSI PCA    28696-69104     
+ 
+**
+SCSI III-Terminator         C2905A
+Cable  0.9m 68 Pin          A2095-62019
+Cable  2.5m 68 Pin          A1658-62020
+Cable  5.0m 68 Pin          A1658-62021
+Cable 10.0m 68 Pin          A1658-62022
+Cable  2.0m 68 Pin Ext.     5181-8690
+Cable  5.0m 68 Pin Ext.     5181-8687
+Cable 10.0m 68 Pin Ext.     5181-8685
+Cable  2.0m 68 Pin V-Cable  5181-8686
+
+++ NIO GPIO 28651A +++++++++
+NIO GPIO PCA                28651-69001
+
+++ NIO LAN 28652A ++++++++++
+NIO LAN PCA (802.3)         28652-69005     Z  808/815 & 8X2 only !!
+**                                             incl. in 36967A # 20N Product.
+
+++ NIO LAN 28604A ++++++++++
+NIO LAN PCA (802.4)         28604-69001        808/815 & 8X2 only ??
+
+++ NIO LAN 28640A ++++++++++
+NIO LAN PCA (802.3)         28640-69001     Z  8X7 / HPUX 8.02 requiered !!
+**                                             incl. in J2146A Product.
+
+++ NIO LAN A3495A 100BaseT++
+NIO LAN PCA (802.3u)	    A3495-69301     Z  HPUX 10.10 + patch required!!
+
+++ NIO LAN J2166A ++++++++++
+NIO Token Ring PCA (802.5)  28625-69003     Z  8X7 / HPUX 8.02 requiered !!
+Loopback Connector          5061-2550
+
+++ NIO J2157A FDDI Adapter +
+FDDI/800 HP-PB Adapter      28670-69001       SINGLE ATTATCHED
+FDDI/800 HP-PB Adapter      28670-69101       DUAL ATTATCHED
+** Cable, ST - MIC, 10m     1005-0180       
+Cable, MIC - MIC, 10m       1005-0179
+** MIC Loopback             1005-0305       
+
+++ NIO J2804A (MMF) Adapt.++ 
+ATM /155 Network Card       J2804-69001       (MMF) Optical connect card
+SC-to-SC duplex cable       503140-x
+SC-to-ST duplex cable       503137-x
+Loopback connector          503141-1          for Duplex SC interface
+
+++ NIO PSI Interface +++++++
+NIO PSI PCA                 28606-69001     Z 
+RS366 MALE CABLE            28606-63004
+RS449 MALE CABLE            28606-63005
+RS232/V.28 MALE CABLE       28606-63006
+V.35 MALE CABLE             28606-63008
+
+++ NIO MUX 40299B ++++++++++
+8-Port MUX PCA              40299-69021     Z 
+Cable, MUX to ADP I         40299-60003
+Panel, RS-232-C             5063-2770       
+Panel, RS-422               5063-2771       
+
+++ NIO MUX J2092A ++++++++++
+** 16-Port MUX PCA          J2092-69001     Z RS-232-C Direct Connect
+16-Port MUX PCA             J2092-69011
+Link-Cable (2 x 8-Ports)    5062-3100         ** New Parts **
+RJ45 DDP Panel (16 Ports)   0950-2431         ** New Parts **
+DB25 DDP Panel              5181-2085         ** New Parts **
+**
+Link-Cable (2 x 8-Ports)    5062-3052         ** Old Parts ** 
+DDP-Panel (8-Port)          5062-3066         ** Old Parts **
+
+++ NIO MUX J2093A ++++++++++
+** 16-Port MUX PCA          J2093-69001     Z RS-423-A Direct Connect
+16-Port MUX PCA             J2093-69011
+Link-Cable (2 x 8-Ports)    5062-3100         ** New Parts **
+RJ45 DDP Panel (16 Ports)   0950-2431         ** New Parts **
+DB25 DDP Panel              5181-2085         ** New Parts **
+**
+Link-Cable (2 x 8-Ports)    5062-3052         ** Old Parts **
+DDP-Panel (8-Port)          5062-3066         ** Old Parts **
+
+++ NIO MUX J2094A ++++++++++
+** 16-Port MUX PCA          J2094-69001     Z RS-232-C Modem Connect
+16-Port MUX PCA             J2094-69011
+Link-Cable (2 x 8-Ports)    J2094-60004
+ADP II-Panel (8-Port)       5062-3054
+
+++ NIO MUX J2096A ++++++++++
+** 32-Port MUX PCA          J2096-69001       RS-232-C Direct Connect
+32-Port MUX PCA             J2096-69011
+Four Branch Link cable      8120-6162         ** New Parts **
+RJ45 DDP Panel (16 Ports)   0950-2431         ** New Parts **
+DB25 DDP 19"                5181-2085         ** New Parts **
+
+++ NIO FL-Inter. 28615A ++++ 
+NIO FL Adapter Card         28615-69004     Z **HPUX 9.0 or later requiered**
+30m Fiber-Optic Cable       1005-0078
+P-Bus Terminators           5061-3151         in OISE auf 2EA setzen !!
+** P-Bus Tester             5061-3200       
+
+++ NIO FL-Inter. A1749A ++++
+PBA Channel Span Adapter    A1700-60005
+HP-FL Interface             5062-3308       Z 
+Fiber Optik Cable, 30m      1005-0078
+P-Bus Terminator            5061-3151         in OISE auf 2 EA setzen !!
+
+

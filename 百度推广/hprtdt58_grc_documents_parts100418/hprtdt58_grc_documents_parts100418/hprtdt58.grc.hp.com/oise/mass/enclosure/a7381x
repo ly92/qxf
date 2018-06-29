@@ -1,0 +1,118 @@
+******************* Product / Case Handling *******************
+All parts and products mentioned on this page are non-RoHS compliant because they were obsolete before July 1st, 2006.
+***************************************************************
+
+==== A7381A HP StorageWorks Disk System 2110 ===========
+
+IMPORTANT:
+
+The A7381A DS2110 Storage Enclosure is NOT supported on the 
+A7173A Dual Channel Ultra 320 Host Bus Adapter.
+Configuring an A7381A StorageWorks Disk System DS2110 to an 
+A7173A Ultra 320 Host Bus Adapter will cause data integrity issues.
+Therefore, the A7381A is not a supported device for connection to an A7173A HBA.
+
+
+INTRODUCTION
+
+
+HP is pleased to announce the new HP StorageWorks Disk System 2110. 
+The StorageWorks Disk System 2110 (ds2110) is a four-drive, external, 
+1U storage solution. This entry-level, rack-optimized enclosure features
+open system compatibility with UNIX, Linux, and Microsoft Windows Operating Systems.
+The StorageWorks ds2110 has four hot-pluggable drive slots, with individual
+disk capacities from 18 GB to 146 GB. The StorageWorks ds2110 provides a storage
+capacity of up to 584 GB (with four 146-GB drives).
+
+The StorageWorks Disk System 2110 is available in five four-drive enclosure models, as follows:
+
+	Part Number A7381A: Field rack with a minimum of one disk 
+	Part Number A7381AD: Desktop with a minimum of one disk 
+	Part Number A7381AZ: Factory rack with a minimum of disk 
+	Part Number A7381AE: Field rack with empty enclosure 
+	Part Number A7381ED: Desktop with empty enclosure
+
+
+FEATURES
+
+Key features of the StorageWorks Disk System 2110 are as follows:
+
+- Ultra320 SCSI low-voltage differential (LVD) support
+  (provides maximum data transfer rates of 320 MBps per channel) 
+- 1U rack height (with Rittal/HP System E Solution Racks, 2U with original rack solution) 
+  Support for one to four Ultra320 disk drives 
+- Maximum storage capacity of 584 GB of data per enclosure (using four 146-GB disk drives) 
+- Space for maximum of 42 enclosures in one 42U rack
+  (maximum single rack storage capacity of 24.5 terabytes of disk storage) 
+- Hot-pluggable disk drives 
+- Easy removal of drives for better serviceability (no tools required) 
+- Backward compatibility with existing Ultra160 disks and host bus adapters (HBAs)
+
+==========================================================================================
+
+For the Disk System 2110, use only 0.5-meter cable between enclosures in
+daisy-chain configurations. Longer cable lengths between enclosures are not
+supported.
+
+For the Disk System 2100, the overall SCSI bus length cannot exceed
+12 meters. For the Disk System 2110, the overall SCSI bus length cannot
+exceed 9 meters.
+
+The SCSI bus length for the disk system internal cables is 1.1 meters. If
+another type of peripheral is being connected on this SCSI bus, refer to that
+peripheral’s documentation for its internal SCSI cable length.
+
+==========================================================================================
+
+  Drive Addressing
+  ----------------
+
+              | BOX |            SCSI ADDRESS
+              | ID# | Slot 1 | Slot 2 | Slot 3 | Slot 4 |
+              |=====|========|========|========|========|
+              |  A  |    0   |    2   |    4   |    6   |
+              |  B  |    8   |   10   |   12   |   14   |
+              |  C  |    9   |   11   |   13   |   15   |
+
+                     Table:  Disk Slot SCSI ID Map
+
+===========================================================================================
+
+
+Spare parts for the StorageWorks Disk System 2110 are as follows:
+
+A7381A Base Disk Assembly  A7381-69001  (Exchange part number)
+A7381A Base Disk Assembly  A7381-67001  (Replacement part number)
+
+
+the supported Ultra320 disks :
+
+18-GB  (15,000 rpm)     A7328-69001  (A7328A)  LVD SE ST318453LC
+36-GB  (10,000 rpm)     A6571-69001  (A6571A)  LVD SE ST336607LC
+36-GB  (15,000 rpm)     A7329-69001  (A7329A)  LVD SE ST336753LC
+73-GB  (10,000 rpm)     A7285-69002  (A7285A)  LVD SE ST373307LC
+73-GB  (15,000 rpm)     A7286-69001  (A7286A)  LVD SE ST373453LC
+146-GB (10,000 rpm)     A7287-69002  (A7287A)  LVD SE ST3146807LC  (old A7287-69001)
+
+Disk slot filler        A6198-60002 
+
+
+Supported HP Cables and Terminators
+
+C2978B 0.5-meter  HDT S68 SCSI multimode cable 5183-2670
+C2911C 1.0-meter  HDT S68 SCSI multimode cable 5183-2671
+C2979B 1.5-meter  HDT S68 SCSI multimode cable 5183-2672
+C2924C 2.5-meter  HDT S68 SCSI multimode cable 5183-2673
+C7521A 5.0-meter  HDT S68 SCSI multimode cable 5183-2678
+C2361B 1.0-meter VHDT S68/HDT S68 SCSI multimode cable 5183-2674
+C2362B 2.5-meter VHDT S68/HDT S68 SCSI multimode cable 5183-2675
+C2365B 5.0-meter VHDT S68/HDT S68 SCSI multimode cable 5183-2676
+
+C2364A SCSI Terminator LVD/SE HDTS68 5183-2657
+
+
+
+
+
+
+last update: 30.03.04 Herbert Meiske, SC HW TEAM, CRC Ratingen

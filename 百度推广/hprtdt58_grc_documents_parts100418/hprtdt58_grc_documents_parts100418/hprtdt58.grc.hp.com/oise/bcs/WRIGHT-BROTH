@@ -1,0 +1,97 @@
+******************* Product / Case Handling *******************
+This server is non-RoHS compliant because it was obsolete before July 1st, 2006.
+
+However, you may order a compliant part for a non-compliant server
+in case the non-compliant part is unavailable.
+The ROHS status of a part is UNKNOWN unless marked with "(compliant)" or "(noncomp)".
+***************************************************************
+
+== 9000/E-Class === Wright-Brothers ===========|===============================
+
+++
+++ TAPE-DRIVES +++++++++++++
+MECH, QIC 525 MB            D2034-69006
+++
+MECH, QIC 1 GB              A2944-69001
+++
+MECH, DDS DRIVE (2 GB)      C1503-69201     Z  LED's nebeneinander !!
+F/W Rev 10.7                C1503-89211     
+++
+MECH, DDS DRIVE (4-8 GB)    C1504-69201     Z  LED's nebeneinander, DCLZ !!
+F/W Rev 10.7                C1504-89215     
+++
+MECH, DDS DRIVE (8-16GB)    C1539-67203     Z  LED's nebeneinander, DDS-2 !!
+++
+MECH, 8mm DDS Format, 5 GB  A3024-69001
+
+++ PROCESSOR PCA's +++++++++
+Processor PCA, 48 MHz       A2051-69106        E25
+Processor PCA, 64 MHz       A2051-69007        E35
+Processor PCA, 80 MHz       A2051-69005        E45
+Processor PCA, 96 MHz       A2051-69108        E55
+
+
+++ BACKPLANE's +++++++++++++
+Backplane,  2-slot          A2051-66504        old part = A2051-69004
+Backplane,  4-slot          A2051-69003
+Batterie fuer NV RAM        1420-0314 
+
+
+++ MULTIFUNCTION I/O +++++++
+Multi I/O UX                A1703-69042     Z  8/16 MUX/SCSI/CENTRONICS
+Fuse  125 V 2 A             2110-0517
+** SCSI IODC ROM            A1703-81022        for A1703-69022/-69032	
+MUX  IODC ROM               A1703-81031        for A1703-69022/-69032 
+Cable, 8-port to ADP II     5062-3074          
+Cable, 16-port to ADP & DDP A1703-69305     Z 
+ADP II                      5062-3054       (labled: MDP)   
+DDP                         5062-3066
+DDP, 16 Channel             0950-2431
+
+++ MEMORY PCA's ++++++++++++
+8  MB Memory Board, SIMM    A2578-69001
+16 MB Memory Board, SIMM    A2576-69001        NEW BOARD!
+32 MB Memory Board, SIMM    A2575-69001
+64 MB Memory Board, SIMM    A3131-69001
+
+++ DISK-DRIVES +++++++++++++ 
+SCSI, 535 MB DRIVE, 3.5"    A2958-69001     Z  **         ** Prod. A2958A
+SCSI, 1.0 GB DRIVE, 3.5"    C2247-69365     Z  ** C2247M1 ** Prod. A2445A
+SCSI, 2.0 GB DRIVE, 3.5"    C2490-69365     Z  **         ** Prod. A3087A
+SCSI, 1.0 GB Slimline       A3182-69001        ** DEC/SEAGA. Prod. A3182A
+SCSI, 2.0 GB DRIVE, 3.5"    A3191-69001     Z  **         ** Prod. ST1240N
+SCSI, 4.0 GB                A3352-69003				   ST34572N
+SCSI, 9,0 GB                A5544-69002
+SCSI,18.0 GB Drive  SE      A5545-69001     
+SCSI,36.0 GB DRIVE  SE      A5546-69001
+TERMINATOR SCSI II          1252-3932          High Density
+TERMINATOR SCSI II          1252-3920          Low Density 
+
+++ CD-ROM DRIVE ++++++++++++
+** CD-ROM Drive 3401A       A1658-69001        A3086A TOS XM3401A/B
+CD-ROM Drive                D2992-69002        A3184A TOS XM4101TA/S
+CD-ROM Caddy                C2293-80001
+
+++ FLOPPY DRIVE ++++++++++++
+Floppy Drive, 1,44 MB       A2942-69001
+
+++ MEDIA +++++++++++++++++++
+60m  Tape DDS               92283A             5 Tapes
+90m  Tape DDS               92283B             5 Tapes
+120m Tape DDS               92300A             5 Tapes
+525 MB QIC Tape             D2510A             5 Tapes
+
+++ CLEANING ++++++++++++++++
+Cleaning DDS-Tape           92283K      
+
+++ NON-EXCHANGE ASSEMBLIES +
+Power Supply                0957-0077          incl. PCM & FAN; no Battery
+DC ON/OFF SWITCH	    A1703-60015
+
+Bkpl Clip Right             A1703-40006 
+Bkpl Clip Left              A1703-40007 
+SCSI Cable Internal (1,5m)  A1703-63007        Standard Chassis
+2 Slot Card Guide           A1703-40008
+** 3 1/2 Disk Brkt          A1703-00010 
+    
+

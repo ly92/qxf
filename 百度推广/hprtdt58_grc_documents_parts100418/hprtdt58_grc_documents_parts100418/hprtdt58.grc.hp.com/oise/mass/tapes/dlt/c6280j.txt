@@ -1,0 +1,29 @@
+******************* Product / Case Handling *******************
+All parts and products mentioned on this page are non-RoHS compliant because they were obsolete before July 1st, 2006.
+***************************************************************
+
+== SKILL Product:DLT Changer  Group:RIALTO ==
+== C6280J  HP DLT Autoloader Model 718 (Single-ended SCSI interface) ==
+
+Description    			Part Number
+______________________________________________________________________	
+
+C6280F Unit Exchange		C6280-69007 
+Magazine			C6280-60026 
+Packaging Kit        		C6280-60099 
+SCSI Jumper Cable		C6280-60070 
+Adaptec 2940UW Adap  		C5170-60015
+68 Pin SE Terminator 		5183-2408
+2M DIFF SCSI CBL 		C6282-61606    
+SCSI IFC Cable      		5183-2422   
+______________________________________________________________________
+C6287J Rackmount Kit (HP) 	C6287-67901
+C6287F Rack Mount Kit (non-HP)  C6287-67911
+C6288J Magazine no media        C6280-60026
+C6289J Magazine w/6 pieces media
+C5141F Type IV media            C5141-85701
+C5142A DLT Cleaning Cartridge   C5142-85700
+______________________________________________________________________
+last change: 03.01.02 Frank Skibbe, MC TEAM, CRC Ratingen 
+ 
+  

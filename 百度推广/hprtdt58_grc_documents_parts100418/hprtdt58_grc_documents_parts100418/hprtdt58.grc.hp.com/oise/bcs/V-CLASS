@@ -1,0 +1,129 @@
+******************* Product / Case Handling *******************
+This server is non-RoHS compliant because it was obsolete before July 1st, 2006.
+
+However, you may order a compliant part for a non-compliant server
+in case the non-compliant part is unavailable.
+The ROHS status of a part is UNKNOWN unless marked with "(compliant)" or "(noncomp)".
+***************************************************************
+
+== 9000/Vxxx === Lancelot === V-Class =====================================
+======= V2200 / V2250 / V2500 / V2600 =====================================
+
+++ PROCESSOR PCA'S
+200Mhz. Processor Board     A3727-69001  V2200
+240Mhz. Processor Board     A5066-69001  V2250
+440Mhz. Processor Assy Kit  A5492-69002  Processor w/heat pipe,socket,dust cover ** V2500
+EWPB 0-WAY Processor Board  A5492-69001  Processor Board, without processor/s ** V2500 
+552MHz Processor Assy Kit   A5826-69002  Proc. w/heat pipe, socket, dust cover  ** V2600
+ELPB 0-way Processor Board  A5826-69001  Processor Board, without processor/s ** V2600 
+
+
+++ SYSTEM BOARDS +++++++++++
+Node Routing Bd. w/gate arr.A3726-69005  V22X0  
+CORE UTILITY BOARD          A4700-69009  ECUB3
+ENRBPB2                     A4700-69010  NODE ROUTING BRD. POWER BOARD     
+ASSY, EPAC4, GATE ARRAY KIT A4700-67093
+ 
+MIB, NODE ROUTING BOARD     A5074-69002  with GATE ARRAYS
+                                         There are no Gate Array Replacement Kits for V2500
+SCUB, CORE UTILITY BOARD    A5074-69103
+ENRBPB2                     A4700-69010  NODE ROUTING BRD. POWER BOARD 
+
+
+++ MEMORY SYSTEM +++++++++++
+++ 80-BIT Single node ++
+EWMB 256MB DIMM             A5087-69001  V2500 only!!!
+ELSB, 128mb Memory DIMM     A4828-69101  64MB/64MB
+EPMB32, 32mb Memory DIMM    A4777-69001  16MB/16MB
+
+++ 88-Bit Multi node ++
+EWMB 256MB DIMM             A5088-69001  V2500 only!!!
+ELSB, 128mb Memory DIMM     A4703-69001
+EPMBM32, 32mb Memory DIMM   A4700-69012
+
+MEMORY BOARD, (NO DIMMS)    A4700-69002  EMAC has to be ordered seperatly
+EMAC6, GATE ARRAY KIT       A4700-67085  V22x0
+EMBPB MEMORY / POWER BOARD  A3730-69002  V22X0  
+EWMP,MEMORY BOARD           A5517-69003  V2500 W/SMAC WO/DIMMS 
+EWMBPB MEMORY / POWER BOARD A5078-69004  V2500
+
+
+++ I/O SYSTEM ++++++++++++
+SUBASSY, I/O PCI CARDCAGE   A3729-69001  V22X0
+EIOB Board                  A4700-69084
+SUBASSY, I/O PCI CARDCAGE   A5080-69001  V2500 W/EMC,W/SIOB,W/SIOBPB,W/SAGA GATE
+
+
+++ INTERFACES ++++++++++++++
+PCI-SCSI3,DIFF ULTRA/WIDE   A4800-69002
+PCI-10/100 BASE LAN ADAPTOR A3738-69001
+PCI 100BASE-FX LAN ADAPTER  A5172-60001
+PCI-FDDI LAN ADAPTOR        A3739-69001
+PCI-FIBRE CHANNEL 1062Mbs   A3740-69101
+PCI-4 PORT SYNCHRONOUS      5063-1322
+PCI HyperFabric ADAPTOR     A4919-69001
+PCI Token Ring Adapter      A5783-60101
+
+
+
+++ DISK-DRIVES +++++++++++++
+9GB,Ultra SCSI, Seagate     A5065-69001  w/HP0x firmware   
+DISK 18GB,HVD Ultra SCSI    A5490-69001
+DISK 18GB,LVD Ultra SCSI    A5084-69001
+
+++ TAPE-DRIVES +++++++++++++
+DDS-3, 4MM DAT DRIVE m      C1537-67201    
+
+
+++ CD-ROM Drive ++++++++++++
+CD-ROM Drive 12x            A1658-60025        
+
+
+++ CABLES, SCSI ++++++++++++++++++++
+internal SCSI cabling:
+http://hprtdt58.grc.hp.com/documents/systems/vclass/etc/v_scsi.htm
+
+CABLE,LVD SCSI CNTRL TO BULKHEAD	5183-3541
+Assy,CBL SCSI DIFF S/E Rear UA  	A4700-67026
+Assy,CBL-SCSI Disk TRY			A4700-67027 
+68 to 50 pin single ended connector	A4700-67088	or 5064-4688
+
+5-meter SCSI inline cable   A4801-63004
+10-meter SCSI inline cable  A4801-63002
+2x5-meter V inline cable    A4801-63010
+2x3-meter V inline cable    A4801-63012 
+Terminator for PCI-Card     A4700-67098 Special 68-pin Terminator for PCI-SCSI
+                                        Card.
+
+++ TESTSTATION ++++++++++++
+TEST STATION 712 CPU        A4802-69004  w/HP-UX 10.20 (repl. old A4802-69001)
+712/100Mhz CPU              A4802-69005  Encl. w/HP-UX 10.20,TS S/W  
+17" MONITOR                 A4490-69001  
+  Cable,Video for U VGA     D2800-80006   
+MOUSE                       1150-5019
+
+** Teststation 712 may no longer available !! see service note A3726A-42
+** If you need a Teststation for V22x0, order a B180L and change TS-SW to 5.2
+
+
+SSP B180L CPU               A5489-69001  encl. w/HP-UX 10.20, TS S/W 
+19" MONITOR, B180L, NH      D2843-69001  19" MONITOR, B180L, NH
+Mouse                       A1658-62147
+
+
+++ SCA specials +++++++++++
+Cable SCI Y-Ring 72         A4700-67072 
+
+
+++ MISC +++++++++++++++++++
+PWR SUP, 48VDC@1950w NPS    A3733-69101  V22x0 only  (Online replacement: switch off - replace - switch on)
+PWR SUPPLY, 180-265VAC      A5079-69101  V2500
+PANEL KIT  4 SIDES & TOP    A5074-62011 
+Socket 889 Contact-LGA      A4700-67082
+Assy LGA889 Backing Plate   A4700-67003
+TORQUE SCDR.1-30 IN/LBS     A3726-30001
+ELEDB Bd Assy               A3726-67003  LED-Leiste fuer environmental infos
+Leveling feet               A3726-67009  Leveling leg & Mounting bracket
+FAN rear 48V                A3726-67002  V22X0
+TUBEAXIAL FAN               A5074-62008  V2500  HOT-Swap
+Front Panel Cable           A4700-67054  with Key Lock & Key

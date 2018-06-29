@@ -1,0 +1,97 @@
+============================================================================
+Kauai - BL860C i2 / BL870C i2 / BL890C i2 - 
+============================================================================
+
+Boards
+
+BL8x0c i2 Base Unit  			AD399-6901C
+disk SAS backplane 			AD399-67009
+ICH Mezz Card with TPM			AD399-69013
+ICH Mezz Card witout TPM		AD399-69014
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Memory
+2 GB  DDR3 memory DIMM  		AM326-69001
+4 GB  DDR3 memory DIMM 			AM327-69001
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Processors
+
+Intel Itanium Quad Core 1.86GHz/24MB	AH339-6918A  includes CPU Heatsink
+Intel Itanium Quad Core 1.73GHz/20MB 	AH339-6917A  includes CPU Heatsink
+Intel Itanium Quad Core 1.46GHz/16MB 	AH339-6915A  includes CPU Heatsink
+Intel Itanium Dual Core 1.6GHz/12MB 	AH339-6914A  includes CPU Heatsink
+
+CPU Heatsink				612269-001 
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Internal Disks
+
+72 GB, 15k RPM SAS hot-plug dual-port disk 	512743-001
+
+146 GB, 10k RPM SAS hot-plug dual-port disk	507283-001
+146 GB, 15K RPM SAS hot-plug dual-port disk 	512744-001 
+
+300GB, 10k RPM SAS  hot-plug dual-port disk 	507284-001
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Mezzanine Cards
+
+HP BLc QLogic QMH2562 8Gb FC HBA		455869-001 
+HP BLc Emulex LPe1205 8Gb FC HBA		456978-001
+HP BLc NC364m NIC Adapter			448066-001
+HP BLc NC360m NIC Adapter			448068-001
+HP BLc NC532m NIC Adapter			466308-001
+HP 4X DDR IB Dual Port Mezz HCA Option Kit	519133-001
+HP Smart Array P700M/512MB Cntrlr		510026-001 
+HP Smart Array Battery for P700M 	 	409124-001
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Cables
+
+Local I/O cable (SUV) 				416003-001  (alternative: 409496-001)
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+SBLs
+
+SBL1 BL860c i2					AD399-67002
+SBL2 BL870c i2 odd slot C7000/C3000		AD399-67003
+SBL2E-M BL870c i2 even Slot C7000		AD399-67010 
+SBL2E-S BL870c i2 even Slot C3000		AD399-67011
+SBL4-M BL890c i2 C7000				AD399-67003
+SBL4-S BL890c i2 C3000				AD399-67006
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Miscellaneous
+
+Air baffle, CPU	(dust cover)			AD399-2134A
+Air baffle, Memory 				AD399-2128B
+System Chassis 				        AD399-2102F
+Top cover, chassis 				AD399-2101B
+System battery  				1420-0356   (3 V .22 A HR LI manganese dioxide) (alternative: 153099-001   // 234556-001)
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+MultiBay DVD-ROM (PA849A)			373314-001
+MultiBay DVD/CD-RW Combo Drive (PA850A)		373315-001
+MultiBay DVD+/-RW Drive (PA851A)		375557-001 
+
+SPS-CRADLE,SLIM MULTIBAY (PA509A)		367621-001  
+SPS-CA,AC PWR					367870-001
+SPS-PLGS,AC ADPTOR				379246-001
+SPS-CA,USB,EXT,MB PWR+STND			367622-001
+
+
+
+
+---------------------------------------------------------------------------------------
+Creator: Joerg-Udo Werner Last Update: 10.03.2010 Joerg-Udo Werner
+---------------------------------------------------------------------------------------

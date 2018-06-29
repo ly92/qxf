@@ -1,0 +1,125 @@
+******************* Product / Case Handling *******************
+This server is non-RoHS compliant because it was obsolete before July 1st, 2006.
+
+However, you may order a compliant part for a non-compliant server
+in case the non-compliant part is unavailable.
+The ROHS status of a part is UNKNOWN unless marked with "(compliant)" or "(noncomp)".
+***************************************************************
+
+== 9000/Axxx === A-Class =================|===============================
++++ A180 +++
+A-Class Base Unit           A5182-69201 Incl. Chassis, Backplane, Processor,
+                                                        Power Supply, Fans
+1MB L2 Cache Upgrade        A5187A      no Partnr. available 11.11.98
+
+++ I/O SYSTEM A180: ++++++++++++
+Remote Management Card      A3262-69311 Access Port
+PCI FW SCSI card            A4800-69002     l  port fast wide ultra1
+PCI FW SCSI card            A5159-69001 dual   port fast wide ultra1
+HSC 100BaseT card           J3516-69004 dual port
+HSC FW SCSI card            A2874-69006 BlueFish
+
+
+-----------------------------------------------------------------
+
+A400/A500/rp24x0
+
+Crescendo Sys. Board Rev. B A5570-69316 A400/A500 Revsion B  A5570B/A6109B
+                                        run ss_update before use as A500
+                                        old RevA board A5570-69001 non orderable
+(order VDETester for power supply, fan assy or system board replacement: NHP%VDE0701)
+Crescendo GSP (Tosca)       A5570-69002 A400/A500     (Maestro not supported on Crescendo)
+Harmony System Board        A6889-69101 rp2430/rp2470
+(order VDETester for power supply, fan assy or system board replacement: NHP%VDE0701)
+Harmony GSP (Maestro)       A6889-69102 rp2430/rp2470 (Tosca not supported on Harmony)
+Power-Supply                A5570-69009 A400/A500
+(order VDETester for power supply, fan assy or system board replacement: NHP%VDE0701)
+
+CPU PA8600 440MHz           A5571-69001 A400/A500 (Crescendo)
+CPU PA8600 550MHz           A6148-69001 A500      (Crescendo)
+CPU PA8700 650MHz           A6891-69001 rp2430/rp2470 (Harmony)
+CPU PA8700 750MHz           A6892-69001 rp2470        (Harmony)
+
+Harmony CPU FAN Controller  A6889-62005 Service Note A6889A-09A/A6890A-09A
+
+Runwaybus Terminator        A5570-62014 Crescendo (same Part as in L-1000/L2000)
+Runwaybus Terminator        A6889-67003 Harmony
+
+CLEANING KIT
+If just replacing a CPU  use   A3639-67035  contains: 4 individually wrapped alcohol wipes.
+For system board replacement or moving a CPU use the Cleaning Kit.     
+CLEANING KIT                   A3639-70101   contains: 4 CPU Sockets, 4 thermstrate pads, 4 EMI O-rings, 1 IPA wipe & cleaning manual
+CPU PCX-W SOCKET               1253-0703     just one single CPU-socket
+
+
+============================================================
+
+Power System:
+Power-Supply                A5570-69009 A400/A500/rp2430/rp2470
+(order VDETester for power supply, fan assy or system board replacement: NHP%VDE0701)
+DC-DC Converter - Master    0950-3821   A400/A500/rp2430/rp2470
+DC-DC Converter - Slave     0950-3822   A400/A500/rp2430/rp2470
+
+============================================================
+
+PCI I/O Backplane           A5570-66003 A400/A500
+Disk Media Backplane        A5570-66004 A400/A500
+Disk Media Backplane        A6889-67004 Harmony
+
+Secure Web Console PCA      A5858-70001 A400/A500 PCI Card A5858A
+Serial Cable for A5858A     A5858-63001 A400/A500  for connecting the PCI webconsole card to
+                                                  the W-cable
+***A5858-63001 ist nicht bestellbar -> The A5858-63001 is a straight-thru cable with a db9 female connector on one end and a db9 male
+on the other -> ERSATZ: C2932A***
+
+
+
+W-Cable Console/UPS/remote  A5191-63001 A400/A500 (gray) for Crescendo (Tosca GSP)
+M-Cable Console/UPS/remote  A6144-63001(noncomp) A6144-63007(compliant) A400/A500 (black) for Harmony (Maestro GSP)
+Disk Ribbon Cable           A5570-63001 A400/A500
+Top Cover Assy              A5570-67007 A400/A500
+P/S Shroud w/ Fans/LED      A5570-00001 A400/A500 all five FANs
+(order VDETester for power supply, fan assy or system board replacement: NHP%VDE0701)
+
+++ MEMORY SYSTEM +++++++++++
+ 64MB SIMM                  A2580-69001 (128MB module) ONLY A180!
+128MB SIMM                  A3398-69014 (256MB module) ONLY A180!
+256MB SIMM                  A3737-69001 (512MB module) ONLY A180!
+128MB DIMM                  A5572-69001 A400/A500
+256MB DIMM                  A5840-69101 A400/A500 This mistakenly appears as 512MB on the part page! it is definitely a 256MB.
+512MB DIMM                  A5841-69001 A400/A500
+1024MB DIMM                 A6114-69001 A400/A500
+
+
+++ DISK-DRIVES +++++++++++++
+A180:
+4 GB SE SCSI, Seagate       A3352-69003
+9 GB SE SCSI, Seagate       A4912-69001 ST39173N or ST39175LW
+9 GB SE SCSI, Seagate       A5806-69002 ST39175LW
+18GB SE SCSI, Seagate       A5560-69001
+Adapter for 18GB Disk       5182-4551   A180
+
+rp24x0:
+9GB Disk Drive              A5505-69001 (hot-plug) ST39102LC, ST39103LC, ST39104LC
+18GB Disk Drive             A5531-69003 (hot-plug) ST318203LC, ST318404LC
+36GB Disk Drive             A6089-69001 (hot-plug) ST336704LC
+18GB Ultra 160 SCSI 10k     A6741-69002 (hot-plug) MAN3184MC, ST318406LC
+18GB Ultra 160 SCSI 15k     A6947-69001 (hot-plug) MAM3184MC
+36GB Ultra 160 SCSI 10k     A6742-69002 (hot-plug) MAN3367MC, ST336706LC, ATLAS10K3_36_SCA
+36GB Ultra 320 SCSI 15k     A6948-69002(noncomp) AB424-69001(compliant) (hot-plug) MAM3367MC, ST336753LC
+73GB Ultra 160 SCSI 10k     A6804-69002 (hot-plug) ST373405LC, MAN3735MC
+73GB Ultra 320 SCSI 15k     A8706-69001(noncomp) AB425-69001(compliant) (hot-plug) ST373453LC (Product: A9759A)
+146GB Ultra 320 SCSI 10k    A7075-69002(noncomp) AB426-69001(compliant) (hot-plug) ST3146807LC, MAT3147NC       
+
+++ TAPE-DRIVES +++++++++++++
+external Smart DDS-3        C6364-69004 Product nr. C6364A
+
+++ CD-ROM Drive ++++++++++++
+external Smart 12x CD-ROM   C4310-60017 Product nr. C4310A
+
+++ Secure Web Console J3591A unter WEB-CONSOLE
+
+++ Documents +++++++++++++++
+A400/A500 Electronic Document CD       A5570-10001
+
+last change   14-Nov-2006 by Max Radl

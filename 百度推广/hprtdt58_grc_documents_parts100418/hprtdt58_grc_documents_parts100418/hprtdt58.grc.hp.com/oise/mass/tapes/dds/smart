@@ -1,0 +1,82 @@
+******************* Product / Case Handling *******************
+All parts and products mentioned on this page are non-RoHS compliant because they were obsolete before July 1st, 2006.
+***************************************************************
+
+== SKILL Product:INFO Group:DDS-TAPES            Sys_flag:n
+== SMART FAMILIE RACK und DESKTOP DDS-DRIVE MODULE ====
+== PLUGABLE MODULE!! Smart-DDS Drives are available within CSR !!!!
+== These parts are complet, include housing and powersupply !!
+++ PARTS SMART RACKMODUL / 68 Pin HD +++++++++++++++++++
+
+****
+DDS
+****
+HP Product 		Part Number	ID-STRING 
+Number     |
+-----------------------------------------------------------------------------
+C6360A			C6360-69007	
+-----------------------------------------------------------------------------
+C6362A			C6362-69002	HPC1533A DDS-2 Desktop SE 50HD HH
+-----------------------------------------------------------------------------
+C6363A	 C4317RZ#102	C6363-69002	HPC1533A DDS-2 Racked  SE 68HD HH
+-----------------------------------------------------------------------------
+
+C6364A			C6364-69004	HPC1537A DDS-3 Desktop SE 50HD HH
+-----------------------------------------------------------------------------
+C6365A	 C4317RZ#103	C6365-69002	HPC1537A DDS-3 Racked  SE 68HD HH
+-----------------------------------------------------------------------------
+
+C6366A			C6366-69006	HPC1537A DDS-3 Desktop SE 50HD FH Autoloader  
+-----------------------------------------------------------------------------
+C6367A	 C4318RZ#104	C6367-69002	HPC1537A DDS-3 Racked  SE 68HD FH Autoloader
+-----------------------------------------------------------------------------
+
+C6368A			C6368-69001	C5683A   DDS-4 Desktop LVD 68HD HH
+-----------------------------------------------------------------------------
+C6369A	 C4318SZ#110	C6369-69001	C5683A   DDS-4 Racked  LVD 68HD HH
+-----------------------------------------------------------------------------
+
+C6370A			C6370-69001	C5683A   DDS-4 Desktop LVD 68HD FH Autoloader 
+----------------------------------------------------------------------------
+C6371A			C6371-69001	C5683A	 DDS-4 Racked  LVD 68HD FH Autoloader
+-----------------------------------------------------------------------------
+
+C6513A			C6513-69001	HPC1537A
+-----------------------------------------------------------------------------
+C6525A			C6525-69001	HPC1537A
+-----------------------------------------------------------------------------
+C6532A			C6532-69001	HPC1533A
+-----------------------------------------------------------------------------
+C6533A			C6533-69001	HPC1533A
+-----------------------------------------------------------------------------
+
+Additional Information:
+=======================
+Desktop Drive  Accessories :
+SE SCSI Terminator           C2904A              50PHD
+SE   1m SCSI Cable           C2908A              50PHD/50PHD
+SE   2m SCSI Cable           C2957A              50PHD/50PHD        
+SE 1,5m SCSI Cable           C2367A              68VHDCI/50PHD
+SE 2,5m SCSI Cable           C2368A              68VHDCI/50PHD
+
+
+
+Rack Device Accessories :
+WSE SCSI Terminator         C2972A              68PHD Wide Single Ended
+LVD SCSI Terminator         C2364A              68PHD LVD/SE 
+FWD SCSI Terminator         C2905A              60PHD Fast Wide Differential
+SE 1m SCSI Cable            C2906A              50PHD/68PHD
+SE 2m SCSI Cable            C2961A              50PHD/68PHD
+
+
+Warning:
+========
+Fast-Wide-Differential and Ultra-Wide SE use identical connectors. However,
+connecting a Fast-Wide-Differential device to an Ultra-Wide SE SCSI port will
+cause the bus shut down. It will appear to hang the system or the system
+will display an error message.
+Using Ultra SCSI SE also limits the cable length to 3 meters with a maximum
+of 4 devices attached.
+
+Last Update: 06.08.2001
+Frank Skibbe ASCE MC Team

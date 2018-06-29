@@ -1,0 +1,36 @@
+******************* Product / Case Handling *******************
+All parts and products mentioned on this page are non-RoHS compliant because they were obsolete before July 1st, 2006.
+***************************************************************
+
+==SKILL Product:C1522    Group:DDS-TAPES            Sys_flag:n
+== C2984A === 6400/4000DC == 12-24GByte ======!=============================
+
+
+Supported ab 10.X und patches (series 700)
+10.01   PHSS_7583
+        PHSS_7894
+10.10   PHSS_7071
+10.20   PHSS_7759
+
+
+++ PARTS +++++++++++++++++++
+
+DDS 12/24GB DAT DRIVE MECHA C1537-69202     Z 
+
+AC/DC Power Supply          5063-1272
+HP PAC-Bottom               C2953-40002
+HP PAC-Top                  C2953-40003
+Chassis Kit-DAT             C2953-62011
+Rubber Foot                 A2263-40042
+Pedestal                    A2656-40019
+Pedestal Foot               A2655-40025
+50 WAY SCSI CABLE           C1520-61002
+SCSI TERMINATOR             1252-3251
+
+
+++ DOCUMENTATION +++++++++++
+
+Service Handbook            C2944-90017  
+Tchnical Data Sheet         5965-5846E
+C295X/8X DDS/DAT Inst Guide C2953-90003
+

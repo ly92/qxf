@@ -1,0 +1,163 @@
+******************* Product / Case Handling *******************
+RoHS Silent Roll product 
+
+Capture the appropriate Serial Number for use in SAW Unit Configuration, PC Tracker or CSN to determine RoHS product level compliance. 
+
+Products listed as Modified or EMEA-Only are Compliant Products.  All compliant products must comply with the RoHS directives and must be supported with Modified spares.
+
+See http://na2.know.hp.com/teams/RoHS%20Service%20Delivery%20Implementation/default.aspx  
+or email rohsservicedeliveryprogramteam@hp.com for additional information.
+
+If unable to capture the serial number, obtain the purchase or install date from the customer and compare with the compliance date below. 
+
+Compliance Date:  TBD
+
+The parts mentioned on this page are not compliant!
+The Qualifier has to check for parts compliancy himself with the above mentioned tools and is solely repsonsible for this!
+***************************************************************
+== SKILL Product:INFO	 Group:DDS-TAPES
+== Q152xA DAT 72 (DDS-5) mech C7438A  VENICE   === 72GB / nativ 36GB
+
+
+Q1525A  HP DAT 72i Internal Tape Drive Proliant 
+Q1527A  HP DAT 72e Ext Tape Drive Proliant US 
+Q1528A  HP DAT 72e Ext Tape Drive Proliant Intnl
+Q1529A  HP DAT 72h hot plug for Proliant/Alpha 
+
+
+Q1523A : External DDS Standallone 
+--------
+     Includes 68-pin HD to 68-pin VHDCI SCSI cable, 68-pin LVD active terminator,
+     power cord, TapeWare backup software, DAT 72 data cartridge, cleaning cartridge, 
+     and manuals. Customers may also need a SCSI HBA and/or a different cable, depending 
+     on their system requirements. Suitable for PC servers, HP-UX, Sun Solaris, IBM AIX,
+     DEC OSF/1, SCO UNIX, or Macs.
+
+     HP DAT 72e External Tape Drive 72 GB (compressed) DAT 72 tape drive with OBDR. 
+
+
+
+Q1524A : External DDS for Tape Array TA5300 (C7508A)
+--------
+     This drive must be used in conjunction with the HP Tape Array 5300 (C7508A). 
+     Includes DAT 72 data cartridge, cleaning cartridge, TapeWare backup software, 
+     and manuals. All cables and terminators need to be ordered separately. 
+
+     HP DAT 72m Array Module Warm-swap DAT 72 tape drive compatible with Tape Array 5300.
+
+
+
+Q1526A : Bare mechanism only. 
+--------
+     Includes documentation and switch configuration setting guide.
+     Optional 3.5" and 5.25" front panels available.  
+     HP Trade-Ready DAT 72 Tape Drive 72 GB compressed capacity tape drive with OBDR,
+     5.25" half-height form factor, 6 MB/s transfer rate with DC, 
+     LVD Wide Ultra SCSI-2 interface.  
+
+
+
+Server:
+
+      rp24xx series
+      rp54xx series
+      rp74xx series
+      rp8400 series
+   
+recommeded Host Bus Adapter for the above server:
+
+      A6828A    single-channel Ultra-3 SCSI 
+      A6829A    dual-channel   Ultra-3 SCSI 
+      A5838A    dual-channel   Ultra-2 SCSI with a LAN port 
+
+---------------------------------------------------------------------------------
+
+
+recommended Host Bus Adapter for hp 9000 Superdome :
+
+     To connect this tape drive to this server use the
+     HP A5149A single channel Ultra 2 SCSI HBA.
+
+
+
+=================================================================================
+
+Other Notes:
+
+    Please note that to fully support this tape drive the following patch must be
+    added to the operating system on the server: 
+
+    PHKL_29035 for HP-UX 11.i (PA-RISC)
+
+
+   The lab has created 11.00 and 11.11 versions of a new stape
+   patch that is supposed to address this issue.
+   
+   The patch IDs are
+
+
+   [PHKL_29247/PACHRDME/English]  - 11.00  stape patch
+   [PHKL_29248/PACHRDME/English]  - 11.11  stape patch
+
+   [PHKL_29093/PACHRDME/English]    11.00 cumulative SCSI ultra160
+   [PHKL_29035  		    11.11 cumulative SCSI ultra 160 
+
+   
+
+   see also :
+   
+   Target Initiated Negotiation Issue with DAT 40 and DAT 72 Tape Drives
+   
+   The DAT40 and DAT72 tape drives includes Target Initiated Negotiation functionality
+
+   HP-UX fails to see tape drives attached to the following HBA’s:
+
+• HP A6828A - PA-RISC and IA-64 platform Single Channel Ultra 160 HBA
+• HP A6829A - PA-RISC and IA-64 platform   Dual Channel Ultra 160 HBA
+
+Note:  Target Initiated Negotiation is part of the Universal SCSI Specification
+       and is likely to be implemented in all future HP tape drives.
+
+Solution :
+      There are patches available, for the HP-UX tape driver (scsi_c8xx.o),
+      to address the issue.  The patch numbers are as follows:
+
+      HP-UX 11.0      PHKL_29093
+      HP-UX 11.11     PHKL_29035
+      HP-UX 11.23     pending - should come with the updated tape driver at install
+
+
+   Service NOTE : Q1524A-01
+
+
+
+a very useful link : 
+
+             http://www.hp.com/products1/storage/compatibility/tapebackup/
+
+=================================================================================
+
+
+PARTS:
+
+Q1523A  Q1523-69201   DAT 72e / External DDS Standallone 
+Q1524A  Q1524-69201   DAT 72m / External DDS for Tape Array TA5300 (C7508A)
+Q1526A  Q1526-69201   DAT 72m / Bare mechanism only / HP Trade-Ready DAT 72 Tape Drive 
+
+
+
+C8010A  C8010-60010   170m Dat72 data cartridge
+C5709A  C5709-60010   cleaning cartridge
+
+C7423A  C7423-60001   68-pin male to 50-pin male SCSI ribbon cable adapter
+
+
+
+for more details see : http://hprtdt58.grc.hp.com/documents/massstor/dds/dds4_dds5.html
+
+
+
+last update: 02.12.03 Herbert Meiske, MUHW CC TEAM, CRC Ratingen 
+
+
+

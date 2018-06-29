@@ -1,0 +1,178 @@
+******************* Product / Case Handling *******************
+RoHS Silent Roll product 
+
+Capture the appropriate Serial Number for use in SAW Unit Configuration, 
+PC Tracker or CSN to determine RoHS product level compliance. 
+
+Products listed as Modified or EMEA-Only are Compliant Products. All compliant 
+products must comply with the RoHS directives and must be supported with Modified spares.
+
+See http://na2.know.hp.com/teams/RoHS%20Service%20Delivery%20Implementation/default.aspx  
+or email rohsservicedeliveryprogramteam@hp.com for additional information.
+
+If unable to capture the serial number, obtain the purchase or install date from the 
+customer and compare with the compliance date below. 
+
+Compliance Date:  July, 1st 2006
+
+The ROHS status of a part is UNKNOWN unless marked with "(compliant)" or "(noncomp)".
+You may order a compliant part for a not compliant server in case the noncompliant part is unavailable
+
+The Qualifier has to check for parts compliancy himself with the above mentioned 
+tools and is solely repsonsible for this!
+***************************************************************
+
+=========== Superdome ===============
+
+------- System Backplane -----------------------------
+
+ASSY,DLB2 (Dome Lite Backplane)                 A6113-69001  ( 16 Way )
+ASSY,HLSB3( no Power supplies included)		A5201-69301  ( 32 Way )
+ASSY,HRSB2( no Power supplies included)         A5201-69102  ( 64 Way )
+
+
+
+------------------  CELL  ----------------------------
+MODULE HCB3 CELL BOARD( no memory )		A5206-69001
+MODULE HCB4 CELL BOARD( no memory) 500 MHz Cell A5206-69003  (PA-8600)
+MODULE CCB3 CELL BOARD( no memory) 750 MHz Cell A6445-69003  (PA-8700) PDC 32.20
+MODULE HCPB CELL BOARD( no memory) 875 Mhz Cell A6862-69001  (PA-87+ ) PDC 35.3
+BD ASSY DIMM 512MB				A5198-67001  (old part: A5198-69001)
+
+BATTERY, Cell Board 				1420-0386
+
+--------------------Cables ---------------------
+
+CABLE ASSY,500 MHZ CLOCK			A5201-63020
+(Utility Board to Master I/O Backplane)		
+
+CABLE ASSY UGUY-HLSB CLOCK			A5201-63021(noncomp) A5201-63101(compliant)
+Utility Board to Left System Backplane
+
+CBL ASSY, UTILITIES-1 CABLE			A5201-63052
+CBL ASSY, UTILITIES-2 CABLE			A5201-63053
+
+CABLE ASSY RING I/O (old REO-) now (SBA-Cable)	A5201-63066 (note: only a single cable.Order two for REO IN and REO out)
+CABLE, 48V SENSE TO HUCB                        A5201-63111 (see http://ci2005.cup.hp.com/list_details.php?issue=3123 )
+
+*********** 32 way *****************
+
+ASSY, HBFC3(Backplane to Backplane Flex Cable),	A5201-04039  (U-Turn)
+2" includes attaching hardware	
+
+
+*********** 64 way *****************
+
+ASSY, HBFC1(Backplane to Backplane Flex Cable),	A5201-04027(noncomp) A5201-63103(compliant)  
+5" includes attaching hardware			
+
+ASSY, HBFC2(Backplane to Backplane Flex Cable),	A5201-04028(noncomp) A5201-63104(compliant)  
+8" includes attaching hardware			
+		
+USB HUCB to HUCB cable SD64			A5201-63058(noncomp) A5201-63093(compliant)
+
+--------------------I/O -------------------------
+************************************************************************************************
+*  never trust the part number, which is given by CM>df>S>I(or c)                              *
+*  Those numbers are missleading. The FRU NAME field from CM>df>S>I(or c) should be used       *
+*  FRU NAME :GXIOB4 new PCI-X Chassis ; FRU NAME :HIOB3  old PCI   Chassis                     *
+*  FRU NAME :CIO5   new Core I/O PCI-X; FRU NAME :CIO4   old Core I/O                          *
+************************************************************************************************
+
+
+BD ASSY,HMIOB BLKPL MSTR			A5201-67001
+HIOB PCI Card Cage Assy (12 Slot I/O Chassis)	A4856-69101
+BD ASSY,CI04 ( Core I/O) PCI			A5210-69001
+BD ASSY,CIO5 ( Core I/O) PCIX			A6865-69001(noncomp) A5210-69501(compliant)
+
+
+Note: If customer has PCI I/O Chassis then repair / 
+replace with A5210-69001 (CI04)  if available...otherwise use A6865-69001(noncomp) A5210-69501(compliant) (CI05). 
+Please note ..if customer has  PCIX I/O Chassis then you can "only" repair / 
+replace with A6865-69001(noncomp) A5210-69501(compliant) (CI05).	
+
+BD ASSY HCOLB CELL OL*				A5201-67065  ******
+
+
+------------------ Power -----------------------
+
+BD ASSY HBPB2( Halfdome Backplane Power Board)	A5201-69003(noncomp) A5201-69203(compliant)
+PWR ASSY, BPS, (BULK POWER SUPPL)		A5201-69118(noncomp) A5201-69026(compliant)
+PWR ASSY, PDCA 4-WIRE ( only for US)		A5201-69009
+PWR ASSY, PDCA 5-wire ( europe)			A5201-69016   (64amp,3 phase,with cable and connector)
+PWR ASSY, PDCA 5-wire ( europe)			A5201-69024   (32amp,3 phase,with connector, thinner cable 
+							than A5201-69016, shipped for SDs since ~2003))
+
+
+--------------- Utility Subsystem ---------------
+
+ASSY UTILITY CHASSIS, includes HUCB		A5201-67003(noncomp) A5201-67069(compliant)
+
+BD ASSY UGUY-500 BOARD				A6475-69001(noncomp) A6475-69201(compliant)
+BD ASSY, SBCHL, Single Board Computer HUB	A5201-69012
+MODULE ASSY,SBCH & SBC	(GSP)			A5201-69113
+
+BATTERY, SBCH (single board computer hub), 	1420-0862
+3V 1.4A-HR, LI Manganese Dioxide   
+
+   
+Fuse 125V 3.5 Amps				A4700-67081   This fuse provides the LCD-display
+                                                        with power and is situated on the UGUY.
+                                                        It s recommended to replace the UGUY and 
+                                                        not the fuse !
+
+
+
+--------------- Fans -----------------------------
+
+FAN MODULE, CELL AREA ( mounted on top)		A5201-62048 (Cabinet blower) (old part number: A5201-69011) 
+I/O Fan Module, incl. Fan                       A5201-04035 (noncomp) A5201-04072(compliant)
+
+
+--------------- IOX -------------------------------
+
+ASSY, XUC, exp. utilities chassis, incl XUCB	A5861-69001(also incl XUC FANS)
+ASSY, EXPANSION POWER CHASSIS	                A5861-69102(noncomp) A5861-69202(compliant)	
+BD ASSY, XMIOB2  (I/O chassis backplane)	A5862-60101(noncomp) A5862-60201(compliant)	
+CABLE ASSY,ICE OL*, LED 	                A5862-63006(noncomp) A5862-63034(compliant)	
+CABLE ASSY, IOX REO, (in/out), Shielded	        A5862-63007(noncomp) A5862-63045(compliant)	
+CABLE ASSY, IOX CLOCK, shielded	                A5862-63009	
+CABLE ASSY, IOX USBE 14FT, shielded	        A5862-63017(noncomp) A5862-63044(compliant)
+ASSY, XUC FAN                                   A5861-62014
+ASSY, ICE FAN                                   A5862-04012(noncomp) A5862-04032(compliant)
+
+--------------- MISC ------------------------------
+
+BD ASSY HFPB( Halfdome Front Panel Board) FR&RR A5201-67002 does not include the power switch
+CABLE ASSY, ON-OFF Switch, to FPB		A5201-63059(noncomp) A5201-63094(compliant)
+
+
+-------------- Tools ----------------------------------
+
+TOOL, DIMM INSTALLER				A5201-68003
+DIMM REMOVAL KIT				A5201-68005
+TOOL, STAT MAT 24X36 W/GRD STR			A5201-68004
+
+JUMPER BOARD, loop-back  upper,  F015 to F415	A5201-68001
+JUMPER BOARD, loop-back  lower,  F005 to F405	A5201-68002
+
+
+
+LAN-crossover-cable				M3199-60102M
+serial console-cable				A4700-67052
+
+
+------------------------------------------------------------------------------
+
+The new configuration to connect a DVD is as follows:
+   A4800A      Single Port SCSI HBA (non-terminated)                
+   A4801-63002 HP V/Class 10M SCSI Cable (in-line terminated)
+   C4316A      HP SCSI Bus Converter
+   5063-1274   1m 68HD-68HD Pin SCSI Cable
+   C4318B      HP SureStore E Disk Enclosure
+   C4315A      HP SureStore E DVD Disk
+
+
+-----------------------------------------------------------------------------
+
+last modified: Joerg-Udo Werner 25-August-2009

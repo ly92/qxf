@@ -1,0 +1,40 @@
+******************* Product / Case Handling *******************
+All parts and products mentioned on this page are non-RoHS compliant because they were obsolete before July 1st, 2006.
+***************************************************************
+
+==SKILL Product:A5236A    Group:SCSI-FC-DISKS        Sys_flag:n
+==FC-High availability Storage System 1010D/FC10===========
+
+******************************************************
+* This product is also known as 'Transformer'        *
+*                                                    *
+* last update: 31.10.2002                            *
+******************************************************
+
+LINK CONTROL CARD (LCC)   A5244-69102   * without GBIC !!! 
+GBIC (fibre optic)        1990-2292     * 
+                          1005-0389     * alternate Part # for GBIC
+
+                                        * Firmware HP02 HP03 A5236A-04A
+ 9 GB LP disk             A5235-69002   * ST39102FC, ST39103FC, ST39236FC
+18 GB HH disk 10k         A5234-69002   * ST118202FC, ST118203FC, ST318203FC, ST318304FC, ST318404FC, ST318436FC
+18 GB LP disk 15k         A5634-69001   * ST318451FC, ST318452FC
+18 GB disk 15k            A6488-69001   * ST318452FC
+36 GB HH disk 10k         A5596-69002   * ST136402FC, ST136403FC, ST336704FC, ST336605FC
+36 GB LP disk 15k         A6486-69001   * ST336752FC
+73 GB HH disk 10k         A5627-69001   * ST173404FC, ST173405FC
+73 GB LP disk             A6487-69001   * HP73.4GST373405FC
+
+
+Mezzanine board           A5236-60021
+Backplane                 A5236-60022   * contains mezzanine board 
+                                          (Power Switch on mezzanine board)
+
+FAN                       A5236-60003
+FAN cable                 A5236-60019
+
+Power switch button       A5236-40009
+Power switch push rod     A5236-40008
+POWER SUPPLY              A5236-69023   * see service note A5236A-01
+
+

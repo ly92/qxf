@@ -1,0 +1,119 @@
+******************* Product / Case Handling *******************
+RoHS Silent Roll product 
+
+Capture the appropriate Serial Number for use in SAW Unit Configuration, 
+PC Tracker or CSN to determine RoHS product level compliance. 
+
+Products listed as Modified or EMEA-Only are Compliant Products. All compliant 
+products must comply with the RoHS directives and must be supported with Modified spares.
+
+See http://na2.know.hp.com/teams/RoHS%20Service%20Delivery%20Implementation/default.aspx  
+or email rohsservicedeliveryprogramteam@hp.com for additional information.
+
+If unable to capture the serial number, obtain the purchase or install date from the 
+customer and compare with the compliance date below. 
+
+Compliance Date:  July, 1st 2006
+
+The ROHS status of a part is UNKNOWN unless marked with "(compliant)" or "(noncomp)".
+You may order a compliant part for a not compliant server in case the noncompliant part is unavailable
+
+The Qualifier has to check for parts compliancy himself with the above mentioned 
+tools and is solely repsonsible for this!
+***************************************************************
+
+
+*******************************************************************************
+			Medel / rp7420 / A7025A
+*******************************************************************************
+
+#All cellboards come with 4 dual core CPU modules mounted on the board.
+#Not needed CPUs should be removed from new cell and returned in the 
+#provided anti-static bags and compartments.
+#Take over the ZIF Dust Covers from the old cell for any empty CPU slots.
+#Use MP:CM>ps command to find PA-RISC and frequency info for right part#.
+#Cell Replacement: use MP:CM> dfw to synchronize Cell Firmware with other F/W in that Partition
+
+CELL with PA8800 1GHz CPUs      A6913-69307(old:A6913-69107)(noncomp) A6913-69207(compliant)   
+CELL with PA8800 900MHz CPUs    A6913-69306(old:A6913-69106)(noncomp) A6913-69206(compliant)
+CELL with PA8900 1GHz CPUs      A6913-69212(old:A6913-69012)(noncomp) A6913-69112(compliant)
+CELL with PA8900 1.1GHz CPUs    A6913-69213(old:A6913-69013)(noncomp) A6913-69113(compliant)
+
+CPU TURBO COOLER FAN            AB388-00005   for CPUs only, not for CC chip
+CC TURBO COOLER FAN             A6093-00276   for Cell Controller (CC) only, not for CPU; 
+
+Cell Board Battery (CR2032)     234556-001    (on PDH Riser Board)
+CPU Socket Terminator		A6912-60001 
+Itanium 2 Processor Tool Kit    A7231-67046
+
+System Backplane		A6752-69001(noncomp) A6752-69201(compliant) 
+PCI-x Card Cage			A6093-69013(noncomp) A6093-69213(compliant)
+PCI OLR Assy with 16 Paddles    A6093-67114(noncomp) A6093-67214(compliant)   old part#: A6093-67014; includes also PCI OLR Switch cable
+PCI OLAR Gates                  A6093-40041
+PCI OLAR Paddle Button Kit      A6093-67014
+Disk/Media Backplane		A6752-67044 
+Front Panel Display 		A6752-67005   with Power Switch&Cable
+
+256MB DIMM (SINGLE)             A6802-69101
+512MB DIMM (SINGLE)             A6097-69001   replaced by A5198-69101; use till gone
+1GB   DIMM (SINGLE)             A6098-69001   replaced by A6098-69101; NOTE: Do NOT mix A6098-69001 and A6098-69101 in same rank! See ENGINEERING ADVISORY c00875986.
+2GB   DIMM (SINGLE)             AB309-69001   use till gone; not supported in sx1000 Superdome (see http://ci2005.cup.hp.com/list_details.php?issue=2893)
+2GB   DIMM (SINGLE)             A6100-69001   supported in ROMEX and sx1000 Superdome
+4GB   DIMM (SINGLE)             AB322-69001   min. FW is 2.0; do not mix with other DIMMs on same cell!
+
+
+HV VRM				0950-4123(noncomp) 0950-4709(compliant)    VRM# 7-14 if one of these fails order 8 HV VRMs
+LV VRM				0950-4122(noncomp) 0950-4708(compliant)    VRM# 1-6 & 15 if one of these fails order 7 LV VRMs
+PCI-X VRM                       
+
+MP/SCSI				A9918-69001
+MP Battery			234556-001      (CR2032)
+Lan/SCSI PCI Card		A6794-69001(noncomp) A6794-69101(compliant) 
+
+36GB disk, 15k			A9896-69001(noncomp) AB420-69001(compliant) 
+73GB disk, 15k			A9897-69001(noncomp) AB421-69001(compliant)    MAU3073NC
+146GB disk, 10k			A9898-69002(noncomp) AB422-69001(compliant)    MAT3147NC 
+146GB 15K RPM U320 SCSI Disk	AD206-69001
+300GB 15K RPM U320 SCSI Disk	AD261-69001
+
+DVD				A9879-67001    (old) readonly DVD-ROM 305
+DVD RW                          AB351-62001(noncomp) AB351-67002(compliant)    (new) RW DVD 
+Internal DDS drive              C5686-69204
+
+SCSI Cable Bundle Assy		A6752-63019(noncomp) A6752-63035(compliant) 
+Front Panel Display Cable       A6752-63002
+System Fan Internal Cable       A6752-67023(noncomp) A6752-63021(compliant)
+System Fan External Cable       A6752-67022(noncomp) A6752-63025(compliant)
+DVD Power Cable                 A6752-67021(noncomp) A6752-63023(compliant)
+Mass Storage Power #1 Cable     A6752-67019(noncomp) A6752-63033(compliant)
+Mass Storage Power #2 Cable     A6752-67020(noncomp) A6752-63034(compliant)
+Main Power Harness              A6752-67025  Special Tool needed
+XCELITE "99" Screw Driver       NHPXSCREWDRIVER Tool for Main Power Harness
+Instrusion Switch Cable         A6093-63025(noncomp) A6093-63044(compliant)
+Cable Int. Smart Array Contr.   A7027-63001(noncomp) A7027-63003(compliant)
+
+Fan Front/Rear			A6752-67029  cabinet fan# 0-3
+Fan PCI				A6752-67030(noncomp) A6752-04071(compliant)  PCI chassis fan# 0-5
+CPU TURBO COOLER FAN            AB388-00005   for CPUs only, not for CC chip
+CC TURBO COOLER FAN             A6093-00276   for Cell Controller (CC) only, not for CPU; 
+ 
+Bulk Power Supply		A6752-69213 (noncomp)  A6752-69044 (compliant)
+PCI Power Module		A6093-69123  (noncomp) 0957-2187(compliant)
+C19/C20,BLK,2.5M-JUMPER CABLE	8121-0802
+C19/C20,BLK,4.5M-JUMPER CABLE	8121-0806 
+MP M-CABLE			A6144-63001(noncomp) A6144-63007(compliant) 
+Intrusion Switch                5040-6317
+ASSY AC Cord Retention Brkt.    A6752-00123
+Cellboard Air Baffle Kit        A6913-67005
+Cell Extractor Latch Kit        AB297-2113A   contains front (left; A6913-04027) and rear (right; A6913-04028) latch
+Core I/O Plastic Guide Rail 1   0403-1126     1 per chassis; 5” (12.7 cm) long; see Advisory c01295698
+Core I/O Plastic Guide Rail 2   0403-1119     3 per chassis; 6” (15.2 cm) long; see Advisory c01295698
+Removable Media Rail Kit        A6752-67011
+
+DIMM Extractor Tool             A5201-68005
+DIMM Installer Tool             A5201-68003
+Anti Stat Kit w grd strap       A5201-68004
+
+=======================================================================
+                 Page Owner:  Joerg-Udo Werner
+                 Last update: 30-Mar-2010 by Holger Goetker

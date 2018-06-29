@@ -1,0 +1,78 @@
+******************* Product / Case Handling *******************
+RoHS Silent Roll product 
+
+Capture the appropriate Serial Number for use in SAW Unit Configuration, 
+PC Tracker or CSN to determine RoHS product level compliance. 
+
+Products listed as Modified or EMEA-Only are Compliant Products. All compliant 
+products must comply with the RoHS directives and must be supported with Modified spares.
+
+See http://na2.know.hp.com/teams/RoHS%20Service%20Delivery%20Implementation/default.aspx  
+or email rohsservicedeliveryprogramteam@hp.com for additional information.
+
+If unable to capture the serial number, obtain the purchase or install date from the 
+customer and compare with the compliance date below. 
+
+Compliance Date:  July, 1st 2006
+
+The ROHS status of a part is UNKNOWN unless marked with "(compliant)" or "(noncomp)".
+You may order a compliant part for a not compliant server in case the noncompliant part is unavailable
+
+The Qualifier has to check for parts compliancy himself with the above mentioned 
+tools and is solely repsonsible for this!
+***************************************************************
+
+==SKILL Product:Server  Group:IA64                  Sys_flag:y
+== Itanium Server rx16x0 =====================================
+ 
+A9901A -- HP rx1600 1.0G 1.5MB CPU server Solution 
+AB218A -- HP rx1600 1 CPU bundle 
+AB219A -- HP rx1600 1.0 GHz 1.5 MB 2 x CPU 
+AB430A -- HP rx1620 1,3 GHz
+AB431A -- HP rx1620 1,6 GHz
+
+
+BASE UNIT  (rx1600)			A9901-69100    
+BASE UNIT  (rx1620)			AB430-69100(noncomp) AB430-69400(compliant)
+PCI Backplane Assembly (rx1600)		A9901-67005
+PCI Backplane Assembly (rx1620)		AB430-67004(noncomp) AB430-67009(compliant)
+Management Processor Card		A7231-66580(noncomp) AB587-60002(compliant)
+Display Panel 				A7231-66550(noncomp) AB587-60006(compliant)
+
+PROCESSORS 
+(for Processor Stepping info see http://wtec.cup.hp.com/~cpuhw/IA64/Mad-A1vsA2/FAQ_Mad9M_A1-A2_April_5_2006.doc )
+1 GHz CPU				AB220-69001
+1.3 GHz CPU				AB481-69001 (A1 Stepping)
+1.3 GHz CPU				AB481-69002 (A2 Stepping) (system firmware >=2.18) 
+1.6 GHz CPU 				AB482-69001 (A1 Stepping)
+1.6 GHz CPU 				AB482-69002 (A2 Stepping) (system firmware >=2.18) 
+CPU Power Pod (rx1600)			0950-4294
+CPU Power Pod (rx1620) 			0950-4550(noncomp) 0950-4659(compliant)
+IPF CPU Install Tool Kit 		5069-5441 (Germany only: only needed if CE is not trained)
+
+MEMORY
+256MB DIMM 				A6967-67001
+512MB DIMM 				A6968-67001
+1GB DIMM				A6969-69001
+2GB DIMM				A6835-69001
+
+DISKS
+36GB, 10K RPM SCSI Disk 		A7835-69003
+73GB 15K RPM SCSI Disk			A9897-69001(noncomp) AB421-69001(compliant)
+146GB 10K RPM SCSI Disk			A9898-69002(noncomp) AB422-69001(compliant)
+300GB 10K RPM Ultra 320             AB423-69001     HP 300 GST3300007LC
+
+DVD ROM 				AB299-67001
+CD+RW / DVD				AB298-67001
+DVD+RW 					AB350-67001
+
+FANS
+System Fans (two locations) 		A9901-67017(noncomp) AB430-67007(compliant)   (OLD PN: A9901-67007)
+Power Supply Fans 			A9901-67016(noncomp) AB430-67006(compliant)   (OLD PN: A9901-67006)
+
+Power Supply  (rx1600)			0957-2090
+Power Supply  (rx1620)			0957-2123(noncomp) 0957-2188(compliant)
+
+Battery Real Time Clock         1420-0386 on systemboard (CR2330, 23mm diameter, 3mm size)
+
+

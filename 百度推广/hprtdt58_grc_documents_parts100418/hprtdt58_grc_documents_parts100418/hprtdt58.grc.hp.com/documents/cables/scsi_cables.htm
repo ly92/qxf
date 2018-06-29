@@ -1,0 +1,744 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta http-equiv="Content-Language" content="en-us">
+<title>SCSI cables and Terminators</title>
+</head>
+
+<body>
+
+
+<!-- Copyright © 2005. Spidersoft Ltd -->
+<style>
+A.applink:hover {border: 2px dotted #DCE6F4;padding:2px;background-color:#ffff00;color:green;text-decoration:none}
+A.applink       {border: 2px dotted #DCE6F4;padding:2px;color:#2F5BFF;background:transparent;text-decoration:none}
+A.info          {color:#2F5BFF;background:transparent;text-decoration:none}
+A.info:hover    {color:green;background:transparent;text-decoration:underline}
+</style>
+<div style='BORDER: 1px solid #DCE6F4; MARGIN-TOP: 20px; MARGIN-BOTTOM: 20px; MARGIN-LEFT: 5px; MARGIN-RIGHT: 5px; PADDING: 5px; BACKGROUND-COLOR: #eef8ff;line-height:180%; COLOR: #000000; font-family: Arial; font-size: 8pt; width=100%; FILTER: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr="#FFFFFFFF", EndColorStr="#F2F5FAFF");'>
+This page was saved using <a class="applink" href="http://www.spidersoft.com"><b>WebZIP 7.0.2.1028</b></a>  on  04/18/10 17:03:47.<br>
+<b>Address:</b> <a class="info" href="http://hprtdt58.grc.hp.com/documents/cables/scsi_cables.htm">http://hprtdt58.grc.hp.com/documents/cables/scsi_cables.htm</a><br>
+<b>Title:</b> SCSI cables and Terminators &nbsp;&bull;&nbsp; <b>Size:</b> 26844 &nbsp;&bull;&nbsp; <b>Last Modified:</b> Thu, 23 Feb 2006 08:58:57 GMT<br></div>
+<!-- /Copyright © 2005. Spidersoft Ltd -->
+
+
+
+<h2>Connector Styles</h2>
+<table border="1" width="100%" cellspacing="1" bgcolor="#FFFFCC" height="538">
+  <tr>
+    <td width="29%" align="center" height="19">
+      <h4>Picture</h4>
+    </td>
+    <td width="50%" align="center" height="19">
+      <h4>Description</h4>
+    </td>
+    <td width="71%" align="center" height="19">
+      <h4>used on</h4>
+    </td>
+  </tr>
+  <tr>
+    <td width="29%" align="center" height="68"><img border="0" src="cn50-female.jpg" width="265" height="68"></td>
+    <td width="50%" align="center" height="68">Low Density, eight bit, usually single ended
+      (LD-50)</td>
+    <td width="71%" align="center" height="68">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="29%" align="center" height="44"><img border="0" src="hd50-female.jpg" width="200" height="44"></td>
+    <td width="50%" align="center" height="44">High Density, eight bit, usually single ended
+      (HDTS50)</td>
+    <td width="71%" align="center" height="44">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="29%" align="center" height="187"><img border="0" src="hd68-female.jpg" width="230" height="39"></td>
+    <td width="50%" align="center" height="187">High Density, sixteen bit (HDTS68), HVD</td>
+    <td width="71%" align="center" height="187">
+      <p align="left">SCSI-cards:</p>
+      <ul>
+        <li>
+          <p align="left">&nbsp;all HP-PB and HSC FWD</li>
+        <li>
+          <p align="left">A4800A</li>
+      </ul>
+      <p align="left">Mass-Storage:</p>
+      <ul>
+        <li>
+          <p align="left">Autoraid, Nike, HASS, HVD-10, SMART, Tape-array 5300,
+          DS2100</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td width="29%" align="center" height="190"><img border="0" src="vhdci-female.jpg" width="160" height="29"></td>
+    <td width="50%" align="center" height="190">Very high density, sixteen bit (VHDCI-68),
+      LVD/SE</td>
+    <td width="71%" align="center" height="190">
+      <p align="left">SCSI-cards:&nbsp;</p>
+      <ul>
+        <li>
+          <p align="left">A5149A, A5150A, A5159A, A5838A, RAID4SI</li>
+        <li>
+          <p align="left">core I/O of A, L, N -class</li>
+      </ul>
+      <p align="left">Mass-Storage:</p>
+      <ul>
+        <li>
+          <p align="left">SC-10, DS2300</li>
+        <li>
+          <p align="left">Tape-array 5500</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+<h2>Terminators</h2>
+<table border="1" width="99%" height="344" cellspacing="1" bgcolor="#FFFFCC">
+  <tr>
+    <td width="14%" align="center" height="38">
+      <h4>Type</h4>
+    </td>
+    <td width="31%" align="center" height="38">
+      <h4>Product Number</h4>
+    </td>
+    <td width="24%" align="center" height="38">
+      <h4>Part number</h4>
+    </td>
+    <td width="118%" align="center" height="38">
+      <h4>Description</h4>
+    </td>
+    <td width="51%" align="center" height="38">
+      <h4>remarks</h4>
+    </td>
+  </tr>
+  <tr>
+    <td width="14%" align="center" height="62">LD-50</td>
+    <td width="31%" align="center" height="62">K2291</td>
+    <td width="24%" align="center" height="62"><span style="background-color: #00FF00">1252-3920</span></td>
+    <td width="118%" height="62">
+      <p align="center"><font color="#FF0000">SE</font>, active, LD-50</td>
+    <td width="51%" height="62">
+      <p align="center"><a href="1252-3920.jpg"><img border="2" src="1252-3920_small.jpg" alt="1252-3920.jpg (69670 bytes)" width="100" height="75"></a></td>
+  </tr>
+  <tr>
+    <td width="14%" align="center" height="64">HDTS50</td>
+    <td width="31%" align="center" height="64">C2904A</td>
+    <td width="24%" align="center" height="64"><span style="background-color: #00FF00">A1658-62016</span></td>
+    <td width="118%" align="center" height="64"><font color="#FF0000">SE</font>, active, HDTS50</td>
+    <td width="51%" align="center" height="64">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="14%" align="center" height="157" rowspan="4">HDTS68</td>
+    <td width="31%" align="center" height="43">A3328A</td>
+    <td width="24%" align="center" height="43"><span style="background-color: #00FF00">5063-5324</span></td>
+    <td width="118%" align="center" height="43"><font color="#FF0000">SE</font>, active, HDTS68</td>
+    <td width="51%" align="center" height="43"><a href="5063-5324.jpg"><img border="2" src="5063-5324_small.jpg" alt="5063-5324.jpg (50738 bytes)" width="100" height="75"></a></td>
+  </tr>
+  <tr>
+    <td width="31%" align="center" height="57">C2905A</td>
+    <td width="24%" align="center" height="57"><span style="background-color: #00FF00">A1658-63013</span>
+      (=<span style="background-color: #00FFFF">A1658-62024</span>)</td>
+    <td width="118%" align="center" height="57"><font color="#FF0000">HVD</font>, active, HDTS68</td>
+    <td width="51%" align="center" height="57">Old HVD Standard</td>
+  </tr>
+  <tr>
+    <td width="31%" height="19">&nbsp;</td>
+    <td width="24%" height="19" align="center"><span style="background-color: #00FF00">1253-3295</span></td>
+    <td width="118%" height="19" align="center"><font color="#FF0000">LVD/SE</font> auto, active for DLT (Galactica),
+      HDTS68</td>
+    <td width="51%" height="19">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="31%" height="19">&nbsp;</td>
+    <td width="24%" height="19" align="center"><span style="background-color: #00FF00">5183-2657</span></td>
+    <td width="118%" height="19" align="center"><font color="#FF0000">LVD/SE</font> multimode, active, HDTS68</td>
+    <td width="51%" height="19">use this for all new LVD controllers!</td>
+  </tr>
+  <tr>
+    <td width="14%" height="38" rowspan="2">
+      <p align="center">VHDCI68</td>
+    <td width="31%" height="19">&nbsp;</td>
+    <td width="24%" height="19" align="center"><span style="background-color: #00FF00">5021-1120</span></td>
+    <td width="118%" height="19" align="center"><font color="#FF0000">HVD</font>, active, VHDCI-68 (for dual
+      port HVD-SCSI-Adapter)</td>
+    <td width="51%" height="19">
+      <p align="center">Old HVD Standard</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="31%" height="19">&nbsp;</td>
+    <td width="24%" height="19" align="center"><span style="background-color: #00FF00">5021-1121</span></td>
+    <td width="118%" height="19" align="center"><font color="#FF0000">LVD</font>, active VHDCI-68 (for SC-10
+      etc.)</td>
+    <td width="51%" height="19">&nbsp;</td>
+  </tr>
+</table>
+
+<pre><i>Legend:  <span style="background-color: #00FF00">active</span> <span style="background-color: #00FFFF">old</span></i></pre>
+
+<h2>Cables</h2>
+<h5 align="left">straight</h5>
+<table border="1" width="100%" cellspacing="1" bgcolor="#FFFFCC" height="209">
+  <tr>
+    <td width="9%" align="center" height="19">from\ to</td>
+    <td width="20%" align="center" height="19">LD50</td>
+    <td width="23%" align="center" height="19">HDTS50</td>
+    <td width="25%" align="center" height="19">HDTS68</td>
+    <td width="23%" align="center" height="19">VHDCI-68</td>
+  </tr>
+  <tr>
+    <td width="9%" align="center" height="103">LD50</td>
+    <td width="20%" align="center" height="103">
+      <table border="0" cellpadding="0" cellspacing="0" width="100%" height="103">
+        <tr>
+          <td width="21%" height="21">0.5m</td>
+          <td width="79%" bgcolor="#FF9900" height="21">
+            <p align="left"><font color="#000000">92222A / 8120-5158</font></td>
+        </tr>
+        <tr>
+          <td width="21%" height="21">1m</td>
+          <td width="79%" bgcolor="#FF9900" height="21"><font color="#000000">92222B
+            /&nbsp;&nbsp;&nbsp; 8120-4998</font></td>
+        </tr>
+        <tr>
+          <td width="21%" height="21">2m</td>
+          <td width="79%" bgcolor="#FF9900" height="21"><font color="#000000">92222C
+            / 8120-5159C</font></td>
+        </tr>
+        <tr>
+          <td width="21%" height="21"><font color="#000000">3m</font></td>
+          <td width="79%" bgcolor="#00FF00" height="21"><font color="#000000"><span style="background-color: #00FF00">C2927A
+            / 5063-1212</span></font></td>
+        </tr>
+        <tr>
+          <td width="21%" bgcolor="#FFFFCC" height="19">5m</td>
+          <td width="79%" bgcolor="#FF9900" height="19">C2928A / 5063-1213</td>
+        </tr>
+      </table>
+    </td>
+    <td width="23%" align="center" height="103">
+      <table border="0" cellpadding="0" cellspacing="0" width="100%">
+        <tr>
+          <td width="22%">1m</td>
+          <td width="78%" bgcolor="#00FF00">K2296 / 5062-3383</td>
+        </tr>
+        <tr>
+          <td width="22%">2.5m</td>
+          <td width="78%" bgcolor="#00FF00">5063-1218</td>
+        </tr>
+      </table>
+    </td>
+    <td width="25%" align="center" height="103">
+      <table border="0" cellpadding="0" cellspacing="0" width="100%">
+        <tr>
+          <td width="20%">1m</td>
+          <td width="80%" bgcolor="#00FF00">C2915A / 5063-1214</td>
+        </tr>
+      </table>
+    </td>
+    <td width="23%" align="center" height="103">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="9%" align="center" height="19">HDTS50</td>
+    <td width="20%" align="center" height="103">
+      <table border="0" cellpadding="0" cellspacing="0" width="100%">
+        <tr>
+          <td width="22%">1m</td>
+          <td width="78%" bgcolor="#00FF00">K2296 / 5062-3383</td>
+        </tr>
+        <tr>
+          <td width="22%">2.5m</td>
+          <td width="78%" bgcolor="#00FF00">5063-1218</td>
+        </tr>
+      </table>
+    </td>
+    <td width="23%" align="center" height="19">
+      <table border="0" cellpadding="0" cellspacing="0" width="100%">
+        <tr>
+          <td width="23%">0.5m</td>
+          <td width="77%" bgcolor="#00FF00">C2955A / 8120-5547</td>
+        </tr>
+        <tr>
+          <td width="23%">1m</td>
+          <td width="77%" bgcolor="#00FF00">C2908A / 8120-5548</td>
+        </tr>
+        <tr>
+          <td width="23%">1.5m</td>
+          <td width="77%" bgcolor="#00FF00">C2956A / 8120-5549</td>
+        </tr>
+        <tr>
+          <td width="23%">2m</td>
+          <td width="77%" bgcolor="#00FF00">C2957A / 8120-5550</td>
+        </tr>
+        <tr>
+          <td width="23%">5m</td>
+          <td width="77%" bgcolor="#00FF00">C2958 / 8120-5551</td>
+        </tr>
+      </table>
+    </td>
+    <td width="25%" align="center" height="19">
+      <table border="0" cellpadding="0" cellspacing="0" width="100%">
+        <tr>
+          <td width="19%">1m</td>
+          <td width="81%" bgcolor="#00FF00">C2961A / 5181-7705</td>
+        </tr>
+        <tr>
+          <td width="19%">2m</td>
+          <td width="81%" bgcolor="#00FF00">C2906A / 5181-7707</td>
+        </tr>
+        <tr>
+          <td width="19%">5m</td>
+          <td width="81%" bgcolor="#00FF00">C2907A / 5181-7708</td>
+        </tr>
+        <tr>
+          <td width="19%">20m</td>
+          <td width="81%" bgcolor="#00FF00">C2916A / 5181-7737</td>
+        </tr>
+      </table>
+    </td>
+    <td width="23%" align="center" height="19">
+      <table border="0" cellpadding="0" cellspacing="0" width="100%">
+        <tr>
+          <td width="20%">1m</td>
+          <td width="80%" bgcolor="#00FF00"> C2367A/5183-2668, SE</td>
+        </tr>
+        <tr>
+          <td width="20%">2.5m</td>
+          <td width="80%" bgcolor="#00FF00">C2368A/5183-2669, SE</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td width="9%" align="center" height="19">HDTS68</td>
+    <td width="21%" align="center" height="103">
+      <table border="0" cellpadding="0" cellspacing="0" width="100%">
+        <tr>
+          <td width="20%">1m</td>
+          <td width="80%" bgcolor="#00FF00">C2915A / 5063-1214</td>
+        </tr>
+      </table>
+    </td>
+    <td width="24%" align="center" height="19">
+      <table border="0" cellpadding="0" cellspacing="0" width="100%">
+        <tr>
+          <td width="19%">1m</td>
+          <td width="81%" bgcolor="#00FF00">5181-7705</td>
+        </tr>
+        <tr>
+          <td width="19%">2m</td>
+          <td width="81%" bgcolor="#00FF00">C2906A / 5181-7707</td>
+        </tr>
+        <tr>
+          <td width="19%">5m</td>
+          <td width="81%" bgcolor="#00FF00">C2907A / 5181-7708</td>
+        </tr>
+        <tr>
+          <td width="19%">20m</td>
+          <td width="81%" bgcolor="#00FF00">C2916A / 5181-7737</td>
+        </tr>
+      </table>
+    </td>
+    <td width="25%" align="center" height="19">
+      <table border="0" cellpadding="0" cellspacing="0" width="100%">
+        <tr>
+          <td width="19%">0.3m</td>
+          <td width="81%" bgcolor="#00FF00">A2095-62019</td>
+        </tr>
+        <tr>
+          <td width="19%">0.5m</td>
+          <td width="81%" bgcolor="#00FF00">C2978B/5183-2670</td>
+        </tr>
+        <tr>
+          <td width="19%">1m</td>
+          <td width="81%" bgcolor="#00FF00">C2911C/5183-2671</td>
+        </tr>
+        <tr>
+          <td width="19%">1m</td>
+          <td width="81%" bgcolor="#00FF00">A3639-63011, 90 Ohm</td>
+        </tr>
+        <tr>
+          <td width="19%">1.5m</td>
+          <td width="81%" bgcolor="#00FF00">C2979B/5183-2672</td>
+        </tr>
+        <tr>
+          <td width="19%">2.5m</td>
+          <td width="81%" bgcolor="#00FF00">C2924A / A1658-62020</td>
+        </tr>
+        <tr>
+          <td width="19%">2.5m</td>
+          <td width="81%" bgcolor="#00FF00">C2924C/5183-2673, 90 Ohm</td>
+        </tr>
+        <tr>
+          <td width="19%">2.5m</td>
+          <td width="81%" bgcolor="#00FF00">A3639-63012, 90 Ohm</td>
+        </tr>
+        <tr>
+          <td width="19%">5m</td>
+          <td width="81%" bgcolor="#00FF00">A1658-62021</td>
+        </tr>
+        <tr>
+          <td width="19%">5m</td>
+          <td width="81%" bgcolor="#00FF00">A3639-63013, 90 Ohm</td>
+        </tr>
+        <tr>
+          <td width="19%">10m</td>
+          <td width="81%" bgcolor="#00FF00">C2925A / A1658-62022</td>
+        </tr>
+        <tr>
+          <td width="19%">10m</td>
+          <td width="81%" bgcolor="#00FF00">A3639-63014, 90 Ohm</td>
+        </tr>
+        <tr>
+          <td width="19%">20m</td>
+          <td width="81%" bgcolor="#00FF00">C2926A / A1658-62023</td>
+        </tr>
+        <tr>
+          <td width="19%">20m&nbsp;</td>
+          <td width="81%" bgcolor="#00FF00">5183-2682, multimode</td>
+        </tr>
+      </table>
+    </td>
+    <td width="23%" align="center" height="19">
+      <table border="0" cellpadding="0" cellspacing="0" width="100%">
+        <tr>
+          <td width="18%">1m</td>
+          <td width="82%" bgcolor="#00FF00">5183-2674, multimode</td>
+        </tr>
+        <tr>
+          <td width="18%">1m</td>
+          <td width="82%" bgcolor="#00FF00">5183-2651, 90 Ohm</td>
+        </tr>
+        <tr>
+          <td width="18%">2.5m</td>
+          <td width="82%" bgcolor="#00FF00">5183-2675, multimode</td>
+        </tr>
+        <tr>
+          <td width="18%">2.5m</td>
+          <td width="82%" bgcolor="#00FF00">5183-2653, 90 Ohm</td>
+        </tr>
+        <tr>
+          <td width="18%">5m</td>
+          <td width="82%" bgcolor="#00FF00">5183-2676, multimode</td>
+        </tr>
+        <tr>
+          <td width="18%">5m</td>
+          <td width="82%" bgcolor="#00FF00">5183-2654, 90 Ohm</td>
+        </tr>
+        <tr>
+          <td width="18%">10m</td>
+          <td width="82%" bgcolor="#00FF00">5183-2677, multimode</td>
+        </tr>
+        <tr>
+          <td width="18%">10m</td>
+          <td width="82%" bgcolor="#00FF00">5183-2655, 90 Ohm</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td width="9%" align="center" height="19">VHDCI-68</td>
+    <td width="20%" align="center" height="19">&nbsp;</td>
+    <td width="23%" align="center" height="19">
+      <table border="0" cellpadding="0" cellspacing="0" width="100%">
+        <tr>
+          <td width="20%">1m</td>
+          <td width="80%" bgcolor="#00FF00"> C2367A/5183-2668, SE</td>
+        </tr>
+        <tr>
+          <td width="20%">2.5m</td>
+          <td width="80%" bgcolor="#00FF00">C2368A/5183-2669, SE</td>
+        </tr>
+      </table>
+    </td>
+    <td width="23%" align="center" height="19">
+      <table border="0" cellpadding="0" cellspacing="0" width="100%">
+        <tr>
+          <td width="18%">1m</td>
+          <td width="82%" bgcolor="#00FF00">5183-2674, multimode</td>
+        </tr>
+        <tr>
+          <td width="18%">1m</td>
+          <td width="82%" bgcolor="#00FF00">5183-2651, 90 Ohm</td>
+        </tr>
+        <tr>
+          <td width="18%">2.5m</td>
+          <td width="82%" bgcolor="#00FF00">5183-2675, multimode</td>
+        </tr>
+        <tr>
+          <td width="18%">2.5m</td>
+          <td width="82%" bgcolor="#00FF00">5183-2653, 90 Ohm</td>
+        </tr>
+        <tr>
+          <td width="18%">5m</td>
+          <td width="82%" bgcolor="#00FF00">5183-2676, multimode</td>
+        </tr>
+        <tr>
+          <td width="18%">5m</td>
+          <td width="82%" bgcolor="#00FF00">5183-2654, 90 Ohm</td>
+        </tr>
+        <tr>
+          <td width="18%">10m</td>
+          <td width="82%" bgcolor="#00FF00">5183-2677, multimode</td>
+        </tr>
+        <tr>
+          <td width="18%">10m</td>
+          <td width="82%" bgcolor="#00FF00">5183-2655, 90 Ohm</td>
+        </tr>
+      </table>
+    </td>
+    <td width="23%" align="center" height="19">
+      <table border="0" cellpadding="0" cellspacing="0" width="100%">
+        <tr>
+          <td width="20%">2m</td>
+          <td width="80%" bgcolor="#00FF00">5064-2500, multimode</td>
+        </tr>
+        <tr>
+          <td width="20%">5m</td>
+          <td width="80%" bgcolor="#00FF00">5065-0021, multimode</td>
+        </tr>
+        <tr>
+          <td width="20%">10m</td>
+          <td width="80%" bgcolor="#00FF00">5065-0022, multimode</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<pre><i>Orderstatus: <span style="background-color: #FF0000">obsolete</span> <span style="background-color: #FF9900">inactive</span> <span style="background-color: #00FF00">active</span>      <a href="http://www.hp.com/racksolutions/prodinfo/datacables/ds_scsi-multimode.pdf">Multimode</a> cables support SE,LVD,HVD, <a href="http://www.datapro.net/scsi_doc.html">click here for an explanation of 90 Ohm impedance</a></i></pre>
+<pre>&nbsp;</pre>
+<h5>inline-terminated cables</h5>
+<table border="1" cellspacing="1" width="100%" bgcolor="#FFFFCC">
+  <tr>
+    <td width="1%" align="center" height="19">from\ to</td>
+    <td width="27%" align="center" height="19">HDTS68</td>
+    <td width="29%" align="center" height="19">VHDCI-68</td>
+  </tr>
+  <tr>
+    <td width="6%">HDTS68</td>
+    <td width="22%">
+      <table border="0" cellspacing="0" width="100%" cellpadding="0">
+        <tr>
+          <td width="10%">0.5m</td>
+          <td width="90%" bgcolor="#00FF00">5063-1270, M/F, HVD</td>
+        </tr>
+        <tr>
+          <td width="10%">5m</td>
+          <td width="90%" bgcolor="#00FF00">C7554A, M/M, HVD</td>
+        </tr>
+        <tr>
+          <td width="10%">10m</td>
+          <td width="90%" bgcolor="#00FF00">C7555A, M/M, HVD</td>
+        </tr>
+      </table>
+    </td>
+    <td width="26%">
+      <table border="0" cellpadding="0" cellspacing="0" width="100%" height="160">
+        <tr>
+          <td width="12%" height="40">0.5m</td>
+          <td width="88%" bgcolor="#00FF00" height="40">5064-6206, M/F, term at
+            male VHDCI end, HVD</td>
+        </tr>
+        <tr>
+          <td width="12%" height="40">2m</td>
+          <td width="88%" bgcolor="#00FF00" height="40">5183-2690, M/M,term at
+            VHDCI end, LVD</td>
+        </tr>
+        <tr>
+          <td width="12%" height="40">5m</td>
+          <td width="88%" bgcolor="#00FF00" height="40">A5149-63002, M/M,term at
+            VHDCI end, LVD</td>
+        </tr>
+        <tr>
+          <td width="12%" height="21">5m</td>
+          <td width="88%" bgcolor="#00FF00" height="21">5065-0070, M/M, term
+            at&nbsp; VHDCI end, HVD</td>
+        </tr>
+        <tr>
+          <td width="12%" height="21">10m&nbsp;</td>
+          <td width="88%" bgcolor="#00FF00" height="21">C7556A, M/M, term at
+            VHDCI end, LVD</td>
+        </tr>
+        <tr>
+          <td width="12%" height="19">10m</td>
+          <td width="88%" bgcolor="#00FF00" height="19">5065-0081, M/M, term at
+            VHDCI end, HVD</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td width="6%">VHDCI-68</td>
+    <td width="16%">
+      <table border="0" cellpadding="0" cellspacing="0" width="100%" height="160">
+        <tr>
+          <td width="12%" height="40">0.5m</td>
+          <td width="88%" bgcolor="#00FF00" height="40">5064-6206, M/F, term at
+            male VHDCI end, HVD</td>
+        </tr>
+        <tr>
+          <td width="12%" height="40">2m</td>
+          <td width="88%" bgcolor="#00FF00" height="40">5183-2690, M/M,term at
+            VHDCI end, LVD</td>
+        </tr>
+        <tr>
+          <td width="12%" height="40">5m</td>
+          <td width="88%" bgcolor="#00FF00" height="40">A5149-63002, M/M,term at
+            VHDCI end, LVD</td>
+        </tr>
+        <tr>
+          <td width="12%" height="21">5m</td>
+          <td width="88%" bgcolor="#00FF00" height="21">5065-0070, M/M, term
+            at&nbsp; VHDCI end, HVD</td>
+        </tr>
+        <tr>
+          <td width="12%" height="21">10m&nbsp;</td>
+          <td width="88%" bgcolor="#00FF00" height="21">C7556A, M/M, term at
+            VHDCI end, LVD</td>
+        </tr>
+        <tr>
+          <td width="12%" height="19">10m</td>
+          <td width="88%" bgcolor="#00FF00" height="19">5065-0081, M/M, term at
+            VHDCI end, HVD</td>
+        </tr>
+      </table>
+    </td>
+    <td width="26%">
+      <table border="0" cellpadding="0" cellspacing="0" width="100%">
+        <tr>
+          <td width="12%">2m</td>
+          <td width="88%" bgcolor="#00FF00">5065-0066,M/M, LVD</td>
+        </tr>
+        <tr>
+          <td width="12%">5m</td>
+          <td width="88%" bgcolor="#00FF00">5065-0067, M/M, LVD</td>
+        </tr>
+        <tr>
+          <td width="12%">10m</td>
+          <td width="88%" bgcolor="#00FF00">5065-0068, M/M, LVD</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<pre><i><a href="http://www.hp.com/racksolutions/prodinfo/datacables/scsi-inline.html">Link to ILT-page</a></i></pre>
+<h5>V-cables</h5>
+<table border="1" cellpadding="0" cellspacing="1" width="100%" bgcolor="#FFFFCC">
+  <tr>
+    <td width="13%" align="center">from\ to</td>
+    <td width="42%" align="center">HDTS68</td>
+    <td width="45%" align="center">VHDCI-68</td>
+  </tr>
+  <tr>
+    <td width="13%" align="center">HDTS68</td>
+    <td width="42%">
+      <table border="0" cellpadding="0" cellspacing="0" width="100%">
+        <tr>
+          <td width="11%">2m</td>
+          <td width="89%" bgcolor="#00FF00">5181-8686, HDTS/HDTS/HDTS</td>
+        </tr>
+      </table>
+    </td>
+    <td width="45%">
+      <table border="0" cellpadding="0" cellspacing="0" width="100%">
+        <tr>
+          <td width="13%">2m</td>
+          <td width="87%" bgcolor="#00FF00">A3639-63015, VHDCI/VHDCI/HD68</td>
+        </tr>
+        <tr>
+          <td width="13%">2m</td>
+          <td width="87%" bgcolor="#00FF00">A3639-63016, VHDCI-term, VHDCI,HD68</td>
+        </tr>
+        <tr>
+          <td width="13%">4m</td>
+          <td width="87%" bgcolor="#00FF00">A3639-63019, VHDCI/VHDCI/HD68</td>
+        </tr>
+        <tr>
+          <td width="13%">4m</td>
+          <td width="87%" bgcolor="#00FF00">A3639-63929, VHDCI-term/VHDCI/HD68</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td width="13%" align="center">VHDCI-68</td>
+    <td width="42%">
+      <table border="0" cellpadding="0" cellspacing="0" width="100%">
+        <tr>
+          <td width="11%">2m</td>
+          <td width="89%" bgcolor="#00FF00">A3639-63017, VHDCI/HD68/HD56</td>
+        </tr>
+        <tr>
+          <td width="11%">2m</td>
+          <td width="89%" bgcolor="#00FF00">A3639-63018, VHDCI-term/HD68/HD68</td>
+        </tr>
+        <tr>
+          <td width="11%">4m</td>
+          <td width="89%" bgcolor="#00FF00">A3639-63021, VHDCI/HD68/HD68</td>
+        </tr>
+        <tr>
+          <td width="11%">4m</td>
+          <td width="89%" bgcolor="#00FF00">A3639-63022, VHDCI-term/HD68/HD68</td>
+        </tr>
+      </table>
+    </td>
+    <td width="45%">&nbsp;</td>
+  </tr>
+</table>
+<h5>extenders</h5>
+
+<table border="1" cellpadding="0" cellspacing="1" width="100%" bgcolor="#FFFFCC">
+  <tr>
+    <td width="15%">HDTS68 - HDTS68</td>
+    <td width="85%">
+      <table border="0" cellpadding="0" cellspacing="0" width="100%">
+        <tr>
+          <td width="8%">0.5m</td>
+          <td width="92%" bgcolor="#00FF00">5063-1250, M/F, Inline-Terminated</td>
+        </tr>
+        <tr>
+          <td width="8%">2m</td>
+          <td width="92%" bgcolor="#00FF00">5181-8690, M/F</td>
+        </tr>
+        <tr>
+          <td width="8%">5m</td>
+          <td width="92%" bgcolor="#00FF00">5181-8687, M/F</td>
+        </tr>
+        <tr>
+          <td width="8%">10m</td>
+          <td width="92%" bgcolor="#00FF00">5181-8685, M/F</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td width="15%">VHDCI68 - HDTS68</td>
+    <td width="85%">
+      <table border="0" cellpadding="0" cellspacing="0" width="100%">
+        <tr>
+          <td width="8%">0.5m</td>
+          <td width="92%" bgcolor="#00FF00">5064-6206, M/F, Inline-Terminated</td>
+        </tr>
+        <tr>
+          <td width="8%">5m</td>
+          <td width="92%" bgcolor="#00FF00">C7523A, M/F</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+<h5>Administrator: <a href=http://www.grc.hp.com/documents/PEOPLE/ubehle.html>Uwe Behle</a> 
+<SCRIPT language="JavaScript">
+<!--
+    document.write('<small><b>')
+    document.write("Last Modified: ")
+    document.write(document.lastModified)
+    document.write('</small></b>')
+    //--> </SCRIPT>
+
+<FORM>
+<INPUT TYPE="button" VALUE="Feedback" onClick="parent.location='mailto:uwe.behle@hp.com; frauke.denker@hp.com; stefan.stechemesser@hp.com?subject=Feedback zu SCSI-cables'">
+</FORM>
+
+</body>
+
+</html>

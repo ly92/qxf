@@ -1,0 +1,25 @@
+******************* Product / Case Handling *******************
+All parts and products mentioned on this page are non-RoHS compliant because they were obsolete before July 1st, 2006.
+***************************************************************
+
+==SKILL Product:DLT	Group:DLT Autoaloader             Sys_flag:n
+
+Exchange Part:
+-------------------------------------------------------------
+SureStore DLT VS80 Autoloader 1/8 Autoloader 	C9264-69000 
+
+
+Supplies:
+-------------------------------------------------------------
+2m SCSI interface cable 68 HD to 68 HD		C6282-61606 
+LVD SCSI terminator - 68HD			1253-3295 
+DLT type IV tape cartridge 			C5141-60010   
+Cleaning cartridge - For DLT 1 or VS80 only 	C7998A  
+DLT 1 or VS80 LVDS connectivity kit		C9244A   
+Ultra 160 LVD SCSI adapter board ASC-29160LP 	P3413A		(Adaptec)
+PCI Ultra2 Wide LVD SCSI HBA AHA-2940U2B	C6282-82701  	(Adaptec) 
+Rack mount kit 				  	C9268R
+
+
+last change: 02.12.2002 Sascha Brzoska, Mass, CRC Ratingen 
+

@@ -1,0 +1,55 @@
+**********************************************
+HP StorageWorks 2500 Disk System
+**********************************************
+The HP StorageWorks 2500 Disk System (DS2500) delivers an industry leading, high-capacity 3U storage solution. 
+This rack-optimized enclosure features system compatibility with HP-UX operating systems. It is built with HP's commitment to developing dependable products and service,
+the HP StorageWorks 2500 Disk System ensures data integrity and manageability.
+
+The DS2500 FC drive enclosure has dual redundant hot-plug FC I/O modules that allow distribution of I/Os between the two modules and provides redundant paths should either FC I/O module become unavailable.
+The enclosure also has dual redundant hot-plug power supplies and dual hot- plug blowers. 
+The enclosure also has a hot-plug Environmental Monitoring Unit (EMU) to monitor and report the condition of the power supplies and fans. 
+The EMU can be replaced without affecting I/O operations.
+
+The DS2500 is supported in multiple HP Integrity servers using the HP-UX operating system.
+
+PARTS:
+************
+
+Part Description:                                              	Spare Part Number:                                                                 
+=====================================================================================
+SPS-SWII SHELF FAN                       		123482-005
+SPS-RAIL KIT, UNIVERSAL SNAPIN                              349113-001
+SPS-FC EMU                                                               375393-005                        
+SPS-SHELF ENCLOSURE,FC                                       408515-001
+
+SPS-BD,E-PBC I/O B, W/O SFP                                   364548-005                         I/O module B
+SPS-BD,E-PBC I/O A, W/O SFP                                   364549-005                         I/O Module A
+
+SPS-POWER SUPPLY 499W                                       212398-005
+
+ 
+
+
+FC HARD DRIVES:
+Part Description:                                     	                           Spare Part Number:                Product Number                                                 
+=====================================================================================
+146 GB 10K rpm dual-port 2 Gb/s FC-AL 1-inch (2.54 cm) drive       300590-001 / -002                  293556-B22
+  
+300 GB 10K rpm dual-port 2 Gb/s FC-AL 1-inch (2.54 cm) drive/    
+         HP EVA 300G/10K FC Add-on Hard Disk Drv                        366023-001 / -002                 364622-B22
+
+72 GB 15K rpm dual-port 2 Gb/s FC-AL 1-inch (2.54 cm) drive         300588-001  / -002                293568-B22
+ 
+146 GB 15K rpm dual-port 2 Gb/s FC-AL 1-inch (2.54 cm) drive       366024-001  / -002                364621-B22
+
+
+
+FATA HARD DRIVES
+Part Description:                                     	                           Spare Part Number:                Product Number                                                 
+=====================================================================================
+500 GB FATA disk dual-port 2Gb FC                                             371142-001                           370790-B22
+Hybrid disk drive factory integrated
+
+
+
+last update: 27.2.2007  Birgit Mostert

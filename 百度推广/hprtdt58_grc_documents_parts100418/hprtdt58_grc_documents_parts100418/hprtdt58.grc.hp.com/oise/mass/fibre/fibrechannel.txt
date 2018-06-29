@@ -1,0 +1,133 @@
+==SKILL Product:Fibrechannel	  Group:SAN                 Sys_flag:y
+== FIBRE CHANNEL PRODUCTS FOR S800 ==========================================
+Please check also SAW for updates
+
+++ HSC FCMS Cards ++++++++++++++
+HSC Fibre Channel Card, A3636A  A3329-60120    (for T-Class, Non-OFC 1063 SW)
+HSC Fibre Channel Card, A3404A  J2389-69008    (for K-Class, FC-AL)
+HSC Fibre Channel Card, A6685A  A6685-69001    (for K-Class, Fabric !!)
+HSC Fibre Channel Card, A3591A  A3395-69102    (for D-Class, FC-AL)
+HSC Fibre Channel Card, A6684A  A6684-69001    (for D-Class, Fabric !!)
+PCI Fibre Channel Card,         A3740-69101    (for L-/N-Class)
+PCI Fibre Channel Card          A3726-69006    (V-Class only !!  S/N A3725A-46)
+PCI FC-fabric Card              A5158-69001    (FC: fabric !!)
+PCI 2GBps FC-Adapter            A6795-69004    A6795A (ioscan: Tachyon XL2)
+PCI-X 2GBps Dual Port FC-	A6826-69002    A6826A
+PCI-X 2GB FC/ 1000BASE-SX HBA	A9782-60002    A9782A
+PCI-X 2GB FC/ 1000Base-T  HBA   A9784-69001    A9784A
+PCI-X 2 x 1000BASE-T/2x2GB FC   AB465-69001    AB465A
+PCI-X 4GB SINGLE PORT HBA       AB378-69001    AB378A
+PCI-X 4GB SINGLE PORT HBA       AB378-69101    AB378B
+PCI-X 2.0 2 Port 4Gb HBA        AB379-69001    AB379A
+PCI-X 2.0 2 Port 4Gb HBA        AB379-69101    AB379B (orAB379-67101) 
+PCI-X 4GB FC/ 1000B-T Combo     AD193-69001    AD193A
+PCI-X 2 Port 4 GB/ 2*1000B-T    AD194-69001    AD194A
+PCI-X FC2143 4GB  2.0 Emulex    410984-001     AD167A LP1150    WIN/LINUX
+PCI-X FC2243 4GB  2.0 DC Emulex 410985-001     AD168A LP11002   WIN/LINUX
+PCI-X FC1143  2.0 4GB Qlogic    410986-001     AB429A WIN/LINUX
+PCIe  FC2142SR 4GB              397739-001     A8002A
+PCIe  FC2242SR 4GB , DC         397740-001     A8003A
+PCIe  1Port 4Gb FC              AD299-67001    AD299A
+PCIe  FC1242SR 4GB              407621-001     AD300A PCIe 2Port 4Gb Fibre Channel HBA
+PCIe  4GB FC/ 1000B-T 		AD221-67001    AD221A EMULEX HP-UX/openVMS
+PCIe  2x 4GB FC/ 2x 1000B-T 	AD222-67001    AD222A EMULEX HP-UX/openVMS
+PCIe  2x 4GB FC/ 2x 1000B-SX	AD393-67001    AD393A EMULEX HP-UX/openVMS
+
+
+ 
+GLM upgrade Kit                 A2389-69102    (Upgrade Kit for all Adapters)
+Dummy-Part-No for GLMs:         NHP%J2389-69102   (Germany only !!!)
+Loopback Cable 50um, 2m         1005-0624
+Optical Port Protector          1005-0359
+
+++ FC SCSI Multiplexer +++++++++
+Motherboard                     A3308-69501
+8MB Memory Board                A3308-69012
+Power Supply, Auto-ranging      0950-2989
+Fan Assembly                    A3308-60014    (2 Fan's per Unit!)
+LCD/LED Front Panel             A3308-60004
+Slot Cover FC/SCSI Slots        5001-6892
+FC Adapter, Non-OFC 1063 SW     A3308-69107
+Loopback Cable 50um, 2m         1005-0624
+Optical Port Protector          1005-0359
+F/W SCSI Adapter, 16-Bit        A3308-69003
+
+++ FC AL Hub +++++++++++++++++++
+FC-AL Hub 10SW Port             A3724-69001
+FC-AL Hub 9SW+1LW Port          A4839-69001
+Fan Module                      A3724-60002
+Loopback Cable 50um, 2m         1005-0624
+Loopback Cable  9um, 2m         A4839-63001
+Optical Port Protector          1005-0359
+
+++ F16 Switch (A522xA/B) +++++++++
+Motherboard                     A5223-69001
+CPU-Board with Status Ass.      A5223-69002
+Karte FL-Port                   A5223-69003
+Karte G-Port                    A5224-69001
+Power Supply                    A5223-60006
+LED Disply Ass.                 A5223-60007
+Control Panel Ass.              A5223-60008
+Top Cover                       A5223-60010
+AC Power Dist Ass.              A5223-60011
+FRONT BEZEL ASSY                A5223-60015
+RS-232 HARNESS ASSY             A5223-60016
+DC HARNESS ASSY                 A5223-60017
+ShortWave GBIC			1990-2292
+LongWave GBIC			1990-2291
+
+++ Brocade 16-port Fibre Channel Switch A5624A ++
+Mainboard                       XHP-X000012   (1 per assy)
+Power Supply                    XPH-X000010   (2 per assy)
+Fan Tray                        XHP-X000013   (1 per assy)
+Chassis                         XHP-X000014   (1 per assy)
+GBIC (ShortWave)                1990-2292    (up to 16 per assy, 8 for Model 2400)
+GBIC module (long wave)         1990-2291
+
+
+++ Brocade 8-Port Fibre Channel Switch A5667A ++
+Mainboard+Chassis               XHP-X000021   (1 per assy)
+Fan Tray                        XHP-X000008   (1 per assy)
+Power Supply                    XPH-X000010   (2 per assy)
+GBIC (ShortWave)                1990-2292
+GBIC (long wave)                1990-2291
+
+++ A6534A - 32-64 PORT FIBRE CHANNEL DIRECTOR-CLASS SWITCH
+Control Processor (CTP) Cards		A6534-69005
+Fibre Port Module (FPM) Cards		A6534-69010
+Cooling Fan Modules			A6534-69004
+Serial Crossbar (SBAR) Cards		A6534-69007
+Power Supplies				A6534-67003
+Backplane and Radio Frequency 	        A6534-67006
+AC Power Distribution Module 		A6534-67008
+Short Wave SFFP Optical 	        1005-0892
+Long Wave SFFP Optical 		        1005-0893
+
+Cable Management Assembly               A6534-67013
+Front Bezel                             A6534-67009
+Torque Driver			        A6534-67011
+5/32” Driver Bit		        A6534-67014
+
+++ FC MISC Parts +++++++++++++++
+50 micron fibre optic cbl. 100m 1005-0366
+50 micron fibre optic cbl.  50m 1005-0365
+50 micron fibre optic cbl.  16m 1005-0586      (A3531A)
+50 micron fibre optic cbl.   2m 1005-0585      (A3583A)
+
+
+++ LC Cable +++++++++++++++++++++++++
+FC Cable   2m Duplex LC/LC 50/125 M/M Optical    5065-5101   (C7524A)   
+FC Cable  16m Duplex LC/LC 50/125 M/M Optical    5065-5102   (C7525A)      
+FC Cable  50m Duplex LC/LC 50/125 M/M Optical    5065-5103   (C7526A)      
+FC Cable 200m Duplex LC/LC 50/125 M/M Optical    5065-5104   (C7527A)       
+FC Cable   2m Duplex LC/SC 50/125 M/M Optical    5065-5106   (C7529A)       
+FC Cable  16m Duplex LC/SC 50/125 M/M Optical    5065-5107   (C7530A)                  
+2M LC male - SC male adapter kit			     (C7540A)       
+SC female  - SC female adapter			             (C7534A)       
+
+
+++ Tools +++++++++++++++++++++++
+FC-Toolbox                      FC-TESTKIT     (Germany only !!!!)
+
+Update: 10.06.2009
+Last Update: Guenter Hagenguth

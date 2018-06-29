@@ -1,0 +1,96 @@
+<PRE>
+<H1>PINBELEGUNG FUER RS-232 und RS-423 MULTIPLEXER</H1>
+
+Unter folgenden Schnittstellen muss unterschieden werden:
+
+a) RS 232 Schnittstelle (bis max. 15m Kabell&auml;nge)
+b) RS-423A Schnittstelle (bis min. 300m Kabell&auml;nge)
+
+Unter folgenden Kabeln/Steckern muss unterschieden werden:
+
+a) 25 Poliger SUB-D Stecker
+b) 8 Poliger RJ-45 Stecker
+
+Ausserdem muss zwischen Schnittstellen mit Full Modem Control
+(mit MDP bzw. ADP bezeichnet) und Schnittstellen ohne Full Modem
+Control (mit DDP = "Direct Distribution Panel" bezeichnet)
+unterschieden werden.
+Full Modem Control gibt es allerdings nur mit 25 Poligen SUB-D
+Steckern.
+
+
+Hier eine Auswahl von Multiplexern mit und ohne Modem Control:
+
+With Full Modem Control: J2094A
+                Multifunktionskarte A1703-60022 (Port 0-7)
+                Multifunktionskarte A1703-60003 (Modem Port)
+                Multifunktionskarte A1751-60001 (Modem Port)
+
+Without Modem Control:
+              J2092A
+              J2093A (RS-423A)
+              J2096A
+              Multifunktionskarte A1751-60001 (Port 0-7)
+              Multifunktionskarte A1703-60022 (Port 8-15, optional)
+
+
+
+<B><U>1. RS 232 Schnittstellenbelegung</U></B>
+
+Description          Input/Output ADP/MDP Pin#  DDP Pin#   RJ-45 Pin#
+                                   25-Polig     25-Polig   8-Polig
+--------------------+------------+------------+-----------+-----------
+Protective ground   |            |   1        |           |    
+Signal ground       |            |   7        |      7    |    6
+Transmit data       | Output     |   3        |      3    |    3
+Receive data        | Input      |   2        |      2    |    1
+Request to send     | Output     |   8        |           |
+Clear to send       | Input      |   22       |           |
+Data set ready      | Input      |   20       |           |
+Data terminal ready | Output     |   6        |           |
+Data carrier detect | Input      |   4        |           |
+Signal rate selector| Output     |   23       |           |
+Ring indicator      | Output     |   9        |           |
+General purp. output| Output     |   5        |           |
+----------------------------------------------------------------------
+
+
+
+
+
+<B><U>2. RS-423A Schnittstellenbelegung</U></B>
+
+Description          Input/Output    DDP Pin#(RJ-45)  Terminal Pin#
+                                        8-Polig         25-Polig
+--------------------+---------------+---------------+---------------
+Protective ground   |               |               |
+Transmit data +     | Output        |   6           |   18
+Transmit data -     | Output        |   3           |   3
+Receive data  +     | Input         |   2           |   10
+Receive data  -     | Input         |   1           |   9
+--------------------------------------------------------------------
+
+
+
+Da die Pins der RJ-45 Stecker nicht numeriert sind, hier die
+Z&auml;hlweise:
+
+               
+               |    |
+           ____|____|____
+          |     ____     |            ______________
+          |    +    +    |           +              +
+Abstehende|    |    |    |           |              |
+Klammer --|->  |    |    |           |    ______    |
+          |   _|    |_   |           |   _|    |_   |
+          |  | |____| |  |           |  _|      |_  |
+          |  |        |  |           |  |--------|  |
+          |  |        |  |           |  ||||||||||  |
+          |  |        |  |           |  +________+  |
+          +__|        |__+           +______________+
+             +________+
+
+            1          8               8          1
+
+           male (Stecker)             female (Buchse)
+

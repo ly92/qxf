@@ -1,0 +1,193 @@
+******************* Product / Case Handling *******************
+RoHS Silent Roll product 
+
+Capture the appropriate Serial Number for use in SAW Unit Configuration, 
+PC Tracker or CSN to determine RoHS product level compliance. 
+
+Products listed as Modified or EMEA-Only are Compliant Products. All compliant 
+products must comply with the RoHS directives and must be supported with Modified spares.
+
+See http://na2.know.hp.com/teams/RoHS%20Service%20Delivery%20Implementation/default.aspx  
+or email rohsservicedeliveryprogramteam@hp.com for additional information.
+
+If unable to capture the serial number, obtain the purchase or install date from the 
+customer and compare with the compliance date below. 
+
+Compliance Date:  July, 1st 2006
+
+The ROHS status of a part is UNKNOWN unless marked with "(compliant)" or "(noncomp)".
+You may order a compliant part for a not compliant server in case the noncompliant part is unavailable
+
+The Qualifier has to check for parts compliancy himself with the above mentioned 
+tools and is solely repsonsible for this!
+***************************************************************
+
+=========== HP Integrity sx1000 Superdome (Orca) ===============
+
+------- System Backplane -----------------------------
+
+ASSY,DLB2 ( Lite Backplane)        	        A6113-69102(noncomp) A6113-69201(compliant)  ( 16 Way )
+ASSY,HLSB3( no Power supplies included)		A5201-69401(noncomp) A5201-69501(compliant)  ( 32 Way )
+ASSY,HRSB2( no Power supplies included)         A5201-69302(noncomp) A5201-69402(compliant)  ( 64 Way )
+
+
+
+------------------  CELL  ----------------------------
+#All cellboards come with 4 CPU modules mounted on the board.
+#Not needed CPUs should be removed from new cell and returned in the  
+#provided anti-static bags and compartments. 
+#Take over the ZIF Dust Covers from the old cell for any empty CPU slots.
+#In case of a damaged Dust Cover, order a new one (part# 5169-0431).
+#Cellboard parts come with PDH daughter board, but NO DIMMs and NO POWER BOARD.
+
+CELL BOARD     1.5 GHz MADISON                  AB283-69001 (df on CPU gives A6924-62026)
+CELL BOARD     1.1 GHz IA MX2                   AB285-69001(noncomp) AB285-69002(compliant) (df pon CPU gives A6868-04024)
+CELL BOARD    MAD9M 1.6GHz/9MB                  AD011-69001   => A1 stepping MP:CM>DF->s->M FRU-ID(AB364-62002)
+CELL BOARD    MAD9M 1.6GHz/9MB                  AD011-69002(noncomp) AD011-69003(compliant)   => A2 stepping MP:CM>DF->s->M FRU-ID(AB364-62102) MIN. FW 5.1 
+
+CPU SOCKET TERMINATOR                           A6866-60005    in CPU slot 2 if only CPU module 0 installed (mx2 only)
+Cell Board Battery(PDH Daughter Board)	        234556-001     (CR2032)
+ZIF,DUST COVER					5169-0431	 
+
+
+CELL POWER BOARD, OCPB3, ORCA			A6866-69001(noncomp) A6866-69002(compliant)
+CELL, VRM 9.0, LINK, CCORE, & FSB VR 		0950-4462(noncomp) 0950-4654(compliant) 1.2/1.8volts, (voltage regulator module) 
+CELL, VRM 8.5, L2C & CLK VR, 			0950-4515(noncomp) 0950-4653(compliant) 2.5/3.3volts, (voltage regulator module)
+
+BD ASSY, DIMM 512MB, single DIMM		A5198-69101
+BD ASSY, DIMM   1GB, single DIMM		A6098-69101
+BD ASSY, DIMM   2GB, single DIMM		A6100-69001
+
+
+--------------------Cables ---------------------
+
+CABLE ASSY,500 MHZ CLOCK			A5201-63020
+(Utility Board to Master I/O Backplane)		
+
+CABLE ASSY UGUY-HLSB CLOCK			A5201-63021(noncomp) A5201-63101(compliant)
+Utility Board to Left System Backplane
+
+CBL ASSY, UTILITIES-1 CABLE			A5201-63052
+CBL ASSY, UTILITIES-2 CABLE			A5201-63053
+
+CABLE ASSY RING I/O (old REO-) now (SBA-Cable)	A5201-63066 (note: only a single cable.Order two for REO IN and REO out)
+CABLE, 48V SENSE TO HUCB                        A5201-63111 (see http://ci2005.cup.hp.com/list_details.php?issue=3123 )
+
+
+
+*********** 32 way *****************
+
+ASSY, HBFC3(Backplane to Backplane Flex Cable),	A5201-04039   (U-Turn)
+2" includes attaching hardware
+
+*********** 64 way *****************
+
+ASSY, HBFC1(Backplane to Backplane Flex Cable),	A5201-04027(noncomp) A5201-63103(compliant)   
+5" includes attaching hardware			
+
+ASSY, HBFC2(Backplane to Backplane Flex Cable),	A5201-04028(noncomp) A5201-63104(compliant)   
+8" includes attaching hardware			
+
+USB HUCB to HUCB cable SD64			A5201-63058(noncomp) A5201-63093(compliant)
+
+--------------------I/O -------------------------
+************************************************************************************************
+*  never trust the part number, which is given by CM>df>S>I(or c)                              *
+*  Those numbers are missleading. The FRU NAME field from CM>df>S>I(or c) should be used       *
+*  FRU NAME :GXIOB4 new PCI-X Chassis ; FRU NAME :HIOB3  old PCI   Chassis                     *
+*  FRU NAME :CIO5   new Core I/O PCI-X; FRU NAME :CIO4   old Core I/O                          *
+************************************************************************************************
+
+
+BD ASSY,HMIOB BLKPL MSTR			A5201-67001
+MODULE,GXIOB, PCIX Card Cage Assy		A6864-69101(noncomp) A6864-69301(compliant) NEW !!!MP:CM>DF>S>I>: FRU NAME:GXIOB4 or GXIOB3 
+(12 Slot I/O Chassis)
+MODULE, HIOB PCI Card Cage Assy 		A4856-69101        MP:CM>DF>S>I>: FRU NAME: HIOB3
+(12 Slot I/O Chassis)	
+
+BD ASSY,CIO5 ( Core I/O) PCIX			A6865-69001(noncomp) A5210-69501(compliant)
+ 
+
+
+BD ASSY HCOLB CELL OL*				A5201-67065  ******
+
+
+
+------------------ Power -----------------------
+
+BD ASSY HBPB2( Halfdome Backplane Power Board)	A5201-69003(noncomp) A5201-69203(compliant)
+PWR ASSY, BPS, (BULK POWER SUPPL)		A5201-69118(noncomp) A5201-69026(compliant)
+PWR ASSY, PDCA 4-WIRE ( only for US)		A5201-69009
+PWR ASSY, PDCA 5-wire ( europe)			A5201-69016   (64amp,3 phase,with cable and connector)
+PWR ASSY, PDCA 5-wire ( europe)			A5201-69024   (32amp,3 phase,with connector, thinner cable 
+							than A5201-69016, shipped for SDs since ~2003))
+
+
+
+
+--------------- Utility Subsystem ---------------
+
+ASSY UTILITY CHASSIS, includes HUCB		A5201-67003(noncomp) A5201-67069(compliant)
+
+BD ASSY UGUY-500 BOARD				A6475-69001(noncomp) A6475-69201(compliant) or A6475-69301
+BD ASSY, SBCHL, Single Board Computer HUB	A5201-69012
+MODULE ASSY,SBCH & SBC	(MP)			A5201-69113 MP>CM>DF>s => s(SBC) SBC FRU ID=A1150-2094 FRU NAME=SBC Board  
+
+MODULE ASSY,SBCH & SBC2	(MP)			A5201-69129(noncomp) A5201-69329(compliant)  Min.FW. 15.16(bundle 5.1) 
+                                                             MP>CM>DF>s => s(SBC) SBC FRU ID=A5201-60019 FRU NAME=SBC2 Board
+
+Fuse 125V 3.5 Amps				A4700-67081   This fuse provides the LCD-display
+                                                        with power and is situated on the UGUY.
+                                                        It s recommended to replace the UGUY and 
+                                                        not the fuse !
+
+
+
+--------------- Fans -----------------------------
+
+FAN MODULE, CELL AREA ( mounted on top)		A5201-62048 (Cabinet Blower) (old part number: A5201-69011)
+I/O Fan Module, incl. Fan                       A5201-04035(noncomp) A5201-04072(compliant)
+
+
+--------------- IOX -------------------------------
+
+ASSY, XUC, exp. utilities chassis, incl XUCB	A5861-69001(also incl XUC FANS)
+ASSY, EXPANSION POWER CHASSIS	                A5861-69102(noncomp) A5861-69202(compliant)	
+BD ASSY, XMIOB2  (I/O chassis backplane)	A5862-60101(noncomp) A5862-60201(compliant)	
+CABLE ASSY,ICE OL*, LED 	                A5862-63006(noncomp) A5862-63034(compliant)	
+CABLE ASSY, IOX REO, (in/out), Shielded	        A5862-63030 see current issue 1785	
+CABLE ASSY, IOX CLOCK, shielded	                A5862-63031(noncomp) A5862-63046(compliant)	
+CABLE ASSY, IOX USBE 14FT, shielded	        A5862-63032(noncomp) A5862-63044(compliant)
+ASSY, XUC FAN                                   A5861-62014
+ASSY, ICE FAN                                   A5862-04012(noncomp) A5862-04032(compliant)
+
+--------------- MISC ------------------------------
+
+BD ASSY HFPB( Halfdome Front Panel Board) FR&RR A5201-67002 Does not include the Power switch
+CABLE ASSY, ON-OFF Switch, to FPB		A5201-63059(noncomp) A5201-63094(compliant)
+
+
+-------------- Tools ----------------------------------
+
+TOOL, DIMM INSTALLER				A5201-68003
+DIMM REMOVAL KIT				A5201-68005
+TOOL, STAT MAT 24X36 W/GRD STR			A5201-68004
+
+JUMPER BOARD, loop-back  upper,  F015 to F415	A5201-68001
+JUMPER BOARD, loop-back  lower,  F005 to F405	A5201-68002
+
+
+
+LAN-crossover-cable				M3199-60102M
+serial console-cable				A4700-67052
+
+
+------------------------------------------------------------------------------
+PC SMS 
+
+BD ASSY, SMS Modem Card, 56K V.92/V.44 DATA FAX	0960-2197
+
+
+-------------------------------------------------------------------------------
+
+             Last update on 30-March-2010 by Holger Goetker

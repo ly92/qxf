@@ -1,0 +1,121 @@
+******************* Product / Case Handling *******************
+RoHS Silent Roll product 
+
+Capture the appropriate Serial Number for use in SAW Unit Configuration, PC Tracker or CSN to determine RoHS product level compliance. 
+
+Products listed as Modified or EMEA-Only are Compliant Products.  All compliant products must comply with the RoHS directives and must be supported with Modified spares.
+
+See http://na2.know.hp.com/teams/RoHS%20Service%20Delivery%20Implementation/default.aspx  
+or email rohsservicedeliveryprogramteam@hp.com for additional information.
+
+If unable to capture the serial number, obtain the purchase or install date from the customer and compare with the compliance date below. 
+
+Compliance Date:  TBD
+
+The parts mentioned on this page are not compliant!
+The Qualifier has to check for parts compliancy himself with the above mentioned tools and is solely repsonsible for this!
+***************************************************************
+== SKILL Product:INFO	 Group:DDS-TAPES
+== C5683A mech CAESAR === 40GB DDS-4 / nativ 20GB
+
+
+Capacity 20 GB native, typically 40 GB with hardware data compression*,
+on DDS-4 150-meter cartridge
+
+- Voll read/write compatibel mit DDS-2  und DDS-3 Medien
+- DDS-1   90m Bänder = read only
+- DDS-1   60m Bänder sind nicht supported
+
+
+Reliability
+MTBF 
+DAT40i: 300,000 hours at 12% duty cycle
+DAT40e: 200,000 hours at 12% duty cycle
+
+Interface 
+DAT40i/e: Ultra Wide LVD and Single-Ended 
+
+Power Requirements
+DAT40i: +5V DC, 1.2 A; +12V DC, 0.1A
+DAT40e: 100-240V, 0.5A, 50-60 Hz
+
+
+************************************************************************************
+
+WITH INTERNAL DEVICES :
+=======================
+
+For HP Surestore DAT internal devices, you need a SCSI ribbon cable with the
+correct termination. HP Surestore DAT 40 and DAT 40x6 drives have a 68-pin
+wide, high-density SCSI connector. If you are using an HP Surestore DAT drive
+on an internal bus with other peripherals that run at Ultra or Ultra2 speeds, it is
+important that a 68-pin LVD-compatible ribbon cable is used. If your computer
+uses narrow SCSI, you will need a cable or adapter that enables you to connect a
+wide SCSI device (68 pins) into the narrow SCSI bus (50 pins). This can be
+purchased from your supplier.
+
+*************************************************************************************
+
+-------------------------------------------------------------------------------------
+
+The DAT40 and DAT72 tape drives includes Target Initiated Negotiation functionality
+
+HP-UX fails to see tape drives attached to the following HBA’s:
+
+• HP A6828A - PA-RISC and IA-64 platform Single Channel Ultra 160 HBA
+• HP A6829A - PA-RISC and IA-64 platform   Dual Channel Ultra 160 HBA
+
+Note:  Target Initiated Negotiation is part of the Universal SCSI Specification
+       and is likely to be implemented in all future HP tape drives.
+
+Solution :
+      There are patches available, for the HP-UX tape driver (scsi_c8xx.o),
+      to address the issue.  The patch numbers are as follows:
+
+      HP-UX 11.0      PHKL_29093
+      HP-UX 11.11     PHKL_29035
+      HP-UX 11.23     pending - should come with the updated tape driver at install
+
+
+see SERVICE NOTE : C5686A-03
+
+-------------------------------------------------------------------------------------
+
+
+
+++ PARTS ++++++++++++++ INQUIRY = C5683A
+
+*************************************************************************
+
+DDS-4	C5685-69204	C5685A	 Dat40i / 40GB Trade Ready Dat Drive
+DDS-4	C5686-69203	C5686A   Dat40i / 40GB internal DDS-4 (Netserver)
+DDS-4	C5686-69203	A6182A 		  40GB internal DDS-4 (Keystone)
+
+DDS-4	C5687-69203	C5687A/B Dat40e / 40GB external DDS-4 Tape / DESKTOP /68 Pin HD connector
+DDS-4	C7497-69201	C7497A   DAT40m / 40GB array module 5300
+DDS-4	C6541-69001	C6541A	 DAT40k / 40GB SMART DDS4 DAT DRIVE (RACK READY)
+
+C2364A  5183-2657       68 Pin HD scrw  LVD/SE Multimode Terminator for external DAT40
+
+C2361B  5183-2674       1.0 M VHDCI68 to HD68  (SCSI Cable multimode)
+C2362B  5183-2675       2.5 M VHDCI68 to HD68  (SCSI Cable multimode)
+
+
+FRONT PANEL :
+
+	C5683-92105 	3.5" DDS-4 Front Panel - Flint Grey (40) 
+	C5683-92111 	3.5" DDS-4 Front Panel - Dove Grey (40) 
+	
+	C5683-92238 	5.25" DDS-4 Parchment Front Panels (40) 
+	C5683-92239 	5.25" DDS-4 Flint Grey Front Panels (40) 
+	C5683-92240 	5.25" DDS-4 Black Front Panels (40)
+
+	5182-4551	Adapter - 68-pin(M) to 50-pin(M) 
+			Used to connect 68-pin(F) device to 50-pin(F) SCSI ribbon cable
+
+
+
+last update: 03.12.03 Herbert Meiske, MUHW CC TEAM, CRC Ratingen 
+
+
+

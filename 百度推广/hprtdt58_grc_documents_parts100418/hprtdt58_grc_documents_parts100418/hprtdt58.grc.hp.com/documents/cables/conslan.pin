@@ -1,0 +1,26 @@
+What is the cable pinout for the new 800 series console cable?
+
+
+RESOLUTION TEXT
+
+
+			A1703-63003
+	       9000/800 New style console cable
+
+Pinout for standard console cable (A1703-63003) is:
+
+      DIN CONNECTOR                       25 PIN (MALE)
+       FRONT VIEW
+                                          ___________________
+          2  1       3 ______________ 2   \                 /
+         4 __ 3                            \_______________/
+          6||5       4 ______________ 3
+            ^                               Belden Cable 9819 28 gauge
+            |        1 ______________ 7     specified in the HP manualm
+            |
+           KEY
+
+
+
+
+#	pages=1

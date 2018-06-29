@@ -1,0 +1,82 @@
+******************* Product / Case Handling *******************
+RoHS Silent Roll product 
+
+Capture the appropriate Serial Number for use in SAW Unit Configuration, PC Tracker or CSN to determine RoHS product level compliance. 
+
+Products listed as Modified or EMEA-Only are Compliant Products.  All compliant products must comply with the RoHS directives and must be supported with Modified spares.
+
+See http://na2.know.hp.com/teams/RoHS%20Service%20Delivery%20Implementation/default.aspx  
+or email rohsservicedeliveryprogramteam@hp.com for additional information.
+
+If unable to capture the serial number, obtain the purchase or install date from the customer and compare with the compliance date below. 
+
+Compliance Date:  TBD
+
+The parts mentioned on this page are not compliant!
+The Qualifier has to check for parts compliancy himself with the above mentioned tools and is solely repsonsible for this!
+***************************************************************
+== StorageWorks Modular Smart Array 20 Enclosure (335921-B21)
+
+
+BOARDS:
+Part Description:                                      	Spare Part Number:                                                                 
+=====================================================================================
+Midplane PC board  					349795-001
+Controller module (Incl chassis + controller PC board)  349797-001
+(does not include cache PC board or batteries)
+Unit identification (UID) PC board 			361183-001
+Backplane PC board 					361740-001
+ 
+	
+CABLES:
+Part Description:                                      	Spare Part Number:                                                                 
+=====================================================================================
+Ribbon cable 20-pin (F) to 20-pin (F) - 0,5m		361739-001
+SCSI cable 68-pin vhdci (M) to 68-pin vhdci (M) - 1.8m  341174-B21
+SCSI cable 68-pin vhdci (M) to 68-pin vhdci (M) - 3.7m  341175-B21 
+SCSI cable 68-pin vhdci (M) to 68-pin vhdci (M) - 7.3m  164604-B21 
+SCSI cable 68-pin vhdci (M) to 68-pin vhdci (M) - 11.9m 150214-291 
+ 
+
+
+
+HARD DRIVES:
+Part Description:                                     	Spare Part Number:                                                                 
+=====================================================================================
+160GB SATA 7200 RPM					349238-B21
+250GB SATA 7200 RPM					349239-B21
+ 
+
+
+CONTROLLER:
+Part Description:                                     	Spare Part Number:                                                                 
+=====================================================================================
+128MB DDR memory with battery backed write cache	309521-001
+For Smart Array 6402 controller 
+128MB battery backed write cache (BBWC) module		351518-001
+For SA641 Ultra320, SA642 Ultra320 or SA 6i controller 
+Dual channel Ultra320 SCSI PC board  			273911-B21
+Smart Array 6404/256 Ultra320 SCSI controller 		273914-B21
+Smart Array 6402/128 Ultra320 SCSI controller 		273915-B21
+Smart Array 642 Ultra320 Controller with 64MB cache 	291967-B21
+128MB BBWC assembly  (incl. battery backed write cache  346914-B21
+memory board, battery holder assembly w. attached cable, 
+and 3.6V, 500mAH battery pack 
+
+
+
+
+POWER:
+Part Description:                                     	Spare Part Number:                                                                 
+=====================================================================================
+3.6V battery pack assembly  				307132-001
+3.6V battery pack and holder kit 			349799-001
+hot-plug fan module  					349798-001 
+Hot-plug power supply module - 400W  			349800-001 
+Voltage regulator module (VRM) - 12V input, 125W   	361741-001 
+Modular battery holder with 50cm cable assembly		349989-001 
+
+
+ 
+
+last update: 23.12.05 Frauke Denker

@@ -1,0 +1,31 @@
+ UPS cable pinouts. 5061-2575 (9-9pin) and 5061-2569 (9-25pin
+UPS cable pinouts. 5061-2575 (9-9pin) and 5061-2569 (9-25pin)
+
+1) UPS (PowerTrust) to RS232 25 pin mux port.
+   a) part #: 5061-2569
+   b) pinout:
+
+       9 pin                25 pin
+       male                 male
+       UPS                  RS232
+       ------               ------
+       1 RX  <------------- 3 TX
+       2 TX  -------------> 2 RX
+       9 GND <------------> 7 GND
+
+2) UPS (PowerTrust) to RS232 9 pin (K-Series)
+   a) part #: 5061-2575
+   b) pinout:
+
+       9 pin                9 pin
+       male                 female
+       UPS                  RS232
+       ------               ------
+       1 RX  <-------------- 3 TX
+       2 TX  --------------> 2 RX
+       9 GND --------------- 5 GND
+
+Additional Info: To get the correct cable (5061-2575) supplied with the
+                 UPS you must add option 021 (Replace DB25 RS-232 cable
+                 with DB9) to UPS order.
+

@@ -1,0 +1,86 @@
+******************* Product / Case Handling *******************
+RoHS Silent Roll product 
+
+Capture the appropriate Serial Number for use in SAW Unit Configuration, 
+PC Tracker or CSN to determine RoHS product level compliance. 
+
+Products listed as Modified or EMEA-Only are Compliant Products. All compliant 
+products must comply with the RoHS directives and must be supported with Modified spares.
+
+See http://na2.know.hp.com/teams/RoHS%20Service%20Delivery%20Implementation/default.aspx  
+or email rohsservicedeliveryprogramteam@hp.com for additional information.
+
+If unable to capture the serial number, obtain the purchase or install date from the 
+customer and compare with the compliance date below. 
+
+Compliance Date:  July, 1st 2006
+
+The ROHS status of a part is UNKNOWN unless marked with "(compliant)" or "(noncomp)".
+You may order a compliant part for a not compliant server in case the noncompliant part is unavailable
+
+The Qualifier has to check for parts compliancy himself with the above mentioned 
+tools and is solely repsonsible for this!
+
+RoHS Status might be documented just before the Part-#
+O - Original
+M - Modified                            (11.7.2006, Joerg Brand)
+***************************************************************
+
+== SEU (Server Expansion Unit) A6434A for Keystone, Olympia & Rainier Systems ==
+
+---------------------------- SEU System Backplane ------------------------------
+SEU SYSTEM BACKPLANE           A6434-69001
+
+
+------------------------------------ I/O ---------------------------------------
+PCI-X CARD CAGE ASSY           M A6093-69213   contains the PCI-X Backplane
+PCI OLR Assy with 16 Paddles     A6093-67114(noncomp) A6093-67214(compliant)   old part#: A6093-67014; includes also PCI OLR Switch cable
+PCI OLR PADDLE ASSY              A6093-40041   old part#: A6093-67020
+PCI SEPARATER WITH LIGHTPIPE     5065-7443
+PCI FILLER PLATE                 5001-6892
+CORE I/O, MP                     A7109-69001    
+CORE I/O ENCLOSURE (CUBS)        A6434-69003   Backplane of Core I/O with LBA #0
+MASS STORAGE BACKPLANE           A6093-67003
+INTERNAL DAT40i 40GB DRIVE       C5686-69204   carbon colored
+INTERNAL DVD DEVICE              A9879-67001   
+REMOVABLE MEDIA RAIL KIT         A6752-67011   blue plastic rails attached to DAT or DVD
+FILLER FOR DVD SLOT              A6912-00014   carbon colored
+INT. HTPLG U320 DISK 36GB 15k    A9896-69001(noncomp) AB420-69001(compliant)   carbon colored; Ultra320; ST336753LC, MAS3367NC
+INT. HTPLG U320 DISK 36GB 15k  M AB420-69001  
+INT. HTPLG U320 DISK 73GB 15k    A9897-69001(noncomp) AB421-69001(compliant)   carbon colored; Ultra320; MAS3735xx 
+INT. HTPLG U320 DISK 73GB 15k  M AB421-69001
+INT. HTPLG U320 DISK 146GB 10k   A9898-69002(noncomp) AB422-69001(compliant)   carbon colored; Ultra320;
+INT. HTPLG U320 DISK 146GB 10k M AB422-69001
+INT. HTPLG U320 DISK 146GB 15k   AD206-69001   carbon colored; Ultra320;
+INT. HTPLG U320 DISK 300GB 15k   AD261-69001   carbon colored; Ultra320;
+FILLER FOR INTERNAL DISK SLOT    A6198-60003   carbon colored
+
+
+----------------------------------- Power --------------------------------------
+BULK POWER SUPPLY                A6093-69021
+PCI POWER MODULE               O A6093-69123
+VRM FOR PCI-X BACKPLANE        O  0950-4122(noncomp) 0950-4708(compliant)     VRM# 1-4;
+VRM FOR PCI-X BACKPLANE        M  0950-4708     VRM# 1-4;
+
+
+----------------------------------- Fans ---------------------------------------
+SMART FAN FRONT ASSY           M A6093-67117   cabinet fan# 0&1
+SMART FAN REAR ASSY            M A6093-67118   cabinet fan# 2&3
+SMART FAN PCI-X I/O ASSY       M A6752-04071   same as in Matterhorn
+
+
+----------------------------------- Cables -------------------------------------
+CABLE, RS487 EXTERNAL (SEU)    A6434-63003   for connection to a SEU 
+SBA CABLE SET                  A6093-63005(noncomp) A6093-63058(compliant)   for connection to a SEU
+
+Mass storage cable set
+w/ cable mgmt sheetmetal pan   A6434-67005 => contains all internal SCSI cables(no single cable is available)	
+
+
+----------------------------------- Miscs --------------------------------------
+Core I/O Plastic Guide Rail 2  0403-1119     4 per chassis; 6” (15.2 cm) long; see Advisory c01295698
+
+
+--------------------------------------------------------------------------------
+                 Page Owner:  Joerg-Udo Werner
+                 Last update: 13-May-2008 by Frank Laufs

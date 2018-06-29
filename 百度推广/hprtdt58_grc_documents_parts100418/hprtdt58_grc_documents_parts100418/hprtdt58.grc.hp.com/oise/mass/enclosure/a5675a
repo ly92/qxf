@@ -1,0 +1,90 @@
+******************* Product / Case Handling *******************
+All parts and products mentioned on this page are non-RoHS compliant because they were obsolete before July 1st, 2006.
+***************************************************************
+
+== A5675A/A5676A SCSI-SureStore E Disk System DS2100===========
+== Y1770A        SCSI-SureStore E Disk System DS2105===========
+
+  The DS2100 has two 68-pin HD SCSI LVD connectors to allow for daisy-chaining to
+  additional enclosures or other compatible SCSI devices.
+
+  At initial release, the DS21 will only have Ultra 3 capable disk modules.
+  Ultra 4 disks will be phased-in as they become available.  The DS2100 
+  supports the new U320 drives ONLY at 160 MG/s speed, regardless of the HBA.
+  The performance is gated by the LCC.
+
+PLEASE NOTE: The following drives are not supported in the DS2100 disk enclosure. 
+             Electrical analysis has shown that the DS2100 power supply is not 
+             capable of providing enough power for these drives to function properly.
+             If these drives are used in a DS2100 system they will go offline and generate
+             an “Unexpected Disconnect “ error or an 06/29/01 SCSI Sense code.   
+              A7286A         73GB LP 15k LVD SE U320       ST373453LC 
+              A7287A        146GB LP 10k LVD SE U320       ST3146807LC
+
+-------------------------------------------------------------------------------------------
+
+  Drive Addressing
+  ----------------
+
+              | BOX |            SCSI ADDRESS
+              | ID# | Slot 1 | Slot 2 | Slot 3 | Slot 4 |
+              |=====|========|========|========|========|
+              |  A  |    0   |    2   |    4   |    6   |
+              |  B  |    8   |   10   |   12   |   14   |
+              |  C  |    9   |   11   |   13   |   15   |
+
+                     Table:  Disk Slot SCSI ID Map
+
+===========================================================================================
+
+
+A5675A     Base Disk System Assembly              A5675-69003
+Y1770A     DS2105 Base Enclosure Assembly         Y1770-69001
+
++++++   disks   +++++
+Enterprise Market (hp-ux / MPE):
+                  (supported on A-,L-,N-,V-Class systems)
+
+A6537A     18-GB   10K Ultra 3 LVD disk module    A6537-69003   (ST318404LC, ST318406LC, MAN3184MC)
+A6540A     18GB LP 15K Ultra 3 Disk Module        A6540-69002   (ST318452LC, MAM3184MC)
+A7328A     18GB    15K U320 Disk Module           A7328-69001   (ST318453LC, HP 18.2GMAS3184NC)
+
+A7329A     36GB    15K Disk Module                A7329-69001   (HP 36.4GMAS3367NC)
+A6538A     36-GB   10K LVD disk module            A6538-69003   (ST336704LC,ST336706LC, MAN3367MC, ST373207LC#36)
+A6571A     36GB    10K U320 Disk Module           A6571-69002   (ST336607LC, HP 36.4GMAP3367NC)
+A6541A     36GB LP 15K Ultra 3 Disk Module        A6541-69002   (old A6541-69001)(ST336752LC, MAM3367MC)
+
+A6539A     73-GB   10K LVD disk module            A6539-69002   (old A6539-69001)(ST373405LC, MAN3735MC)
+A7285A     73GB    10K U320 Disk Module           A7285-69002   (ST373307LC, MAT3073NC, MAP3735, HP 73.2GMAP3735NC)
+
+
+!!! NOT SUPPORTED in DS21x0: ST373453LC (A7286A), ST3146807LC/MAT3147NC (A7287A) !!!
+!!! (see explanation on the beginning of this page            
+A7286A     73GB    15K Disk Module                A7286-69002   (HP 73.2GMAS3735NC)
+
+A7287A    146GB    10k Disk Module                A7287-69002   (HP 146 GMAP3147NC)
+
+FUJITSU drive model RPM key:
+10K= MAJ / MAN / MAP
+15K= MAM / MAS
+
+
+***can also use DS2300 disks***
+
+C2364A     Terminator                             5183-2657
+A6198A     Disk Filler Panel                      A6198-60001
+
+
+================================================================
+
+Commercial Market (MS / Linux):
+A6544A     18-Gbyte 10,000 rpm LVD disk module    A6544-69001
+A6545A     36-Gbyte 10,000 rpm LVD disk module    A6545-69001
+A6531A     Terminator
+A6235A     Disk Filler Panel                      A6198-60001
+
++++++   Cover   +++++
+Desktop Disk System Cover                         5065-5217
+Desktop Disk System Rubber Feet                   0403-0285
+
+last update: 26.10.2007 Birgit Mostert

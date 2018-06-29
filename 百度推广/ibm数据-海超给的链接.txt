@@ -1,0 +1,2048 @@
+"8202-E4B or 8205-E6B system
+parts8202-E4B8205-E6B",,,,,,,
+Table 1. Cover assembly part numbers,,,,,,,
+1,,46K5096,1,EIA bracket (left),,,
+1,,46K5097,1,EIA bracket (right),,,
+2,,09P3744,2,Attaching screw for EIA bracket,,,
+3,,59Y4919,2,Slide rail assembly,,,
+4,,49Y5312,2,Attaching screw for slide rail assembly,,,
+5,,74Y7445,1,Top access cover assembly,,,
+6,,59Y4822,1,Cable management arm assembly,,,
+7,,46K4640,1,Front bezel (8202-E4B),,,
+,,74Y5140,1,Front bezel (8205-E6B),,,
+,,74Y5142,1,Front bezel (OEM),,,
+Table 2. Stand-alone assembly part numbers,,,,,,,
+1,,46K4642,1,Side cover (left),,,
+74Y5228,1,Left side cover (OEM),1,Side cover (left),,,
+2,,,1,Service access cover,,,
+3,,74Y4942,1,Top handle cap,,,
+4,,74Y4941,1,Top handle assembly,,,
+5,,46K4641,1,Side cover (right),,,
+6,,,1,Attaching screw for side cover (right),,,
+Table 3. System assembly part numbers,,,,,,,
+8,2BCD,74Y5481,1,Control panel assembly,,,
+9,,46K4646,1,Control panel cable (rack),,,
+9,,46K4645,1,Control panel cable (stand-alone),,,
+10,,74Y6301,1,Fan cage assembly,,,
+11,,74Y5220,1,120 mm fan assembly,,,
+12,,,1,"Tape drive. See Managing
+tape drives.Managing
+tape drives",,,
+13,,46K7514,1-4,Memory riser,,,
+14,2BCF,74Y6020,1,Cache battery card,,,
+15,51CB,74Y5451,2,Processor VRM,,,
+16,2BE1,46K7723,1,RAID enablement card,,,
+17,2BDA,46K7529,2,GX book assembly,,,
+18,266D,46K8121,1,"Host Ethernet Adapter Quad 1 Gb
+copper card",,,
+18,266E,74Y2000,1,"Host Ethernet Adapter Dual 10 Gb
+fiber card",,,
+18,266F,74Y2003,1,"Host Ethernet Adapter Dual 10 Gb
+copper card",,,
+18,5288,74Y2094,1,"PCIe2
+2-port 10 GbE copper card",,,
+18,5287,74Y2095,1,"PCIe2
+2-port 10 GbE fiber card",,,
+19,,46K5029,1,External SAS cable assembly,,,
+20,,46K5415,1,Air divider,,,
+20,,46K5417,1,Air divider on PCIe riser,,,
+21,6B1C,74Y8565,1,40 mm Fan assembly on PCIe riser,,,
+22,2BDD,74Y3019,1,"PCIe expansion
+assembly",,,
+22,2BE6,74Y2288,1,"PCIe expansion
+assembly (Gen2)",,,
+23,2BD9,44V8353,1,RAID and cache storage controller,,,
+23,2BE0,44V8368,1,RAID storage controller (split disk drive function),,,
+24,,46K7496,1,Disk unit cage assembly,,,
+24,2BD6,46K7552,1,"Disk drive backplane (supports eight disk drives,
+one SATA DVD drive, and one SAS or USB tape drive)",,,
+24,2BD5,46K7496,1,"Disk drive backplane (supports six disk drives,
+one SATA DVD drive, and one SAS or USB tape drive)",,,
+25,,,1 - 6 or 1 - 8,"See Disk drive and solid-state drive system
+parts.Disk drive and solid-state drive system
+parts",,,
+26,,,1,"DVD drive. See Managing
+DVD drives.Managing
+DVD drives",,,
+Table 4. System assembly part numbers,,,,,,,
+27,537B,74Y6151,1,8 core 3.0 GHz processor module (8202-E4B),,,
+27,537C,74Y6150,1,6 core 3.0 GHz processor module (8202-E4B),,,
+27,537D,74Y6149,1,4 core 3.0 GHz processor module (8202-E4B),,,
+27,539E,74Y6155,1-2,4 core 3.72 GHz processor module (8205-E6B),,,
+27,535E,74Y6152,1-2,4 core 3.3 GHz processor module (8205-E6B),,,
+27,539D,74Y6153,1-2,6 core 3.72 GHz processor module (8205-E6B),,,
+27,539F,74Y6154,1-2,8 core 3.55 GHz processor module (8205-E6B),,,
+28,,44V8326,1,Heat sink,,,
+29,,,1,Memory card cage assembly,,,
+30,,,1,Attaching screw for memory card cage assembly,,,
+31,,,1,Processor VRM bracket,,,
+32,,,1,Attaching screw for processor VRM bracket,,,
+33,,,1,Fan lattice,,,
+34,,,1,Attaching screw for fan bracket,,,
+35,,,1,Processor VRM bracket,,,
+36,,,1,Attaching screw for processor VRM bracket,,,
+37,52C3,74Y1706,1,System VPD card,,,
+38,,74Y5985,2,Power supply assembly,,,
+39,,74Y6714,1,Interlock switch with cable,,,
+40,2BFB,46K7505,1,System backplane (8205-E6B),,,
+40,2BFC,46K7877,1,System backplane (8202-E4B),,,
+41,,,1,Attaching screw for system backplane,,,
+Table 5. Memory card assembly part numbers,,,,,,,
+1,51CC,74Y5453,1,80A memory VRM (C6),,,
+2,51CD,74Y5455,1,20A memory VRM (C5),,,
+3,,77P8784,1-32,"4 GB, 1066 MHz DDR3 DIMM",,,
+3,,77P8919,1-32,"8 GB, 1066 MHz DDR3 DIMM",,,
+4,,46K7514,1-4,Memory riser,,,
+Table 6. Cables,,,,,,,
+1828,1.5-meter InfiniBand cable,45D2235,1-4,Memory riser,,,
+1841,3-meter InfiniBand cable,45D2236,1-4,Memory riser,,,
+3124,3.7-meter cable,88G4771,1-4,Memory riser,,,
+3125,8-meter cable,88G4772,1-4,Memory riser,,,
+3652,1-meter SAS EE cable,44V4147,1-4,Memory riser,,,
+3653,3-meter SAS EE cable,44V4148,1-4,Memory riser,,,
+3654,6-meter SAS EE cable,44V4149,1-4,Memory riser,,,
+3661,3-meter SAS X cable,44V4154,1-4,Memory riser,,,
+3662,6-meter SAS X cable,44V4155,1-4,Memory riser,,,
+3663,15-meter SAS X cable,44V4156,1-4,Memory riser,,,
+3679,1-meter SAS AI cable,44V4041,1-4,Memory riser,,,
+3684,3-meter SAS AE cable,44V4163,1-4,Memory riser,,,
+3685,6-meter SAS AE cable,44V4164,1-4,Memory riser,,,
+3686,1.5-meter SAS YI cable,44V4161,1-4,Memory riser,,,
+3687,3-meter SAS Y0 cable,44V4162,1-4,Memory riser,,,
+3691,1.5-meter SAS Y0 cable,44V4157,1-4,Memory riser,,,
+3692,3-meter SAS Y0 cable,44V4158,1-4,Memory riser,,,
+3693,6-meter SAS Y0 cable,44V4159,1-4,Memory riser,,,
+3694,15-meter SAS Y0 cable,44V4160,1-4,Memory riser,,,
+3656,10.5 inch SAS cable,46K5450,1-4,Memory riser,,,
+6001,2-meter SPCN cable,22R5217,1-4,Memory riser,,,
+6006,3-meter SPCN cable,22R5239,1-4,Memory riser,,,
+6007,15-meter SPCN cable,22R5221,1-4,Memory riser,,,
+6008,6-meter SPCN cable,22R5219,1-4,Memory riser,,,
+6029,30-meter SPCN cable,22R5222,1-4,Memory riser,,,
+3656,"SAS cable
+for tape drive",46K5450,1-4,Memory riser,,,
+,USB internal cable for tape drive,46K7435,1-4,Memory riser,,,
+,Internal power cable for tape drive,46K7434,1-4,Memory riser,,,
+Table 7. Miscellaneous parts,,,,,,,
+,External cables and cords,See Site and Hardware Planning Guide.Site and Hardware Planning Guide,1-4,Memory riser,,,
+,Removable media,"See Managing
+devices.Managing
+devices",1-4,Memory riser,,,
+,PCI adapters,"See Managing
+PCI adapters.Managing
+PCI adapters",1-4,Memory riser,,,
+58B2,"1.8-inch 177 GB small form factor solid-state
+drive on PCIe SAS RAID
+and SSD adapter",43W7749,1-4,Memory riser,,,
+,"Cache battery pack for cache battery card and
+RAID and cache storage controller",74Y6773,1-4,Memory riser,,,
+,Cable configuration,"See Enclosures
+and Expansion Units.Enclosures
+and Expansion Units",1-4,Memory riser,,,
+,Time-of-day battery,44V4359,1-4,Memory riser,,,
+,Front cover for the tower,74Y4861,1-4,Memory riser,,,
+"8202-E4C, 8202-E4D, 8205-E6C,
+or 8205-E6D system
+parts8202-E4C8202-E4D8205-E6C8205-E6D",,,,,,,
+Table 1. Cover assembly part numbers,,,,,,,
+1,,46K5096,1,EIA bracket (left),,,
+1,,46K5097,1,EIA bracket (right),,,
+2,,39J0199,2,Attaching screw for EIA bracket,,,
+3,,00E5669,2,Slide rail assembly,,,
+4,,49Y5312,2,Attaching screw for slide rail assembly,,,
+5,,74Y9017,1,Top access cover assembly (IBM®),,,
+5,,74Y9018,1,Top access cover assembly (OEM),,,
+6,,68Y7211,1,Cable management arm assembly,,,
+7,,46K4640,1,"Front bezel (8202-E4C or 8202-E4D)
+(rack)",,,
+7,,46K4639,1,"Front bezel (8202-E4C or 8202-E4D)
+(stand-alone)",,,
+7,,74Y5138,1,"Front bezel (8205-E6C or 8205-E6D)
+(rack)",,,
+7,,74Y5142,1,Front bezel (OEM) (rack),,,
+7,,74Y4858,1,Front bezel (OEM) (stand-alone),,,
+Table 2. System assembly part numbers,,,,,,,
+8,2BCD,74Y3964,1,Control panel assembly,,,
+9,,46K4646,1,Control panel cable (rack),,,
+9,,46K4645,1,Control panel cable (stand-alone),,,
+10,,74Y6301,1,Fan cage assembly,,,
+11,6B1D,74Y5220,1,120 mm fan assembly,,,
+12,,,1,"Tape drive. See Managing
+tape drives.Managing
+tape drives",,,
+13,2C1C,00E0638,1 - 4,Memory riser,,,
+14,2BCF,74Y3343,1,"Cache battery cardNote: The cache battery card includes the cache battery
+pack.Note: The cache battery card includes the cache battery
+pack.",,,
+14,74Y9340,1,Cache battery pack for cache battery card,"Cache battery cardNote: The cache battery card includes the cache battery
+pack.Note: The cache battery card includes the cache battery
+pack.",,,
+15,2B50,00E7160,2,Processor VRM (8205-E6C and 8205-E6D),,,
+15,51CE,00E7162,2,Processor VRM (low wattage) (8202-E4C and 8202-E4D),,,
+16,2C1E,00E2822,2,GX adapter,,,
+16,2BDA,00E0646,2,GX adapter,,,
+17,,46K5415,1,Air divider,,,
+17,,46K5417,1,Air divider on PCIe riser,,,
+18,6B1C,74Y8565,1,40 mm fan assembly on PCIe riser,,,
+19,2BE6,74Y2288,1,"PCIe expansion
+assembly (generation 2)",,,
+20,,46K5029,1,External SAS cable assembly,,,
+21,2B4C,00E0665,1,"RAID and cache storage controller Note: The RAID and cache storage controller
+includes the cache battery pack.Note: The RAID and cache storage controller
+includes the cache battery pack.",,,
+21,74Y9340,1,Cache battery pack for RAID and cache storage controller,"RAID and cache storage controller Note: The RAID and cache storage controller
+includes the cache battery pack.Note: The RAID and cache storage controller
+includes the cache battery pack.",,,
+21,2B4F,00E0660,1,RAID storage controller (split disk drive function),,,
+22,2BD6,00E1078,1,"Disk drive backplane assembly (supports eight
+disk drives, one SATA DVD drive, one SAS or USB tape drive, and external
+SAS port)",,,
+22,2BD5,00E2520,1,"Disk drive backplane assembly (supports six
+disk drives, one SATA DVD drive, and one SAS or USB tape drive)",,,
+23,,,1 - 6 or 1 - 8,"See Disk drive and solid-state drive system
+parts.Disk drive and solid-state drive system
+parts",,,
+24,,,1,"DVD drive. See Managing
+DVD drives.Managing
+DVD drives",,,
+Table 3. System assembly part numbers,,,,,,,
+25,543E,74Y8586,1,8 core 3.0 GHz processor module (8202-E4C),,,
+25,543F,74Y8583,1,6 core 3.0 GHz processor module (8202-E4C),,,
+25,544A,74Y8580,1,4 core 3.0 GHz processor module (8202-E4C),,,
+25,543C,74Y8598,1 - 2,8 core 3.55 GHz processor module (8205-E6C),,,
+25,543A,74Y8595,1 - 2,6 core 3.72 GHz processor module (8205-E6C),,,
+25,543B,74Y8589,1 - 2,4 core 3.72 GHz processor module (8205-E6C),,,
+25,543D,74Y8592,1 - 2,4 core 3.3 GHz processor module (8205-E6C),,,
+25,54AF,00E7469,1 - 2,8 core 3.61 GHz processor module (8202-E4D or 8205-E6D),,,
+25,54AD,00E7468,1 - 2,8 core 4.23 GHz processor module (8205-E6D),,,
+25,54AC,00E7470,1 - 2,6 core 4.28 GHz processor module (8205-E6D),,,
+25,54AB,00E7472,1 - 2,4 core 4.31 GHz processor module  (8205-E6D),,,
+25,54B0,00E7471,1,6 core 3.61 processor module (8202-E4D),,,
+25,54B1,00E7473,1,4 core 3.61 GHz processor module  (8202-E4D),,,
+26,,74Y7420,1,Heat sink,,,
+27,52DB,00E0942,1,System VPD card (8202-E4C or 8205-E6C),,,
+27,521E,00E1672,1,System VPD card (8202-E4D or 8205-E6D),,,
+28,2B46,00E7187,2,Power supply assembly (8202-E4C or 8205-E6C),,,
+28,2BED,00E7237,2,Power supply assembly (8202-E4D or 8205-E6D),,,
+29,,74Y6714,1,Interlock switch with cable,,,
+30,2B4A,00E1768,1,System backplane (8205-E6C),,,
+30,2B4B,00E1765,1,System backplane (8202-E4C),,,
+30,2B2C,00E1751,1,System backplane (8205-E6D),,,
+30,2B2D,00E1750,1,System backplane (8202-E4D),,,
+31,,,1,Attaching screw for system backplane,,,
+Table 4. Memory card assembly part numbers,,,,,,,
+1,31F8,78P1011,1 - 32,"2 GB, 1066 MHz DDR3 DIMM (8202-E4C or 8205-E6C)",,,
+1,31F3,78P0554,1 - 32,"4 GB, 1066 MHz DDR3 DIMM",,,
+1,31F4,78P0555,1 - 32,"8 GB, 1066 MHz DDR3 DIMM (8202-E4C or 8205-E6C)",,,
+1,31F5,78P0639,1 - 32,"16 GB, 1066 MHz DDR3 DIMM (8202-E4C or 8205-E6C)",,,
+1,31FA,78P1914,1 - 32,"8 GB, 1066 MHz DDR3 DIMM (8202-E4D or 8205-E6D)",,,
+1,31FB,78P1915,1 - 32,"16 GB, 1066 MHz DDR3 DIMM (8202-E4D or 8205-E6D)",,,
+1,31F7,78P1539,1 - 32,"32 GB, 1066 MHz DDR3 DIMM (8202-E4D or 8205-E6D)",,,
+2,2C1C,00E0638,1 - 4,Memory riser,,,
+Table 5. Cables,,,,,,,
+1828,1.5-meter InfiniBand cable,45D2235,1 - 4,Memory riser,,,
+1841,3-meter InfiniBand cable,45D2236,1 - 4,Memory riser,,,
+3124,3.7-meter cable,88G4771,1 - 4,Memory riser,,,
+3125,8-meter cable,88G4772,1 - 4,Memory riser,,,
+3656,10.5 inch SAS cable,46K5450,1 - 4,Memory riser,,,
+3652,1-meter SAS EE cable,44V4147,1 - 4,Memory riser,,,
+3653,3-meter SAS EE cable,44V4148,1 - 4,Memory riser,,,
+3654,6-meter SAS EE cable,44V4149,1 - 4,Memory riser,,,
+3661,3-meter SAS X cable,44V4154,1 - 4,Memory riser,,,
+3662,6-meter SAS X cable,44V4155,1 - 4,Memory riser,,,
+3663,15-meter SAS X cable,44V4156,1 - 4,Memory riser,,,
+3679,1-meter SAS AI cable,44V4041,1 - 4,Memory riser,,,
+3684,3-meter SAS AE cable,44V4163,1 - 4,Memory riser,,,
+3685,6-meter SAS AE cable,44V4164,1 - 4,Memory riser,,,
+3686,1.5-meter SAS YI cable,44V4161,1 - 4,Memory riser,,,
+3687,3-meter SAS Y0 cable,44V4162,1 - 4,Memory riser,,,
+3691,1.5-meter SAS Y0 cable,44V4157,1 - 4,Memory riser,,,
+3692,3-meter SAS Y0 cable,44V4158,1 - 4,Memory riser,,,
+3693,6-meter SAS Y0 cable,44V4159,1 - 4,Memory riser,,,
+3694,15-meter SAS Y0 cable,44V4160,1 - 4,Memory riser,,,
+6001,2-meter SPCN cable,22R5217,1 - 4,Memory riser,,,
+6006,3-meter SPCN cable,22R5239,1 - 4,Memory riser,,,
+6007,15-meter SPCN cable,22R5221,1 - 4,Memory riser,,,
+6008,6-meter SPCN cable,22R5219,1 - 4,Memory riser,,,
+6029,30-meter SPCN cable,22R5222,1 - 4,Memory riser,,,
+,USB internal cable for tape drive,46K7435,1 - 4,Memory riser,,,
+,Internal power cable for tape drive,46K7434,1 - 4,Memory riser,,,
+Table 6. Miscellaneous parts,,,,,,,
+,External cables and cords,"See Planning
+for cables.Planning
+for cables",1 - 4,Memory riser,,,
+,Removable media,"See Managing
+devices.Managing
+devices",1 - 4,Memory riser,,,
+,PCI adapters,"See Managing
+PCI adapters.Managing
+PCI adapters",1 - 4,Memory riser,,,
+58B2,"1.8-inch 177 GB small form factor solid-state
+drive on PCIe SAS RAID
+and SSD adapter",43W7749,1 - 4,Memory riser,,,
+,"Cache battery pack for cache battery card (CCIN 2BCF) and RAID and cache
+storage controller (CCIN 2B4C)",74Y9340,1 - 4,Memory riser,,,
+,Cable configuration,"See Enclosures
+and Expansion Units.Enclosures
+and Expansion Units",1 - 4,Memory riser,,,
+,Time-of-day battery,74Y9628,1 - 4,Memory riser,,,
+,Keyboard parts,"See Keyboard
+parts.Keyboard
+parts",1 - 4,Memory riser,,,
+"8231-E2B system
+parts8231-E2B8231-E2B",,,,,,,
+Table 1. Rack assembly part numbers,,,,,,,
+1,,74Y5193,1,EIA bracket (left),,,
+2,,39J0199,2,Attaching screw for EIA bracket (left),,,
+3,,59Y4919,2,Slide rail assembly,,,
+4,,74Y7446,1,Top access cover assembly,,,
+5,,59Y4822,1,Cable management arm assembly,,,
+6,,74Y5194,1,EIA bracket (right),,,
+7,,39J0199,2,Attaching screw for EIA bracket (right),,,
+Table 2. Rack assembly part numbers,,,,,,,
+8,2BCD,74Y5481,1,Control panel assembly,,,
+9,,46K6257,1,Control panel cable,,,
+10,58B0,44V6821,1-6 or 1-3,69 GB small form factor solid-state SAS drive,,,
+10,58B3,74Y5294,1-6 or 1-3,177 GB small form factor solid-state SAS drive,,,
+10,198B,44V4429,1-6 or 1-3,70 GB 15K small form factor SAS disk drive,,,
+10,,44V4426,1-6 or 1-3,73 GB 15K small form factor SAS disk drive,,,
+10,198C,44V6844,1-6 or 1-3,140 GB 15K small form factor SAS disk drive,,,
+10,,44V6845,1-6 or 1-3,146 GB 15K small form factor SAS disk drive,,,
+10,198D,74Y4896,1-6 or 1-3,283 GB 10K small form factor SAS disk drive,,,
+10,,44V6833,1-6 or 1-3,300 GB 10K small form factor SAS disk drive,,,
+10,58B8,74Y9524,1-6 or 1-3,387 GB small form factor solid-state SAS drive,,,
+10,58B9,74Y9526,1-6 or 1-3,387 GB small form factor solid-state SAS drive,,,
+10,19A3,74Y4897,1-6 or 1-3,"571 GB 10K small form factor SAS disk drive
+(IBM® i)",,,
+10,,74Y4900,1-6 or 1-3,600 GB 10K small form factor SAS disk drive,,,
+10,19A4,74Y9271,1-6 or 1-3,"857 GB 10K small form factor SAS disk drive
+(IBM i)",,,
+10,,74Y9272,1-6 or 1-3,900 GB 10K small form factor SAS disk drive,,,
+11,2BE7,74Y2024,1,"Disk drive backplane (supports three disk drives
+and one tape or DVD drive)",,,
+11,2BD7,74Y2023,1,"Disk drive and media backplane (supports six
+disk drives and one DVD drive)",,,
+12,,74Y5222,1,60 mm fan assembly,,,
+13,2BE3,74Y1959,1,Memory card assembly,,,
+13,,78P1011,1-32,"2 GB, 1066 MHz DDR3 DIMM",,,
+13,,77P8784,1-32,"4 GB, 1066 MHz DDR3 DIMM",,,
+13,,77P8632,1-32,"8 GB, 1066 MHz DDR3 DIMM",,,
+14,2BCF,44V8361,1,Cache battery card,,,
+15,2BE8,74Y5457,2,Processor VRM,,,
+16,2BDB,74Y1958,1,GX book assembly,,,
+17,266D,46K8121,1,"Host Ethernet Adapter Quad 1 Gb
+copper card",,,
+17,266E,74Y2000,1,"Host Ethernet Adapter Dual 10 Gb
+fiber card",,,
+17,266F,74Y2003,1,"Host Ethernet Adapter Dual 10 Gb
+copper card",,,
+18,2BCB,74Y5985,1,Power supply assembly,,,
+19,2BE1,46K7723,1,RAID enablement card,,,
+20,2BD9,74Y2071,1,RAID and cache storage controller,,,
+21,,,1,"DVD drive. See Managing
+DVD drives.Managing
+DVD drives",,,
+Table 3. Rack assembly part numbers,,,,,,,
+22,,74Y6275,1,Fan cage assembly (front),,,
+23,,,1,Memory card cage assembly,,,
+24,,,6,Attaching screw for memory card cage assembly,,,
+25,,,1,VRM bracket (left),,,
+26,,,2,Attaching screw for VRM bracket (left),,,
+27,,,1,Divider,,,
+28,,,1,VRM guide (right),,,
+29,,,2,"Attaching screw, VRM guide (right)",,,
+30,,,1,RAID card guide,,,
+31,,,2,Attaching screw for RAID card guide,,,
+32,52C9,74Y2642,1,System VPD card,,,
+33,,,1,Fan cage assembly (rear),,,
+34,,,1,Attaching screw for fan cage assembly (rear),,,
+35,2BFC,46K7877,1,System backplane (contains 1 processor module),,,
+35,2BFB,46K7505,1,System backplane (contains 2 processor modules),,,
+36,,,5,Attaching screw for system backplane,,,
+37,,46K5409,1,Heat sink,,,
+38,537D,74Y6149,1-2,4 core 3.0 GHz processor module,,,
+38,539E,74Y6155,1-2,4 core 3.72 GHz processor module,,,
+38,539E,74Y6153,1-2,6 core 3.72 GHz processor module,,,
+38,539F,74Y6154,1-2,8 core 3.55 GHz processor module,,,
+39,2D1F,74Y2021,1,Interposer card assembly (with RAID feature),,,
+39,2D1E,74Y2022,1,Interposer card assembly,,,
+40,,74Y7205,1,Interlock switch,,,
+41,,74Y5197,1,Front Bezel (IBM Power® 710 Express),,,
+,74Y5198,1,Front Bezel (IBM Power 730 Express),Front Bezel (IBM Power® 710 Express),,,
+,74Y5199,1,Front Bezel (OEM),Front Bezel (IBM Power® 710 Express),,,
+Table 4. Cables,,,,,,,
+3124,3.7-meter cable,88G4771,Front Bezel (OEM),Front Bezel (IBM Power® 710 Express),,,
+3125,8-meter cable,88G4772,Front Bezel (OEM),Front Bezel (IBM Power® 710 Express),,,
+3652,1-meter SAS EE cable,44V4147,Front Bezel (OEM),Front Bezel (IBM Power® 710 Express),,,
+3653,3-meter SAS EE cable,44V4148,Front Bezel (OEM),Front Bezel (IBM Power® 710 Express),,,
+3654,6-meter SAS EE cable,44V4149,Front Bezel (OEM),Front Bezel (IBM Power® 710 Express),,,
+3661,3-meter SAS X cable,44V4154,Front Bezel (OEM),Front Bezel (IBM Power® 710 Express),,,
+3662,6-meter SAS X cable,44V4155,Front Bezel (OEM),Front Bezel (IBM Power® 710 Express),,,
+3663,15-meter SAS X cable,44V4156,Front Bezel (OEM),Front Bezel (IBM Power® 710 Express),,,
+3684,3-meter SAS AE cable,44V4163,Front Bezel (OEM),Front Bezel (IBM Power® 710 Express),,,
+3685,6-meter SAS AE cable,44V4164,Front Bezel (OEM),Front Bezel (IBM Power® 710 Express),,,
+3686,1.5-meter SAS YI cable,44V4161,Front Bezel (OEM),Front Bezel (IBM Power® 710 Express),,,
+3687,3-meter SAS Y0 cable,44V4162,Front Bezel (OEM),Front Bezel (IBM Power® 710 Express),,,
+3691,1.5-meter SAS Y0 cable,44V4157,Front Bezel (OEM),Front Bezel (IBM Power® 710 Express),,,
+3692,3-meter SAS Y0 cable,44V4158,Front Bezel (OEM),Front Bezel (IBM Power® 710 Express),,,
+3693,6-meter SAS Y0 cable,44V4159,Front Bezel (OEM),Front Bezel (IBM Power® 710 Express),,,
+3694,15-meter SAS Y0 cable,44V4160,Front Bezel (OEM),Front Bezel (IBM Power® 710 Express),,,
+,USB internal cable for tape drive,46K7435,Front Bezel (OEM),Front Bezel (IBM Power® 710 Express),,,
+,Internal power cable for tape drive,46K7434,Front Bezel (OEM),Front Bezel (IBM Power® 710 Express),,,
+,"SAS power
+and logic cable for tape drive",74Y6761,Front Bezel (OEM),Front Bezel (IBM Power® 710 Express),,,
+Table 5. Miscellaneous parts,,,,,,,
+,External cables and cords,See Site and Hardware Planning Guide.Site and Hardware Planning Guide,Front Bezel (OEM),Front Bezel (IBM Power® 710 Express),,,
+,Removable media,"See Managing
+devices.Managing
+devices",Front Bezel (OEM),Front Bezel (IBM Power® 710 Express),,,
+,PCI adapters,"See Managing
+PCI adapters.Managing
+PCI adapters",Front Bezel (OEM),Front Bezel (IBM Power® 710 Express),,,
+58B2,"1.8-inch 177 GB small form factor solid-state
+drive on PCIe SAS RAID
+and SSD adapter",43W7749,Front Bezel (OEM),Front Bezel (IBM Power® 710 Express),,,
+,"Cache battery pack for cache battery card and
+RAID and cache storage controller",74Y6773,Front Bezel (OEM),Front Bezel (IBM Power® 710 Express),,,
+,Cable configuration,"See Enclosures
+and Expansion Units.Enclosures
+and Expansion Units",Front Bezel (OEM),Front Bezel (IBM Power® 710 Express),,,
+,Time-of-day battery,44V4359,Front Bezel (OEM),Front Bezel (IBM Power® 710 Express),,,
+"8231-E1C, 8231-E1D, 8231-E2C, 8231-E2D, or 8268-E1D system
+parts8231-E1C, 8231-E1D, 8231-E2C, 8231-E2D, or 8268-E1D8231-E1C, 8231-E1D8231-E1D8231-E2C, 8231-E2D8231-E2D, or 8268-E1D8268-E1D",,,,,,,
+Table 1. Rack assembly part numbers,,,,,,,
+1,,74Y5193,1,EIA bracket (left),,,
+2,,90P1959,2,Attaching screw for EIA bracket (left),,,
+3,,00E5669,1,Rail kit (includes two slides),,,
+4,,74Y9068,1,Top access cover assembly,,,
+5,,74Y9063,1,Cable management arm assembly,,,
+6,,74Y5194,1,EIA bracket (right),,,
+7,,90P1959,2,Attaching screw for EIA bracket (right),,,
+Table 2. Rack assembly part numbers,,,,,,,
+8,2BCD,74Y3964,1,Control panel assembly,,,
+9,,46K6257,1,Control panel cable,,,
+10,,,1 - 6 or 1 - 3,"See Disk drive and solid-state drive system
+parts.Disk drive and solid-state drive system
+parts",,,
+11,2BE7,74Y3355,1,"Disk drive backplane (supports three disk drives
+and one tape or DVD drive)",,,
+11,2BD7,74Y3352,1,"Disk drive and media backplane (supports six
+disk drives and one DVD drive)",,,
+12,6B1E,74Y5222,7,60 mm fan assembly,,,
+13,2BE3,00E0635,1 - 4,Memory card assembly,,,
+13,31F8,78P1011,1 - 32,"2 GB, 1066 MHz DDR3 DIMM (8231-E1C or 8231-E2C)",,,
+13,31F3,78P0554,1 - 32,"4 GB, 1066 MHz DDR3 DIMM",,,
+13,31F4,78P0555,1 - 32,"8 GB, 1066 MHz DDR3 DIMM (8231-E1C or 8231-E2C)",,,
+13,31F5,78P0639,1 - 32,"16 GB, 1066 MHz DDR3 DIMM (8231-E1C or 8231-E2C)",,,
+13,31FA,78P1914,1 - 32,"8 GB, 1066 MHz DDR3 DIMM (8231-E1D, 8231-E2D, or 8268-E1D)",,,
+13,31FB,78P1915,1 - 32,"16 GB, 1066 MHz DDR3 DIMM (8231-E1D, 8231-E2D, or 8268-E1D)",,,
+13,31F7,78P1539,1 - 32,"32 GB, 1066 MHz DDR3 DIMM (8231-E1D, 8231-E2D, or 8268-E1D)",,,
+14,2BCF,74Y3345,1,Cache battery card,,,
+15,2B4E,00E7158,2,Processor VRM,,,
+16,2B4D,74Y4116,1,Double-wide GX adapter,,,
+16,2C1F,74Y3388,1 - 2,"PCIe x8
+GX adapter",,,
+16A,,74Y3755,1,SPCN cable assembly,,,
+17,2B46,00E7187,1 - 2,Power supply assembly (8231-E1C or 8231-E2C),,,
+17,2BED,00E7237,1 - 2,"Power supply assembly (8231-E1D, 8231-E2D, or 8268-E1D)",,,
+18,2B4C,00E0663,1,RAID enablement card,,,
+19,,,1,DVD drive. See Managing DVD drivesManaging DVD drives,,,
+Table 3. Rack assembly part numbers,,,,,,,
+20,,74Y3353,1,Fan cage assembly (front),,,
+21,52DC,00E0940,1,System VPD card (8231-E1C or 8231-E2C),,,
+21,521F,00E1674,1,"System VPD card (8231-E1D, 8231-E2D, or 8268-E1D)",,,
+22,2B4B,00E1765,1,"System backplane (contains one processor module)
+(8231-E1C)",,,
+22,2B4A,00E1768,1,"System backplane (contains two processor modules)
+(8231-E2C)",,,
+22,2B2D,00E1750,1,System backplane (8231-E1D or 8268-E1D),,,
+22,2B2C,00E1751,1,System backplane (8231-E2D),,,
+23,,,5,Attaching screw for system backplane,,,
+24,,74Y7421,1 - 2,Heat sink,,,
+25,544A,74Y8607,1 - 2,4 core 3.0 GHz processor module,,,
+25,543B,74Y8616,1 - 2,4 core 3.72 GHz processor module,,,
+25,543A,74Y8610,1 - 2,6 core 3.72 GHz processor module,,,
+25,543C,74Y8613,1 - 2,8 core 3.55 GHz processor module,,,
+25,54AD,00E7468,1 - 2,"8- core 4.22 GHz processor module (only 8231-E1D, 8231-E2D, or 8268-E1D)",,,
+25,54AF,00E7469,1 - 2,8- core 3.61 GHz processor module (only 8231-E2D),,,
+25,54AC,00E7470,1 - 2,"6 core 4.28 GHz processor module (only 8231-E1D, 8231-E2D, or 8268-E1D)",,,
+25,54AB,00E7472,1 - 2,4 core 4.31 GHz processor module (only 8231-E2D),,,
+26,2D1F,00E1088,1,Interposer card assembly (with RAID feature),,,
+26,2D1E,00E0980,1,Interposer card assembly,,,
+27,,74Y7205,1,Interlock switch,,,
+28,,46K5849,1,Internal SAS port cable,,,
+Table 4. Cables,,,,,,,
+3124,3.7-meter cable,88G4771,1,Internal SAS port cable,,,
+3125,8-meter cable,88G4772,1,Internal SAS port cable,,,
+3652,1-meter SAS EE cable,44V4147,1,Internal SAS port cable,,,
+3653,3-meter SAS EE cable,44V4148,1,Internal SAS port cable,,,
+3654,6-meter SAS EE cable,44V4149,1,Internal SAS port cable,,,
+3661,3-meter SAS X cable,44V4154,1,Internal SAS port cable,,,
+3662,6-meter SAS X cable,44V4155,1,Internal SAS port cable,,,
+3663,15-meter SAS X cable,44V4156,1,Internal SAS port cable,,,
+3684,3-meter SAS AE cable,44V4163,1,Internal SAS port cable,,,
+3685,6-meter SAS AE cable,44V4164,1,Internal SAS port cable,,,
+3686,1.5-meter SAS YI cable,44V4161,1,Internal SAS port cable,,,
+3687,3-meter SAS Y0 cable,44V4162,1,Internal SAS port cable,,,
+3691,1.5-meter SAS Y0 cable,44V4157,1,Internal SAS port cable,,,
+3692,3-meter SAS Y0 cable,44V4158,1,Internal SAS port cable,,,
+3693,6-meter SAS Y0 cable,44V4159,1,Internal SAS port cable,,,
+3694,15-meter SAS Y0 cable,44V4160,1,Internal SAS port cable,,,
+,USB internal cable for tape drive,46K7435,1,Internal SAS port cable,,,
+,Internal power cable for tape drive,46K7434,1,Internal SAS port cable,,,
+,"SAS power
+and logic cable for tape drive",74Y6761,1,Internal SAS port cable,,,
+Table 5. Miscellaneous parts,,,,,,,
+,External cables and cords,See Planning for cablesPlanning for cables,1,Internal SAS port cable,,,
+,Removable media,See Managing devicesManaging devices,1,Internal SAS port cable,,,
+,PCI adapters,See Managing PCI adaptersManaging PCI adapters,1,Internal SAS port cable,,,
+58B2,"1.8-inch 177 GB small form factor solid-state
+drive on PCIe SAS RAID
+and SSD adapter",74Y8234,1,Internal SAS port cable,,,
+,"Cache battery pack for cache battery card and
+RAID and cache storage controller",74Y9340,1,Internal SAS port cable,,,
+,Cable configuration,"See Enclosures
+and Expansion UnitsEnclosures
+and Expansion Units",1,Internal SAS port cable,,,
+,Time-of-day battery,74Y9628,1,Internal SAS port cable,,,
+,Keyboard parts,"See Keyboard
+parts.Keyboard
+parts",1,Internal SAS port cable,,,
+8233-E8B and 8236-E8C system parts8233-E8B8236-E8C,,,,,,,
+Table 1. Rack final assembly part numbers,,,,,,,
+1,,44V4790,1,Left rack mounting bracket,,,
+2,,09P3744,2,Screw,,,
+3,,44V3349,1,Left rail,,,
+4,,46K5086,1,Rack top cover,,,
+5,,44V3352,1,Right rail,,,
+6,,44V4793,1,Right rack mounting bracket,,,
+7,,09P3744,2,Screw,,,
+8,,46K5453,1,Front bezel (8233-E8B),,,
+8,,46K6256,1,Front bezel (8236-E8C),,,
+9,,12J5289,2,Screw,,,
+Table 2. Rack assembly detail part numbers,,,,,,,
+1,2A16,74Y2244,1,Media backplane,,,
+2,58B8,74Y9524,1-8,387 GB small form factor solid-state SAS (Gen1) drive,,,
+2,58B9,74Y9526,1-8,387 GB small form factor solid-state SAS (Gen2) drive,,,
+2,58B0,44V6821,1-8,69 GB small form factor solid-state SAS drive,,,
+2,58B3,74Y5294,1-8,177 GB small form factor solid-state SAS drive,,,
+2,198B,44V4429,1-8,70 GB 15 K small form factor SAS disk drive,,,
+2,,42R8391,1-8,73 GB 10 K small form factor SAS disk drive,,,
+2,,44V4426,1-8,73 GB 15 K small form factor SAS disk drive,,,
+2,198C,44V6844,1-8,140 GB 15 K small form factor SAS disk drive,,,
+2,,42R8392,1-8,146 GB 10 K small form factor SAS disk drive,,,
+2,,44V6845,1-8,146 GB 15 K small form factor SAS disk drive,,,
+2,198D,74Y4896,1-8,283 GB 10 K small form factor SAS disk drive,,,
+2,,44V6833,1-8,300 GB 10 K small form factor SAS disk drive,,,
+2,19A3,74Y4897,1-8,"571 GB 10K small form factor SAS disk drive
+
+(IBM® i)",,,
+2,,74Y4900,1-8,600 GB 10K small form factor SAS disk drive,,,
+2,19A4,74Y9271,1-8,"857 GB 10K small form factor SAS disk drive
+
+(IBM i)",,,
+2,,74Y9272,1-8,900 GB 10K small form factor SAS disk drive,,,
+3,,44V4220,1,"DVD. See Managing
+
+devices.Managing
+
+devices",,,
+4,296C,74Y5481,1,Control panel,,,
+5,,46K5673,2,AC power supply,,,
+6,,45E1127,1,"Tape drive. See Managing
+
+devices.Managing
+
+devices",,,
+"Table 3. Rack assembly detail, continued
+
+part numbers",,,,,,,
+7,,44V3776,1,PCI divider,,,
+8,,44V3298,1,RAID base card,,,
+9,,46K6109,1,RAID cache card,,,
+9,,74Y5667,1,RAID cache card battery,,,
+10,,46Y3513,1,TPMD card,,,
+11,1817,46K6564,1,GX IB 12x adapter,,,
+11,,45D3912,1,GX IB 12x adapter,,,
+11,52B4,45D5063,1,GX++ IB 12x adapter,,,
+12,,44V3949,1,GX card divider,,,
+13,1818,46K7967,1,Dual 1 GB Ethernet card,,,
+13,1819,46K7971,1,Quad 1 GB Ethernet card,,,
+13,1830,46K6818,1,Dual 10 GB Ethernet card,,,
+14,,42R5805,2,GX support bracket,,,
+14,,42R5807,2,GX Dual-Port 12X Channel Attach adapter support bracket,,,
+14,,42R5809,2,GX support bracket,,,
+Table 4. Rack assembly detail part numbers,,,,,,,
+15,,44V3458,1,AC line cord box,,,
+16,,NONUM,1,Fan cage,,,
+17,,44V3455,1,Fan lattice,,,
+18,,44V3454,4,Fan,,,
+19,530D,74Y1833,4,8 core 3.55 GHz processor card assembly (8233-E8B),,,
+19,530E,74Y1845,4,6 core 3.3 GHz processor card assembly (8233-E8B),,,
+19,535A,74Y1840,4,"8 core 3.3 GHz processor card assembly (8233-E8B
+
+and 8236-E8C)",,,
+19,535B,74Y1855,4,8 core 3.0 GHz processor card assembly (8233-E8B),,,
+19,538B,74Y2453,4,"8 core 3.3 GHz processor card assembly (8233-E8B
+
+and 8236-E8C)Note: See the IBM Prerequisite
+
+Web site at http://www-912.ibm.com/e_dir/eServerPrereq.nsf  for
+
+minimum system firmware requirements.http://www-912.ibm.com/e_dir/eServerPrereq.nsfNote: See the IBM Prerequisite
+
+Web site at http://www-912.ibm.com/e_dir/eServerPrereq.nsf  for
+
+minimum system firmware requirements.",,,
+19,538C,74Y2457,4,"8 core 3.0 GHz processor card assembly (8233-E8B)Note: See
+
+the IBM Prerequisite Web site
+
+at http://www-912.ibm.com/e_dir/eServerPrereq.nsf  for
+
+minimum system firmware requirements.http://www-912.ibm.com/e_dir/eServerPrereq.nsfNote: See
+
+the IBM Prerequisite Web site
+
+at http://www-912.ibm.com/e_dir/eServerPrereq.nsf  for
+
+minimum system firmware requirements.",,,
+19,538D,74Y2451,4,"8 core 3.55 GHz processor card assembly (8233-E8B)Note: See
+
+the IBM Prerequisite Web site
+
+at http://www-912.ibm.com/e_dir/eServerPrereq.nsf  for
+
+minimum system firmware requirements.http://www-912.ibm.com/e_dir/eServerPrereq.nsfNote: See
+
+the IBM Prerequisite Web site
+
+at http://www-912.ibm.com/e_dir/eServerPrereq.nsf  for
+
+minimum system firmware requirements.",,,
+19,542C,74Y3523,4,"6 core 3.72 GHz processor card assembly (8233-E8B)Note: See
+
+the IBM Prerequisite Web site
+
+at http://www-912.ibm.com/e_dir/eServerPrereq.nsf  for
+
+minimum system firmware requirements.http://www-912.ibm.com/e_dir/eServerPrereq.nsfNote: See
+
+the IBM Prerequisite Web site
+
+at http://www-912.ibm.com/e_dir/eServerPrereq.nsf  for
+
+minimum system firmware requirements.",,,
+19,542D,74Y3530,4,"4 core 3.72 GHz processor card assembly (8233-E8B)Note: See
+
+the IBM Prerequisite Web site
+
+at http://www-912.ibm.com/e_dir/eServerPrereq.nsf  for
+
+minimum system firmware requirements.http://www-912.ibm.com/e_dir/eServerPrereq.nsfNote: See
+
+the IBM Prerequisite Web site
+
+at http://www-912.ibm.com/e_dir/eServerPrereq.nsf  for
+
+minimum system firmware requirements.",,,
+19,542E,74Y3535,4,"8 core 3.61 GHz processor card assembly (8233-E8B)Note: See
+
+the IBM Prerequisite Web site
+
+at http://www-912.ibm.com/e_dir/eServerPrereq.nsf  for
+
+minimum system firmware requirements.http://www-912.ibm.com/e_dir/eServerPrereq.nsfNote: See
+
+the IBM Prerequisite Web site
+
+at http://www-912.ibm.com/e_dir/eServerPrereq.nsf  for
+
+minimum system firmware requirements.",,,
+19,542F,74Y3540,4,"8 core 3.22 GHz processor card assembly (8233-E8B)Note: See
+
+the IBM Prerequisite Web site
+
+at http://www-912.ibm.com/e_dir/eServerPrereq.nsf  for
+
+minimum system firmware requirements.http://www-912.ibm.com/e_dir/eServerPrereq.nsfNote: See
+
+the IBM Prerequisite Web site
+
+at http://www-912.ibm.com/e_dir/eServerPrereq.nsf  for
+
+minimum system firmware requirements.",,,
+Table 5. Rack assembly detail part numbers,,,,,,,
+20,,74Y1825,1,System backplane,,,
+21,,NONUM,9,Backplane screw,,,
+22,,NONUM,1,Front processor support,,,
+23,,NONUM,5,Screw,,,
+24,,NONUM,1,Card support divider,,,
+25,,NONUM,1,Screw,,,
+26,,42R5751,1,"SAS cable, Disk drive backplane to bulkhead
+
+connector (external)",,,
+26,,44V5252,1,"SAS cable, Disk drive backplane to bulkhead
+
+connector, split Disk drive backplane functionality",,,
+"Table 6. Rack assembly detail part numbers,
+
+continued.",,,,,,,
+27,,,1,"DIMM duct plateNote: The DIMM duct plate is
+
+part of the processor card assembly FRU and cannot be ordered separately.Note: The DIMM duct plate is
+
+part of the processor card assembly FRU and cannot be ordered separately.",,,
+28,,33G3907,1,Screw,,,
+29,2A29,46K6302,1,Memory voltage regulator 95 A,,,
+30,,77P8784,2–8,"4 GB, 1066 MHz RDIMM (8233-E8B and 8236-E8C)",,,
+30,,77P8632,2–8,"8 GB, 1066 MHz RDIMM (8233-E8B and 8236-E8C)",,,
+30,,77P8633,2–8,"16 GB, 1066 MHz RDIMM (8233-E8B)",,,
+31,2A2C,46K6300,1,Processor voltage regulator 30 A,,,
+Table 7. Cables,,,,,,,
+,0.6 meter InfiniBand cable,42V2129,1,Processor voltage regulator 30 A,,,
+,1 meter SAS cable,44V4147,1,Processor voltage regulator 30 A,,,
+,1.5 meter GX Dual-Port 12X Channel Attach adapter to GX cable,15R8139,1,Processor voltage regulator 30 A,,,
+,1.5 meter InfiniBand cable,42V2130,1,Processor voltage regulator 30 A,,,
+,2 meter SPCN cable,22R5217,1,Processor voltage regulator 30 A,,,
+6006,3 meter SPCN cable,22R5239,1,Processor voltage regulator 30 A,,,
+,3 meter SAS cable,44V4148,1,Processor voltage regulator 30 A,,,
+1482,meter RIO-2 cable,39J2554,1,Processor voltage regulator 30 A,,,
+,3 meter InfiniBand cable,42V2132,1,Processor voltage regulator 30 A,,,
+,"3 meter InfiniBand cable, DDR",15R8140,1,Processor voltage regulator 30 A,,,
+"System p5® model: 1464, System i5® and System p5 models: 6008",6 meter SPCN cable,22R5219,1,Processor voltage regulator 30 A,,,
+,8 meter InfiniBand cable,42R6160,1,Processor voltage regulator 30 A,,,
+,10 meter InfiniBand cable,15R8141,1,Processor voltage regulator 30 A,,,
+,"10.5  SAS cable for tape
+
+drive",42R5815,1,Processor voltage regulator 30 A,,,
+"System i5 model: 1465, System p5 model: 6007",15  meter SPCN cable,22R5221,1,Processor voltage regulator 30 A,,,
+"System i5 model: 1466, System i5 and System p5 models: 6029",30 meter SPCN cable,22R5222,1,Processor voltage regulator 30 A,,,
+,SCSI2 cable,52G4291,1,Processor voltage regulator 30 A,,,
+,SCSI cable,52G4233,1,Processor voltage regulator 30 A,,,
+,SCSI cable,42R4756,1,Processor voltage regulator 30 A,,,
+,Serial cable,10N6535,1,Processor voltage regulator 30 A,,,
+,Operator panel round cable,42R6069,1,Processor voltage regulator 30 A,,,
+,Operator panel flat ribbon cable,44V7190,1,Processor voltage regulator 30 A,,,
+Table 8. Miscellaneous parts,,,,,,,
+,Removable media,"See Managing
+
+devices.Managing
+
+devices",1,Processor voltage regulator 30 A,,,
+,External cables and cords,"See Planning
+
+for cables.Planning
+
+for cables",1,Processor voltage regulator 30 A,,,
+,Cable configuration,"See Enclosures
+
+and Expansion Units.Enclosures
+
+and Expansion Units",1,Processor voltage regulator 30 A,,,
+,PCI adapters,"See Managing
+
+PCI adapters.Managing
+
+PCI adapters",1,Processor voltage regulator 30 A,,,
+52B6,VPD card (8233-E8B),46K6943,1,Processor voltage regulator 30 A,,,
+52CB,VPD card (8236-E8C),46K8089,1,Processor voltage regulator 30 A,,,
+,Wrap plug,12R9314,1,Processor voltage regulator 30 A,,,
+,Wrap plug,03N6070,1,Processor voltage regulator 30 A,,,
+,Wrap plug,87H3439,1,Processor voltage regulator 30 A,,,
+,Wrap plug,87H3442,1,Processor voltage regulator 30 A,,,
+,Wrap plug,93H5270,1,Processor voltage regulator 30 A,,,
+,Wrap plug,87H3588,1,Processor voltage regulator 30 A,,,
+,Wrap plug,12R9315,1,Processor voltage regulator 30 A,,,
+,Wrap plug,42R4761,1,Processor voltage regulator 30 A,,,
+,Wrap plug,87H3311,1,Processor voltage regulator 30 A,,,
+,Wrap plug,33F8985,1,Processor voltage regulator 30 A,,,
+,Wrap plug,73H2508,1,Processor voltage regulator 30 A,,,
+,Power supply filler,44V4069,1,Processor voltage regulator 30 A,,,
+,Battery,16G8095,1,Processor voltage regulator 30 A,,,
+"8248-L4T, 8408-E8D, or 9109-RMD system
+parts8248-L4T, 8408-E8D, or 9109-RMD8248-L4T,8248-L4T8408-E8D,9109-RMD",,,,,,,
+Table 1. Cover assembly part numbers,,,,,,,
+1,,00FW143,1,Front cover assembly (8248-L4T only),,,
+1,,00E6545,1,Front cover assembly (8408-E8D only),,,
+1,,00E8047,1,Front cover assembly (9109-RMD only),,,
+1,,00E7085,1,Front cover assembly (OEM),,,
+2,,46K6362,1,Rack rail kit,,,
+Table 2. Final assembly (front),,,,,,,
+1,,00E7691,5,Fan assembly (single fan),,,
+2,2B61,00E1385,,System processor assembly,,,
+3,2B62,00E0957,1,Midplane,,,
+4,,00E8717,1,System processor assembly guide rail kit,,,
+5,,00E6658,1,Midplane light pipe,,,
+6,2BBE,00E7753,1,"Small form factor SAS disk drive backplane with
+embedded SAS adaptersNote: If feature code 5662 is not installed,
+the embedded SAS adapters report CCINs of 57C7. If feature code 5662
+is installed, the embedded SAS adapters report CCINs of 57CF.Note: If feature code 5662 is not installed,
+the embedded SAS adapters report CCINs of 57C7. If feature code 5662
+is installed, the embedded SAS adapters report CCINs of 57CF.",,,
+7,2B68,00E1636,1,Control panel,,,
+8,,,1,"Media device. See Managing
+devices.Managing
+devices",,,
+9,,00E5725,2,Cache battery pack,,,
+10,2BC2,00E5681,1,"175 MB cache RAID and dual storage IOA enablement
+cardNote: If feature code 5662 is installed, the embedded SAS adapters
+report CCINs of 57CF.Note: If feature code 5662 is installed, the embedded SAS adapters
+report CCINs of 57CF.",,,
+11,,,1 - 6,"See Disk drive and solid-state drive system
+parts.Disk drive and solid-state drive system
+parts",,,
+Table 3. Final assembly part numbers (rear),,,,,,,
+12,2BC3,73Y9518,2,I/O hub 12X adapter card,,,
+12,2B94,00E2818,2,GX++ 2-port PCIe2 x8 adapter,,,
+13,2BED,00E8277,2,"Power supply
+1925 W",,,
+14,52F4,00E1299,1,Vital product data (VPD) card (8408-E8D or 9109-RMD only),,,
+14,560C,00E3153,1,Vital product data (VPD) card (8248-L4T only),,,
+15,2B57,00E0784,1,"Optical - 2 x 1 GbE and 2 x 10 GbE integrated
+multifunction card",,,
+15,2B56,00E0778,1,"Twinaxial - 2 x 1 GbE and 2 x 10 GbE integrated
+multifunction card",,,
+15,2C4D,74Y3843,1,"Optical - 2 x 10 GbE and 2 x 10 GbE integrated
+multifunction card",,,
+15,2C4C,74Y3832,1,"Twinaxial - 2 x 10 GbE and 2 x 10 GbE integrated
+multifunction card",,,
+16,,44V7563,0 - 1,"Internal SAS cable for triple-split disk drive
+backplane",,,
+16,,44V7564,0 - 1,Internal SAS cable for RAID,,,
+17,,00E2031,6,PCIe blind swap cassette,,,
+17,4765,00E2033,6,PCIe blind swap cassette,,,
+18,2B65,00E2747,1,I/O backplane,,,
+19,2B67,00E3214,1,Service processor card,,,
+Table 4. Final assembly part numbers,,,,,,,
+1,54A1,00E8721,1 - 4,8 core 3.50 GHz processor card FRU kit (8408-E8D or 8248-L4T only),,,
+1,54A3,00E8720,1 - 4,8 core 4.06 GHz processor card FRU kit (8408-E8D or 8248-L4T only),,,
+1,548C,00E8718,1 - 4,12 core 3.14 GHz processor card FRU kit (9109-RMD only),,,
+1,54A6,00E8719,1 - 4,12 core 3.42 GHz processor card FRU kit (9109-RMD only),,,
+1,,00E8868,As required,Heat sink,,,
+2,2B63,00E7689,4,Processor card regulator,,,
+3,2C1C,00E2097,1 - 8,Memory riser,,,
+3,31F3,78P0554,4 - 64,4 GB 1066 MHz DIMM,,,
+3,31FA,78P1914,4 - 64,8 GB 1066 MHz DIMM,,,
+3,31FB,78P1915,4 - 64,16 GB 1066 MHz DIMM,,,
+3,31F7,78P1539,4 - 64,32 GB 1066 MHz DIMM (8408-E8D or 9109-RMD only),,,
+4,2B64,00E8923,1,Processor card regulator (memory),,,
+5,2B49,74Y2939,1,Thermal and power management device (TPMD) card,,,
+Table 5. Miscellaneous parts,,,,,,,
+Removable media,"See Managing
+devices.Managing
+devices",74Y2939,1,Thermal and power management device (TPMD) card,,,
+External cables and cords,"See Planning
+for cables.Planning
+for cables",74Y2939,1,Thermal and power management device (TPMD) card,,,
+Cable configuration,"See Enclosures
+and Expansion Units.Enclosures
+and Expansion Units",74Y2939,1,Thermal and power management device (TPMD) card,,,
+PCI adapters,"See Managing
+PCI adapters.Managing
+PCI adapters",74Y2939,1,Thermal and power management device (TPMD) card,,,
+Keyboard parts,"See Keyboard
+parts.Keyboard
+parts",74Y2939,1,Thermal and power management device (TPMD) card,,,
+Wrap plug,"See Wrap
+plug.Wrap
+plug",74Y2939,1,Thermal and power management device (TPMD) card,,,
+9117-MMB and 9179-MHB system parts9117-MMB9117-MMB9179-MHB9179-MHB,,,,,,,
+Table 1. Cover assembly part numbers,,,,,,,
+1,,44V7403,1,Front cover assembly (9117-MMB),,,
+1,,46K6220,1,Front cover assembly (9179-MHB),,,
+2,,46K6362,1,Rack rail kit,,,
+3,,46K5179,1,FSP cover plate,,,
+Table 2. Final assembly (front),,,,,,,
+1,,46K4939,5,Fan assembly (single fan),,,
+2,497B,74Y5976,1,System processor assembly FRU kit (9117-MMB and 9179-MHB),,,
+3,,74Y1747,1,Mid-plane,,,
+4,,46K4625,1,Mid-plane light pipe,,,
+5,2BBE,74Y5511,1,"Small form factor SAS disk drive backplane with
+embedded SAS adaptersNote: If feature code 5662 is not installed,
+the embedded SAS adapters report CCINs of 57C7. If feature code 5662
+is installed the embedded SAS adapters report CCINs of 57CF.Note: If feature code 5662 is not installed,
+the embedded SAS adapters report CCINs of 57C7. If feature code 5662
+is installed the embedded SAS adapters report CCINs of 57CF.",,,
+6,,74Y5685,1,Op panel,,,
+7,,44V4220,1,Removable media,,,
+8,,42R8705,2,Cache battery pack,,,
+9,2BC2,74Y6441,1,"175 MB cache RAID and dual storage IOA enablement
+cardNote: If feature code 5662 is installed the embedded SAS adapters
+report CCINs of 57CF.Note: If feature code 5662 is installed the embedded SAS adapters
+report CCINs of 57CF.",,,
+10,,,1 - 6,"See Disk drive and solid-state drive system
+parts.Disk drive and solid-state drive system
+parts",,,
+"Table 3. Final assembly
+part numbers (continued)",,,,,,,
+1,536C,74Y4915,2,"6 core 3.5 GHz processor card FRU
+kit (9117-MMB)",,,
+1,536D,74Y4914,2,8 core 3.1 GHz processor card FRU kit (9117-MMB),,,
+1,536E,74Y4913,2,8 core 3.86 GHz processor card FRU kit (9179-MHB),,,
+2,2BC7,46K5854,3,"Processor voltage regulator module
+(VRM)",,,
+3,2BC8,46K5856,2,Memory VRM,,,
+4,2BC9,46K5858,1,Processor card regulator 1 (40P),,,
+5,2BCA,46K5860,1,Processor card regulator 3 (20P),,,
+6,31CB,45D7238,4-16,8 GB 1066 MHz DIMM,,,
+6,31D4,45D5670,4-16,8 GB 1066 MHz DIMM,,,
+6,31CC,45D7242,4-16,16 GB 1066 MHz DIMM,,,
+6,31D5,45D5674,4-16,16 GB 1066 MHz DIMM,,,
+6,31D6,45D8424,4-16,32 GB 1066 MHz DIMM,,,
+7,2A14,46K7288,1,TPMD card,,,
+Table 4. Assembly,,,,,,,
+11,2BC3,45D7063,2,IO Hub 12X adapter card,,,
+12,,74Y4926,2,Power supply 1725 W,,,
+13,52B7,46K8127,1,VPD card,,,
+14,2BC4,46K5965,1,4 x 1 GbE Host Ethernet Adapter card,,,
+14,2BDC,46K5538,1,"Optical - 2 x 1 GbE and 2 x 10 GbE Host Ethernet
+Adapter card",,,
+14,2BC6,46K5534,1,"TwinAx - 2 x 1 GbE and 2 x 10 GbE Host Ethernet
+Adapter card",,,
+15,,44V7563,0-1,"Internal SAS cable for triple split disk drive
+backplane",,,
+15,,44V7564,0-1,Internal SAS cable for RAID,,,
+16,,46K5440,6,PCIe blind swap cassette,,,
+17,2BB9,44V5668,1,I/O backplane,,,
+18,2BBB,74Y2418,1,FSP card (drawers 1 and 2),,,
+18,2BBC,44V8599,1,FSP Passthru card (drawers 3 and 4),,,
+Table 5. Cables,,,,,,,
+,SMP left short 2 cable,44V6211,1,FSP Passthru card (drawers 3 and 4),,,
+,SMP right short 2 cable,44V6212,1,FSP Passthru card (drawers 3 and 4),,,
+,SMP left long 2 cable,44V6213,1,FSP Passthru card (drawers 3 and 4),,,
+,SMP right long 2 cable,44V6214,1,FSP Passthru card (drawers 3 and 4),,,
+,SMP left 3 drawer cable,44V7639,1,FSP Passthru card (drawers 3 and 4),,,
+,SMP right 3 drawer cable,44V7641,1,FSP Passthru card (drawers 3 and 4),,,
+,SMP left 4 drawer cable,44V7643,1,FSP Passthru card (drawers 3 and 4),,,
+,FSP 2 drawer cable,44V6218,1,FSP Passthru card (drawers 3 and 4),,,
+,FSP 3 drawer cable,44V6219,1,FSP Passthru card (drawers 3 and 4),,,
+,FSP 4 drawer cable,44V6220,1,FSP Passthru card (drawers 3 and 4),,,
+Table 6. Miscellaneous parts,,,,,,,
+Removable media,"See Managing
+devices.Managing
+devices",44V6220,1,FSP Passthru card (drawers 3 and 4),,,
+External cables and cords,"See Planning
+for cables.Planning
+for cables",44V6220,1,FSP Passthru card (drawers 3 and 4),,,
+Cable configuration,"See Enclosures
+and Expansion Units.Enclosures
+and Expansion Units",44V6220,1,FSP Passthru card (drawers 3 and 4),,,
+PCI adapters,"See Managing
+PCI adapters.Managing
+PCI adapters",44V6220,1,FSP Passthru card (drawers 3 and 4),,,
+Wrap plug,"See Wrap
+plug.Wrap
+plug",44V6220,1,FSP Passthru card (drawers 3 and 4),,,
+Time-of-day battery,016G8095,44V6220,1,FSP Passthru card (drawers 3 and 4),,,
+Keyboard parts,"See Keyboard
+parts.Keyboard
+parts",44V6220,1,FSP Passthru card (drawers 3 and 4),,,
+"8412-EAD, 9117-MMC, 9117-MMD, 9179-MHC,
+or 9179-MHD system
+parts8412-EAD,8412-EAD9117-MMC9117-MMC9117-MMD9179-MHC9179-MHC9179-MHD",,,,,,,
+Table 1. Cover assembly part numbers,,,,,,,
+1,,00FW205,1,Front cover assembly (8412-EAD),,,
+1,,74Y9542,1,Front cover assembly (9117-MMC and 9117-MMD),,,
+1,,74Y9543,1,Front cover assembly (9179-MHC and 9179-MHD),,,
+1,,74Y9544,1,Front cover assembly (OEM),,,
+2,,00J0038,1,ESD shield assembly,,,
+3,,46K6362,1,Rack rail kit,,,
+4,,46K5179,1,FSP cover plate,,,
+"Table 2. Final assembly
+(front)",,,,,,,
+1,,74Y9391,5,Fan assembly (single fan),,,
+2,497B,00E0699,1,"System processor assembly FRU kit (9117-MMC and 9179-MHC with two-processor
+system unit)",,,
+3,2BBD,74Y3890,1,Mid-plane,,,
+4,,00E6658,1,Mid-plane light pipe,,,
+5,2BBE,74Y9514,1,"Small form factor SAS disk drive backplane with
+embedded SAS adaptersNote: If feature code 5662 is not installed,
+the embedded SAS adapters report CCINs of 57C7. If feature code 5662
+is installed, the embedded SAS adapters report CCINs of 57CF.Note: If feature code 5662 is not installed,
+the embedded SAS adapters report CCINs of 57C7. If feature code 5662
+is installed, the embedded SAS adapters report CCINs of 57CF.",,,
+6,2B9F,74Y3957,1,Control panel,,,
+7,,,1,"DVD drive. See Managing
+DVD drives.Managing
+DVD drives",,,
+8,,00E5725,2,Cache battery pack,,,
+9,2BC2,00E5681,1,"175 MB cache RAID and dual storage IOA enablement
+cardNote: If feature code 5662 is installed, the embedded SAS adapters
+report CCINs of 57CF.Note: If feature code 5662 is installed, the embedded SAS adapters
+report CCINs of 57CF.",,,
+10,,,,"See Disk drive and solid-state drive system
+parts.Disk drive and solid-state drive system
+parts",,,
+"Table 3. Final assembly
+(front)",,,,,,,
+1,,74Y9391,5,Fan assembly (single fan),,,
+2,2C4E,00E1253,1,"System processor assembly FRU kit (9179-MHC with four-processor system
+unit)",,,
+3,2BBD,74Y3890,1,Midplane,,,
+4,,00E6658,1,Midplane light pipe,,,
+5,2BBE,74Y9514,1,"Small form factor SAS disk drive backplane with
+embedded SAS adaptersNote: If feature code 5662 is not installed,
+the embedded SAS adapters report CCINs of 57C7. If feature code 5662
+is installed, the embedded SAS adapters report CCINs of 57CF.Note: If feature code 5662 is not installed,
+the embedded SAS adapters report CCINs of 57C7. If feature code 5662
+is installed, the embedded SAS adapters report CCINs of 57CF.",,,
+6,2B9F,74Y3957,1,Control panel (9179-MHC),,,
+6,2B01,00E1635,1,"Control panel (8412-EAD, 9117-MMD, or 9179-MHD)",,,
+7,,,1,"DVD drive. See Managing
+DVD drives.Managing
+DVD drives",,,
+8,,00E5725,2,Cache battery pack,,,
+9,2BC2,00E5681,1,"175 MB cache RAID and dual storage IOA enablement
+cardNote: If feature code 5662 is installed, the embedded SAS adapters
+report CCINs of 57CF.Note: If feature code 5662 is installed, the embedded SAS adapters
+report CCINs of 57CF.",,,
+10,,,1 - 6,"See Disk drive and solid-state drive system
+parts.Disk drive and solid-state drive system
+parts",,,
+"Table 4. Final
+assembly part numbers (continued)",,,,,,,
+1,544C,74Y8855,2,6 core 3.724 GHz processor card FRU kit (9117-MMC),,,
+1,544E,74Y8860,2,8 core 3.304 GHz processor card FRU kit (9117-MMC),,,
+1,544B,74Y8865,2,"8 core 3.920 GHz processor card FRU kit (9179-MHC with two-processor system
+unit)",,,
+2,2BC7,74Y8267,3,Processor Voltage Regulator Module (Proc VRM),,,
+3,2BC8,00RR727,2,Memory Voltage Regulator Module (Mem2 VRM),,,
+4,2BC9,00E7432,1,Voltage Regulator Module 1 (40P VRM),,,
+5,2BCA,74Y8271,1,Voltage Regulator Module 3 (20P VRM),,,
+6,31CB,45D8414,4 - 16,8 GB 1066 MHz DIMM,,,
+6,31D4,00V5404,4 - 16,8 GB 1066 MHz DIMM,,,
+6,31CC,45D8418,4 - 16,16 GB 1066 MHz DIMM,,,
+6,31D5,41T8254,4 - 16,16 GB 1066 MHz DIMM,,,
+6,31CD,45D8424,4 - 16,32 GB 1066 MHz DIMM,,,
+6,31D6,41T8258,4 - 16,32 GB 1066 MHz DIMM,,,
+6,31D3,00V5416,4 - 16,64 GB 1066 MHz DIMM,,,
+7,2A14,74Y2876,1,Thermal and power management device (TPMD) card,,,
+"Table 5. Final
+assembly part numbers (continued)",,,,,,,
+1,53A5,74Y9242,4,"6 core 3.444 GHz processor card FRU kit (9179-MHC
+four-processor system unit)",,,
+1,AAF4,00E7180,4,"3 core 4.228 GHz processor card FRU kit (8412-EAD, 9117-MMD, or 9179-MHD)",,,
+1,AAF6,00E7181,4,"4 core 3.808 GHz  processor card FRU kit (8412-EAD, 9117-MMD, or 9179-MHD)",,,
+1,54A8,00E7182,4,"4 core 4.424 GHz processor card FRU kit (8412-EAD, 9117-MMD, or 9179-MHD)",,,
+1,54B4,00E7184,4,"8 core 3.724 GHz processor card FRU kit (8412-EAD, 9117-MMD, or 9179-MHD)",,,
+2,2BF8,00RR726,4,Processor Voltage Regulator Module (Proc2 VRM),,,
+3,2BC8,00RR727,2,Memory Voltage Regulator Module (Mem2 VRM),,,
+4,2BF9,01AF394,1,Processor card regulator (30P VRM),,,
+5,2BF9,01AF394,1,Processor card regulator (30P VRM),,,
+6,31CB,45D8414,4 - 16,8 GB 1066 MHz DIMM,,,
+6,31D4,00V5404,4 - 16,8 GB 1066 MHz DIMM,,,
+6,31CC,45D8418,4 - 16,16 GB 1066 MHz DIMM,,,
+6,31D5,41T8254,4 - 16,16 GB 1066 MHz DIMM,,,
+6,31CD,45D8424,4 - 16,32 GB 1066 MHz DIMM,,,
+6,31D6,41T8258,4 - 16,32 GB 1066 MHz DIMM,,,
+6,31D3,00V5416,4 - 16,64 GB 1066 MHz DIMM,,,
+7,2A14,74Y2876,1,TPMD card,,,
+Table 6. Assembly,,,,,,,
+11,2BC3,74Y0532,2,I/O hub 12X adapter card,,,
+11,2B94,00E1457,2,GX++ 2-port PCIe2 x8 adapter,,,
+12,2BED,00J0439,2,"Power supply
+1925 W",,,
+13,560B,00E3232,1,VPD card (8412-EAD),,,
+13,52CF,00E0944,1,VPD card (9117-MMC or 9179-MHC),,,
+13,521C,00E1757,1,VPD card (9117-MMD or 9179-MHD),,,
+14,2B57,00E0784,1,"Optical - 2 x 1 GbE and 2 x 10 GbE integrated
+multifunction card",,,
+14,2B56,00E0778,1,"Twinaxial - 2 x 1 GbE and 2 x 10 GbE integrated
+multifunction card",,,
+15,,44V7563,0 - 1,"Internal SAS cable for triple-split disk drive
+backplane",,,
+15,,44V7564,0 - 1,Internal SAS cable for RAID,,,
+16,,74Y3982,6,PCIe blind swap cassette,,,
+17,2B59,74Y3050,1,I/O backplane,,,
+18,2BBB,00E1248,1,FSP card (drawers 1 and 2) (9117-MMC or 9179-MHC),,,
+18,2BBB,00E1662,1,"FSP card (drawers 1 and 2) (8412-EAD, 9117-MMD, or 9179-MHD)",,,
+18,2BBC,74Y2861,1,FSP Passthru card (drawers 3 and 4),,,
+Table 7. Cables,,,,,,,
+"SMP cable 1 (outer left - outer left, span two
+drawers)",74Y7525,74Y2861,1,FSP Passthru card (drawers 3 and 4),,,
+"SMP cable 2 (outer right - outer right, span
+two drawers)",74Y7526,74Y2861,1,FSP Passthru card (drawers 3 and 4),,,
+"SMP cable 3 (inner left - outer left, span three
+drawers)",74Y7529,74Y2861,1,FSP Passthru card (drawers 3 and 4),,,
+"SMP cable 4 (inner left - inner left, span two
+drawers)",74Y7527,74Y2861,1,FSP Passthru card (drawers 3 and 4),,,
+"SMP cable 5 (outer left - outer left, span four
+drawers)",74Y7531,74Y2861,1,FSP Passthru card (drawers 3 and 4),,,
+"SMP cable 6 (inner right - outer right, span
+three drawers)",74Y7530,74Y2861,1,FSP Passthru card (drawers 3 and 4),,,
+"SMP cable 7 (inner right - inner right, span
+two drawers)",74Y7528,74Y2861,1,FSP Passthru card (drawers 3 and 4),,,
+FSP two drawer cable,74Y7532,74Y2861,1,FSP Passthru card (drawers 3 and 4),,,
+FSP three drawer cable,74Y7533,74Y2861,1,FSP Passthru card (drawers 3 and 4),,,
+FSP four drawer cable,74Y7534,74Y2861,1,FSP Passthru card (drawers 3 and 4),,,
+Table 8. Miscellaneous parts,,,,,,,
+Removable media,"See Managing
+devices.Managing
+devices",74Y2861,1,FSP Passthru card (drawers 3 and 4),,,
+External cables and cords,"See Planning
+for cables.Planning
+for cables",74Y2861,1,FSP Passthru card (drawers 3 and 4),,,
+Cable configuration,"See Enclosures
+and Expansion Units.Enclosures
+and Expansion Units",74Y2861,1,FSP Passthru card (drawers 3 and 4),,,
+PCI adapters,"See Managing
+PCI adapters.Managing
+PCI adapters",74Y2861,1,FSP Passthru card (drawers 3 and 4),,,
+Keyboard parts,"See Keyboard
+parts.Keyboard
+parts",74Y2861,1,FSP Passthru card (drawers 3 and 4),,,
+Time-of-day battery,016G8095,74Y2861,1,FSP Passthru card (drawers 3 and 4),,,
+Wrap plug,"See Wrap
+plug.Wrap
+plug",74Y2861,1,FSP Passthru card (drawers 3 and 4),,,
+9119-FHB system parts9119-FHB,,,,,,,
+Table 1. Final assembly (assembly 1),,,,,,,
+1,,45D3406,1,Cover assembly (left),,,
+2,,2665528,6,Screw,,,
+3,,42V2119,6,"J-bracket assembly, side cover",,,
+4,,2665528,12,Screw,,,
+5,,45D4167,1,Acoustic rear cover,,,
+6,,45D3405,1,Cover assembly (right),,,
+7,,2665528,6,Screw,,,
+8,,2665525,4,Screw,,,
+9,,41V2376,2,Latch bracket,,,
+10,,45D7950,1,Acoustic front cover,,,
+"Table 2. Final assembly (assembly
+2)",,,,,,,
+1,,45D7779,2,"Bulk power enclosure (BPE)
+assembly (new installation only)",,,
+1,,45D2463,2,BPE assembly (model upgrades only),,,
+2,,77G0599,10,Screw,,,
+3,,74F1823,10,Nut clip,,,
+4,,41V2374,As required,Bulk power fan (BPF) assembly,,,
+4,,41V2453,As required,"BPF filler plate, front only",,,
+5,,15R9306,2,Cable bracket assembly,,,
+6,,77G0599,6,Screw,,,
+7,2C34,45D2991,2,Bulk power hub (BPH),,,
+8,2C32,41U9484,As required,Bulk power distribution (BPD) assembly,,,
+8,,31L8609,As required,BPD filler assembly,,,
+9,2C19,45D8506,2,Bulk power controller (BPC) assembly,,,
+10,2C7B,45D7780,As required,"Bulk power regulator (BPR) assembly (new installation
+only)",,,
+10,2C36,45D0639,As required,BPR assembly (model upgrades only),,,
+10,,15R7647,As required,BPR filler assembly,,,
+Table 3. Final assembly (assembly 3),,,,,,,
+1,,45D5694,1,"Light strip, front",,,
+2,,45D2986,4,Actuator assembly (top and bottom),,,
+3,,45D2965,8,Node lock assembly,,,
+4,,44P2994,As required,Filler plate,,,
+5,,77G0599,4,Screw,,,
+6,,74F1823,4,Nut clip,,,
+7,,44P2462,As required,Filler plate,,,
+8,,77G0599,2,Screw,,,
+9,,74F1823,2,Nut clip,,,
+10,,45D9112,8,Node locking bracket assembly (front),,,
+11,,73Y4218,As required,"Node assembly, unpopulated",,,
+11,,95Y5058,As required,"Node assembly, 6 core",,,
+11,,95Y5144,As required,"Node assembly, 8 core with 4cTurboCore option",,,
+11,,95Y5163,As required,Node assembly (unpopulated),,,
+12,,15R7507,As required,Node filler assembly,,,
+13,,45D0534,As required,EMI cover,,,
+"Table 4. Final assembly
+(assembly 4)",,,,,,,
+14,,45D1994,1,UEPO assembly,,,
+15,,2665528,2,Screw,,,
+16,,45D5199,4,Actuator bracket assembly,,,
+17,,45D5201,4,Actuator assembly (lower left),,,
+17A,52C4,73Y4020,1,System VPD card,,,
+17A,52D3,73Y3768,1,Controlled system VPD card (Tier 3),,,
+18,2C17,73Y3847,2,System controller (FSP),,,
+19,2C00,73Y3804,2,Clock card,,,
+20,2BAA,73Y3800,1,System backplane,,,
+21,,1624790,2,"Screw, backplane mounting",,,
+"Table 5. Final assembly
+(assembly 5)",,,,,,,
+22,,,8,"Lubricated node locking
+bracket assembly (rear)",,,
+23,,44P2994,As required,Filler plate,,,
+23,,44P2462,As required,Filler plate,,,
+24,,77G0599,4,Screw,,,
+25,,74F1823,4,Nut clip,,,
+26,,74Y0996,As required,MDA-EZ assembly,,,
+27,,15R8873,As required,Blower assembly,,,
+28,,46K3997,1,Light strip (rear),,,
+29,,45D2818,1,Connector cover,,,
+30,,45D7497,1,Node service tool,,,
+Table 6. Final assembly (assembly 6),,,,,,,
+1,,45D8502,As required,DCA assembly,,,
+2,,,As required,Heat sink (included with the processor assembly),,,
+3,538F,73Y4115,As required,"Processor assembly, 8 core with 4cTurboCore
+option",,,
+3,539C,73Y4114,As required,"Processor assembly, 6 core",,,
+4,,41V0922,As required,Book filler assembly,,,
+5,295B,45D9096,As required,I/O hub card,,,
+5,2B74,73Y8782,As required,GX++ 2-port 10 Gb FCoE CNA SR optical adapter,,,
+5,2B9B,73Y8776,As required,GX++ 2-port 16 Gb fibre channel adapter,,,
+5,2C18,73Y4133,As required,Node controller,,,
+6,2BB6,74Y2424,1,TPMD card,,,
+7,31CB,45D7238,As required,"8 GB, DDR3
+DIMM",,,
+7,31DD,41T8254,As required,"16 GB, DDR3 DIMM",,,
+7,31CC,45D7242,As required,"16 GB, DDR3 DIMM",,,
+7,31DE,41T8258,As required,"32 GB, DDR3 DIMM",,,
+7,31CD,45D7248,As required,"32 GB, DDR3 DIMM",,,
+7,31D3,00V5416,As required,"64 GB, DDR3 DIMM",,,
+8,,45D3046,1,Rubber air dam,,,
+9,555A,60H5045,1,LED service card,,,
+Table 7. Cables,,,,,,,
+,95P4084,SAS cable,1,LED service card,,,
+,44V4147,"1-meter SAS
+cable",1,LED service card,,,
+,44V4817,"2-meter SAS
+cable",1,LED service card,,,
+,44V4148,"3-meter SAS
+cable",1,LED service card,,,
+,44V4154,"3-meter SAS
+cable",1,LED service card,,,
+,44V4158,"3-meter SAS
+cable",1,LED service card,,,
+,44V4163,"3-meter SAS
+cable",1,LED service card,,,
+,44V4149,"6-meter SAS
+cable",1,LED service card,,,
+,44V4155,"6-meter SAS
+cable",1,LED service card,,,
+,44V4159,"6-meter SAS
+cable",1,LED service card,,,
+,44V4164,"6-meter SAS
+cable",1,LED service card,,,
+,44V4156,"15-meter
+SAS cable",1,LED service card,,,
+,44V4160,"15-meter
+SAS cable",1,LED service card,,,
+,52G4233,SCSI cable,1,LED service card,,,
+,41Y0596,"1-meter SCSI
+cable",1,LED service card,,,
+,41Y0597,"3-meter SCSI
+cable",1,LED service card,,,
+,41Y0598,"5-meter SCSI
+cable",1,LED service card,,,
+,41Y0599,"10-meter
+SCSI cable",1,LED service card,,,
+,41Y0600,"20-meter
+SCSI cable",1,LED service card,,,
+,22R5217,"2-meter SPCN
+cable",1,LED service card,,,
+,22R5239,"3-meter SPCN
+cable",1,LED service card,,,
+036A,39J5820,"3-meter SPCN
+cable",1,LED service card,,,
+,22R5219,"6-meter SPCN
+cable",1,LED service card,,,
+,22R5221,"15-meter
+SPCN cable",1,LED service card,,,
+,22R5222,"30-meter
+SPCN cable",1,LED service card,,,
+,39J2561,"10-meter
+HSL2 cable",1,LED service card,,,
+,42V2129,".6-meter
+12X IB cable",1,LED service card,,,
+,42V2131,2.5-meter 12X IB cable,1,LED service card,,,
+,42R6160,"8-meter 12X
+IB cable",1,LED service card,,,
+,32N1311,"2-meter external
+cable",1,LED service card,,,
+,31P6132,8-meter cable,1,LED service card,,,
+,41V2507,"BPCA to BPCB
+cable",1,LED service card,,,
+,15R6779,"Bulk power
+distribution cable",1,LED service card,,,
+,15R6780,"Bulk power
+distribution cable",1,LED service card,,,
+,41V2172,"Bulk power
+regulator cable",1,LED service card,,,
+,41V0570,IBF cable,1,LED service card,,,
+,39J5836,"UPS adapter
+cable",1,LED service card,,,
+,95P4049,DVD cable,1,LED service card,,,
+,11P4606,Cable clamp,1,LED service card,,,
+,0524519,Cable tie,1,LED service card,,,
+,15R8270,Cable tool,1,LED service card,,,
+,95P4048,VPD cable,1,LED service card,,,
+Table 8. Keyboards,,,,,,,
+,10N6984,"Keyboard,
+Arabic",1,LED service card,,,
+,32N1233,"Keyboard,
+Arabic",1,LED service card,,,
+,32N1212,"Keyboard,
+Brazilian",1,LED service card,,,
+,10N6963,"Keyboard,
+Brazilian/Portuguese",1,LED service card,,,
+,10N6972,"Keyboard,
+Bulgarian",1,LED service card,,,
+,32N1221,"Keyboard,
+Bulgarian",1,LED service card,,,
+,32N1217,"Keyboard,
+CANFRC",1,LED service card,,,
+,32N1215,"Keyboard,
+Chinese",1,LED service card,,,
+,10N6966,"Keyboard,
+Chinese/US",1,LED service card,,,
+,10N6981,"Keyboard,
+Czechoslovakian",1,LED service card,,,
+,32N1230,"Keyboard,
+Czechoslovakian",1,LED service card,,,
+,10N6971,"Keyboard,
+Danish",1,LED service card,,,
+,32N1220,"Keyboard,
+Danish",1,LED service card,,,
+,32N1206,"Keyboard,
+French",1,LED service card,,,
+,10N6957,"Keyboard,
+French",1,LED service card,,,
+,10N6967,"Keyboard,
+French Canadian",1,LED service card,,,
+,10N6968,"Keyboard, French Canadian",1,LED service card,,,
+,32N1216,"Keyboard, French Canadian",1,LED service card,,,
+,10N6973,"Keyboard,
+French/German",1,LED service card,,,
+,10N6959,"Keyboard,
+German",1,LED service card,,,
+,32N1208,"Keyboard, German",1,LED service card,,,
+,10N6977,"Keyboard,
+Greek",1,LED service card,,,
+,32N1226,"Keyboard, Greek",1,LED service card,,,
+,10N6978,"Keyboard,
+Hebrew",1,LED service card,,,
+,32N1227,"Keyboard,
+Hebrew",1,LED service card,,,
+,10N6964,"Keyboard,
+Hungarian",1,LED service card,,,
+,32N1213,"Keyboard,
+Hungarian",1,LED service card,,,
+,10N6958,"Keyboard,
+Italian",1,LED service card,,,
+,32N1207,"Keyboard,
+Italian",1,LED service card,,,
+,32N1211,"Keyboard,
+Japanese",1,LED service card,,,
+,10N6962,"Keyboard,
+Japanese",1,LED service card,,,
+,32N1214,"Keyboard,
+Korean",1,LED service card,,,
+,10N6965,"Keyboard,
+Korean",1,LED service card,,,
+,10N6983,"Keyboard,
+LA Spanish",1,LED service card,,,
+,32N1232,"Keyboard,
+LA Spanish",1,LED service card,,,
+,10N6974,"Keyboard,
+Norwegian",1,LED service card,,,
+,32N1223,"Keyboard,
+Norwegian",1,LED service card,,,
+,10N6979,"Keyboard,
+Polish",1,LED service card,,,
+,32N1228,"Keyboard,
+Polish",1,LED service card,,,
+,10N6975,"Keyboard,
+Portuguese",1,LED service card,,,
+,10N6976,"Keyboard,
+Portuguese",1,LED service card,,,
+,32N1224,"Keyboard,
+Portuguese",1,LED service card,,,
+,32N1225,"Keyboard,
+Portuguese",1,LED service card,,,
+,10N6986,"Keyboard,
+Russian",1,LED service card,,,
+,32N1235,"Keyboard,
+Russian",1,LED service card,,,
+,10N6980,"Keyboard,
+Slovakia",1,LED service card,,,
+,32N1229,"Keyboard,
+Slovakia",1,LED service card,,,
+,32N1236,"Keyboard,
+Slovakia",1,LED service card,,,
+,10N6961,"Keyboard,
+Spanish",1,LED service card,,,
+,32N1210,"Keyboard, Spanish",1,LED service card,,,
+,10N6970,"Keyboard,
+Sweden/Finland",1,LED service card,,,
+,32N1219,"Keyboard,
+Sweden/Finland",1,LED service card,,,
+,32N1234,"Keyboard,
+Thailand",1,LED service card,,,
+,10N6985,"Keyboard,
+Thailand",1,LED service card,,,
+,10N6982,"Keyboard,
+Turkey",1,LED service card,,,
+,32N1231,"Keyboard, Turkey",1,LED service card,,,
+,10N6960,"Keyboard,
+United Kingdom",1,LED service card,,,
+,32N1209,"Keyboard,
+United Kingdom",1,LED service card,,,
+,10N6956,"Keyboard, United Kingdom",1,LED service card,,,
+,10N6988,"Keyboard, US EMEA",1,LED service card,,,
+,32N1205,"Keyboard, US",1,LED service card,,,
+,10N6987,"Keyboard,
+Yugoslavian/Latin",1,LED service card,,,
+Table 9. Miscellaneous parts,,,,,,,
+,External cables and cords,"See Site
+and Hardware Planning Guide.Site
+and Hardware Planning Guide",1,LED service card,,,
+,Cable configuration,"See Enclosures
+and Expansion Units.Enclosures
+and Expansion Units",1,LED service card,,,
+,45D2504,4 MM socket driver,1,LED service card,,,
+,45D1756,Bridge assembly bracket,1,LED service card,,,
+,7336725,"Cover packaging or Slimline non-powered, bolt
+on expansion rack door without IBM logo",1,LED service card,,,
+,45D1990,Cross-member,1,LED service card,,,
+,11P3990,Door key,1,LED service card,,,
+,45D8467,"Frame cover for 9119-FHA to 9119-FHB slim
+conversion (front)",1,LED service card,,,
+,45D4063,"Frame cover for acoustic powered expansion rack
+cover set with IBM logos (rear)",1,LED service card,,,
+,45D4169,"Frame cover for Slimline non-powered, bolt on
+expansion rack door without IBM logo (rear)",1,LED service card,,,
+,45D8467,"Frame cover for Slimline non-powered, bolt on
+expansion rack door without IBM logo (front)",1,LED service card,,,
+,45D2430,Frame stiffening bracket,1,LED service card,,,
+,45D3131,Gear box assembly,1,LED service card,,,
+,44V8038,"Indium pad 2-pack (tab-shaped with adhesive
+kapton dots)",1,LED service card,,,
+,45D2454,Latch bracket,1,LED service card,,,
+,31L8313,Leveling pad wrench,1,LED service card,,,
+,45D2808,Node service adapter (with side jack screws),1,LED service card,,,
+,45D2822,Rail (Left bottom),1,LED service card,,,
+,45D2824,Rail (Right bottom),1,LED service card,,,
+,45D2826,Rail (Left top),1,LED service card,,,
+,45D2828,Rail (Right top),1,LED service card,,,
+,1621549,"Screw, M 8 x 40",1,LED service card,,,
+,1673730,"Screw, M 5 x 12",1,LED service card,,,
+,15R8943,Single chip module (SCM) tweezers,1,LED service card,,,
+,45D2506,SCM 5 NM clutch torque tool,1,LED service card,,,
+,45D2645,SCM air pump,1,LED service card,,,
+,7336772,SCM container,1,LED service card,,,
+,45D2624,SCM interposer cover,1,LED service card,,,
+,45D7265,SCM module,1,LED service card,,,
+,44V8405,SCM module handle,1,LED service card,,,
+,54G2882,Screw,1,LED service card,,,
+,45D2288,Tailgate,1,LED service card,,,
+,45D3627,Tailgate assembly,1,LED service card,,,
+,45D1986,Vertical bracket (left),1,LED service card,,,
+,45D1987,Vertical bracket (right),1,LED service card,,,
+,45D1677,Weight distribution plate kit,1,LED service card,,,
+,03N6070,Wrap plug,1,LED service card,,,
+,12R9314,Wrap plug,1,LED service card,,,
+,12R9315,Wrap plug,1,LED service card,,,
+,42R4761,Wrap plug,1,LED service card,,,
+,42R5143,Wrap plug,1,LED service card,,,
+,87H3311,Wrap plug,1,LED service card,,,
+,87H3439,Wrap plug,1,LED service card,,,
+,87H3442,Wrap plug,1,LED service card,,,
+"9125-F2C system
+parts9125-F2C",,,,,,,
+Table 1. Cover assembly part numbers,,,,,,,
+1,,41U7736,1,Rear door heat exchanger,,,
+2,,74Y0502,2,"Rear cover hinge (upper)
+Note: The
+rear, front cover hinges, latch brackets, and attaching screws are
+part of the front or rear door hardware-mounting kit field-replacement
+unit (FRU) and cannot be ordered separately.Note: The
+rear, front cover hinges, latch brackets, and attaching screws are
+part of the front or rear door hardware-mounting kit field-replacement
+unit (FRU) and cannot be ordered separately.Note: The
+rear, front cover hinges, latch brackets, and attaching screws are
+part of the front or rear door hardware-mounting kit field-replacement
+unit (FRU) and cannot be ordered separately.",,,
+3,,74Y0502,2,"Attaching screw for rear cover hingeNote: The
+rear, front cover hinges, latch brackets, and attaching screws are
+part of the front or rear door hardware-mounting kit field-replacement
+unit (FRU) and cannot be ordered separately.Note: The
+rear, front cover hinges, latch brackets, and attaching screws are
+part of the front or rear door hardware-mounting kit field-replacement
+unit (FRU) and cannot be ordered separately.Note: The
+rear, front cover hinges, latch brackets, and attaching screws are
+part of the front or rear door hardware-mounting kit field-replacement
+unit (FRU) and cannot be ordered separately.",,,
+4,,74Y0502,2,"Rear cover latch bracketNote: The rear, front
+cover hinges, latch brackets, and attaching screws are part of the
+front or rear door hardware-mounting kit field-replacement unit (FRU)
+and cannot be ordered separately.Note: The rear, front
+cover hinges, latch brackets, and attaching screws are part of the
+front or rear door hardware-mounting kit field-replacement unit (FRU)
+and cannot be ordered separately.Note: The rear, front
+cover hinges, latch brackets, and attaching screws are part of the
+front or rear door hardware-mounting kit field-replacement unit (FRU)
+and cannot be ordered separately.",,,
+5,,74Y0502,2,"Attaching screw for rear cover latch bracketNote: The
+rear, front cover hinges, latch brackets, and attaching screws are
+part of the front or rear door hardware-mounting kit field-replacement
+unit (FRU) and cannot be ordered separately.Note: The
+rear, front cover hinges, latch brackets, and attaching screws are
+part of the front or rear door hardware-mounting kit field-replacement
+unit (FRU) and cannot be ordered separately.Note: The
+rear, front cover hinges, latch brackets, and attaching screws are
+part of the front or rear door hardware-mounting kit field-replacement
+unit (FRU) and cannot be ordered separately.",,,
+6,,45D7506,4,Side cover top retainer,,,
+7,,1624775,8,Attaching screw for side cover top retainer,,,
+8,,45D7504,2,"Side cover mounting hardware	 (upper left and
+lower left)",,,
+9,,45D7504,2,"Side cover mounting hardware (upper right and
+lower right)",,,
+10,,45D7503,1,Cover assembly (right),,,
+10,,74Y0541,1,Cover assembly without branding (right),,,
+11,,1624775,2,Attaching screw for cover assembly (right),,,
+12,,45D7505,2,"Side cover mounting hardware	 (mid left and
+mid right)",,,
+13,,45D7505,2,"Side cover mounting hardware (mid lower left
+and mid lower right)",,,
+14,,46K3436,1,Front cover,,,
+15,,74Y0502,2,"Front cover hinge (upper)Note: The rear,
+front cover hinges, latch brackets and attaching screws are part of
+the front or rear door hardware mounting kit field-replacement unit
+(FRU) and cannot be ordered separately.Note: The rear,
+front cover hinges, latch brackets and attaching screws are part of
+the front or rear door hardware mounting kit field-replacement unit
+(FRU) and cannot be ordered separately.Note: The rear,
+front cover hinges, latch brackets and attaching screws are part of
+the front or rear door hardware mounting kit field-replacement unit
+(FRU) and cannot be ordered separately.",,,
+16,,74Y0502,2,"Attaching screw for front cover hingeNote: The
+rear, front cover hinges, latch brackets, and attaching screws are
+part of the front or rear door hardware-mounting kit field-replacement
+unit (FRU) and cannot be ordered separately.Note: The
+rear, front cover hinges, latch brackets, and attaching screws are
+part of the front or rear door hardware-mounting kit field-replacement
+unit (FRU) and cannot be ordered separately.Note: The
+rear, front cover hinges, latch brackets, and attaching screws are
+part of the front or rear door hardware-mounting kit field-replacement
+unit (FRU) and cannot be ordered separately.",,,
+17,,74Y0502,2,"Front cover latch bracketNote: The rear,
+front cover hinges, latch brackets, and attaching screws are part
+of the front or rear door hardware-mounting kit field-replacement
+unit (FRU) and cannot be ordered separately.Note: The rear,
+front cover hinges, latch brackets, and attaching screws are part
+of the front or rear door hardware-mounting kit field-replacement
+unit (FRU) and cannot be ordered separately.Note: The rear,
+front cover hinges, latch brackets, and attaching screws are part
+of the front or rear door hardware-mounting kit field-replacement
+unit (FRU) and cannot be ordered separately.",,,
+18,,74Y0502,2,"Attaching screw for front cover latch bracketNote: The
+rear, front cover hinges, latch brackets, and attaching screws are
+part of the front or rear door hardware-mounting kit field-replacement
+unit (FRU) and cannot be ordered separately.Note: The
+rear, front cover hinges, latch brackets, and attaching screws are
+part of the front or rear door hardware-mounting kit field-replacement
+unit (FRU) and cannot be ordered separately.Note: The
+rear, front cover hinges, latch brackets, and attaching screws are
+part of the front or rear door hardware-mounting kit field-replacement
+unit (FRU) and cannot be ordered separately.",,,
+19,,45D7503,1,Cover assembly (left),,,
+19,,74Y0541,1,Cover assembly without branding (left),,,
+20,,1624775,2,Attaching screw for cover assembly (left),,,
+Table 2. Final assembly part numbers,,,,,,,
+1,,41T8007,2,Bulk power and control enclosure (BPCE),,,
+2,,46K3779,1,Disk enclosure,,,
+3,,45D9496,1,Disk enclosure rail (right),,,
+3,,45D9466,1,Disk enclosure rail (left),,,
+4,,,2 - 12,Node assembly,,,
+5,,45D9467,2,Rail for node assembly (right),,,
+6,,45D9869,1,Unit emergency power off (UEPO) assembly,,,
+7,,41U8423,1 - 4,Motor drive assembly (MDA),,,
+8,,15R9424,1 - 4,Water conditioning unit (WCU),,,
+9,,46K2571,1,Supply manifold,,,
+10,,46K2572,1,Return manifold,,,
+Table 3. BPR assembly part numbers,,,,,,,
+1,2C81,46K3802,2,Bulk power regulator (BPR),,,
+2,2C82,41U7874,1,Bulk power control and communications hub (BPCH),,,
+3,,41U8369,2,Bulk power fan (BPF),,,
+4,,45D9113,2,Mounting bracket (front),,,
+4,,46K4159,1,Mounting bracket (rear right),,,
+4,,46K4160,1,Mounting bracket (rear left),,,
+5,2C83,45D9863,1,Bulk power distribution (BPD),,,
+6,,41U8368,2,Bulk power enclosure (BPE),,,
+Table 4. Final assembly part numbers,,,,,,,
+1,,46K3785,,SAS expander card,,,
+1,,46K3232,2 - 16,2 port disk enclosure (DE) SAS expander card,,,
+1,2A4A,46K3230,2 - 16,4 port DE SAS expander card,,,
+2,,,1,Disk assembly,,,
+2,,41U9323,,Disk enclosure chassis,,,
+3,2C80,45D9868,12,Disk enclosure fan assembly,,,
+4,,74Y7329,2,Retention block (right),,,
+4,,1624793,2,Attaching screw for retention block (right),,,
+5,2A4D,46K3779,2,"Disk enclosure - Direct converter and control
+assembly (DE - DCCA)",,,
+6,,74Y7328,2,Retention block (left),,,
+6,,1624793,2,Attaching screw for retention block (left),,,
+7,,74Y4936,1 - 4,"600 GB small form factor SAS 10k rpm, hard-disk
+drive",,,
+7,,74Y5497,1 - 4,"200 GB small form factor SAS, solid-state drive
+(SSD)",,,
+7,6600,74Y9528,1 - 4,"2.5 inch 400 GB SAS, SSD",,,
+8,2A4C,41U8213,1,SAS drive carrier,,,
+Table 5. CEC assembly part numbers,,,,,,,
+1,2C84,15R9510,2,Distributed converter and control assembly (DCCA),,,
+2,31D7,45D9443,1 - 32,8 GB DIMM,,,
+2,31D0,45D9446,1 - 32,16 GB DIMM,,,
+3,,42R4696,1 - 32,DIMM filler assembly,,,
+4,52C6,74Y0244,1,System VPD card,,,
+5,,00J0077,1,"PCIe multiple
+slot filler (8 slot)",,,
+5,,00J0079,1,"PCIe multiple
+slot filler (9 slot)",,,
+6,,74Y5969,1 - 16,"PCIe single
+filler",,,
+7,2E00,74Y1141,1 - 16,PCIe adapter,,,
+7,,41U7865,1 - 16,4 port PCIe SAS adapter,,,
+7,,41U7862,1 - 16,2 port PCIe SAS adapter,,,
+8,,44V4359,2,Flexible service processor (FSP) battery,,,
+Table 6. Fill and drain toolkit parts,,,,,,,
+,45D6928,Fill and drain tool (FDT) kit,2,Flexible service processor (FSP) battery,,,
+1,46K3778,FDT MDA card,2,Flexible service processor (FSP) battery,,,
+2,45D2124,BTA water container (with water),2,Flexible service processor (FSP) battery,,,
+3,45D3063,BTA water container (without water),2,Flexible service processor (FSP) battery,,,
+4,45D6312,BTA spill kit,2,Flexible service processor (FSP) battery,,,
+5,45D8560,FDT customer water plastic bottle,2,Flexible service processor (FSP) battery,,,
+6,45D8561,FDT hose assembly. HA1,2,Flexible service processor (FSP) battery,,,
+7,45D8562,FDT hose assembly. HA2,2,Flexible service processor (FSP) battery,,,
+8,45D8563,FDT hose assembly. HA6,2,Flexible service processor (FSP) battery,,,
+9,45D8565,FDT hose adapter A1,2,Flexible service processor (FSP) battery,,,
+10,45D8566,FDT hose adapter A2,2,Flexible service processor (FSP) battery,,,
+11,45D8567,FDT hose adapter A3,2,Flexible service processor (FSP) battery,,,
+12,45D8568,FDT hose adapter A4,2,Flexible service processor (FSP) battery,,,
+13,45D8569,FDT hose adapter A5,2,Flexible service processor (FSP) battery,,,
+14,45D8570,"FDT bracket, adapter AQ A5",2,Flexible service processor (FSP) battery,,,
+15,45D8571,"FDT bracket, adapter AQ A5",2,Flexible service processor (FSP) battery,,,
+16,45D8572,"FDT key, adapter AQ A5",2,Flexible service processor (FSP) battery,,,
+17,45D8564,FDT THA-BTA XFER FDT  hose assembly,2,Flexible service processor (FSP) battery,,,
+18,41U9324,FDT valve assembly,2,Flexible service processor (FSP) battery,,,
+Table 7. Miscellaneous parts,,,,,,,
+External cables and cords,"See Planning
+for cables.Planning
+for cables",FDT valve assembly,2,Flexible service processor (FSP) battery,,,
+Removable media,"See Managing
+devices.Managing
+devices",FDT valve assembly,2,Flexible service processor (FSP) battery,,,
+Cable configuration,"See Enclosures
+and Expansion Units.Enclosures
+and Expansion Units",FDT valve assembly,2,Flexible service processor (FSP) battery,,,
+UEPO cable (A-side),45D7560,FDT valve assembly,2,Flexible service processor (FSP) battery,,,
+UEPO cable (B-side),45D7561,FDT valve assembly,2,Flexible service processor (FSP) battery,,,
+Cross-communication cable,45D7562,FDT valve assembly,2,Flexible service processor (FSP) battery,,,
+Cross-power cable,45D7563,FDT valve assembly,2,Flexible service processor (FSP) battery,,,
+"Power cord (ac 480 V, 100 A)",45D6091,FDT valve assembly,2,Flexible service processor (FSP) battery,,,
+"Power cord (ac 200-240 V, 100 A)",45D6092,FDT valve assembly,2,Flexible service processor (FSP) battery,,,
+"Power cord (ac 200-480 V, 125 A)",45D6093,FDT valve assembly,2,Flexible service processor (FSP) battery,,,
+"Power cord (dc 380/520 V, 100 A)",45D9649,FDT valve assembly,2,Flexible service processor (FSP) battery,,,
+BPR filler,74Y0611,FDT valve assembly,2,Flexible service processor (FSP) battery,,,
+Optical cable brackets,45D9604 (left) 45D9605 (right),FDT valve assembly,2,Flexible service processor (FSP) battery,,,
+"D-Link optical cable (0.66 meter) (up to three
+racks)",74Y0469,FDT valve assembly,2,Flexible service processor (FSP) battery,,,
+"D-Link optical cable (1.06 meter) (up to three
+racks)",74Y0470,FDT valve assembly,2,Flexible service processor (FSP) battery,,,
+"D-Link optical cable (4.8 meter) (up to three
+racks)",74Y0471,FDT valve assembly,2,Flexible service processor (FSP) battery,,,
+"D-Link optical cable (5.6 meter) (up to three
+racks)",74Y0472,FDT valve assembly,2,Flexible service processor (FSP) battery,,,
+"D-Link optical cable (6.6 meter) (up to three
+racks)",74Y0473,FDT valve assembly,2,Flexible service processor (FSP) battery,,,
+"D-Link optical cable (10 meter) (more than three
+racks)",45D0354,FDT valve assembly,2,Flexible service processor (FSP) battery,,,
+"D-Link optical cable (15 meter) (more than three
+racks)",45D8080,FDT valve assembly,2,Flexible service processor (FSP) battery,,,
+"D-Link optical cable (20 meter) (more than three
+racks)",45D8117,FDT valve assembly,2,Flexible service processor (FSP) battery,,,
+"D-Link optical cable (30 meter) (more than three
+racks)",45D8216,FDT valve assembly,2,Flexible service processor (FSP) battery,,,
+"D-Link optical cable (40 meter) (more than three
+racks)",45D8309,FDT valve assembly,2,Flexible service processor (FSP) battery,,,
+"D-Link optical cable (50 meter) (more than three
+racks)",45D8362,FDT valve assembly,2,Flexible service processor (FSP) battery,,,
+DCCA power cable,"74Y0367 (long)74Y0368 (medium)
+74Y0369
+(short)",FDT valve assembly,2,Flexible service processor (FSP) battery,,,
+DCCA communications cable,"15R8392 (2 meter)15R8393 (3 meter)
+15R8394
+(4 meter)",FDT valve assembly,2,Flexible service processor (FSP) battery,,,
+SAS cables,45D7822 (1.5 meter)45D9124 (3.25 meter),FDT valve assembly,2,Flexible service processor (FSP) battery,,,
+SAS HD cables,74Y0399 (1.5 meter)74Y0401 (3.25 meter),FDT valve assembly,2,Flexible service processor (FSP) battery,,,
+Hand tools kit,74Y0988,FDT valve assembly,2,Flexible service processor (FSP) battery,,,
+"5786, 5787, 7031-D24, and 7031-T24 system parts",,,,,,,
+Table 1. Stand-alone cover assembly part numbers for 5787 and 7031-T24,,,,,,,
+1,,12R8505*,1,Front cover assembly  stand-alone,,,
+2,,12R8373*,1,"Side cover assembly  stand-alone, left",,,
+3,,12R8376*,1,"Side cover assembly  stand-alone, right",,,
+4,,12R8379*,1,Footstand assembly  stand-alone,,,
+5,,1624741*,4,"Screw, M3 x 4  pan head",,,
+Table 2. I/O enclosure assembly (front view),,,,,,,
+1,,41U0299*,1,"Rack configured chassis assembly (includes chassis,
+disk drive backplane, VPD card). Removal and replacement procedures
+are sent with the FRU.",,,
+1,,41U0301*,1,"Stand-alone configured chassis assembly (includes
+chassis, disk drive backplane, VPD card). Removal and replacement
+procedures are sent with the FRU.",,,
+2,,39J2051*,1,Mount Rail assembly (7031-D24 only),,,
+2,,"97P4178*
+3P5556**",,Disk drive bezel (not shown),,,
+2,,"97P4179*
+53P6213**",,Disk drive filler panel (not shown),,,
+3,,"03N5260*
+00P3833**",1-12 per side,"73.4 GB Disk drive with U320 carrier, 10K RPM,
+80 pin",,,
+3,,"03N6325*
+00P3072**",1-12 per side,"73.4 GB Disk drive with U320 carrier, 10K RPM,
+80 pin",,,
+3,,"03N5265*
+00P3835**",1-12 per side,"146.8 GB Disk drive with U320 carrier, 10K RPM,
+80 pin",,,
+3,,"03N6330*
+00P2665**",1-12 per side,"146.8 GB Disk drive with U320 carrier, 10K RPM,
+80 pin",,,
+3,,"03N5270*
+80P3157**",1-12 per side,"300 GB Disk drive with U320 carrier, 10K RPM,
+80 pin",,,
+3,,"03N6335*
+80P3400**",1-12 per side,"300 GB Disk drive with U320 carrier, 10K RPM,
+80 pin",,,
+3,,"03N5275*
+80P3159**",1-12 per side,"36.4 GB Disk drive with U320 carrier, 15K RPM,
+80 pin",,,
+3,,"03N6340*
+00P2693**",1-12 per side,"36.4 GB Disk drive with U320 carrier, 15K RPM,
+80 pin",,,
+3,,"03N5280*
+80P3163**",1-12 per side,"73.4 GB Disk drive with U320 carrier, 15K RPM,
+80 pin",,,
+3,,"03N6345*
+00P2685**",1-12 per side,"73.4 GB Disk drive with U320 carrier, 15K RPM,
+80 pin",,,
+3,,"03N5285*
+80P3911**",1-12 per side,"3.5 inch 146 GB SCSI disk drive, 15 K RPM",,,
+3,,10N8578*,1-12 per side,"300 GB Disk drive with U320 carrier, 15K RPM,
+80 pin",,,
+3,,"03N5270*
+80P3157**",,300 GB Ultra320 10K rpm 80 pin SCSI disk drive/carrier,,,
+3,4326,39J3695,1-12 per side,"3.5 inch 35 GB SCSI disk drive, 15K RPM (IBM i)",,,
+3,4327,39J3696,1-12 per side,"3.5 inch 70 GB SCSI disk drive, 15K RPM (IBM i)",,,
+3,4328,39J3697,1-12 per side,"3.5 inch 141 GB SCSI disk drive, 15K RPM (IBM i)",,,
+3,4329,42R6676,1-12 per side,"3.5 inch 282 GB SCSI disk drive, 15K RPM (IBM i)",,,
+4,,"15R6792*
+12R9950**",3,Fan assembly,,,
+5,,41U0264*,1,Front bezel (Rack unit only),,,
+6,,39J2051*,1,"Mount Rail assembly (See index number 2 in this
+table)",,,
+7,,"12R8511*
+90H9196**",3,Chassis handle,,,
+"Table 3. I/O enclosure assembly
+(back view)",,,,,,,
+1,,,,"Chassis assembly (refer to table 2 for part
+number)",,,
+2,,,,"Disk drive assemblies (refer to table 2 for
+part number)",,,
+3,506E,"12R9042*
+12R7477**",1-4,SCSI repeater card assembly  single,,,
+3,506D,"12R9040*
+12R7475**",1-4,SCSI repeater card assembly  dual,,,
+3,,12R7457*,1-3,SCSI repeater card filler assembly (not shown),,,
+4,,12R9078**,1-2,"966 W power supplyNote: Use with a power supply
+that has the same wattage. If a 966 W power supply is not available,
+replace both 966 W power supplies with 845 W power supplies.Note: Use with a power supply
+that has the same wattage. If a 966 W power supply is not available,
+replace both 966 W power supplies with 845 W power supplies.",,,
+4,,15R7998*,1-2,"845 W power supplyNote: Use with a power supply
+that has the same wattage.Note: Use with a power supply
+that has the same wattage.",,,
+4,,12R7454*,1,Power supply filler assembly (not shown),,,
+5,,12R6121*,1,Left chassis bracket,,,
+6,,12R6122*,1,Right chassis bracket,,,
+5796 and 7314-G30 system parts,,,,,,,
+Table 1. Cover assembly part numbers,,,,,,,
+1,,04N6587,1,Screw,,,
+2,,80P5960,2,Front bezel,,,
+3,,80P5955,1,Service label,,,
+4,,39J5190,1,Rail assembly,,,
+5,,39J5190,1,Rail assembly,,,
+6,,80P6903,1,Air flow block,,,
+Table 2. Assembly,,,,,,,
+7,,44V4294,2,300 W power supply,,,
+8,,80P5880,1,"Chassis assembly, includes power cables",,,
+9,,42R4007,1,"PCI adapter cassette, Gen 3 single wide (handle
+at bottom), long",,,
+9,,42R4008,1,"PCI adapter cassette, Gen 3 double wide (handle
+at bottom), long",,,
+10,,10N7690,2,EMC shield assembly,,,
+Table 3. Final assembly part numbers,,,,,,,
+11,,10N8782,1,GX card with hardware,,,
+11,,10N7774,1,GX card with hardware,,,
+12,,07P6949,1,Fabrication assembly,,,
+13,,80P5940,1,Strain relief assembly (green),,,
+13,,03N5871,1,Strain relief assembly (olive),,,
+14,520D,46K6826,1,SPCN card with hardware,,,
+15,,03N5660,4,Hold down bracket,,,
+16,,53P0320,4,Screw,,,
+Table 4. Cable parts,,,,,,,
+,Y cable,40H6603,4,Screw,,,
+,SCSI-3 cable,52G4233,4,Screw,,,
+,SCSI-4 cable,42R4756,4,Screw,,,
+Table 5. Miscellaneous parts,,,,,,,
+,External cables and cords,"See Planning
+for cables.Planning
+for cables",4,Screw,,,
+,PCI adapters,"See Managing
+PCI adapters.Managing
+PCI adapters",4,Screw,,,
+,Cable configuration,"See Enclosures
+and Expansion Units.Enclosures
+and Expansion Units",4,Screw,,,
+,PCI filler bracket,39J0260,4,Screw,,,
+,Wrap plug,87H3439,4,Screw,,,
+,Wrap plug,87H3442,4,Screw,,,
+,Wrap plug,87H3311,4,Screw,,,
+,Wrap plug,73H2508,4,Screw,,,
+,Wrap plug,93H5270,4,Screw,,,
+"5802 and 5877 system
+parts5802 and 5877",,,,,,,
+Table 1. Front assembly part numbers,,,,,,,
+1,,,1,Chassis assembly,,,
+2,,45D5215,1,Disk unit cage assembly (5802 only),,,
+2,,44V7924,1,Disk unit cage filler (5877 only),,,
+3,58B0,44V6821**,0 - 18,69 GB small form factor solid-state SAS drive,,,
+3,58B3,00E6051*74Y5294**,0 - 18,177 GB small form factor solid-state SAS drive,,,
+3,58B8,74Y9524*,0 - 18,387 GB small form factor solid-state SAS drive,,,
+3,59C0,00E8702*,0 - 18,775 GB small form factor solid-state SAS drive,,,
+3,198B,00E6165*44V4429**,0 - 18,69 GB 15K small form factor SAS disk drive (IBM® i),,,
+3,6600,42R8391**,0 - 18,73 GB 10K small form factor SAS disk drive  (AIX® and Linux),,,
+3,198B,00E6168*44V4426**,0 - 18,73 GB 15K small form factor SAS disk drive  (AIX and Linux),,,
+3,198C,00E6166*44V6844**,0 - 18,139 GB 15K small form factor SAS disk drive (IBM i),,,
+3,169C,42R8392**,0 - 18,146 GB 10K small form factor SAS disk drive  (AIX and Linux),,,
+3,198C,00E6169*44V6845**,0 - 18,146 GB 15K small form factor SAS disk drive  (AIX and Linux),,,
+3,198D,00E6164*74Y4896**,0 - 18,283 GB 10K small form factor SAS disk drive (IBM i),,,
+3,19A1,74Y6495*,0 - 18,283 GB 15K small form factor SAS disk drive (IBM i),,,
+3,19A1,74Y6496*,0 - 18,300 GB 15K small form factor SAS disk drive  (AIX and Linux),,,
+3,198D,00E6167*44V6833**,0 - 18,300 GB 10K small form factor SAS disk drive  (AIX and Linux),,,
+3,19A3,74Y4897*,0 - 18,571 GB 10K small form factor SAS disk drive (IBM i),,,
+3,19A3,74Y4900*,0 - 18,600 GB 10K small form factor SAS disk drive  (AIX and Linux),,,
+3,19A4,74Y9271*,0 - 18,857 GB 10K small form factor SAS disk drive (IBM i),,,
+3,19A4,74Y9272*,0 - 18,900 GB 10K small form factor SAS disk drive  (AIX and Linux),,,
+3,59C8,00E8606*,0 - 18,1.14 TB 10K small form factor SAS disk drive (IBM i),,,
+3,59C8,00E8614*,0 - 18,1.2 TB 10K small form factor SAS disk drive  (AIX and Linux),,,
+4,,26K8680,0 - 18,Disk unit filler (5802 only),,,
+5,,45D6918,4,Port card assembly,,,
+6,,42R8429,4,Fan assembly,,,
+7,,44V6774,2,Power supply,,,
+Table 2. Back assembly part numbers,,,,,,,
+8,,45D5321,1,PCI cage multicard assembly,,,
+9,,,,"Comes with PCI cage multicard assembly and is
+not a separate FRU",,,
+10,,45D5229,1,EMC card assembly,,,
+11,,44V5743,1,EMC filler bracket,,,
+12,,44V5739,1,Power cable assembly,,,
+13,,45D5008,1,SAS conduit card assembly (5802 only),,,
+13,,44V7286,1,SAS conduit card filler (5877 only),,,
+14,,45D5221,1,Midplane assembly,,,
+Table 3. Cables,,,,,,,
+,"0.6 meter SAS AT cable (SAS adapter to 5802
+SAS conduit card)",44V5132,1,Midplane assembly,,,
+,0.6 meter IB cable,45D4785,1,Midplane assembly,,,
+,1.5 meter IB cable,45D4786,1,Midplane assembly,,,
+,2.5 meter IB cable,45D4787,1,Midplane assembly,,,
+,3 meter IB cable,45D5271,1,Midplane assembly,,,
+,8 meter IB cable,45D4788,1,Midplane assembly,,,
+Table 4. Miscellaneous parts,,,,,,,
+,Cable management bracket (1 piece assembly),74Y9541,1,Midplane assembly,,,
+,Cable management bracket (3 piece assembly),00E7992,1,Midplane assembly,,,
+,Generation 3 single wide blind swap cassette,44V4768,1,Midplane assembly,,,
+,External cables and cords,See Planning for cables.Planning for cables,1,Midplane assembly,,,
+,PCI adapters,See Managing PCI adapters.Managing PCI adapters,1,Midplane assembly,,,
+,Cable configuration,"See Enclosures
+and Expansion Units.Enclosures
+and Expansion Units",1,Midplane assembly,,,
+"5803 and 5873 system
+parts5803 and 5873",,,,,,,
+Table 1. Front assembly part numbers,,,,,,,
+1,,44V8265,1,Chassis assembly,,,
+2,,45D5223,1,Disk unit cage assembly,,,
+2,,44V5898,1,Disk unit cage filler,,,
+3,58B0,44V6821**,0 - 26,69 GB small form factor solid-state SAS drive,,,
+3,58B3,00E6051*74Y5294**,0 - 26,177 GB small form factor solid-state SAS drive,,,
+3,58B8,74Y9524*,0 - 26,387 GB small form factor solid-state SAS drive,,,
+3,59C0,00E8702*,0 - 26,775 GB small form factor solid-state SAS drive,,,
+3,198B,00E6165*44V4429**,0 - 26,69 GB 15K small form factor SAS disk drive (IBM® i),,,
+3,6600,42R8391**,0 - 26,73 GB 10K small form factor SAS disk drive (AIX® and Linux),,,
+3,198B,00E6168*44V4426**,0 - 26,73 GB 15K small form factor SAS disk drive (AIX and Linux),,,
+3,198C,00E6166*44V6844**,0 - 26,139 GB 15K small form factor SAS disk drive (IBM i),,,
+3,169C,42R8392**,0 - 26,146 GB 10K small form factor SAS disk drive (AIX and Linux),,,
+3,198C,00E6169*44V6845**,0 - 26,146 GB 15K small form factor SAS disk drive (AIX and Linux),,,
+3,198D,00E6164*74Y4896**,0 - 26,283 GB 10K small form factor SAS disk drive (IBM i),,,
+3,19A1,74Y6495*,0 - 26,283 GB 15K small form factor SAS disk drive (IBM i),,,
+3,19A1,74Y6496*,0 - 26,300 GB 15K small form factor SAS disk drive (AIX and Linux),,,
+3,198D,00E6167*44V6833**,0 - 26,300 GB 10K small form factor SAS disk drive (AIX and Linux),,,
+3,19A3,74Y4897*,0 - 26,571 GB 10K small form factor SAS disk drive (IBM i),,,
+3,19A3,74Y4900*,0 - 26,600 GB 10K small form factor SAS disk drive (AIX and Linux),,,
+3,19A4,74Y9271*,0 - 26,857 GB 10K small form factor SAS disk drive (IBM i),,,
+3,19A4,74Y9272*,0 - 26,900 GB 10K small form factor SAS disk drive (AIX and Linux),,,
+3,59C8,00E8606*,0 - 26,1.14 TB 10K small form factor SAS disk drive (IBM i),,,
+3,59C8,00E8614*,0 - 26,1.2 TB 10K small form factor SAS disk drive (AIX and Linux),,,
+3,,,AR,Disk unit assembly,,,
+4,,39Y8083,AR,Disk unit filler,,,
+5,,45D6918,4,Port card assembly,,,
+6,,42R8429,6,Fan assembly,,,
+7,,45D3978,2,Power supply,,,
+Table 2. Back assembly part numbers,,,,,,,
+8,,45D5321,2,PCI cage multicard assembly,,,
+9,,,,"Not a separate FRU, comes with PCI adapter",,,
+10,,45D5008,1,SAS conduit card assembly,,,
+10,,44V7286,1,SAS conduit card filler,,,
+11,,45D5438,1,Midplane assembly,,,
+Table 3. Cables,,,,,,,
+,.6 meter IB cable,45D4785,1,Midplane assembly,,,
+,1.5 meter IB cable,45D4786,1,Midplane assembly,,,
+,2.5 meter IB cable,45D4787,1,Midplane assembly,,,
+,3 meter IB cable,45D5271,1,Midplane assembly,,,
+,8 meter IB cable,45D4788,1,Midplane assembly,,,
+,"4 meter SAS AE1 cable for  IBM 7226 Multimedia
+Storage Enclosure Model 1U3 (7226-1U3)",46C2900,1,Midplane assembly,,,
+,3 meter SAS YE1 cable for 7226-1U3,46C2902,1,Midplane assembly,,,
+Table 4. Miscellaneous parts,,,,,,,
+,Generation 3 single wide blind swap cassette,44V4768,1,Midplane assembly,,,
+,External cables and cords,See Site and Hardware Planning Guide.Site and Hardware Planning Guide,1,Midplane assembly,,,
+,PCI adapters,"See Managing
+PCI adapters.Managing
+PCI adapters",1,Midplane assembly,,,
+,Cable configuration,"See Enclosures
+and Expansion Units.Enclosures
+and Expansion Units",1,Midplane assembly,,,
+5886 system parts,,,,,,,
+Table 1. I/O backplane and cabling assembly part numbers,,,,,,,
+1,509A,44V3937,2,"Enclosure Services Manager
+(ESM)",,,
+2,509C,42C2140,2,Power supply,,,
+3,509B,42R7898,1,Midplane,,,
+4,,39R6584,1,Right bezel,,,
+5,,,1–12,"See Disk drive and solid-state drive system
+parts.Disk drive and solid-state drive system
+parts",,,
+6,,39R6583,1,Left bezel,,,
+Table 2. Cables,,,,,,,
+,44V4041,1 meter SAS 4x AI cable,1,Left bezel,,,
+,44V4163,3 meter SAS 4x AE cable,1,Left bezel,,,
+,44V4164,6 meter SAS 4x AE cable,1,Left bezel,,,
+,44V4147,1 meter SAS 4x EE cable,1,Left bezel,,,
+,44V4148,3 meter SAS 4x EE cable,1,Left bezel,,,
+,44V4149,6 meter SAS 4x EE cable,1,Left bezel,,,
+,44V4151,3 meter SAS 2x cable,1,Left bezel,,,
+,44V4152,6 meter SAS 2x cable,1,Left bezel,,,
+,44V4157,1.5 meter SAS YO cable,1,Left bezel,,,
+,44V4158,3 meter SAS YO cable,1,Left bezel,,,
+,44V4159,6 meter SAS YO cable,1,Left bezel,,,
+,44V4160,15 meter SAS YO cable,1,Left bezel,,,
+,44V4161,1.5 meter SAS YI cable,1,Left bezel,,,
+,44V4162,3 meter SAS YI cable,1,Left bezel,,,
+,44V4154,3 meter SAS X cable,1,Left bezel,,,
+,44V4155,6 meter SAS X cable,1,Left bezel,,,
+,44V4156,15 meter SAS X cable,1,Left bezel,,,
+,42R6748,"SAS W
+cable",1,Left bezel,,,
+Table 3. Miscellaneous parts,,,,,,,
+,External cables and cords,See Site and Hardware Planning Guide.Site and Hardware Planning Guide,1,Left bezel,,,
+,Cable configuration,"See Enclosures
+and Expansion Units.Enclosures
+and Expansion Units",1,Left bezel,,,
+,42R6748,Wrap plug,1,Left bezel,,,
+,39R6548,ESM blank,1,Left bezel,,,
+,39M4375,Disk drive blank,1,Left bezel,,,
+,39M5377,Power cord rack jumper,1,Left bezel,,,
+,39R6550,Rail kit,1,Left bezel,,,
+,22R2809,Disk drive filler,1,Left bezel,,,
+5887 system parts,,,,,,,
+Table 1. Final assembly part numbers,,,,,,,
+1,,45W8836,1,"Rail kit (left slide rail
+assembly)",,,
+2,,,1,"Attaching screw for the
+left slide rail assembly",,,
+3,,45W8836,1,"Rail kit (right slide rail
+assembly)",,,
+4,,,1,"Attaching screw for the
+right slide rail assembly",,,
+5,,,1,Right bezel,,,
+6,,,1,Left bezel,,,
+Table 2. System assembly part numbers,,,,,,,
+1,,,1 – 24,"See Disk drive and solid-state drive system
+parts.Disk drive and solid-state drive system
+parts",,,
+2,,,1,Midplane assembly,,,
+3,,,2,Attaching screw for the midplane assembly,,,
+4,50B0,45W9576,1,Midplane,,,
+5,,,6,Attaching screw for the midplane,,,
+6,50B1,45W7653,2,Enclosure Services Manager (ESM),,,
+7,50B2,45W8229,2,Power supply,,,
+8,,,1,Enclosure chassis,,,
+Table 3. Cables,,,,,,,
+,44V4157,"1.5 meter SAS YO cable (5887 in
+Mode 1 connected to a single I/O adapter)",1,Enclosure chassis,,,
+,44V4158,"3 meter SAS YO cable (5887 in
+Mode 1 connected to a single I/O adapter)",1,Enclosure chassis,,,
+,44V4159,"6 meter SAS YO cable (5887 in
+Mode 1 connected to a single I/O adapter)",1,Enclosure chassis,,,
+,44V4160,"15 meter SAS YO cable (5887 in
+Mode 1 connected to a single I/O adapter)",1,Enclosure chassis,,,
+,44V4161,1.5 meter SAS YI cable,1,Enclosure chassis,,,
+,44V4162,3 meter SAS YI cable,1,Enclosure chassis,,,
+,44V4154,"3 meter SAS X cable (5887 in
+Mode 2 or 4 connected to dual SAS adapters)",1,Enclosure chassis,,,
+,44V4155,"6 meter SAS X cable (5887 in
+Mode 2 or 4 connected to dual SAS adapters)",1,Enclosure chassis,,,
+,44V4156,"15 meter SAS X cable (5887 in
+Mode 2 or 4 connected to dual SAS adapters)",1,Enclosure chassis,,,
+Table 4. Miscellaneous parts,,,,,,,
+,External cables and cords,See Planning for cables.Planning for cables,1,Enclosure chassis,,,
+,Cable configuration,"See Enclosures
+and expansion units.Enclosures
+and expansion units",1,Enclosure chassis,,,
+,39M5377,Power cord rack jumper,1,Enclosure chassis,,,
+,45W8836,Rail kit,1,Enclosure chassis,,,
+,45W8681,Disk drive filler,1,Enclosure chassis,,,
+5888 or  EDR1 PCIe storage enclosure system parts5888 or5888EDR1 PCIe storage enclosure,,,,,,,
+Table 1. System assembly part numbers,,,,,,,
+1,,46K3617,1,Top access cover assembly,,,
+2,,45D4772,17,"Attaching screw for top access cover assembly
+(upper)",,,
+2,,45D4772,10,"Attaching screw for top access cover assembly
+(lower)",,,
+3,,41T8211,2,Power supply,,,
+4,57C3,00E6451,2,"Enclosure RAID module (ERM) for FC 5888 PCIe storage
+enclosure",,,
+4,57C3,00E7704,2,Enclosure RAID module (ERM) for FC EDR1 PCIe storage enclosure,,,
+5,,41T8234,2,Fan assembly,,,
+6,,73Y9667,1,"Cable management
+bracket",,,
+7,,46C6380,2,Attaching screw for cable management bracket,,,
+8,,41T8061,1,Slide rail assembly (right),,,
+9,,12J5289,2,Attaching screw for slide rail assembly (right),,,
+10,58BB,00V5433,6 - 30,1.8 inch 387 GB solid-state drive (SSD),,,
+10,59BE,00E8692,6 - 30,387 GB small form factor solid-state SAS drive,,,
+10,,41U7852,0 - 24,SSD filler assembly,,,
+11,,41T8767,6,Bezel assembly,,,
+12,,41T8062,1,Slide rail assembly (left),,,
+13,,12J5289,1,Attaching screw for slide rail assembly (left),,,
+14,,41T8138,1,"Midplane assembly for FC 5888 PCIe storage
+enclosure",,,
+14,,41T8962,1,Midplane assembly for FC EDR1 PCIe storage enclosure,,,
+15,,46K4260,7,Attaching screw for midplane assembly,,,
+Table 2. Cables,,,,,,,
+46K3769,"PCIe 8x
+cable, 1.5 meter (4.9 feet)",46K4260,7,Attaching screw for midplane assembly,,,
+46K3770,"PCIe 8x
+cable, 3 meter (9.8 feet)",46K4260,7,Attaching screw for midplane assembly,,,
+41U8581,"PCIe cable,
+8 meter (26.2 feet)",46K4260,7,Attaching screw for midplane assembly,,,
+Table 3. Miscellaneous parts,,,,,,,
+External cables and cords,"See Planning
+for cables.Planning
+for cables",46K4260,7,Attaching screw for midplane assembly,,,
+Cable configuration,"See Enclosures
+and expansion units.Enclosures
+and expansion units",46K4260,7,Attaching screw for midplane assembly,,,
+39M5377,Power cord,46K4260,7,Attaching screw for midplane assembly,,,
+45W8836,Rail kit,46K4260,7,Attaching screw for midplane assembly,,,
+45W8681,Disk drive filler,46K4260,7,Attaching screw for midplane assembly,,,
+46K2851,Attaching screw for side SSD rails,46K4260,7,Attaching screw for midplane assembly,,,
+41T8311,Service card,46K4260,7,Attaching screw for midplane assembly,,,

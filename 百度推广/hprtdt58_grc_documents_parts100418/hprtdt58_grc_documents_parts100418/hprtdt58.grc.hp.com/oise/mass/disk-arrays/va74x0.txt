@@ -1,0 +1,53 @@
+******************* Product / Case Handling *******************
+All parts and products mentioned on this page are non-RoHS compliant because they were obsolete before July 1st, 2006.
+***************************************************************
+
+==SKILL Product:VA74x0    Group:DISK-ARRAYS          Sys_flag:== A6264A/A6265A ==
+========================================================================
+== F&W DISK ARRAY ======================================================
+
+== VA74x0 ===============================================================
+
+A6189-69104	VA 7400 Controller (includes Battery and LC GBIC)		
+A6218-69304	VA 7410 Controller (includes Battery and LC GBIC)
+A6211-69002	Power Supply / Fan Module (Main Enclosure)		 
+A6188-67004 Battery Kit				
+A6186-67001	512MB Memory (only for 7x00)PC100
+A6186-67002 512MB Memory (only for 7x10)PC133			 
+A6200-69001 1024MB Memory (PC133 only)		 
+A6183-69006 Mid Plane Kit 			
+A6197-67001	Controller filler panel			 
+A6198-67001 Disk filler panel
+5065-5106	LC/SC 2m FC Kabel
+5065-5107	LC/SC 16m FC Kabel
+5065-5101 	LC/LC 2m FC Kabel 			
+A6209-60001 System/E Rail Kit (RBII)		
+A3231-60030 HP Computer Cabinet Rail Kit (RBI)	
+A5635-60001 Rittal Rack Rail Kit		
+
+== Disks ===============================================================
+
+A6191-69001 - 18GB, 15k rpm Fibre Channel disk (ST318451FC, ST318452FC)
+A6192-69002 - 36GB, 10k rpm Fibre Channel disk (ST336704FC, ST336605FC, ST336607FC, BD03659532)
+A6193-69001 - 36GB, 15k rpm Fibre Channel disk (ST336752FC, ST336753FC, BF03658242)
+A6194-69002 - 73GB, 10k rpm Fibre Channel disk (ST373405FC, ST373307FC, HPQ BD0725822B)
+A7288-69001 - 73GB, 15k rpm Fibre Channel disk (ST373453FC, BF07258243)
+A7289-69002- 146GB,10k rpm Fibre Channel disk (ST3146807FC, HPQ BD1465822C)
+
+
+== DS2400 ===============================================================
+
+A6214-69001	Link Controller Card (LCC) for VA7400/DS2400
+A6250-67006	Enclosure Mid Plane Kit		 
+A6214-67003	Enclosure Bezel	
+A6250-69001	Power Supply / Fan Module 			 
+
+== DS2405 ===============================================================
+
+A6255-69101 Link Controller Card (LCC) for VA7410/DS2405
+A6250-67006	Enclosure Mid Plane Kit		 
+A6214-67003	Enclosure Bezel	
+A6250-69001	Power Supply / Fan Module 	
+	 
+
+last change: 20.10.2004 Sascha Brzoska, CRC Ratingen 

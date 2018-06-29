@@ -1,0 +1,250 @@
+<BODY background="http://www.grc.hp.com/icons/logo_bg.gif">
+
+
+<!-- Copyright © 2005. Spidersoft Ltd -->
+<style>
+A.applink:hover {border: 2px dotted #DCE6F4;padding:2px;background-color:#ffff00;color:green;text-decoration:none}
+A.applink       {border: 2px dotted #DCE6F4;padding:2px;color:#2F5BFF;background:transparent;text-decoration:none}
+A.info          {color:#2F5BFF;background:transparent;text-decoration:none}
+A.info:hover    {color:green;background:transparent;text-decoration:underline}
+</style>
+<div style='BORDER: 1px solid #DCE6F4; MARGIN-TOP: 20px; MARGIN-BOTTOM: 20px; MARGIN-LEFT: 5px; MARGIN-RIGHT: 5px; PADDING: 5px; BACKGROUND-COLOR: #eef8ff;line-height:180%; COLOR: #000000; font-family: Arial; font-size: 8pt; width=100%; FILTER: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr="#FFFFFFFF", EndColorStr="#F2F5FAFF");'>
+This page was saved using <a class="applink" href="http://www.spidersoft.com"><b>WebZIP 7.0.2.1028</b></a>  on  04/18/10 17:03:47.<br>
+<b>Address:</b> <a class="info" href="http://hprtdt58.grc.hp.com/documents/massstor/disks/A2958A.html">http://hprtdt58.grc.hp.com/documents/massstor/disks/A2958A.html</a><br>
+<b>Title:</b> A2958A &nbsp;&bull;&nbsp; <b>Size:</b> 4526 &nbsp;&bull;&nbsp; <b>Last Modified:</b> Thu, 27 Apr 2000 09:57:19 GMT<br></div>
+<!-- /Copyright © 2005. Spidersoft Ltd -->
+
+
+<h1>Disk A2958A (535 MB, ST3610N)</h1>
+<h1>3.5-inch SE Hard Disk Drive Configuration</h1>
+<hr>
+<p>
+<b>Caution</b>
+<ul>
+<li>The drive configuration is set for the system it is installed in. Changing the configuration may cause the installed in.  Changing the configuration may cause the drive to malfunction.
+<li>Devices outside the system will be configured differently.
+<li>The connector jumpers are not interchangeable from one connector to another. Interchanging the jumpers may damage connector to another. Interchanging the jumpers may damage the connectors.
+</ul>
+<hr>
+<p>
+<ul>
+<li>Disk Size/Capacity      : 3.5-inch 533MB
+<li>Vendor/Model Number     : ST3610N
+<li>Exchangenumber          : A2958-69001
+<li>Interface Type          : Single-Ended<p>
+<li>8x7, G, H, I Class systems.
+</ul>
+<hr>
+<p>
+The drive options are selected on J2. The drive SCSI ID (address) is set on
+J5 (see Figure). Table 1 shows how the option pin-sets for the
+3.5-inch hard disk drive (A2958A) should be set. Table 2 provides a functional
+description of the J2 jumpers.
+<p>
+A pin-set is shorted with a jumper installed or open without a jumper. The J5
+option settings are shown on the following Figure.
+<p>
+<hr>
+<p>
+
+<TABLE BORDER=3> 
+
+<TR>
+<TD><b>Function</b></TD>
+<TD><b>Pin-Set</b></TD>
+<TD><b>Internal Setting</b></TD>
+</TR>
+
+<TR>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+</TR>
+
+<TR>
+<TD>Terminator Power (TP)</TD>
+<TD>1,2</TD>
+<TD>Open (Position A) if last device on bus. See Figure</TD>
+</TR>
+
+<TR>
+<TD>Reserved (RES)</TD>
+<TD>3</TD>
+<TD>Open</TD>
+</TR>
+
+<TR>
+<TD>Parity (PE)</TD>
+<TD>4</TD>
+<TD>Jumpered</TD>
+</TR>
+
+<TR>
+<TD>Write Protect (WP)</TD>
+<TD>5</TD>
+<TD>Open</TD>
+</TR>
+
+<TR>
+<TD>Motor Enable</TD>
+<TD>6</TD>
+<TD>Open</TD>
+</TR>
+
+<TR>
+<TD>Delay Start (DS)</TD>
+<TD>7</TD>
+<TD>Open</TD>
+</TR>
+</Table>
+<p>
+
+<b>Table 1:</b> Option Settings for 3.5-inch Hard Disk Drive (A2958)
+<p>
+
+<hr>
+<p>
+
+<TABLE BORDER=3>
+
+<TR>
+<TD><b>Jumper</b></TD>
+<TD><b>Jumper</b></TD>
+<TD><b>Jumper Function Description</b></TD>
+</TR>
+
+<TR>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+</TR>
+
+<TR>
+<TD><b>TP</b> (Pins 3-4)</TD>
+<TD><b>TP</b> (Pins 1-2)</TD>
+<TD></TD>
+</TR>
+
+<TR>
+<TD>Off</TD>
+<TD>Off</TD>
+<TD>No terminator power is connected to drive terminators or SCSI bus I/O pin 26.</TD>
+</TR>
+
+<TR>
+<TD>On</TD>
+<TD>Off</TD>
+<TD>Drive supplies its own terminator power only.</TD>
+</TR>
+
+<TR>
+<TD>Off</TD>
+<TD>On</TD>
+<TD>Drive supplies power to I/O pin 26 of SCSI bus, none to internal terminators.</TD>
+</TR>
+
+<TR>
+<TD>On</TD>
+<TD>On</TD>
+<TD>Drive supplies terminator power to itself (internal connection) and to I/O pin 26 of SCSI bus.</TD>
+</TR>
+
+<TR>
+<TD><b>TP Position A</b></TD>
+<TD><b>TP Position A</b></TD>
+<TD></TD>
+</TR>
+
+<TR>
+<TD>On</TD>
+<TD></TD>
+<TD>This horizontally positioned jumper across the two TP positions nearest the PCB edge connects terminator power from SCSI bus I/O pin 26 to the drive's internal terminators. (For single-ended only.) Set if it is the last device on the bus.</TD>
+</TR>
+
+<TR>
+<TD><b>RES</b></TD>
+<TD><b>RES</b></TD>
+<TD></TD>
+</TR>
+
+<TR>
+<TD>Off</TD>
+<TD></TD>
+<TD>Reserved</TD>
+</TR>
+
+<TR>
+<TD><b>PE</b></TD>
+<TD><b>PE</b></TD>
+<TD></TD>
+</TR>
+
+<TR>
+<TD>On</TD>
+<TD></TD>
+<TD>Parity checking and parity error reporting by the drive is enabled.</TD>
+</TR>
+
+<TR>
+<TD>Off</TD>
+<TD></TD>
+<TD>Drive does not report result of parity checking to host.</TD>
+</TR>
+
+<TR>
+<TD><b>WP</b></TD>
+<TD><b>WP</b></TD>
+<TD></TD>
+</TR>
+
+<TR>
+<TD>On</TD>
+<TD></TD>
+<TD>Entire drive is write protected.</TD>
+</TR>
+
+<TR>
+<TD>Off</TD>
+<TD></TD>
+<TD>Drive is not write protected.</TD>
+</TR>
+
+<TR>
+<TD><b>DS</b></TD>
+<TD><b>ME</b></TD>
+<TD></TD>
+</TR>
+
+<TR>
+<TD>Off</TD>
+<TD>Off</TD>
+<TD>Spindle starts immediately after power up.</TD>
+</TR>
+
+<TR>
+<TD>Off</TD>
+<TD>On</TD>
+<TD>Drive spindle does not start until Start unit command is received from host.</TD>
+</TR>
+
+<TR>
+<TD>On</TD>
+<TD>Off</TD>
+<TD>Spindle Startup is delayed by SCSI ID times 12 seconds after power is applied, i.e.  drive 0 spindle starts immediately when DC power is connected, drive 1 starts after 12-second delay, drive 2 after 24-second delay.</TD>
+</TR>
+
+<TR>
+<TD>On</TD>
+<TD>On</TD>
+<TD>Drive spindle starts when Start Unit command is received from the ME jumper is installed.</TD>
+</TR>
+
+</Table>
+<p>
+<b>Table 2:</b>Jumper Function Description
+<p>
+<hr>
+<p>
+<IMG ALIGN=MIDDLE SRC="../../../document/pictures/a2958a.gif" width="727" height="645"><p>
+<b>Figure: A2958A 3.5-inch Hard Disk Drive Option Select Connectors</b>
+</body>

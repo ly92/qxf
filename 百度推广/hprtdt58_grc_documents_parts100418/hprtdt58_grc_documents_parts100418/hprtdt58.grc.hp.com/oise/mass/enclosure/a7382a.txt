@@ -1,0 +1,35 @@
+******************* Product / Case Handling *******************
+All parts and products mentioned on this page are non-RoHS compliant because they were obsolete before July 1st, 2006.
+***************************************************************
+
+A7382A      DS2120 Base Disk System Assembly            A7382-69001 
+
+
++++++   disks   +++++
+
+A7527A     36GB 15k rpm SCSI drive / Ultra 320    	A9896-69001 (not compliant) AB420-69001 (compliant) 
+A7528A	   73GB 10k rpm SCSI drive / Ultra 320		AD205-69001 (old was A7528-69001)
+A7529A     73GB 15k rpm SCSI drive / Ultra 320		A9897-69001 (not compliant) , AB421-69001 (compliant)
+A7530A    146GB 10k rpm SCSI drive / Ultra 320		A9898-69002 (not compliant) , AB422-69001 (compliant)     HP 146 GST3146707LC
+A7383A	  146GB 15k rpm SCSI drive / Ultra 320          A7383-69001 , AD206-69001 
+A7384A    300GB 10k rpm SCSI drive / Ultra 320		A7384-69001    HP 300 GST3300007LC
+AG492A    300GB 15k rpm SCSI drive / Ultra 320          AD261-69001
+  
+Disk Filler Panel                      			A6198-67002
+
+
+Terminator
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+C2978B 0.5-meter HDT S68 SCSI multimode cable 5183-2670
+C2911C 1.0-meter HDT S68 SCSI multimode cable 5183-2671
+C2979B 1.5-meter HDT S68 SCSI multimode cable 5183-2672
+C2924C 2.5-meter HDT S68 SCSI multimode cable 5183-2673
+C7521A 5.0-meter HDT S68 SCSI multimode cable 5183-2678
+C2361B 1.0-meter VHDT S68/HDT S68 SCSI multimode cable 5183-2674
+C2362B 2.5-meter VHDT S68/HDT S68 SCSI multimode cable 5183-2675
+C2365B 5.0-meter VHDT S68/HDT S68 SCSI multimode cable 5183-2676
+C2364A SCSI Terminator LVD/SE HDTS68 5183-2657
+
+
+last update: 26.11.2009 Stefan Stechemesser

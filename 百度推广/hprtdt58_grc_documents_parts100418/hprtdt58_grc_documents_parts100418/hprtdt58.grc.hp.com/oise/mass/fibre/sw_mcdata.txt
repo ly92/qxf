@@ -1,0 +1,183 @@
+==SKILL Product:Fibrechannel SWITCH  Group:SAN                 Sys_flag:y
+== FIBRE CHANNEL PRODUCTS FOR Mc Data========================================
+
+== 348406-B21 HP StorageWorks Edge Switch 2/12 = McData ES-4300 ============= RoHs
+
+StorageWorks Edge Switch 2/12 rail kit                  316149-001            Noncompliant
+StorageWorks Edge Switch 2/12 (whole-unit replacement)  350981-001            Noncompliant 
+ 
+== A7284A HP StorageWorks Edge Switch 2/16 = McData ES-3216 =================
+
+2/16 Edgeswitch (entire unit)				A7284-63002           Noncompliant
+fan, edgeswitch 2/16					A7284-63003           Noncompliant
+power supply, edgeswitch 2/16				A7284-63004           Noncompliant
+bezel edgeswitch 2/16					A7284-40001           Noncompliant
+Rackmount rail kit, universal                           292013-001            Noncompliant
+Fan, 40 millimeter                                      292009-001            Noncompliant 
+Port switch without optics                              292007-001            Noncompliant
+Power supply                                            292011-001            Noncompliant
+ 
+== 316095-B21 = HP StorageWorks Edge Switch 2/24 = McData ES-4500 ===========
+
+Switch without Optics   				316147-001            Noncompliant
+Edge Switch 2/24 PM CQ Part				316095-B21            Noncompliant
+Power Supply   						316148-001            Noncompliant
+8-port Flexport Expansion Module 
+(with 8 Transceivers and License) 			316096-B21            Noncompliant
+10KM Optical Transceiver Kit 				300835-B21            Noncompliant
+35KM Optical Transceiver Kit 				300836-B21            Noncompliant
+300M Optical Transceiver Kit  				300834-B21            Noncompliant
+HA Fabric Manager Server  				335701-B21            Noncompliant
+HAFM Upgrade 						320908-B22            Noncompliant
+HP Omnibook Laptop Computer  !!!!! 			322301-B21 306661-001 Noncompliant
+Replaced by a 1U server with bundled HAFM software 
+under a single part number                              335701-B21            Noncompliant
+HP Open Trunk License 2/24 				335999-B21            Noncompliant
+HP SANtegrity Binding Security Software License 2/24 	317070-B21            Noncompliant
+Product Manager License 2/24 
+(Required for use with 287406-B23) 			317067-B21            Noncompliant     
+Rail Kit   						316149-001            Noncompliant
+
+== A7283A     = HP StorageWorks Edge Switch 2/32 = McData ES-3232 ===========
+
+Switch, Edge 2/32					A7283-69002           Noncompliant
+Fan, Edge Switch 2/32 					A7283-63003           Noncompliant
+POWER SUPPLY, EDGE SWITCH 2/32 				A7283-63004           Noncompliant
+BEZEL FOR EDGE SWITCH 2/32 				A7283-40001           Noncompliant
+Fan, 60 millimeter                                      292010-001            Noncompliant
+Port switch without optics                              292008-001            Noncompliant
+Power supply                                            292012-001            Noncompliant
+
+== A6534A     = HP FC-64 Director Class Switch = McData ED-6064 ==========================
+== A6534AZ    = HP FC-64 Director Class Switch - Factory integrated ==
+
+Fan Module  						A6534-69004           Noncompliant
+Power Supply						A6534-67003           Noncompliant
+Port Plug Assembly					A6534-69010           Noncompliant
+S-BAR Assembly						A6534-69007           Noncompliant
+CTP Card Assembly     					A6534-69005           Noncompliant
+SFFP Short Wave Optic Module 				1005-0892             Noncompliant
+SFFP Long Wave Optic Module  				1005-0893             Noncompliant
+
+HP 6000 Omnibook Laptop  				A6534-69017           Noncompliant
+HP LAN Card  						F1626-80002           Noncompliant
+HP Zip Drive 						F2009-60901           Noncompliant
+HP 12-Port Ethernet Hub 				J3294-61101           Noncompliant
+Front Bezel         					A6534-67009           Noncompliant
+AC Power Distribution Assy  				A6534-67008           Noncompliant
+
+Torque Driver              				A6534-67011           Noncompliant 
+5/32  Driver Bit   					A6534-67012           Noncompliant
+
+== A6534B       HP StorageWorks Director 2/64 Switch = McData ED-6064 ====================
+== A6534BZ/BZR  HP StorageWorks Director 2/64 Switch - Factory integrated ==
+
+Card. UPM 4 Port 2GB					A6534-69102           Noncompliant
+Card, CTP2 2GB Director Switch				A6534-69018           Noncompliant
+POWER SUPPLY 						A6534-67003           Noncompliant
+FAN MODULE						A6534-69004           Noncompliant
+PORT PLUG ASSY						A6534-69010           Noncompliant
+S-BAR ASSY						A6534-69007           Noncompliant
+ 
+TORQUE DRIVER 						A6534-67011           Noncompliant
+CABLE ORGANIZER TRAY					A6534-67013           Noncompliant
+AC PWR DIST ASSY  
+BACKPLANE ASSY not SBAR					A6534-67006           Noncompliant
+FRONT BEZEL 						A6534-67009           Noncompliant
+Omnibook 6000
+HP INTERNAL USE ONLY
+Omnibook 6000/ F2182KT #ABA 				A6534-60017           Noncompliant
+
+== 316093-B21 HP StorageWorks Director Switch 2/140 = McData ED-6140 =====================
+
+CTP module   						316145-001            Noncompliant
+Fan module   						316142-001            Noncompliant
+Power distribution unit module   			316140-001            Noncompliant
+Power supply module   					316141-001            Noncompliant
+S-Bar module   						316144-001            Noncompliant
+4-port expansion module 				316094-B21            Noncompliant
+8-port expansion module (two 4-port modules) 		300833-B21            Noncompliant
+UPM, 4-port module   					292006-001            Noncompliant
+StorageWorks Director 2/140 				316093-B21            Noncompliant
+HP Omnibook laptop computer A6582A 			306661-001            Noncompliant
+HA Fabric Manager Server1 				335701-B21            Noncompliant
+HA-Fabric Manager upgrade 				320908-B22            Noncompliant
+HAFM Laptop Server2 					322301-B21            Noncompliant
+HP SANtegrity Binding Security software license 2/140 	317073-B21            Noncompliant
+HP Open Trunk License 2/140 				336002-B21            Noncompliant
+Backplane board   					316143-001            Noncompliant
+Cable organizer   					316146-001            Noncompliant
+Rackmount kit for HP Rack 9000 Series, 
+HP Rack 10000 Series, HP Rack 11000 Series, 
+and HP Rack System/E Series   				316151-001            Noncompliant 
+
+== McDATA 4Gb SAN Switch for HP p-Class BladeSystem ======================================
+
+Cube, Fiber Channel Storage, w/SAN Board                321145-001            Noncompliant
+Transceiver, 4Gb, SW, SFP                               381730-001            Noncompliant 
+Switch, 4Gb SAN                394381-001 Repair/Return 411260-001	      Compliant
+
+   
+==========================================================================================
+LC-LC Cables
+Length (meters)                                         Part Number 
+ 
+0.5 m                                                   263895-007            Noncompliant
+1   m                                                   263895-001            Noncompliant
+2   m                                                   263895-002            Noncompliant
+                                                        5065-5101             Noncompliant
+5   m                                                   263895-003            Noncompliant
+15  m                                                   263895-004            Noncompliant
+16  m                                                   5065-5102             Noncompliant
+30  m                                                   263895-005            Noncompliant
+50  m                                                   263895-006            Noncompliant
+                                                        5065-5103             Noncompliant
+200 m                                                   5065-5104             Noncompliant
+   
+
+LC-SC Cables 
+ 
+0.5                                                     263894-007            Noncompliant
+1                                                       263894-001            Noncompliant
+2                                                       5065-5106             Noncompliant
+                                                        263894-002            Noncompliant
+5                                                       263894-003            Noncompliant
+15                                                      263894-004            Noncompliant
+16                                                      5065-5107             Noncompliant
+30                                                      263894-005            Noncompliant
+50                                                      263894-006            Noncompliant
+
+SC-SC Cables 
+ 
+2               234457-B21                              234451-002            Noncompliant
+5               234457-B22                              234451-005            Noncompliant
+15              234457-B23                              234451-015            Noncompliant
+30              234457-B24                              234451-030            Noncompliant
+50              234457-B51                              234451-050            Noncompliant
+
+Adapters 
+Description 
+HP Part Number 
+ 
+Fibre Channel Adapter (SC Female - SC Female)           C7534A 
+Fibre Channel Adapter Cable Kit,(LC Male - SC Male)     C7540A1 
+ 
+Note 1: 2 meter adapter kit. Contains both C7534A (adapter) and C7529A (2 meter cable). 
+ 
+C7524A     =   2 m FC cable 50 um LC/LC M/M 		5065-5101            Noncompliant
+C7525A     =  16 m FC cable 50 um LC/LC M/M 		5065-5102            Noncompliant
+C7526A     =  50 m FC cable 50 um LC/LC M/M 		5065-5103            Noncompliant
+C7527A     = 200 m FC cable 50 um LC/LC M/M 		5065-5104            Noncompliant
+C7529A     =   2 m FC cable 50 um LC/SC M/M 		5065-5106            Noncompliant
+C7530A     =  16 m FC cable 50 um LC/SC M/M 		5065-5107            Noncompliant
+C7534A     = SC female - SC female Adapter 		5183-2684            Noncompliant
+C7540A     = 2 m LC male - SC male Adapter Kit
+F1626B     = 10/100 Fast Ethernet PC Card (for HAFM Omnibook)
+F2182KT    = OMNIBOOK 6000 for fc-64 (order with option #ABA)
+
+== Tools ====================================================================
+
+FC-Toolbox                      	FC-TESTKIT     (Germany only !!!!)
+
+Last Update: Frank Skibbe RSAA MC TEAM GERMANY
+Update: 04.07.2006

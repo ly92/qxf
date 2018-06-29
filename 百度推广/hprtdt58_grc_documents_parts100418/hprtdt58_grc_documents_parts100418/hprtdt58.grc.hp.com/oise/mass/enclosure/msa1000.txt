@@ -1,0 +1,82 @@
+******************* Product / Case Handling *******************
+RoHS Silent Roll product 
+
+Capture the appropriate Serial Number for use in SAW Unit Configuration, PC Tracker or CSN to determine RoHS product level compliance. 
+
+Products listed as Modified or EMEA-Only are Compliant Products.  All compliant products must comply with the RoHS directives and must be supported with Modified spares.
+
+See http://na2.know.hp.com/teams/RoHS%20Service%20Delivery%20Implementation/default.aspx  
+or email rohsservicedeliveryprogramteam@hp.com for additional information.
+
+If unable to capture the serial number, obtain the purchase or install date from the customer and compare with the compliance date below. 
+
+Compliance Date:  TBD
+
+The parts mentioned on this page are not compliant!
+The Qualifier has to check for parts compliancy himself with the above mentioned tools and is solely repsonsible for this!
+***************************************************************
+
+== StorageWorks Modular SAN Array 1000, MSA1000 - 201723-B21 ==
+
+
+Part Description:                               Part            Spare Part
+                                                Number:         Number:
+=====================================================================================
+    
+AC Power Cord (2)                                               187335-001
+SPT-2 IEC-C13 IEC-C14                                           202974-001
+SPT-2 IEC-C13 IEC-C14                                           202973-001
+Battery, 256K Cache Backup, 4.8v Ni-MH          FD-61407-01     120978-001
+Blower (MSA chassis & SW43xx) Orderable Part #  70-40085-S1     123482-001
+Cable, Serial, MSA1000     259992-001           316131-001      FD-67070-01
+Chassis, 4U with Backplane                      FD-63150-01     229198-001
+Console Cable   316131-001
+Controller Blank                                FD-63151-01     229208-001
+EMU 2-port Ultra3 SCSI Shared I/O               FD-63157-01     229205-001
+
+Hard Drives:
+
+146 GB Ultra320 ( 289044-001 / FE-23027-01 )    3R-A3841-AA     286716-B22 #0D1 for Intel and PA-RISC based Servers Only
+ 72 GB 10K U320 ( 289042-001 / FE-23026-01 )    3R-A3839-AA     286714-B22 #0D1 for Intel and PA-RISC based Servers Only
+ 36 GB 10K U320 ( 289041-001 / FE-23025-01 )    3R-A3838-AA     286713-B22 #0D1 for Intel and PA-RISC based Servers Only
+ 72 GB 15K U320 ( 289243-001 / FE-23441-01 )    3R-A3851-AA     286778-B22 #0D1 for Intel and PA-RISC based Servers Only
+ 36 GB 15K U320 ( 289241-001 / FE-23022-01 )    3R-A3849-AA     286776-B22 #0D1 for Intel and PA-RISC based Servers Only
+ 18 GB 15K U320 ( 289240-001 / FE-23023-01 )    3R-A3848-AA     286775-B22 #0D1 for Intel and PA-RISC based Servers Only
+Wide Ultra3 SCSI hard drive, 1 inch
+(Ultra2 drives also supported)     ( 177986-001 / FE-16914-01 ) 3R-A1357-AA     176496-B22
+
+
+=====================================================================================
+
+FC LC-LC  2m cable (2GB-2GB)      (Option part # 221692-B21)     3R-A2979-AA
+FC LC-LC  5m cable (2GB-2GB)      (Option part # 221692-B22)     3R-A2980-AA
+FC LC-LC 15m cable                               221692-B23
+FC LC-LC 30m cable                               221692-B26
+FC LC-LC 50m cable                               221692-B27
+
+FC SC-LC  2m cable (2GB-2GB)      (Option part # 221691-B21)     3R-A2976-AA
+FC SC-LC  5m cable (1GB-2Gb)      (Option part # 221691-B22)     3R-A2977-AA
+FC SC-LC 15m cable                               221691-B23
+FC SC-LC 30m cable                               221691-B26
+FC SC-LC 50m cable                               221691-B27
+
+Fibre Channel I/O Module Option Part:218960-B21  FD-63154-01     229206-001
+Interconnect blank(s)                            229200-001
+Cache Module (Bd.Dimm,SDRAM,128MB with Battery)  FE-14923-01     171387-001
+Module, Controller *Option Number 218231-B21     FD-63155-01     229203-001
+Module, Memory 256 MB                            FE-20541-01     262012-001
+MSA Fabric Switch 6                              FD-63159-01     218681-001
+Power Supply Assembly, 499 Watt Orderable Part # 30-50872-S1     212398-001
+Power Switch Assembly (Blank)                    FD-63152-01     229201-001
+Return Kit                                                       249670-001
+SFP Transceiver, FC, 650-MM, 2GB Hot Plug        FD-63153-01     229204-001
+StorageWorks MSA Hub 2/3                         FE-21694-01     291436-001
+
+VHDCI cables:
+1-GB to 2-GB connection                                   263894-(001-007)
+2-GB to 2-GB connection                                   263895-(001-007)
+
+
+
+
+last update: 14.1.05 Frank Skibbe MC Team Germany

@@ -1,0 +1,99 @@
+******************* Product / Case Handling *******************
+This server is non-RoHS compliant because it was obsolete before July 1st, 2006.
+
+However, you may order a compliant part for a non-compliant server
+in case the non-compliant part is unavailable.
+The ROHS status of a part is UNKNOWN unless marked with "(compliant)" or "(noncomp)".
+***************************************************************
+============================================================================
+Matterhorn/ rp7410 / rp7405 / A6752A 
+============================================================================
+
+CPU (650Mhz)                    A6443-69001
+CPU (750Mhz)                    A6444-69001 *** IMPORTANT NOTE: 
+                                            *** This part can have version 3.x or 2.x, 
+                                            *** Firmware Version >=4.0 is required for 3.x. 
+                                            *** See WTEC current issues for details.
+CPU (875MHz)                    A6435-69001
+
+CLEANING KIT
+If just replacing a CPU  use   A3639-67035  contains: 4 individually wrapped alcohol wipes.
+For system board replacement or moving a CPU use the Cleaning Kit.     
+CLEANING KIT                   A3639-70101   contains: 4 CPU Sockets, 4 thermstrate pads, 4 EMI O-rings, 1 IPA wipe & cleaning manual
+CPU PCX-W SOCKET               1253-0703     just one single CPU-socket
+
+PCA, System Backplane           A6752-69001(noncomp) A6752-69201(compliant)
+Cell + PDH Riser                A6094-69103
+Cell Board Battery              234556-001     (CR2032) (on the PDH Daughter Board)
+PCI Card Cage Assy              A6752-69014   *** PCI Backplane
+PCI OLR Assy with 16 Paddles    A6093-67114(noncomp) A6093-67214(compliant)   old part#: A6093-67014; includes also PCI OLR Switch cable
+
+256 MB Dimm                     A6802-69001
+512 MB Dimm                     A6097-69001   Alt. Part A5198-69101 (FW Version >5.0 requried)
+1GB Dimm                        A6098-69001   replaced by A6098-69101; NOTE: Do NOT mix A6098-69001 and A6098-69101 in same rank! See ENGINEERING ADVISORY c00875986.
+2GB Dimm                        A6100-69001             min PDC 16.011
+
+----------------------------------------------------------------------------
+LAN/SCSI (Procurium)            A6794-69001(noncomp) A6794-69101(compliant)
+MP/SCSI (Core IO)               A6793-69001
+Battery of MP                   234556-001       Panasonic CR2032, 3V
+
+SCSI
+18GB 10K RPM SCSI Disk          A6537-69001  ST318404LC, ST318406LC, MAN3184MC, Atlas 10k III 18.4 SCA, IC35L018UCD210-0, DK32DJ-18MC  
+36GB 15K RPM SCSI Disk          A7329-69001  ST336752LC, MAM3367MC, IC35L036UCPR15-0
+73GB 10K RPM SCSI Disk          A6539-69001  ST373405LC, MAN3735MC, Atlas 10K III 73.4 SCA, IC35L072UCD210-0, DK32DJ-72MC
+73GB 10K RPM U320 Disk          A7285-69002  HP 73.4GST373307LC , HP 73.4GMAP3735NC
+146GB 10K RPM SCSI Disk         A7287-69001
+
+DVD                             A5220-67003
+DDS4                            C5686-69203
+
+------------------------------------------------------------------------------
+CABLES
+Front Panel Display Cable       A6752-63002
+System Fan Internal Cable       A6752-67023(noncomp) A6752-63021(compliant)
+System Fan External Cable       A6752-67022(noncomp) A6752-63025(compliant)
+Cable, SCSI Bundle              A6752-63019(noncomp) A6752-63035(compliant) <-\  A6752-63006, A6752-63007,
+                                              |  A6752-63008, A6752-63009       
+                                              |
+LVD SCSI Cable #1               A6752-63006   |  /Procurium to Mass Storage
+LVD SCSI Cable #2               A6752-63007   |_/ Mass Storage to Sysb. LVD 1
+LVD SCSI Cable #3               A6752-63008   | \ Mass Storage to Sysb. LVD 2
+SE SCSI Cable                   A6752-63009   |  \Systemb. to DVD to Systemb.
+                                              |
+                                              Always order the Bundle,
+                                              the individual cables cannot
+                                              be ordered!!!
+
+-----------------------------------------------------------------------------
+Mass Storage Power #1           A6752-67019(noncomp) A6752-63033(compliant)
+Mass Storage Power #2           A6752-67020(noncomp) A6752-63034(compliant)
+DVD Power Cable                 A6752-67021(noncomp) A6752-63023(compliant)
+Main Power Harness              A6752-67025    Special Tool necessary
+XCELITE "99" SCREW DRIVER       NHPXSCEWDRIVER Tool for Main Power Harness 
+Intrusion Switch Cable          A6093-63025(noncomp) A6093-63044(compliant)
+
+POWER
+AC Power Supply                 A6752-69213(noncomp) A6752-69044(compliant) !!!  after HW-replacement, run: MP:CM> de  !!!
+PCI Power Module                A6093-69123  (noncomp) 0957-2187(compliant)
+PCI VRM                         0950-4352      old equivalent#: 0950-3793 VRM PCI Backplane
+Cell VRM low voltage            0950-4448      VRM #1-3 & 5-9, order 8 VRMs
+Cell VRM high voltage           0950-4353      VRM #10-12, order 3 VRMs 
+
+Smart Fan (Front/Rear)          A6752-67029
+Smart Fan PCI                   A6752-67030(noncomp) A6752-04071(compliant)    IO-FAN
+
+----------------------------------------------------------------------------
+MISC
+Front Panel (Display+Cable)     A6752-67005
+Mass Storage Backplane          A6752-67003
+M-Cable                         A6144-63001(noncomp) A6144-63007(compliant)
+Intrusion Switch                5040-6317
+PCI Seperator                   5065-7443
+Paddle, PCI OLAR              A6093-40041
+CORE I/O PLASTIC GUIDE RAIL L   0403-1126     5 inches long; one per chassis; cannot be ordered thru the normal channels – open CPR for CC
+CORE I/O PLASTIC GUIDE RAIL S   0403-1119     3 per chassis; cannot be ordered thru the normal channels – open CPR for CC
+
+============================================================================
+            Last update on 18-Jan-2008 by Joerg-Udo Werner
+

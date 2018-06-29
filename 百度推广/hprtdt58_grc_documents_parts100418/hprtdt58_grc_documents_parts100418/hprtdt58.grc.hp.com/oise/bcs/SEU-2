@@ -1,0 +1,98 @@
+******************* Product / Case Handling *******************
+RoHS Silent Roll product 
+
+Capture the appropriate Serial Number for use in SAW Unit Configuration, 
+PC Tracker or CSN to determine RoHS product level compliance. 
+
+Products listed as Modified or EMEA-Only are Compliant Products. All compliant 
+products must comply with the RoHS directives and must be supported with Modified spares.
+
+See http://na2.know.hp.com/teams/RoHS%20Service%20Delivery%20Implementation/default.aspx  
+or email rohsservicedeliveryprogramteam@hp.com for additional information.
+
+If unable to capture the serial number, obtain the purchase or install date from the 
+customer and compare with the compliance date below. 
+
+Compliance Date:  July, 1st 2006
+
+The ROHS status of a part is UNKNOWN unless marked with "(compliant)" or "(noncomp)".
+You may order a compliant part for a not compliant server in case the noncompliant part is unavailable
+
+The Qualifier has to check for parts compliancy himself with the above mentioned 
+tools and is solely repsonsible for this!
+***************************************************************
+
+===== Server Expansion Unit for rx8640 & rp8440 / SEU-2 / AB301A ======
+
+
+---------------------------- System Backplane -------------------------
+System Backplane SEU-2         AB301-69001   replaced by AB301-67001 (use till gone); contains also VRMs (no FRUs)
+
+
+---------------------------- I/O --------------------------------------
+PCI-X 2.0 Card Cage Assembly   AB297-69001   contains the PCI-X 2.0 Backplane
+PCI OLR Assy with 16 Paddles   A6093-67114(noncomp) A6093-67214(compliant)   old part#: A6093-67014; includes also PCI OLR Switch cable
+Core I/O, MP                   AB314-69001
+Core IO Backplane              AB301-60402   contains Core I/O Backplane PCA & Enclosure Assembly
+Mass Storage Backplane         AB297-60104   connects internal disks and SCSI cables
+
+#Internal Disks/Removable Media in new SEU-2:
+Removable DAT 72GB (DDS4)      DW009-69201
+DVD + RW Drive                 AB351-67002
+U320  36GB 15K RPM SCSI Disk   AB420-69001
+U320  73GB 15K RPM SCSI Disk   AB421-69001
+U320 146GB 10K RPM SCSI Disk   AB422-69001
+U320 146GB 15K RPM SCSI Disk   AD206-69001
+U320 300GB 10K RPM SCSI Disk   AB423-69001
+U320 300GB 15K RPM SCSI Disk   AD261-69001 
+Filler for internal disk slot  A6198-60003   carbon colored
+Filler for DVD/DDS slot        A6912-00014   carbon colored
+Removable Media Rail Kit       A6752-67011   blue plastic rails attached to DAT or DVD
+
+#Possible Internal Disks/Removable Media in upgrades from SEU to SEU-2: 
+INTERNAL DAT40i 40GB DRIVE     C5686-69204   carbon colored
+INTERNAL DVD DEVICE            A9879-67001   
+INTERNAL DVD+RW DEVICE	       AB351-62001(noncomp) AB351-67002(compliant)   
+INT. HTPLG U320 DISK 36GB 15k  A9896-69001(noncomp) AB420-69001(compliant)   Ultra320; ST336753LC, MAS3367NC
+INT. HTPLG U320 DISK 73GB 15k  A9897-69001(noncomp) AB421-69001(compliant)   Ultra320; MAS3735xx 
+INT. HTPLG U320 DISK 146GB 10k A9898-69002(noncomp) AB422-69001(compliant)   Ultra320;
+
+
+---------------------------- Power ------------------------------------
+Bulk Power Supply (BPS)        A6093-69021
+PCI-X N+1 Power Module         0950-4637
+VRM for PCI-X 2.0 Backplane    0950-4622     VRM# 1-4
+
+
+---------------------------- Fans -------------------------------------
+Smart Fan Front                A6093-67017(noncomp) A6093-67117(compliant)   cabinet fan# 0-1
+Smart Fan Rear                 A6093-67018(noncomp) A6093-67118(compliant)   cabinet fan# 2-3
+Smart Fan PCI-X I/O            A6752-67030(noncomp) A6752-04071(compliant)   I/O fan# 0-5; same as in Matterhorn
+
+
+---------------------------- Cables -----------------------------------
+Cable, E-Link Set              AB301-2008A   replaced by AB301-2008B (use till gone); for connection between Kona and SEU-2
+Cable, Front & Rear Fans       A6434-63019
+Cable, Mass Storage Bundle     AB301-2106A?  or AB301-2009B? - SCSI cable bundle to internal disks & DVD/DDS
+Cable, Mass Storage Power      AB297-2002A   
+Cable, Core I/O Power          A6434-63022   blue color
+Cable, Inside Signal (Short)   A6434-63021
+Cable, Outside Signal (Long)   A6434-63025
+Cable, Internal Smart Array    A7027-63003
+Cable, PCI OLR Switch          AB297-2010A?  changed !?!
+Cable, Intrusion Switch        A6093-63044   old part#: A6093-63025(noncomp) A6093-63044(compliant); cable to all cover open/closed switches (sensors)
+
+
+---------------------------- Miscs ------------------------------------
+Front Panel Display PCA        AB297-60103   including cable
+Front Panel Light Pipe Assy    AB297-2101A
+Cover, Front Plastic Bezel     A6434-04036   
+Nameplate SEU                  A6434-40009   for Front Bezel; carbon colored
+Front Bezel Snap Attach        C2786-40002
+Core I/O Plastic Guide Rail 2  0403-1119     4 per chassis; 6” (15.2 cm) long; see Advisory c01295698
+Tool, Antistatic Mat 24X36     A5201-68004   same as for Superdome; with ground strip
+
+
+-----------------------------------------------------------------------
+                 Page Owner:  Holger Goetker
+                 Last update: 12-June-2008 by Holger Goetker

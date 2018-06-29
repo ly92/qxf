@@ -1,0 +1,197 @@
+******************* Product / Case Handling *******************
+RoHS Silent Roll product 
+
+Capture the appropriate Serial Number for use in SAW Unit Configuration, 
+PC Tracker or CSN to determine RoHS product level compliance. 
+
+Products listed as Modified or EMEA-Only are Compliant Products. All compliant 
+products must comply with the RoHS directives and must be supported with Modified spares.
+
+See http://na2.know.hp.com/teams/RoHS%20Service%20Delivery%20Implementation/default.aspx  
+or email rohsservicedeliveryprogramteam@hp.com for additional information.
+
+If unable to capture the serial number, obtain the purchase or install date from the 
+customer and compare with the compliance date below. 
+
+Compliance Date:  July, 1st 2006
+
+The ROHS status of a part is UNKNOWN unless marked with "(compliant)" or "(noncomp)".
+You may order a compliant part for a not compliant server in case the noncompliant part is unavailable
+
+The Qualifier has to check for parts compliancy himself with the above mentioned 
+tools and is solely repsonsible for this!
+***************************************************************
+
+==SKILL Product:Server  Group:IA64                  Sys_flag:y
+== Itanium Server rx26x0 =====================================
+
+Product numbers (not product name) for Longs Peak server are as follows:
+A6870A = rx2600 900MHz McKinley
+A6870B = rx2600 1.3GHz Madison
+A6873A = rx2600 1.0GHz McKinley
+A6873B = rx2600 1.5GHz Madison
+AB329A = rx2600 1.0GHz 1.5MB cache Madison9M Low Voltage
+AB330A = rx2600 1.4GHz 1.5MB cache Madison9M Low Voltage
+AB331A = rx2620 1,6GHz 6.0MB cache Madison9M
+AB332A = rx2620 1,6GHz 3.0MB cache Madison9M
+AB333A = rx2620 1,3GHz 3.0MB cache Madison9M
+AD152A = rx2620 1,4GHz 12.0MB cache Dual Core Montecito 
+AD153A = rx2620 1,6GHz 18.0MB cache Dual Core Montecito
+
+**** BOARDS / CPU / RAM ****
+System Board  (rx2600)             A7231-69512   Min. Firmware should be 2.01 (needed for Madison)
+System Board  (rx2620)             AB331-69101(noncomp) AB331-69301(compliant)    
+Server System Board, rx2620 Office Friendly Server OFS (min. BMC-Firmware 3.48) AB331-69301
+PCI Riser Board                    A7231-69530
+PSI Module                         A7231-04018(noncomp) A7231-04048(compliant)
+SCSI Backplane                     A7231-66520(noncomp) AB587-60005(compliant)
+Management Processor Card          A7231-66580(noncomp) AB587-60002(compliant) (includes ribon cable to backplane)
+Management Processor M Cable       A6144-63001(noncomp) A6144-63007(compliant)
+Status Panel                       A7231-66550(noncomp) AB587-60006(compliant)
+Status Panel Cable                 A7231-63003(noncomp) A7231-63027(compliant)
+
+**** CPUs ****
+ Note: CPUs come with turbo cooler.
+ For Processor Stepping info see http://wtec.cup.hp.com/~cpuhw/IA64/Mad-A1vsA2/FAQ_Mad9M_A1-A2_April_5_2006.doc )
+    Speed     Cache  Stepping   Prod.Nr.        Add.Info
+CPU 900 MHz / 1.5 MB          A7231-69039   Order also Processor Tool! 
+CPU 1   GHz / 3   MB          A7231-69030   Order also Processor Tool!
+CPU 1.3 GHz / 3   MB          A9666-69010   Order also Processor Tool! 
+CPU 1.5 GHz / 6   MB          A9667-69010   Order also Processor Tool!
+CPU 1.0 GHz / 1.5 MB          A9663-69010   Order also Processor Tool!
+CPU 1.4 GHz / 1.5 MB          AB617-69010   Order also Processor Tool!
+CPU 1.3 GHz / 3   MB    A1    AB336-69001   (for rx2620) Order also Processor Tool!
+CPU 1.3 GHz / 3   MB    A2    AB336-69003   (for rx2620 SFW>=3.17) Order also Processor Tool!
+CPU 1.6 GHz / 3   MB    A1    AB335-69001   (for rx2620) Order also Processor Tool!
+CPU 1.6 GHz / 3   MB    A2    AB335-69003 (use till gone: AB335-69002)   (for rx2620 SFW>=3.17) Order also Processor Tool!
+CPU 1.6 GHz / 6   MB    A1    AB334-69001(noncomp) (for rx2620) Order also Processor Tool!
+CPU 1.6 GHz / 6   MB    A2    AB334-69003(compliant) (for rx2620 SFW>=3.17) Order also Processor Tool!
+CPU 1.4 GHz / 12  MB (Dual)   AD122-69001   Montecito; Order also Processor Tool!
+CPU 1.6 GHz / 18  MB (Dual)   AD123-69001   Montecito; Order also Processor Tool!
+Processor Tool Kit            A7231-67046   (Germany only: only needed if CE is not trained)
+
+**** Memory ****
+Infinion/Samsung Memory can not be mixed with HP Memory in the same quad
+DIMM, 256MB DDR-SDRAM, PC2100      A6833-69001                           
+DIMM, 512MB DDR-SDRAM, PC2100      A6746-69001
+DIMM, 512MB DDR-SDRAM, PC2100      A6968AX      old number was -> A6968-69001  (Infinion or Samsung)
+DIMM, 1GB DDR-SDRAM, PC2100        A6834-69001 
+DIMM, 1GB DDR-SDRAM, PC2100        A6969-69001  (Infinion or Samsung)                     
+DIMM, 2GB DDR-SDRAM, PC2100        A6835-69001
+DIMM, 2GB DDR-SDRAM, PC2100        A6835-69001  (Infinion or Samsung)
+
+
+***** POWER *****
+Power Supply 650W                  0950-4621 
+Power POD Assy (rx2600)            0950-4294  
+Power POD Assy (rx2620)            0950-4294                  
+Battery (Real Time Clock)          1420-0386 on Systemboard (CR2330, 23mm diameter, 3mm size)
+Battery (MP)                       234556-001 on MP  (CR2032)
+
+**** HDD intern ****
+All disks with Ultra 320 must have Firmware level 1.8 !
+SCSI HDD  36GB 10K rpm Ultra 160  A6538-69003             MAN3367MC   grey
+SCSI HDD  36BG 10K rpm Ultra 320  A7835-69002     A7835A  ST336607LC MAP3367NC Atlas10KIV-36LVD 
+SCSI HDD  36GB 15K rpm Ultra 320  A9896-69001(noncomp) AB420-69001(compliant)     A7836A  carbon. Old partnumber was: A7836-69001
+SCSI HDD  36GB 15K rpm Ultra 320  A9896-69001(noncomp) AB420-69001(compliant)     A9896A  LP disk drive HotPlug ST336753LC MAS3367NC, MAU3036NC, ST336754LC
+SCSI HDD  73GB 10K rpm Ultra 160  A6539-69002             grey
+SCSI HDD  73GB 10K rpm Ultra 160  A7837-69002     A7837A  ST373405LC MAN3735MC Atlas10KIII-73LVD   carbon
+SCSI HDD  73GB 15K rpm Ultra 320  A7838-69001     A7838A  ST373453LW MAS3735NC   carbon
+SCSI HDD  73GB 15K rpm Ultra 320  A9897-69001(noncomp) AB421-69001(compliant)     A9897A  LP disk drive HotPlug ST373453LC MAS3735NC MAU3073NC
+SCSI HDD  73GB 15K rpm Ultra 320  A8706-69001(noncomp) AB425-69001(compliant)     A8706A  HP 73.4GST373454LC
+SCSI HDD 146GB 10k rpm Ultra 320  A7839-69001     A7839A  ST314807LC MAP3147NC Atlas10KIV-73LVD
+SCSI HDD 146GB 10K rpm Ultra 320  A9898-69002(noncomp) AB422-69001(compliant)     A9898A  LP disk drive HotPlug ST314807LC MAP3147NC MAW3147NC
+SCSI HDD 146GB 15K rpm Ultra 320  AD206-69001     AD208A  LP disk drive HotPlug 
+SCSI HDD 300GB 10K rpm Ultra 320  AB423-69001     AB423A  HP 300 GST3300007LC
+
+**** ARRAY****
+SA6402   (A9890A)  (A9890-69001 no longer orderable)
+SA6400 Base board, 2 SCSI CH.     309520-001
+128MB battery buffered cache      309521-001
+SA6404   (A9891A)  (A9891-69001 no longer orderable)
+SA6400 Base board, 2 SCSI CH.     309520-001
+256MB battery buffered cache      309522-001
+SA6400 2 CH. SCSI extension       309523-001
+NetRAID-2m (P7749A)               P7749-67001
+alternative order P3475-69004, but this needs FW update !
+Smart Array SA5302 (A9825A)       335891-001 
+Alternative order "red" parts : 
+171383-001  sa5302
+171387-001  128mb cache                       
+Smart Array SA5304 (A9826A)       345334-001
+Alternative order "red" parts : 
+171383-001  sa5302
+171384-001  2 CH SCSI expansion card                       
+262012-001  256mb cache
+
+**** FAN/FDD/CDROM ****
+DVD+RW/DVD ROM SLIMLINE DRIVE,    AB348-67001 (compliant) AB348B
+DVD+RW/DVD ROM SLIMLINE DRIVE,    AB616-69001             AB348A
+
+DVD-ROM Drive, Slimline, grey     A7231-69011     A6985A            
+DVD-ROM Drive, Slimline, Carbon   A7231-69012     A9919A
+DVD-ROM Drive, Slimline           A9919-67001 (compliant) A9919B
+
+CD-RW / DVD-ROM Drive, Slimline   A7851-69015     A6986A         
+CD-RW / DVD-ROM Drive, Slimline       n/a         A9920A Combo
+
+ 
+####Check Fan Location as PS Output differs, see: http://herkules.grc.hp.com/documents/systems/longspeak/Fan_Mapping.html
+ Note: If CPU turbo cooler failes, exchange CPU (see parts above).
+Super 80mm Fan                    A7231-04014(noncomp) A7231-04058(compliant)  Fan: 1 (Rack Version) 
+Chassis Fan rx2620                AB331-67002(noncomp) AB331-04006(compliant)  Fan: 1 (rx2620)
+Super 80mm Fan Cable              A7231-63005(noncomp) A7231-63029(compliant)
+Thin 80mm Fan                     A7231-04015(noncomp) A7231-04060(compliant)  Fan: 2 (Rack Version) 
+For RX2620 Office Friendly System OFS,Both Fans #1 and Fan #2 are replaced by A7231-04017
+Thin 80mm Fan Cable               A7231-63006(noncomp) A7231-63030(compliant)  for both fan 2 and 3 only 1 cable needed for both fans
+Dual Fan Assy                     A7231-04033(noncomp) A7231-04059(compliant)	  Fan: 3 (all 'peak' systems) 
+                 
+**** CABLES ****
+Cable, IDE                        A7231-63002(noncomp) A7231-63026(compliant)
+Cable, SCSI A                     A7231-63017(noncomp) A7231-63038(compliant)  (connects disk #0 & 1)                           
+Cable, SCSI B                     A7231-63018(noncomp) A7231-63039(compliant)  (connects disk #2)
+SCSI jack post SMALL JACK SCREW   0380-4855    see picture at http://wtec.cup.hp.com/~cpuhw/images/SCSIJackPost.jpg
+                                                       and at http://wtec.cup.hp.com/~cpuhw/images/SCSIRearView.jpg
+M-Cable for MP                    A6144-63001(noncomp) A6144-63007(compliant)
+Disk Power Cable                  A7231-63004(noncomp) A7231-63028(compliant)
+CABLE SCSI (for smart array controller, CH0)    A7231-63024
+CABLE SCSI (for smart array controller, CH1)    A7231-63025
+
+**** I/O Cards ****
+2Gb FC HBA for HPUX (A6795A)              A6795-69001
+2Gb FC HBA for Windows/Linux (A7298A)     A7298-69001
+2Gb PCI-X FC HBA for Windows (AB232A)     313045-002
+alternative order "red" part 313045-002
+2Gb PCI-X FC HBA for Linux (AB234A)       283384-001
+alternative order "red" part 283384-001
+SCSI U160, 1ch                    A6828-60001
+SCSI U160, 2ch                    A6829-60001
+SCSI Wide Diff., 2ch              A5159-60001    
+NIC 10/100TX IPSec /3DES          P3492-63000
+NIC 100TX, 4 port                 A5506-69101
+NIC 1000SX, PCI-X                 A6847-60001
+NIC 100baseT, LAN S700            B5509-66001 
+NIC 1000baseT, PCI-X              A6825-67001
+
+**** MISC ****
+POWER CORD RETENTION KIT          AD117-2100A
+
+
+============================================================================
+wtec info from 23.12.2002
+HSN.10.11.2002   Two unique part numbers for the RX2600 and ZX6000 system board.
+**************
+The Operation and Maintenance Guide lists the same part number
+for the ZX6000 and the RX2600 while the PSP lists two unique
+numbers. It lists A7231-66010/A7231-69010 for both.
+For the ZX6000, the current part numbers are A7231-67510 and A7231-69510.
+For the RX2600, the current part numbers are A7231-66010 and A7231-69010.
+The only real difference is that the Product ID and Model are set for
+one configuration versus the other.
+In the future, there will eventually be one part number, once the firmware
+is updated to be able to separate the difference between the two models 
+during a repair.
+
+---------------------------------------------------------------------------------------
+Last Update: 15-Dec-2009 by Joerg-Udo Werner
+---------------------------------------------------------------------------------------

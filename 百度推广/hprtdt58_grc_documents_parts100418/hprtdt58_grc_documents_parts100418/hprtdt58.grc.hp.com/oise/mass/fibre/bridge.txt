@@ -1,0 +1,97 @@
+== SKILL Product:Fibrechannel MUX/BRIDGE/Routers	  Group:SAN                 Sys_flag:y
+== FIBRE CHANNEL PRODUCTS FOR S800 ==========================================
+
+== FC SCSI Multiplexer Forerunner FWD ========= RoHS ======= 
+
+Motherboard                     A3308-69501     Noncompliant
+8MB Memory Board                A3308-69012     Noncompliant (1 Board per Unit !)
+Power Supply, Auto-ranging      0950-2989       Noncompliant
+Fan Assembly                    A3308-60014     Noncompliant (2 Fan's per Unit !)
+LCD/LED Front Panel             A3308-60004     Noncompliant
+Slot Cover FC/SCSI Slots        5001-6892       Noncompliant
+FC Adapter, Non-OFC 1063 SW     A3308-69107     Noncompliant
+Loopback Cable 50um, 2m         1005-0624       Noncompliant
+Optical Port Protector          1005-0359	Noncompliant
+F/W SCSI Adapter, 16-Bit        A3308-69003     Noncompliant
+
+== FC SCSI BRIDGE 4/1 Fibre Pack HV ========================
+Fibre Channel Bridge		A4688-69911     Noncompliant
+Optical GBIC			1005-0478       Noncompliant   
+
+== FC SCSI BRIDGE 2/1 Low Bridge LV ========================
+Fibre Bridge 2/1 LV     	A4689-69001     Noncompliant 
+Optical GBIC			1005-0478       Noncompliant 
+
+== Modular Data Router =====================================
+Data Director, StorageWorks HVD 163082-B21 
+Data Director, StorageWorks LVD 163083-B21 
+Part Description                Part Number     RoHS
+===== 
+Cable, 9 pin Serial Data Cable  213816-001      Noncompliant
+Cable, VHDCI to Wide, 6FT       110941-001      Noncompliant
+Cable, VHDCI to Wide, 12FT      110942-001      Noncompliant
+Chassis/System Board + PS       171979-001      Noncompliant
+GBIC, short-wave                234458-001      Noncompliant
+Module, 1 Port FC               171983-001      Noncompliant
+Module, 2 Port                  217081-001      Noncompliant
+Module, 2 Port HVD SCSI         171980-001      Noncompliant
+Module, 4 Port HVD SCSI         217082-001      Noncompliant
+Module, 2 Port LVD/SE SCSI      171981-001      Noncompliant
+Module, 4 Port LVD              217083-001      Noncompliant
+Module, Management              171982-001      Noncompliant
+Rail kit 332558-B21             30-51450-01     Noncompliant
+
+== Network Storage Router M2402 ============================
+
+Part Description                Part Number     RoHS
+
+Blank, Fan                      271668-001      Noncompliant
+Blank, Power supply             271667-001      Noncompliant 
+Board, FC, 2-GB, dual-port      271663-001      Noncompliant
+Board, SCSI, Quad-port, HVD     271665-001      Noncompliant
+Board, SCSI, Quad-port, LVD     271664-001      Noncompliant
+Chassis                         280090-001      Noncompliant
+Fan                             271670-001      Noncompliant
+SPS-BD, FC, 2GB, HTP           (212192-001)     Noncompliant
+                                229204-001   => Replacement/Scrap => 411043-001
+
+Fibre Cables Kits 
+
+Cable kit, 2m SW LC/SC FC       221691-B21      Noncompliant
+Cable kit, 5m SW LC/SC FC       221691-B22      Noncompliant
+Cable kit, 15m SW LC/SC FC      221691-B23      Noncompliant
+Cable kit, 2m SW LC/LC FC       221692-B21      Noncompliant
+Cable kit, 5m SW LC/LC FC       221692-B22      Noncompliant
+Cable kit, 15m SW LC/LC FC      221692-B23      Noncompliant
+Cable kit, 6 f 68 VHDCI 68 HD   341176-B21      Noncompliant
+Cable kit, 12 f 68 VHDCI 68 HD  341177-B21      Noncompliant
+Cable kit, 6 f 68 VHDCI 68VHDCI 341174-B21      Noncompliant
+Cable kit, 12 f 68VHDCI 68VHDCI 341175-B21      Noncompliant
+ 
+M2402 Cable, 9 pin Serial       213807-001      Noncompliant
+                                213816-001      Noncompliant
+Power Supply, 150-watt          271671-001      Noncompliant
+Rail kit                       30-51450-01      Noncompliant
+                                332558-B21      Noncompliant
+
+== E1200 / E1200-160 Network Storage Router ================
+
+E1200 NSR Module                271666-001      Noncompliant
+E1200-160 NSR Module            320101-001      Noncompliant
+SCSI cable, 0.5m, VHDCI-VHDCI   231687-002      Noncompliant
+Serial cable (RJ11 to DB9)      300576-001      Noncompliant
+Fan kit                         263643-001      Noncompliant
+  
+
+== FC MISC Parts ===========================================
+50 micron fibre optic cbl. 100m 1005-0366       Noncompliant 
+50 micron fibre optic cbl.  50m 1005-0365       Noncompliant 
+50 micron fibre optic cbl.  16m 1005-0586       Noncompliant (A3531A)
+50 micron fibre optic cbl.   2m 1005-0585       Noncompliant (A3583A)
+
+== Tools ===================================================
+FC-Toolbox                      FC-TESTKIT     (Germany only !!!!)
+
+Last Update: Frank Skibbe RSAA MC TEAM
+
+Update: 02.07.2006

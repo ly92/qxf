@@ -1,0 +1,125 @@
+******************* Product / Case Handling *******************
+All parts and products mentioned on this page are non-RoHS compliant because they were obsolete before July 1st, 2006.
+***************************************************************
+
+== SKILL Product:A3700A     Group:DISK-ARRAYS          Sys_flag:n==== 
+== AutoRAID Parts Model 12 and 12H
+=====================================================================
+Model 12 // A3515A / A3516A / A3516AZ
+
+Part Number    	Description
+ 
+A3515-69001 	Backplane Assembly 
+A3517-69004 	2 Gbyte LP Disk Module 7200 SE 
+A3646-69003 	4 Gbyte LP Disk Module 7200 SE 
+A3319-69001 	4 Gbyte HH Disk Module 7200 SE, ONLY FOR OEM!!! 
+A3518-69001 	Controller Module 24 MB (firmware HP02) 
+A3518-69002 	Controller Module 24 MB (firmware HP11) 
+A3518-69003 	Controller Module 24 MB (firmware HP15) 
+A3518-69004 	Controller Module 24 MB (firmware HP25)  
+A3538-69003 	Power Supply Module 
+=====================================================================
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+AFTER DISK EXCHANGE BE SURE TO INCLUDE THE DISK WITH THIS COMMAND: 
+arraycfg -D "SLOT" -a "ID" for example arraycfg -D a1 -a 00000025CB04
+The ID can be figured out with the "arraydsp -i" command
+THIS COMMAND MUST BE USED AFTER DISK EXCHANGE - ALSO IF AUTO INCLUDE IS ENABLED
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+Model 12H // A3700A / A3700AZ / A3700AD
+
+Part Number 	Description
+ 
+A3702-69003 	4.3 GB Disk Module  7200 rpm ID:   ST34371N & ST34572WC & ST34573WC
+A3703-69002 	9.1 GB Disk Module  7200 rpm ID:   ST19171N & ST39173WC  
+A3713-69002 	9.1 GB Disk Module   10k rpm ID:  ST39102LC 
+A3710-69001 	18,2 GB Disk Module 7200 rpm ID: ST118273WC & ST318275LC 
+A3714-69002 	18,2 GB Disk Module  10k rpm ID: ST118202LC & ST318203LC & ST318404LC
+A5289-69001 	36 GB Disk Module   7200 rpm ID: ST136475LW 
+A5292-69002 	36 GB Disk Module    10k rpm ID: ST136403LC & ST336704LC 
+A6518-69001     36 GB Disk Module    10K rpm ID: ???
+
+A3706-69001 	96 MB Controller (firmware HP06) 
+A3706-69002 	96 MB Controller (firmware HP24) 
+A3706-69003 	96 MB Controller (firmware HP32)   
+A3706-69004 	96 MB Controller (firmware HP54) 
+A3706-69005 	96 MB Controller (firmware HP56) 
+A3706-69006 	96 MB Controller (firmware HP60) 
+A3706-69107 	96 MB Controller (firmware HP62)   Only this can be ordered!!!!
+A3708-69002 	Power Supply Module 
+
+
+====================================================================
+
+MISC PARTS
+
+
+Model 12 // A3515A / A3516A / A3516AZ
+
+Part Number 	Description  
+
+  0515-1457 	T-15 M4x0.7 mm Torx Screw  
+  0515-2270 	T-15 M4x0.7 16mm Torx Screw  
+  0535-0028 	M3x0.5 Nut w/washer  
+  0590-0804 	6-32 Captive Rack Nuts  
+  1420-0532 	Battery Pack: 2x pro Controller!!!  
+  2680-0323 	T-25 6-32x0.625 Torx Screw  
+  3050-1141 	M3 Flat Washer  
+  5181-7779 	AC Power Adapter  
+  5181-7789 	Security Lock  
+  5181-7790 	Keys (Set of Two)  
+  5181-7791 	T-15 M4x0.7 10mm Torx Screw  
+C2786-00002 	Rack Rail  
+C2786-40002 	Door Snap (Rack mount)  
+C2786-40003 	Rack Mount Door Handle  
+C3573-40070 	Pedestal Base (Deskside)  
+A3326-67002 	Fan Module  
+C3595-00009 	Rack Door Hinge Bracket  
+C3595-00010 	Latch Bracket  
+C3595-00021 	Batter Box Cover  
+C3595-40003 	Top Cover  
+C3595-40007 	Disk, Fan Module Cam Handle  
+C3595-40009 	Push Rod  
+C3595-40010 	Power Switch Push Button  
+C3595-40015 	Left Cover Panel (Deskside)  
+C3595-40016 	Right Cover Panel (Deskside)  
+C3595-40030 	Controller Module Cam Handles  
+A3516-67002 	Front Door (Rack mount)  
+C3595-40050 	Front Door Latch  
+C3595-60011 	LCD Module  
+A3515-67002 	Front Door (Deskside)  
+C3595-60018 	Shipping Package  
+
+====================================================================
+
+Model 12H // A3700A / A3700AZ / A3700AD
+
+Part Number 	Description 
+
+A3709-60002 	Fan Module (High speed fan 10K)/ A3709B  
+C3595-60141 	Battery Box cover  
+C3595-40043 	Battery cover  
+  1420-0532 	Battery Pack  
+C3595-40030 	Cntlr mod cam hdl  
+C3595-40010 	Push button  
+C3595-40009 	Push rod  
+C3595-40031 	Pwr flapper door  
+A3700-60100 	Gen fr door ass  
+C5445-60005 	A3700 Backplane assy  
+C5445-60043 	A3700 bkpl assy Hrdw  
+   064-2404 	AC power adapter kit  
+  5064-2405 	Door snap kit  
+C5445-00024 	Chassis Hinge bracket  
+C5445-00025 	Chassis Latch bracket  
+  5064-2406 	Hinge/Latch Brk Hdw kit  
+  5064-2407 	Chassis Cam Tooth Kit  
+C5445-60042 	P/S lockout hdw kit  
+C5445-60027 	Display mod assy  
+ C3595-4007 	Module cam hdl  
+
+==================================================================
+
+last change: 12.11.2002 Sascha Brzoska, Mass, CRC Ratingen 

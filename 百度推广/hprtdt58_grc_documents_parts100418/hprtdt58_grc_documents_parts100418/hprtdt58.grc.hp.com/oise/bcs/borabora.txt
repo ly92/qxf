@@ -1,0 +1,100 @@
+============================================================================
+BoraBora Blade - BL870C - AH232A
+============================================================================
+
+
+Memory
+
+1 GB DDR2 memory 					AB564-69001 
+2 GB DDR2 memory 					AB565-69001 
+4 GB DDR2 memory 					AB566-69001 
+8 GB DDR2 memory 					AB567-69001 
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Processors
+
+HP BL870c CPU 1.42GHz/12MB 533FSB No DBS (9120N)	AD394-2101C 
+HP BL870c CPU 1.60GHz/18MB 533FSB DBS (9140N)  		AH255-2101C 
+HP BL870c CPU 1.60GHz/24MB 533FSB DBS (9150N)		AH320-2101C 
+  
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Boards
+
+BL870c system board 					AH232-6901A 
+BL870c 4 disk drive SAS backplane 			AH232-6706A 
+BL870c Memory mezzanine board 				AH232-6900A 
+Trusted Platform Module (AB404A)			406059-001 
+System battery 3 V .22 A-HR LI manganese dioxide    	1420-0887 
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Internal Disks
+
+36 GB, 10k RPM SAS hot-plug disk 			376596-001
+36 GB, 15k RPM SAS hot-plug disk 			432322-001
+
+72 GB, 10k RPM SAS hot-plug disk 			376597-001
+72 GB, 15k RPM SAS hot-plug disk			432321-001
+72 GB, 10k RPM SAS hot-plug single-port disk		434916-001 
+72 GB, 15k RPM SAS hot-plug dual-port  	disk 		418398-001
+72 GB, 10k RPM SAS hot-plug dual-port disk  		505608-001 
+
+146 GB, 10k RPM SAS hot-plug disk 			432320-001
+146 GB, 10k RPM SAS hot-plug disk 			453138-001 
+146 GB, 10k RPM SAS hot-plug dual-port disk		418399-001 
+146 GB, 10K RPM SAS hot-plug dual-port disk 6G 		507283-001 
+146 GB, 15k RPM SAS hot-plug dual-port disk		504334-001          ioscan: DH0146BALWN
+146 GB, 15K RPM SAS hot-plug dual-port disk 6G 		512744-001 
+
+300GB, 10k RPM SAS  hot-plug dual-port disk 		507284-001
+300GB, 10k RPM SAS  hot-plug dual-port disk		493083-001
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Mezzanine Cards
+
+HP BLc QLogic QMH2462				405920-001
+HP BLc QLogic QMH2562 8Gb FC HBA		455869-001 
+HP BLc Emulex LPe1105 4GB FC HBA		405921-001
+HP BLc Emulex LPe1205 8Gb FC HBA		456978-001
+HP BLc NC364m NIC Adapter			448066-001
+HP BLc NC360m NIC Adapter			448068-001
+HP BLc NC532m NIC Adapter			466308-001
+HP 4X DDR IB Dual Port Mezz HCA			450604-001
+HP 4x DDR IB Mezzanine HCA			410500-001
+HPC 4x DDR IB mezzanine HCA 	 		409377-001
+HPC 4x DDR IB Mezzanine HCA (Ciso SW)		438670-001
+HP BLc PCIe Mezz pass-thru Card			436010-001
+HP Smart Array P700M/512 Cntrlr			510026-001 
+HP Smart Array P700M DDR2 BBWC 512M	 	451792-001
+HP SA P-Series Low Profile Battery		453779-001 
+Battery cable assembly - 11.5in 		409124-001 
+Battery cable assembly - 24in			409125-001 
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Cables
+
+Local I/O cable (SUV) 					416003-001
+CPU MVR cable						AH232-6703A
+Note:  Despite the naming, this is not the same part as the CPU MVR cable used 
+in the Integrity BL860c. This is a sometimes referred to as a "Y cable", due to its shape.
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Misc
+
+Server blade handle kit                         	434104-001  ( Includes: 
+                                                            ejector lever and latch 
+                                                            Server blade handle 
+                                                            release button screws
+                                                            Server blade handle nut)
+
+
+last Update: 30/01/2010	
+Frauke Denker

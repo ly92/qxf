@@ -1,0 +1,51 @@
+******************* Product / Case Handling *******************
+All parts and products mentioned on this page are non-RoHS 
+compliant because they were obsolete before July 1st, 2006.
+***************************************************************
+
+== EISA INTERFACES FOR S800 ==================================================
+
+++ EISA Interface ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Mux Card 8-Port RS232 (J2482A)              J2482-69001
+Mux Card 16-64-Port RS232 (J2483A)          J2483-69001
+RJ45 Connector for MUX (J2484A)             J2484-69010
+DB25 Connector for MUX (J2485A)             J2485-69010
+RJ45 to HP-RJ45 connector for MUX (J2488A)  J2488-60010
+RJ45 to DB25 Converter for MUX (J2489A)     J2489-60010
+FAN OUT Cable, 50pol auf 8xRJ45             J2482-60013
+POWER SUPPLY,EISA PORT MODULE               J2483-60010 
+CABLE,EISA MUX 64 CARD TO PORT MODULE       J2483-60013
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Fast SE SCSI II (A2679A)                    A2679-69002 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+PSI Card                                    25565-69002
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Token Ring Card (J2165A)                    J2165-69001 SW J2638AA is needed!
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+100VG-AnyLAN Card (A3402A)                  A2699-69001               
+**Adapterkit for RJ-45 -> BNC:  J2610A (Hub) und J2608A (Tranceiver)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Dual Port X-25 Card (J2815A)                J2815-60001
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++                                                                                                                                                                                              +
+| Please note: EISA FDDI interfaces are available in 2 versions:             |
+| - FDDI interfaces from Seahawk, ioscan -fkClan shows INP0100               |
+|   Software is only available here: http://www.iphase.com/ (-> Prod. 4811)  |
+|   The RAM size (128K or 512K) can not be told from outside, but the 512k   |
+|   interface is compatible to the 128k interface.                           |
+| - FDDI interfaces from HP(OEM),ioscan -fkClan shows INP0400 or HP EISA FDDI|
+|   For those interfaces there are Patches (mandatory!), please look at :    |
+|   http://hprtdc44.grc.hp.com/xport/menue.html         Martin Ilg, 18.11.98 |
++                                                                                                                                                                                              +
+| Seahawk FDDI SAS Fiber 128K RAM        IPHSHSF1    single attached         |
+| Seahawk FDDI SAS Fiber 512K RAM        IPHSHSF5    single attached         |
+| Seahawk FDDI DAS Fiber 128K RAM        IPHSHDF1    dual attached           |
+| Seahawk FDDI DAS Fiber 512K RAM        IPHSHDF5    dual attached           |
+| Seahawk FDDI SAS UTP   128K RAM        IPHSHSU1    Twisted Pair (RJ45)     |
+| HP OEM  FDDI SAS Fiber 512K RAM        B5502-69002 single attached         |
+| HP OEM  FDDI DAS Fiber 512K RAM        B5502-69001 dual attached           |
++                                                                                                                                                                                              +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+100BaseT adapter Card (A3658A)              A4308-69001
+

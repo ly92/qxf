@@ -1,0 +1,143 @@
+******************* Product / Case Handling *******************
+All parts and products mentioned on this page are non-RoHS compliant because they were obsolete before July 1st, 2006.
+***************************************************************
+
+== A6490A - HP SURESTORE DISK SYSTEM 2300 (DS2300)===========
+== PRODUCT CODENAME: Smuggler ===========
+
+DS2300: Ultra 160 SCSI
+DS2305: Ultra 320 SCSI
+
+
+     PRODUCT DESCRIPTION: The HP SureStore DS2300 product (A6490A/AD/ED/AE/AV/
+                          AZ) is a 14-slot Ultra160 SCSI JBOD disk system.  The
+                          DS2300 features redundant Bus Control Cards (BCCs),
+                          and power supply/fan modules.  The enclosure is 3 EIA
+                          units high and consists of a single bay in front that
+                          has 14 vertically oriented how-swappable disk module
+                          slots.  The enclosure can accept the Ultra160 SCSI LVD
+                          18GB, 36GB, and 73GB disk modules.  The low voltage
+                          differential Ultra160 (a.k.a. Ultra3) SCSI bus provide
+                          a data transfer rate of up to 160 MB/s. The DS2300 is
+                          available as rackmount or deskside configurations and
+                          intended as a stand-alone JBOD, connected to a host,
+                          or hosts (up to two). The DS2300 has a storage
+                          capacity of up to one terabyte in a single enclosure.
+                          Thirteen DS2300 racks into a 2-meter System/E cabinet,
+                          yielding a 3.3TB of storage with 18GB disks, 6.6 TB of
+                          storage with 36GB disks, and 13.3TB of storage with
+                          73GB disks.
+                          The DS2300 will be upgradeable to DS2305 (Ultra 320 SCSI)
+
+			  The DS2300 supports the new U320 drives ONLY at 160 MG/s speed,
+	 		  regardless of the HBA. The performance is gated by the LCC.
+
+
+    Part Number   Description                          
+    -----------   -----------------------------------
+    A6250-69001   Dynamite power supply assy exchange
+    A6491-69002   Smuggler BCC assy        (old A6491-69001)
+
+!!!!!!!Important Service Advisory with new DS2300 disk part numbers !!!!!!!!
+http://saw.emea.hp.com/km/saw/view.do?docId=emr_na-c01020690
+the old parts may cause problems on U160 Interfaces.
+see also SAW document http://saw.emea.hp.com/km/saw/view.do?docId=mmr_na-124658
+!!!!!!!             all disk partnumbers updated on 11.5.2007       !!!!!!!!
+U160 disks:
+A6537-69230 18GB 10K rpm Ultra160 SCSI disk (ST318404LC, ST318406LC, MAN3184MC) old was A6537-69003 (see above)
+A6538-69230 36GB 10K rpm Ultra160 SCSI disk (ST336704LC, ST336706LC, MAN3367MC), old was A6538-69003
+A6539-69230 73GB 10K rpm Ultra160 SCSI disk (ST373405LC, MAN3735MC), old was A6539-69002  
+A6540-69230 18GB 15K rpm Ultra160 SCSI disk (ST318452LC, MAM3184MC), old was A6540-69002   
+A6541-69230 36GB 15K rpm Ultra160 SCSI disk (ST336752LC, MAM3367MC), old was A6541-69002
+
+U320 disks:
+   [The DS2300 supports the new U320 drives ONLY at 160 MG/s speed, ]
+   [regardless of the HBA.  The performance is gated by the LCC.    ]
+A6571-69230   36GB  10K rpm  A6571A Ultra320 LVD Drive  (ST336607LC, HP 36.4GMAP3367NC), old was A6571-6900
+A7285-69230   73GB  10K rpm  A7285A Ultra320 LVD Drive  (ST373307LC, MAT3073NC, HP 73.2GMAP3735NC), old was A7285-69002
+A7287-69230  146GB  10K rpm  A7287A Ultra320 LDV Drive  (ST3146807LC, MAT3147NC), old was A7287-69002
+A7328-69230   18GB  15K rpm  A7328A Ultra320 LVD Drive  (ST318453LC,HP 18.2GMAS3184NC), old was A7328-69001
+A7329-69230   36GB  15K rpm  A7329A Ultra320 LVD DrIve  (ST336753LC, HP 36.4GMAS3367NC), old was A7329-69001
+A7286-69230   73GB  15K rpm  A7286A Ultra320 LVD Drive  (ST373453LC, HP 73.2GMAS3735NC), old was A7286-69002
+A7287-69002  146GB  10K rpm  A7287A Ultra320 LVD Drive  (HP 146 GMAP3147NC)
+
+FUJITSU drive model RPM key:
+10K= MAJ / MAN / MAP
+15K= MAM / MAS
+
+
+NON-exchange assemblies/parts
+                                                           
+    Part Number   Description                             
+    -----------   -------------------------------------- 
+    A6250-67001   Dynamite power supply assy replacement
+    A6490-67001   Enclosure Bezel FRU   
+    A6490-67002   BCC Filler Panel FRU 
+    A6490-67005   Midplane PCA FRU      
+    A6491-67002   (old A6491-67001) Smuggler BCC Assy FRU 
+
+
+SCSI Cable and Terminator:
+
+A5670A - 10 M VHDCI to VHDCI LVD/SE I/L !!! Inline Terminated Cable unsupported
+!!! see http://herkules.grc.hp.com/documents/massstor/jbod/DS2300/inline_term.pdf
+5064-2500        C2373A - 2M VHDCTS68 M/M Multimd SCSI Cable
+5065-0021        C2374A - 5M VHDCTS68 M/M Multimd SCSI Cable
+5065-0022        C2375A - 10M VHDCTS68 M/M Multimd SCSI Cable
+5021-1121        C2370A - SCSI Terminator LVD/SE VHDTS68
+
+___________________________________________________________________________________
+
+	A D D I T I O N A L   I M P O R T A N T   I N F O S
+___________________________________________________________________________________
+
+
+The server platforms supported with DS2300 are:
+     HPe3000     - A-/N-Class
+     HP9000      - A-/N-/L-/V-Class, Superdome, rp54XX, rp7400, and rp8400
+     Itanium     - rx4610 and rx9610
+     Workstation - B-/C-/J-/X-Class
+
+
+     For host connections, an LVD Ultra-2 or Ultra-3 SCSI adapter card is
+     required.  As of this PSP edition, there are no Ultra 4 adapters available.
+     The following table lists the HBAs currently supported with the DS2300:
+
+     HPe3000 MPE/iX            HBA    DESCRIPTION
+     ---------------------    ------  ----------------------------------------
+     A-/N-Class               A5149A  Single Port Ultra2 SCSI HBA
+                              A5150A  Dual-Port Ultra2 SCSI HBA
+
+     HP9000                    HBA    DESCRIPTION
+     ---------------------    ------  ----------------------------------------
+     A-/N-/L-/V-Class         A5140A  Single-Port Ultra2 SCSI HBA
+     Superdome                A6828A  Single-Port Ultra160 Adapter
+                              A5150A  Dual-Port Ultra2 SCSI HBA
+                              A6829A  Dual-Port Ultra160 Adapter
+                              A5838A  Dual-Port 100Base-T/Dual-Port Wide Ultra2
+                              A5856A  RAID 4Si- 4-port Ultra2 LVD/SE RAID HBA
+     rp54xx, rp7400           A5149A  Single-Port Ultra2 SCSI HBA
+     rp8400                   A6828A  Single-Port Ultra160 Adapter
+                              A6829A  Dual-Port Ultra160 Adapter
+                              A5856A  RAID 4Si- 4-port Ultra2 LVD/SE RAID HBA
+
+     Itanium                   HBA    DESCRIPTION
+     ---------------------    ------  ----------------------------------------
+     rx4610, rx9610           A5150A  Dual-Port Ultra2 SCSI HBA
+                              A5159A  Dual-Port FWD SCSI PCI Bus Adapter
+
+
+________________________________________________________________________________
+
+STANDARD product includes:
+       - Field rack, factory rack or deskside enclosure
+       - One Bus Control Module (BCC) and BCC filler
+       - Two power supply/fan modules
+       - Two power cables
+       - One LVD SCSI terminator
+       - Users Guide, Quick Installation Guide, and Install Manual
+       - Three year warranty, next day on-site (7G)
+
+*****************************************************************************
+last change: 26.10.2007 by Birgit Mostert
+

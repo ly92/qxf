@@ -1,0 +1,261 @@
+==SKILL Product:Fibrechannel SWITCH  Group:SAN                 Sys_flag:y
+== FIBRE CHANNEL PRODUCTS FOR S800 ==========================================
+
+== F16 Switch (A522xA/B) ====================================================
+Motherboard                    		A5223-69001
+CPU-Board with Status Ass.      	A5223-69002
+Karte FL-Port                   	A5223-69003
+Karte G-Port                    	A5224-69001
+Power Supply                    	A5223-60006
+LED Disply Ass.                 	A5223-60007
+Control Panel Ass.              	A5223-60008
+Top Cover                       	A5223-60010
+AC Power Dist Ass.              	A5223-60011
+FRONT BEZEL ASSY                	A5223-60015
+RS-232 HARNESS ASSY             	A5223-60016
+DC HARNESS ASSY                 	A5223-60017
+ShortWave GBIC				1990-2292
+LongWave GBIC				1990-2291
+
+== A5624A Brocade 2800 16-port Fibre Channel Switch ==========================
+
+Mainboard                       	XHP-X000112   (1 per assy)
+Power Supply                    	XHP-X000010   (2 per assy)
+Fan Tray                        	XHP-X000013   (1 per assy)
+Chassis                         	XHP-X000014   (1 per assy)
+GBIC (ShortWave)                	1990-2292    (up to 16 per assy, 8 for Model 2400)
+GBIC module (long wave)         	1990-2291
+
+== A5667A Brocade 2400 8-Port Fibre Channel Switch ===========================
+
+Mainboard+Chassis               	XHP-X000021   (1 per assy)
+Fan Tray                       		XHP-X000008   (1 per assy)
+Power Supply                    	XHP-X000010   (2 per assy)
+GBIC (ShortWave)                	1990-2292
+GBIC (long wave)                	1990-2291
+
+== A6534A - 32-64 PORT FIBRE CHANNEL DIRECTOR-CLASS SWITCH FC 64A ============
+
+Control Processor (CTP) Cards		    A6534-69005
+Fibre Port Module (FPM) Cards		    A6534-69010
+Cooling Fan Modules			    A6534-69004
+Serial Crossbar (SBAR) Cards		    A6534-69007
+Power Supplies				    A6534-67003
+Backplane and Radio Frequency 	            A6534-67006
+AC Power Distribution Module 		    A6534-67008
+Short Wave SFFP Optical 	            1005-0978
+Long Wave SFFP Optical 		            1005-0979 
+
+Cable Management Assembly                   A6534-67013
+Front Bezel                                 A6534-67009
+Torque Driver			            A6534-67011
+5/32  Driver Bit		            A6534-67014
+
+== A7326A Brocade 64 Port Fibre Channel Switch FC6164 ========================
+
+2250 SWITCH RSTRD A7345-67001           A7345-69001
+ISL CABLES                              A7345-67002
+SW GBIC ASSY MDL SOC-1063N-VC-SW        1990-2292
+
+== A7346A HP SureStore FC 1Gb/2Gb 'Entry' Switch 8B ==========================
+   A7347A   = HP SureStore FC 1Gb/2Gb Switch 8B                      
+
+2GB 8 PT SW                             A7346-69001
+
+== Brocade 3250 2/8V =========================================================
+
+SAN Switch 2/8V (Switches, whole-unit replaceable)          356372-001 
+SAN Switch 2/8V (Power packs, whole-unit replaceable)       361193-001
+
+== A7340A Brocade 3800 16-Port Fibre Channel 1/2GB Switch ====================
+
+PS, 2GB 16 Port Switch                  257546-001 
+Fan Tray, 2GB 16 Port Switch            257545-001 
+Exchange, 2GB 16 Port Switch            257544-001
+Short Wave SFFP Optical 	          5697-4896 
+Long Wave SFFP Optical 		          1005-0979 
+
+==  AA978A/AA990A/AA977A Brocade 3850 16-Port Fibre Channel 2GB Switch =======
+
+StorageWorks SAN Switch 2/16V           AA978A 
+SAN Switch 2/16V                        356373-001  
+SAN Switch 2/16V, GSA                   359266-001
+
+StorageWorks SAN Switch 2/16N           AA990A
+SAN Switch 2/16N Power packs            361195-001 
+SAN Switch 2/16N, GSA Power packs       361196-001 
+
+StorageWorks SAN Switch 2/16N FF PP     AA977A
+SAN Switch 2/16N FF                     361197-001 
+SAN Switch 2/16N FF, GSA                361198-001 
+
+The units marked with GSA (= General Services Administration) are for the U.S. region only:
+
+
+== HP StorageWorks 4/8 SAN Switch ============================================
+
+Switch, 4/8 SAN, SW210E                      393749-001 
+Switch, 4/8 SAN, S220E Full Fabric           393750-001 
+Switch, 4/8 SAN, S220E Full Fabric, Advanced Performance Monitor, Trunking, Fabric Watch 
+                                             393751-001 
+4Gb optical transceiver, short wave          381730-001 
+ 
+
+== Brocade 3900 32-Port Fibre Channel 1/2GB Switch ===========================
+
+SW SFP					     1005-0978
+LW SFP					     1005-0979
+Mainboard only (Brocade 3900)		     311242-001
+Fan Tray Assy (Brocade 3900)		     311243-001 
+Power Supply (Brocade 3900)		     311244-001 
+
+
+== Brocade 4012 Switch -p - class Blade Server module ========================
+
+Serial cable                                 29-34690-01 
+Replacement FRU for A7533A = 4/4 BASE        384968-001  
+Replacement FRU for A7534A = 4/4 FF          384969-001
+Replacement FRU for A7535A = 4/4 PP          384970-001 
+Serial cable adapter                         384971-001  
+Replacement FRU for A7533A = 4/4 BASE (?)    411852-001  
+Replacement FRU for A7534A = 4/4 FF (RoHS?)  411853-001
+Replacement FRU for A7535A = 4/4 PP (RoHS?)  411854-001  
+Serial cable adapter (RoHS?)                 413099-001
+
+== Brocade 4012 Switch -p - class Blade Server module ========================
+
+
+Replacement module for AE370A with 12 ports  411120-001
+Replacement module for AE372A with 24 ports  411121-001 
+Part for AE372A with 24 ports and PP license 411122-001 
+4Gb FC Pass-thru Module for c-Class Blade    416378-001
+
+
+
+== HP StorageWorks SAN Switch 4/32 A7537A/A7934A/A7394A Brocade 4100 =========
+Description                              Spare Number 
+
+Power Supply                           |     373483-001
+Fan                                    |     373484-001
+Switch, 4/32 SAN Base                  |     373485-001
+Switch, 4/32 SAN Power Pack            |     373486-001 
+Switch, 4/32 SAN Base w/16 Ports       |     376703-001
+Transceiver, 4GB, SFP                  |     381730-001
+
+== HP StorageWorks SAN Switch 4/64  Brocade 4900 =========
+
+SW4900 switch with BASE licenses (32 ports)  418662-001 
+SW4900 switch with POWER PACK licenses       418663-001 
+SW4900 switch with FULL licenses (64 Ports ) 418664-001  
+Power Supply for SW900                       418665-001 				
+Fan Assy for SW4900	                     418666-001 
+
+
+ 
+== A6509A - HP BROCADE 12000 =================================================
+
+Description       Spare Part Number|HP Part Number|Brocade Part Number 
+                                   |              | 
+Blower Assembly  283801-001        |A6509-67002   |XBR-12000-0122 
+Board,           283803-001        |A6509-69004   |XBR-12000-0103 
+controller processor               |              |
+Cable, pillar    283807-001        |              |
+Chassis                            |A6509-67005   |
+Kit, 14U         283805-001        |              |
+rack mount                         |              |
+16-port 2-GB/s   283802-001        |A6510-69001   |XBR-12000-0101
+Panel, StorageWorks Core Switch Blade filler      |
+                 283806-001        |              |XBR-12000-0124
+WWN Assembly                       |A6509-67003   |
+Power supply,1kW 283804-001        |A6509-67001   |XBR-12000-0104
+ 
+== AA981A/AA982A - HP BROCADE 24000 ===========================================
+
+SPS-BD, Switch SW24000 Control Processor     | 356375-001
+SPS-BD, Switch SW24000 16 Port Fibre Channel | 356374-001
+SPS-BD, Switch SW24000, WWN Card             | 356376-001
+SPS-BEZEL, SW24000, Rear WWN                 | 359264-001
+SPS-BLOWER, SW12000 CP                       | 283801-001
+SPS-CA, SW12000 CP Pillar                    | 283807-001
+SPS-PANEL, Filler, Port Card                 | 283806-001
+SPS-PANEL, Filler, SW24000                   | 359263-001
+SPS-PWR SPLY, SW12000, 1000W                 | 283804-001
+SPS-RACK MNT KIT, SW12000, 14U               | 283805-001
+ 
+== HP StorageWorks 4/256 SAN Director 48000 ===================================
+
+Description                                    Part Number
+Bezel, Rear WWN                              | 359264-001   RoHS - 413097-001 
+Blower, SW12000 CP                           | 283801-001   RoHS - 413095-001
+Board, WWN Card                              | 356376-001   RoHS - 413098-001
+Board, 16 Port Card, SW48000                 | 393755-001   RoHS - 411856-001 
+Board, 32 Port Card, SW48000                 | 393756-001   RoHS - 411857-001 
+Board, CP Card, SW48000                      | 393757-001   RoHS - 411858-001 
+Cable, SW12000 CP Pillar                     | 283807-001   RoHS - 413096-001 
+Panel, Filler, Port Card                     | 283806-001 
+Panel, Filler SW24000                        | 359263-001 
+Panel, Filler, Port Card, SW48000            | 394219-001   RoHS - 413093-001 
+Power Supply, SW12000, 1000W                 | 283804-001   RoHS - 411859-001 
+Rack Mount Kit, SW12000, 14U                 | 283805-001   RoHS - 413094-001 
+SW SFP (4 Gbit/s)                            | 405287-001
+LW SFP (4 Gbit/s) for up to 10 km            | 416829-001
+
+
+== HP StorageWorks Multiprotocol Router Base A7437A AP7420 8 Port =============
+SW SFP (Tri-State), replacement for 300834-B21) 292003-001
+LW SFP (Tri-State), replacement for 300835-B21) 292004-001
+LW SFP (2 GBit, TriState, <= 35 km, MPR)        292005-001
+Power Supply                                    371715-001
+Fan Pack                                        411845-001
+Router Main Board                               411842-001
+SPS-CA SERIAL                                   413092-001  
+
+== HP StorageWorks Multiprotocol Router Base A7438A AP7420 16 Port =============
+SW SFP (Tri-State), replacement for 300834-B21) 292003-001
+LW SFP (Tri-State), replacement for 300835-B21) 292004-001
+Power Supply                                    411844-001
+Fan Pack                                        411845-001
+Router Main Board                               411843-001
+SPS-CA SERIAL                                   413092-001  
+
+ 
+
+== FC MISC Parts ============================================================
+
+100m SC 50 micron fibre optic cbl. 100m 	1005-0366
+50m  SC 50 micron fibre optic cbl.  50m 	1005-0365
+16m  SC 50 micron fibre optic cbl.  16m 	1005-0586      	(A3531A)
+2m   SC 50 micron fibre optic cbl.   2m 	1005-0585      	(A3583A)
+SC/SC Loop Back connector (GBIC)                1005-0359
+
+== LC Cable Fc Cable ========================================================
+
+2m   Duplex LC/LC 50/125 M/M Optical    	5065-5101   	(C7524A)   
+16m  Duplex LC/LC 50/125 M/M Optical    	5065-5102   	(C7525A)      
+50m  Duplex LC/LC 50/125 M/M Optical    	5065-5103   	(C7526A)      
+200m Duplex LC/LC 50/125 M/M Optical    	5065-5104   	(C7527A)       
+2m   Duplex LC/SC 50/125 M/M Optical    	5065-5106   	(C7529A)       
+16m  Duplex LC/SC 50/125 M/M Optical    	5065-5107   	(C7530A)                  
+2M   LC male - SC male adapter kit                          (C7540A)       
+SC   female  - SC female adapter                            (C7534A)  
+
+ 2 m LC-LC Multi-Mode Fibre Channel Cable       221692-B21 
+ 5 m LC-LC Multi-Mode Fibre Channel Cable       221692-B22 
+15 m LC-LC Multi-Mode Fibre Channel Cable       221692-B23 
+30 m LC-LC Multi-Mode Fibre Channel Cable       221692-B26 
+50 m LC-LC Multi-Mode Fibre Channel Cable       221692-B27 
+ 2 m LC-SC Multi-Mode Fibre Channel Cable       221691-B21 
+ 5 m LC-SC Multi-Mode Fibre Channel Cable       221691-B22 
+15 m LC-SC Multi-Mode Fibre Channel Cable       221691-B23 
+30 m LC-SC Multi-Mode Fibre Channel Cable       221691-B26 
+50 m LC-SC Multi-Mode Fibre Channel Cable       221691-B27  
+
+Loop back plug (LC) for short wave SFP's        254145-001 
+Loop back plug (LC) for long wave SFP's         254146-001 
+
+
+++ Tools +++++++++++++++++++++++
+FC-Toolbox                      	FC-TESTKIT     (Germany only !!!!)
+
+Last Update: Frank Skibbe
+Update: 05.09.2007

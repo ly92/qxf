@@ -1,0 +1,94 @@
+******************* Product / Case Handling *******************
+All parts and products mentioned on this page are non-RoHS compliant because they were obsolete before July 1st, 2006.
+***************************************************************
+
+==SKILL Product: A5272   Group:SCSI-FW-DISKS        Sys_flag:n
+==SCSI-High availability Storage System SC10===========
+
+
+The SureStore E Disk System SC10 product (A5272A) is a 
+10-slot Ultra2 LVD SCSI JBOD Disk Enclosure that features
+redundant Bus Control Cards (BCC), power supplies and fan modules
+
+Each BCC has 2 LVD SCSI VHDCI (Very High-Density Cabled Interconnect)
+connectors that allow for multiple host connection to the enclosure, or
+for daisy-chaining additional enclosures on the bus.
+
+The SC10 supports Ultra-2 SCSI (LVD) VHDCI connections to the host(s).
+The enclosure midplane is single-ended.  The disk modules are LVD/SE.
+
+
+All connections to the host are SCSI LVD cables, maximum length 12 meters.
+Inline-terminating cables for high availability configurations are supported.
+=============================================================================
+
+
+
+0588-001MH 20 top cover screws 6-32x3/16 T10
+8120-6514 Power cord
+A5272-67014 Door assembly
+J1525-60001 Half-U rack filler panel
+
+
+Bus Control Card (BCC)     A5272-69010    (A5272-69009/-69008/-69007) (Two LVD 68-pin VHDCI connectors)
+VHDCI LVD/SE terminator    5021-1121
+
+Disks (Max. 10 per SC10):
+Ultra2 disks:
+ 9 GB LP 10K              A5276-69003     (A5276-67001)   ST39102LC & ST39103LC & ST39204LC & IBM DMVS09
+18 GB HH/LP 10K           A5282-69003     (A5282-67001)   ST118202LC & ST318203LC & ST318404LC & DMVS18D & MAJ3182MC,HP 18.2GMAP3367NC#HJ, HP 18.2GMAJ3182MC
+18 GB LP 15K              A5633-69001     A5633A	  ST318451LC
+36 GB HH/LP 10K           A5595-69003     (A5595-67001/69002)   ST136403LC 
+73 GB HH 10K              A5622-69002     (A5622-67001/69001)   ST173404LC
+536MB Solid State Disk    A5615-69001     (A5622-67001)   RU3053L  
+
+New Ultra3 Disks:
+18 GB LP 10K              A6272-69003     (A6272-69001-69002)   ST318404LC & ST318406LC, HP 18.2GMAN3184MC, HP 18.2GMAP3367NC#HJ
+18 GB LP 15K		  A6273-69002	  (A6273-69001)	  ST318452LC & MAM3184MC, HP 18.2GMAM3184MC, HP 18.2MAS3184NC  
+36 GB LP 10K		  A6274-69003	  (A6274-69002)	  ST336704LC & ST336706LC, HP 36.4GMAP3367NC, HP 36.4GMAN3367MC
+36 GB LP 15K		  A6275-69002	  (A6275-69001)	  ST336752LC & MAM3367MC, HP 36.4GMAM3367MC, HP 36.4GMAS3367NC
+73 GB LP 10K		  A6276-69002 	  (A6276-69001)	  ST373405LC , HP 73.2GMAN3373MC, HP 73.2GMAP3735NC
+
+ 
+HDD carrier assembly      A5236-60006
+Disk filler assembly      A5236-60009
+
+Backplane                 A5272-69003   * contains mezzanine board 
+                                          (Power Switch on mezzanine board)
+
+FAN                       A5236-60003
+FAN cable                 A5236-60019
+
+Power switch button       A5236-40009
+Power switch push rod     A5236-40008
+POWER SUPPLY              A5236-69023   * see service note A5236A-01
+
+
+20 top cover screws 6-32x3/16 T10  0588-001MH
+8120-6514 Power cord               8120-6514
+Door assembly                      A5272-67014
+Half-U rack filler panel           J1525-60001
+
+SCSI-Cables:
+Amphenol LVD/VHDCI cables with Amphenol connectors
+see Service Note  A5272A-09  and  A5272A-10
+
+2-meter   LVD/VHDCI Ultra SCSI cable     A5306A/A5641A -> 5064-2500  (old 5064-2492) 
+5-meter   LVD/VHDCI Ultra SCSI cable     A5307A/A5642A -> 5065-0021  (old 5064-2470)
+10--meter LVD/VHDCI Ultra SCSI cable     A5308A/A5643A -> 5065-0022  (old 5064-2471)
+
+Inline-terminated SCSI Cables:
+
+2- meter LVD/VHDCI/ILT Ultra SCSI cable	A5668A ->  5065-0066(JBOD only)
+5- meter LVD/VHDCI/ILT Ultra SCSI cable	A5669A ->  5065-0067(JBOD only)
+10-meter LVD/VHDCI/ILT Ultra SCSI cable A5670A ->  5065-0068 
+
+
+*****************************************************************************
+last change: 30.03.2004 Herbert Meiske SC Ratingen 
+
+
+
+
+
+

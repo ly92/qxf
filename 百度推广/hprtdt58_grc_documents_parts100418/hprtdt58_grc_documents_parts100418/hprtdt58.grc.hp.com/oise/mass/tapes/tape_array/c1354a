@@ -1,0 +1,51 @@
+******************* Product / Case Handling *******************
+All parts and products mentioned on this page are non-RoHS compliant because they were obsolete before July 1st, 2006.
+***************************************************************
+
+== C1354A   -  5500 SCSI-SURE STORE H/A Tape Array  ===============
+== LATIMER - Program ====
+
+
+Detailed product description:
+
+     The SureStore H/A Tape Array 5500 is a universal 5 bay enclosure designed
+     to mount HP SureStore DLT 80m drives into 19 inch racks manufactured by HP
+     and 3rd party companies.  This 4U-high enclosure features fully redundant
+     and hot-swappable components such as power supplies and fans enable easy
+     in-rack servicing without downtime.
+
+     The tape drive modules for the HP Tape Array are offline hotswapable.Tape
+     can be installed into bays before or after the HP Tape Array is powered up.
+
+     Offline hotswap is defined as the ability to plug and unplug drive modules
+     withpower still connected, but not while data transfer are taking place onto
+     other drives on the same SCSI bus.
+
+
+     There are two 68pin VHDCI SCSI connector on the rear panel of each drive module
+     bay (bays 1 to 5)
+
+
+
+   Part Number          Description 
+
+   C1354-63001     	Main Chassis
+   C1354-63003		Fan Module Assembly
+   C1354-63004		Power Supply Assembly
+   C1354-60004		Front Bezel Assembly 
+   C1354-60024		Power Cord           
+   8120-6514  		Rail Kit-right and left rail
+   C1354-60027		H/W kit - rails/bezel bracket
+   C1354-90001		Installation/User Guide
+
+   C7456-69202		C7456A DLT 80 tape drives (Full Height)
+   C7470-69201  	C7470A Ultrium 230 tape drives (Full Height)
+
+   5064-2499 		.5M SCSI Cables  
+
+   5021-1121		C2370A 68 VHD LVD/SE multimode Terminator for Tape Array 5500     
+
+
+
+  
+   last update: 02.12.02 Herbert Meiske, MUHW CC TEAM, CRC Ratingen                                                                                                                                       

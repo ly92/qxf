@@ -1,0 +1,145 @@
+==SKILL Product:Fibrechannel SWITCH  Group:SAN                 Sys_flag:y
+== FIBRE CHANNEL PRODUCTS FOR CISCO ==========================================
+
+== 332306-B21 = MDS 9509 FC Switch ===========================================
+MDS 9509 Base Unit 
+MDS 9509 Chassis 			332306-B21 	CSPXDS-C9509 	A7462A
+MDS 9500 Supervisor/Fabric I			CSPXDSX9530SF1K		A7463A  
+
+Software 
+MDS 9500 IP Services Software License 	346703-001    			A7469A  
+
+Upgrades 
+MDS 9000 16-port 1 / 2Gbps FC Module 	332307-B21 CSCXDS-X9016 	A7464A  
+MDS 9000 32-port 1 / 2Gbps FC Module 	332308-B21 CSPXDS-X9032 	A7465A  
+MDS 9000 Port Analyzer Adapter 		332317-B21 CSPXDS-PAA 		A7430A  
+
+GBICS 
+2 Gbps Fibre Channel-SW SFP, LC 	332312-B21 CSCXDSSFPFC2GSW 	A7428A  
+2 Gbps Fibre Channel-LW SFP, LC 	332313-B21 CSPXDSSFPFC2GLW 	A7429A  
+
+GigE SFP 
+GigE, FC Short Wave SFP 		336223-B21 CSCXDSSFPFCGESW 	A7487A  
+GigE, FC Long Wave SFP 			336224-B21 CSCXDSSFPFCGELW 	A7488A  
+
+Power Supply 
+2500W DC Power Supply for MDS 9509 	332309-B21 CSCXDSCDC-2500W   
+4000W AC Power Supply for MDS, US  	332310-B21 CSCXDSCAC4000WU   
+4000W AC Power Supply for MDS,  Int'l 	332311-B21 CSCXDSCAC4000WI   
+2500W AC Power Supply for MDS 9509 	333739-B21 CSCXDSCAC-2500W 
+  
+Memory 
+MDS 9500 Sup Compact Flash Disk, 512MB  332314-B21 CSCXMEMDSFLD512 	A7468A 
+
+IP-Module 
+MDS 9000 8-port 1GE IP Storage Service Module 332907-B21 CSPXDS-X9308-SM A7470A  
+
+332307-B21 MDS 9000 Series 16-Port Card
+332308-B21 MDS 9000 Series 32-Port Card
+332309-B21 MDS 9509 Power Supply, 2,500 Watt DC
+332310-B21 MDS 9509 Power Supply, 4,000 Watt AC (US only)
+332311-B21 MDS 9509 Power Supply, 4,000 Watt AC
+332312-B21 MDS 9000 Series Short Wave SFP
+332313-B21 = MDS 9000 Series Long Wave SFP
+332314-B21 = MDS 9000 Supervisor Compact Flash Disk, 512-MB
+
+== 332315-B21 = MDS 9216 FC Switch ==============================================
+MDS 9216 16-port 2Gbps FC + 1-slot 
+MDS 9216 16-port 2Gbps FC + 1-slot 		332315-B21 CSPXDS-C9216-K9	A7473A 
+
+Software 
+MDS 9200 FCIP Services Software License  	348232-001      		A7474A
+ 
+Upgrades 
+MDS 9000 16-port 1 / 2Gbps FC Module 		332307-B21 CSPXDS-X9016 	A7464A  
+MDS 9000 32-port 1 / 2Gbps FC Module 		332308-B21 CSCXDS-X9032 	A7465A 
+MDS 9000 Port Analyzer Adapter 			332317-B21 CSCXDS-PAA 		A7430A
+ 
+GBICS 
+2 Gbps Fibre Channel-SW SFP, LC 		332312-B21 CSCXDSSFPFC2GSW 	A7428A 
+2 Gbps Fibre Channel-LW SFP, LC 		332313-B21 CSPXDSSFPFC2GLW 	A7429A 
+ 
+GigE SFP 
+GigE, FC Short Wave SFP 			336223-B21 CSCXDSSFPFCGESW 	A7487A  
+GigE, FC Long Wave SFP 				336224-B21 CSCXDSSFPFCGELW 	A7488A
+ 
+IP-Module 
+MDS 9000 8-port 1GE IP Storage Service Module 	332907-B21 CSPXDS-X9308-SM 	A7470A  
+
+== 346700-B21 = MDS 9120 20-port Fabric Switch =======================================
+== 346701-B21 = MDS 9140 40-port Fabric Switch =======================================
+MDS 9120 20-port Fabric Switch 346700-B21, A7426A, CSPXDS-C9120-K9 CSPXDSSFPFC2GSW  
+MDS 9140 40-port Fabric Switch 346701-B21, A7427A, CSPXDS-C9140-K9 CSPXDSSFPFC2GSW 
+ 
+Upgrades 
+MDS 9000 Port Analyzer Adapter 332317-B21, A7430A, CSPXDS-PAA 
+Optical Transceivers 
+2 Gbps Fibre Channel-SW SFP, LC 332312-B21, A7428A, CSPXDSSFPFC2GSW 
+2 Gbps Fibre Channel-LW SFP, LC 332313-B21, A7429A, CSPXDSSFPFC2GLW 
+
+=======================================================================================
+Cable
+Length	|Option PN.:	|Spare PN.:|Vendor PN.:	|DEC PN		|HP Pd PN.: 
+LC - LC Lucent Connector (low complexity) to Lucent Connector for connection between 2Gb/s devices  
+1m   	263895-001 	191117-001     
+2m 	221692-B21 	263895-002 191117-002 	FD-64706-01 	C7524A 5065-5101 
+5m 	221692-B22 	263895-003 191117-005 	FD-64707-01   
+15m 	221692-B23 	263895-004 191117-015 	FD-64708-01   
+16m         							C7525A 5065-5102 
+30m 	221692-B26 	263895-005 191117-030 	FD-64711-01   
+50m 	221692-B27 	263895-006 191117-050 	FD-64712-01 	C7526A 5065-5103 
+200m        							C7527A 5065-5104 
+
+LC - SC Lucent Connector(low complexity) to Subscriber Connector for connection between a 2Gb/s device and a 1Gb/s 
+0.5m   	263894-007   				FD-64703-01   
+1m   	263894-001   				FD-64702-01   
+2m 	221691-B21 	263894-002 187891-002 	FD-64699-01 	C7529A 5065-5106 
+5m 	221691-B22 	263894-003 187891-005 	FD-64700-01   
+15m 	221691-B23 	263894-004 187891-015 	FD-64701-01   
+16m         							C7530A 5065-5107 
+30m 	221691-B26 	263894-005 187891-030 	FD-64704-01   
+50m 	221691-B27 	263894-006 187891-050 	FD-64705-01   
+
+SC - SC (Subscriber Connector to Subscriber Connector) for connection between 1Gb/s devices 
+
+2m 	234457-B21   	234451-002 17-04820-03   
+5m 	234457-B22   	234451-005 17-04820-05   
+15m 	234457-B23   	234451-015 17-04820-13   
+30m 	234457-B24   	234451-030 17-04820-08   
+50m 	234457-B25   	234451-050 17-04820-09 
+  
+Adapters 
+Fibre Adapter SC/SC 50/125 F/F (SC Female - SC Female)         C7534A 
+Fibre Channel Adapter Cable Kit – Optical (LC Male - SC Male)  C7540A 
+2 meter adapter kit. Contains both C7534A (adapter) and C7529A (2 meter cable) 
+
+======================================================================================
+
+332317-B21 = MDS 9000 Port Analyzer Adapter
+332907-B21 = MDS 9000 Series 8-port 1GE IP Storage  Serv. Module
+333739-B21 = MDS 9509 Power Supply, 2,500 Watt AC
+336223-B21 = MDS 9000 Series Gigabit Ethernet FC Short Wave SFP
+336224-B21 = MDS 9000 Series Gigabit Ethernet FC Long Wave SFP
+
+346702-B21 = MDS 9506 FC Switch
+346703-001 = MDS 9500 IP Services SW License
+346704-B21 = MDS 9506 Power Supply, 1,900 Watt AC
+346705-B21 = MDS 9506 Power Supply, 1,900 Watt DC
+347419-B21 = MDS 9000 Series 1470 nm CWDM FC SFP
+347420-B21 = MDS 9000 Series 1490 nm CWDM FC SFP
+347421-B21 = MDS 9000 Series 1510 nm CWDM FC SFP
+347422-B21 = MDS 9000 Series 1530 nm CWDM FC SFP
+347423-B21 = MDS 9000 Series 1550 nm CWDM FC SFP
+347424-B21 = MDS 9000 Series 1570 nm CWDM FC SFP
+347425-B21 = MDS 9000 Series 1590 nm CWDM FC SFP
+347426-B21 = MDS 9000 Series 1610 nm CWDM FC SFP
+347427-B21 = MDS 9000 CWDM 4 Wavelength Add/Drop Mux incl. 2-slot chassis
+347428-B21 = MDS 9000 CWDM 8 Wavelength Mux/Demux incl. 2-slot chassis
+347429-B21 = MDS 9000 Series Fibre Cable LC/SC 1 Meter
+347430-B21 = MDS 9000 Series Fibre Cable LC/SC 5 Meter
+
+== Tools ====================================================================
+FC-Toolbox                      	FC-TESTKIT     (Germany only !!!!)
+
+Last Update: Frank Skibbe
+Update: 25.03.2004

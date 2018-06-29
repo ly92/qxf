@@ -1,0 +1,95 @@
+Pinbelegung fuer RS232 Schnittstellen (DTE BELEGUNG)
+====================================================
+
+PIN-Nr.  Beschreibung  Beschreibung  CCITT   DIN-Be  RS-    Signal-  Alt.
+          (Englisch)     (Deutsch)   Schalt- zeich-  232-C  quelle   Bezeich-
+                                     kreis   nung           (i/o)    nung
+                                     (V.24)
+
+
+______________________________________________________________________________
+
+  1      Protective    Schutzerde    101     E1      AA      ----    FG 
+         Ground
+
+  2      Receive Data  Empfangs-     104     D2      BB      DCE     RD
+                       daten                                 (i)
+ 
+  3      Transmit      Sende-        103     D1      BA      DTE     TD
+         Data          daten                                 (o)
+
+  4      Data carrier  Empfangs-     109     M5      CF      DCE     DCD
+         detect        signalpegel                           (i)
+
+  5      General Pur-                                        DTE     GPO
+         pose output                                         (o)
+
+  6      Data Terminal Terminal-     108     S1.2    CD      DTE     DTR
+         ready         bereitschaft                          (o)
+
+  7      Signal Ground Betriebserde  102     E2      AB      ---     SG
+
+  8      Request to    Sendean-      105     S2      CA      DTE     RS
+         send          forderung                             (o)
+
+  9      Ring          Anrufsignal   125     M3      CE      DCE     IC
+         indicator                                           (o)
+
+ 20      Data Set      Dateibereit-  107     M1      CC      DCE     DM 
+         Ready         schaft                                (i)
+
+ 22      Clear to      Sendebereit-  106     M2      CB      DCE     CS
+         send          schaft                                (i)
+
+ 23      Signal Rate                 111             CH      DTE     SR
+         Selector                                            (o)
+
+
+
+
+
+
+
+Bei einer DCE Belegung gibt es folgende Unterschiede:
+
+       DTE - Belegung: PIN              DCE - Belegung: PIN
+       ----------------------------------------------------
+
+                1                              1
+
+                2                              3
+
+                3                              2
+
+                4                              8
+
+                5                              22
+
+                6                              20
+
+                7                              7
+
+                8                              4
+
+                9                              22
+
+                20                             6
+
+                22                             5
+
+                23
+              
+
+
+
+Abkuerzungen: 
+==============
+
+DTE  Data Terminal Equipment (= DEE = Datenendeinrichtung)
+     z.B. Terminal, Computer
+
+DCE  Data Communication Equipment (= DUeE = Daten Uebertragungs Einrichtung)
+     z.B. Modem, Computer 
+
+Author: Volker Banken
+

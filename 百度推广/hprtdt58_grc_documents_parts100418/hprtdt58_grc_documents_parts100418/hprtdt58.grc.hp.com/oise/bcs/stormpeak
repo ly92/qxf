@@ -1,0 +1,98 @@
+******************* Product / Case Handling *******************
+RoHS Silent Roll product 
+
+Capture the appropriate Serial Number for use in SAW Unit Configuration, 
+PC Tracker or CSN to determine RoHS product level compliance. 
+
+Products listed as Modified or EMEA-Only are Compliant Products. All compliant 
+products must comply with the RoHS directives and must be supported with Modified spares.
+
+See http://na2.know.hp.com/teams/RoHS%20Service%20Delivery%20Implementation/default.aspx  
+or email rohsservicedeliveryprogramteam@hp.com for additional information.
+
+If unable to capture the serial number, obtain the purchase or install date from the 
+customer and compare with the compliance date below. 
+
+Compliance Date:  July, 1st 2006
+
+The ROHS status of a part is UNKNOWN unless marked with "(compliant)" or "(noncomp)".
+You may order a compliant part for a not compliant server in case the noncompliant part is unavailable
+
+The Qualifier has to check for parts compliancy himself with the above mentioned 
+tools and is solely repsonsible for this!
+***************************************************************
+
+============================================================================
+StormPeak - rp3410 / rp3440 - A7136A / A7137A
+============================================================================
+
+PCA, System Board		A7136-69001(noncomp) A7136-69101(compliant)
+screw on SCSI connector		0380-4855    see: http://15.13.122.166/newsletters/mc6/flash_newsletter375.htm
+PCI Riser Board 		A7231-66530(noncomp) AB587-60004(compliant)   *** PCI Backplane
+CPU PA8800 800 MHz 32MB Cache   A7138-69002  (without Power Pod, Mako32) 
+CPU PA8800 1GHz 32MB Cache      AB354-69001  (without Power Pod, Mako32) 
+CPU PA8900 800 MHz 64MB Cache   AB534-69001 (without Power Pod, Mako64)
+CPU PA8900 1GHz 64MB Cache      AB535-69001 (without Power Pod, Mako64)
+
+Processor Toolkit		5069-5441    (order one of these tools if
+Processor Toolkit (rx2600)      A7231-67046  the CE is not trained - add in Dispi Infos)
+CPU Power Pod                   0950-4294
+					     
+SCSI Backplane			A7231-66520(noncomp) AB587-60005(compliant)   
+   
+
+#Memory 1.7 " Dimms have been replaced with 1.2 " Dimms.
+#See WTEC/KMINE 4000076558   
+256MB DIMM			A6967AX     (old was A6833-69001)
+512MB DIMM			A6968AX     (old was A6746-69001)
+1GB Dimm			A6969-69001 (old was A6834-69001)
+2GB Dimm			A6835-69001
+
+----------------------------------------------------------------------------
+MP Card 			A7231-66580(noncomp) AB587-60002(compliant)
+
+SCSI
+36GB 15K Ultra 320 SCSI Disk	A9896-69001(noncomp) AB420-69001(compliant)     A7836A  carbon. Old partnumber was: A7836-69001
+73GB 15K Ultra 320 SCSI Disk    A9897-69001 (noncomp) // AB421-69001 (compliant)
+146GB 10K Ultra 320 SCSI Disk   A9898-69002 (noncomp) // AB422-69001 (compliant)
+146GB 15K Ultra 320 SCSI DISK   A7383-69001 (noncomp) // AD206-69001 (compliant)    HP 146 GMAX3147NC   
+300GB 10K Ultra 320  		A7384-69001 (noncomp) // AB423-69001 (compliant)    HP 300 GST3300007LC
+300GB 15k Ultra 320 (AG492A)    AD261-69001
+DVD+RW SLIMLINE DRIVE,          AB348-67001 (compliant)
+DVD Slimline (black Bezel)      A7231-69012
+DVD Slimline (grey Bezel)	A7231-69011
+CD-RW/DVD Slimline		A6986-69001
+
+------------------------------------------------------------------------------
+CABLES
+Fan Cable 80mm			A7231-63006(noncomp) A7231-63030(compliant)
+Super Fan Cable 80mm            A7231-63005(noncomp) A7231-63029(compliant)
+SCSI Cable Channel A		A7231-63017(noncomp) A7231-63038(compliant)
+SCSI Cable Channel B            A7231-63018(noncomp) A7231-63039(compliant)
+IDE Cable                       A7231-63002(noncomp) A7231-63026(compliant)    for DVD drive
+Management Processor Flex Cbl.  A7231-63008(noncomp) A7231-63032(compliant)
+Status Panel Cable              A7231-63003(noncomp) A7231-63027(compliant)
+Disk Power Cable                A7231-63004(noncomp) A7231-63028(compliant)
+
+-----------------------------------------------------------------------------
+POWER
+AC Power Supply			0950-4621
+Power Suppy Interface Module    A7231-04018(noncomp) A7231-04048(compliant)
+cpu power pod                   0950-4294
+Battery Real Time Clock         1420-0386 on systemboard (CR2330, 23mm diameter, 3mm size)
+Battery  MP                     234556-001 on MP  (CR2032)
+
+####Check Fan Location as PS Output differs, see: 
+http://herkules.grc.hp.com/documents/systems/stormpeak/fan_ps_mapping.html
+
+
+Thin Fan 80mm			A7231-04014(noncomp) A7231-04058(compliant)    Fan #1A(1R) or #1B(1L) , Cooling Unit 1 ("System" or "Power & CPU Unit" zone)
+Super Fan 80mm 			A7231-04015(noncomp) A7231-04060(compliant)    Fan #2 	Cooling Unit 2 ("Memory Unit" zone) 	
+Dual Fan Assy			A7231-04033    Fan #3 , Cooling Unit 3 (Disk)
+
+----------------------------------------------------------------------------
+MISC
+Display Panel 			A7231-66550(noncomp) AB587-60006(compliant)
+
+============================================================================
+last updated: André Wisomirski   15.04.2008

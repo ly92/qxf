@@ -1,0 +1,30 @@
+******************* Product / Case Handling *******************
+All parts and products mentioned on this page are non-RoHS compliant because they were obsolete before July 1st, 2006.
+***************************************************************
+
+==SKILL Product:C1512    Group:DDS-TAPES            Sys_flag:n
+== C1512A === 6400/1300S === 1,3GB SCSI ======!===============================
+
+Das alte DDS-LW C15x2 wird durch das neuere C1536 ersetzt !!
+>>> Bitte unbedingt Hinweis an CEs !!!
+
+++ PARTS +++++++++++++++++++
+SCSI TAPE DRIVE MODULE      C1536-67203     Z ! LW fuer internal DDS 1502 !
+
+SCSI TAPE DRIVE MODULE      C1536-67303       ! fuer C1512A external !
+                                                (komplett mit Gehaeuse)
+SCSI ADDRESS PCA            C1512-66001
+EPROM KIT (SCSI)            C1502-10003       ! Revision C
+POWER SUPPLY UNIT           09133-67120
+FAN ASSY                    3160-0528
+SCSI 50-WAY CABLE           C1512-61002
+SCSI ADDRESS CABLE          C1512-61003
+CHASSIS                     C1512-00001
+SCSI TERMINATOR             1252-3251
+1 METER SCSI CABLE          92222B
+2 METER SCSI CABLE          92222C
+
+++ DOCUMENTATION +++++++++++
+USER MANUAL                 C1512-90901     
+DDS Glossary                C1500-90903
+Backup Success Kit          C1503-90917

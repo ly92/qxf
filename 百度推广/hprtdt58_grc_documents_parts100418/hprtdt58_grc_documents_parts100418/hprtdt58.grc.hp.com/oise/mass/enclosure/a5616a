@@ -1,0 +1,47 @@
+******************* Product / Case Handling *******************
+All parts and products mentioned on this page are non-RoHS compliant because they were obsolete before July 1st, 2006.
+***************************************************************
+
+==SCSI-SureStore E Disk System HVD10===========
+
+
+Bus Control Card (BCC)      A5616-69007   (Two HVD 68-pin high-density SCSI connectors)   
+
+ 9 GB LP 10K LVD Disk       A5276-69002   (old A5276-69001) ST39102LC & ST39103LC & IBM DMVS09
+18 GB HH 10K LVD Disk       A5282-69002   (old A5282-69001) ST118202LC & ST318203LC & DMVS18D & MAJ3182MC 
+36 GB HH 10K LVD Disk       A5595-69002   (old A5595-69001) ST136403LC    
+73 GB HH 10K LVD Disk       A5622-69002   ST173404LC
+536 MB solid state Disk     A5615-69001	  RU3053L
+18 GB LP 15K LVD Disk	    A5633-69001	  ST318451LC
+18 GB LP 10K Ultra3 Disk    A6272-69002   (old A6272-69001) ST318404LC & ST318406LC
+18 GB LP 15K Ultra3 Disk    A6273-69002   (old A6273-69001) ST318452LC
+36 GB LP 10K Ultra3 Disk    A6274-69002   (old A6274-69001) ST336704LC & ST336706LC
+36 GB LP 15K Ultra3 Disk    A6275-69002   (old A6275-69001) ST336752LC
+73 GB LP 10K Ultra3 Disk    A6276-69002   (old A6276-69001) ST373405LC        
+
+
+
+
+HDD carrier assembly      A5236-60006
+Disk filler assembly      A5236-60009
+
+Mezzanine board           A5236-60021
+Backplane                 A5272-69003   * contains mezzanine board  (old A5272-67003)
+                                          (Power Switch on mezzanine board)
+
+FAN                       A5236-60003
+
+
+POWER SUPPLY              A5236-69023  
+
+
+20 top cover screws 6-32x3/16 T10  0588-001MH
+Power cord                         8120-6514
+Door assembly                      A5272-67014
+Half-U rack filler panel           J1525-60001
+
+***************************************************************************************
+last update 30.03.2004  Herbert Meiske  SC Ratingen
+
+
+

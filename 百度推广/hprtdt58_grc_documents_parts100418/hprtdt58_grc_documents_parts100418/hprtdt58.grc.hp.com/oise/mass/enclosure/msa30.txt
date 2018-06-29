@@ -1,0 +1,89 @@
+******************* Product / Case Handling *******************
+RoHS Silent Roll product 
+
+Capture the appropriate Serial Number for use in SAW Unit Configuration, PC Tracker or CSN to determine RoHS product level compliance. 
+
+Products listed as Modified or EMEA-Only are Compliant Products.  All compliant products must comply with the RoHS directives and must be supported with Modified spares.
+
+See http://na2.know.hp.com/teams/RoHS%20Service%20Delivery%20Implementation/default.aspx  
+or email rohsservicedeliveryprogramteam@hp.com for additional information.
+
+If unable to capture the serial number, obtain the purchase or install date from the customer and compare with the compliance date below. 
+
+Compliance Date:  TBD
+
+The parts mentioned on this page are not compliant!
+The Qualifier has to check for parts compliancy himself with the above mentioned tools and is solely repsonsible for this!
+***************************************************************
+
+== StorageWorks Modular Smart Array 30 Enclosure (formerly known as StorageWorks 4400 Enclosure) ==
+
+
+BOARDS:
+Part Description:                                      	Spare Part Number:                                                                 
+							non-RoHS             RoHs
+=====================================================================================
+Board, I/O, U320, Single Node, Single Bus   		326164-001           411084-001
+Board, I/O, U320, 2 Node, Dual Bus 			326165-001           411085-001
+Upgrade I/O Module Ultra320 4-Port // Multi -Initiator 	335882-B21           411056-001 
+
+	
+CABLES:
+Part Description:                                      	Spare Part Number:                                                                 
+=====================================================================================
+Cable, EMU, 4-meter 					401949-001 
+Cable, VHDCI, 1.0-meter 				126308-003 
+Cable, VHDCI, 1.5-meter 				401941-001 
+Cable, VHDCI, 2.0-meter 				401940-001 
+Cable, VHDCI, 2.5-meter 				126308-006 
+Cable, VHDCI, 3.0-meter 				126308-007 
+Cable, VHDCI, 5.0-meter 				126308-008 
+Cable, VHDCI, 10-meter 					401942-001 
+Cable, VHDCI, 15-meter 					401943-001 
+Cable, VHDCI, 20-meter 					401944-001 
+Cable, VHDCI, 25-meter 					126308-009 
+
+
+HARD DRIVES:
+Part Description:                                     	Spare Part Number:                                                                 
+							non-ROHS             RoHS
+=====================================================================================
+300-GB     10K, U320 Universal Hard Drive (1")          351126-001           404701-001 
+   BD30087B53 / BD30088279 / BD300884C2 / BD3008856C   
+146.8-GB  10K, U320 Universal Hard Drive (1")           289044-001           404708-001
+   BD14685A26 / BD14686225 / BD146863B3 / BD14687B52
+   BD14688278 / BD1468856B
+ 72.8-GB  10K, U320 Universal Hard Drive (1") 		289042-001           404709-001
+   BD07285A25 / BD07286224 / BD072863B2 / BD07287B4C
+   BD07288277 / BD0728856A / BD07296B44 / BD07297B57
+146.8-GB  15K, U320 Universal Hard Drive (1") 		347779-001           404712-001
+   BD14688286 / BF14689BC5
+ 72.8-GB   15K, U320 Universal Hard Drive (1") 		289243-001           404713-001
+   BF07285A36 / BF072863B6 / BF072863BA / BF07289BC4
+
+ 36.4-GB   15K, U320 Universal Hard Drive (1") 		289241-001           404714-001
+   BF03685A35 / BF036863B5 / BF036863B9 /BF03689BC3
+
+
+MISC:
+Part Description:                                     	Spare Part Number:                                                                 
+=====================================================================================
+Blank, Hard Drive, 1"  					122759-001 
+Blank Bracket, Power Supply 				133518-004 
+Chassis with backplane (Shelf, Ultra 14")/color: OPAL   123476-005 !!! see note below !!!
+!!! Rail Kit 349113-001 may be nessecary for Chassis replacement of old MSA30 installations 
+!!! see also http://teams3.sharepoint.hp.com/teams/esssupport/InsideESSSupport/InsideWTEC/HPUX-CI/Lists/Storage%20CI%20%20Archive/DispForm.aspx?ID=586  
+Display, LCD 						155355-001 
+EMU 							123481-003 
+Fan, Shelf, Cooling Module 				123482-001 
+Kit, Plastics, Miscellaneous 				155354-001 
+Power Supply, Cooling System 				133518-003            212398-005
+Shelf, Ultra 10 					123477-001 
+Shelf, Ultra 14 					123476-003 
+ 
+
+
+
+
+
+last update: 23.04.2009  André Wisomirski

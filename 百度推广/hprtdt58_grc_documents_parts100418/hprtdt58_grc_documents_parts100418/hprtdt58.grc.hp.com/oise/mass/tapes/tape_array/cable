@@ -1,0 +1,44 @@
+******************* Product / Case Handling *******************
+All parts mentioned on this page are non-RoHS compliant because they were obsolete before July 1st, 2006.
+***************************************************************
+
+Enterprise Cable Information
+
+    KWOLEK  = C7508A  TA5300
+    LATIMER = C1354A  TA5500					
+
+Product Reqd	Part #	     Product #	Connectors	Length	SCSI
+Cables					
+					
+Kwolek	         5183-2670   C2978B	HDTS68 M/M	   0.5m	  LVD
+Kwolek	         5183-2627   C2979B	HDTS68 M/M	   1.5m	  LVD
+Kwolek	         5183-2671   C2911C	HDTS68 M/M	   0.9m	  LVD/FWD
+Kwolek	         5183-2673   C2924C	HDTS68 M/M	   2.5m	  LVD/FWD
+Kwolek	         5183-2678   C7521A	HDTS68 M/M	   5.0m	  Multi
+Kwolek	         5183-2679   C7522A	HDTS68 M/M	  10.0m	  Multi
+Kwolek + Latimer 5183-2674   C2361B	VHDTS68 / HDTS68   1.0m	  LVD
+Kwolek + Latimer 5183-2675   C2362B	VHDTS68 / HDTS68   2.5m	  LVD
+Kwolek + Latimer 5183-2676   C2365B	VHDTS68 / HDTS68   5.0m	  LVD
+Kwolek + Latimer 5183-2677   C2363B	VHDTS68 / HDTS68  10.0m	  LVD
+Latimer		             C2371A	VHDTS68	0.5m	          LVD
+Latimer		             C2372A	VHDTS68	1.0m	          LVD
+Latimer		             C2373A	VHDTS68	2.0m	          LVD
+Latimer		             C2374A	VHDTS68	5.0m	          LVD
+Latimer		             C2375A	VHDTS68	10.0m	          LVD
+					
+Terminators					
+					
+Kwolek		             C2972A	HDTS68		          SE
+Kwolek		             C2364A	HDTS68		          LVD
+Latimer	         5021-1121   C2370A	VHDTS		          LVD
+
+
+
+
+
+
+
+
+
+last update: 04.09.03 Herbert Meiske, MUHW CC TEAM, CRC Ratingen 
+                                 

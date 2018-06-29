@@ -1,0 +1,149 @@
+******************* Product / Case Handling *******************
+RoHS Silent Roll product 
+
+Capture the appropriate Serial Number for use in SAW Unit Configuration, 
+PC Tracker or CSN to determine RoHS product level compliance. 
+
+Products listed as Modified or EMEA-Only are Compliant Products. All compliant 
+products must comply with the RoHS directives and must be supported with Modified spares.
+
+See http://na2.know.hp.com/teams/RoHS%20Service%20Delivery%20Implementation/default.aspx  
+or email rohsservicedeliveryprogramteam@hp.com for additional information.
+
+If unable to capture the serial number, obtain the purchase or install date from the 
+customer and compare with the compliance date below. 
+
+Compliance Date:  July, 1st 2006
+
+The ROHS status of a part is UNKNOWN unless marked with "(compliant)" or "(noncomp)".
+You may order a compliant part for a not compliant server in case the noncompliant part is unavailable
+
+The Qualifier has to check for parts compliancy himself with the above mentioned 
+tools and is solely repsonsible for this!
+***************************************************************
+
+============================================================================
+Mittelhorn / rx7640 / AB312A  
+============================================================================
+
+
+---------------------------- System Backplane -------------------------
+PCA, System Backplane		AB312-69301
+Kit, Clock Oscillator		AB297-63002
+
+
+---------------------------- Cell -------------------------------------
+#All cellboards come with 2 CPU modules mounted on the board.
+#Not needed CPUs should be removed from new cell and returned in the 
+#provided anti-static bags and compartments.
+#Take over the ZIF Dust Covers from the old cell for any empty CPU slots.
+#CPUs are FRUs. No need to exchange the complete cellboard if CPU fails. 
+#Check MP:CM>DF output for "X - Cell Board Processor Module (FRU)"
+#See also http://wtec.cup.hp.com/~cpuhwcb/IA64/rx8640_7640/kmix_cell_table.htm
+
+Cell + 2x 1.6GHz  6MB Mad9M     AB313-69007(noncomp) AB313-69107(compliant)   Cell with 2 Mad9M CPUs
+Cell + 2x 1.4GHZ 12MB Montecito AB313-69004   Cell with 2 Montecito modules
+Cell + 2x 1.6GHZ 18MB Montecito AB313-69005   Cell with 2 Montecito modules
+Cell + 2x 1.6GHZ 24MB Montecito AB313-69006   Cell with 2 Montecito modules
+Cell + 2x 1.4GHZ 12MB Montevale AB313-69013   Cell with 2 Montevale modules; min. FW 4.0
+Cell + 2x 1.6GHZ 18MB Montevale AB313-69014   Cell with 2 Montevale modules; min. FW 4.0
+Cell + 2x 1.6GHZ 24MB Montevale AB313-69015   Cell with 2 Montevale modules; min. FW 4.0
+
+CPU Mod. 1.6GHz  6MB Mad9M      AB548-69001(noncomp) AB548-69002(compliant)   Mad9M CPU
+CPU Mod. 1.4GHZ 12MB Montecito  AB451-69001   Montecito module
+CPU Mod. 1.6GHZ 18MB Montecito  AB584-69001   Montecito module
+CPU Mod. 1.6GHZ 24MB Montecito  AB452-69001   Montecito module
+CPU Mod. 1.4GHZ 12MB Montevale  AD362-69001   Montevale module; min. FW 4.0
+CPU Mod. 1.6GHZ 18MB Montevale  AD365-69001   Montevale module; min. FW 4.0
+CPU Mod. 1.6GHZ 24MB Montevale  AD368-69001   Montevale module; min. FW 4.0
+
+CPU Turbo Cooler Fan            AB388-00005   for CPUs only, not for DNA (CC chip); old part#: A6436-67001   
+CC Turbo Cooler Fan             A6093-00276   for Cell Controller (CC) only, not for CPU; 
+
+1GB DDR2 DIMM (single)          A9843-69001   
+2GB DDR2 DIMM (single)          A9846-69001
+4GB DDR2 DIMM (single)          A9849-69001
+8GB DDR2 DIMM (single)          AB456-69001   min. FW 4.0; check Note below for DIMMs mismatch issue 
+# Attention! - There are two different styles of 8GB DIMMs which cannot be mixed in an echelon!
+# The part number AB456-69001 did not changed. - You will get the new style DIMMs now.
+# Check installed 8GB DIMMs with MP:CM>DF command to decide if you need to order one or two DIMMs:
+# AB456BX (DF output:  MAMM-8GB AB456-60301) -> new style installed -> order one DIMM
+# AB456AX (DF output: SAMM2-8GB AB456-60201) -> old style installed -> order two DIMMs; replace both DIMMs of echelon!
+
+
+---------------------------- I/O --------------------------------------
+PCI-X 2.0 Card Cage Assembly    AB297-69001   contains the PCI-X 2.0 Backplane
+PCI-E/PCI-X Card Cage Assembly  AB297-69006   contains combined PCI-Express/PCI-X Backplane; min. FW 4.0
+
+PCI OLR Assy with 16 Paddles    A6093-67114(noncomp) A6093-67214(compliant)   old part#: A6093-67014; includes also PCI OLR Switch cable
+
+LAN/SCSI (Castor)		AB290-60001
+MP/SCSI (Core IO)		AB315-60301
+
+SCSI Devices
+
+36GB 15K RPM U320 SCSI Disk	AB420-69001  
+73GB 15K RPM U320 SCSI Disk	AB421-69001
+146GB 10K RPM U320 SCSI Disk	AB422-69001
+146GB 15K RPM U320 SCSI Disk	AD206-69001
+300GB 10K RPM U320 SCSI Disk	AB423-69001
+300GB 15K RPM U320 SCSI Disk	AD261-69001
+
+DVD Slimline Carrier		AD013-2101A    includes 2 Adapter cards
+DVD+RW Slimline Drive		AD143-2100A
+DVD+RW Drive                    AB351-67002    
+DDS4				393484-001
+
+
+---------------------------- Cables -----------------------------------
+System Fan Internal Cable       A6752-63021
+System Fan External Cable       A6752-63025
+Cable, SCSI Bundle		AB312-2003C
+Main Power Harness		A6752-63024    Special Tool necessary
+XCELITE "99" SCREW DRIVER       NHPXSCEWDRIVER Tool for Main Power Harness 
+Int. Cable Smart Array Contr.	A7027-63003
+Mass Storage Power Cable	AB312-2002A
+DVD Power Cable			AB312-2010A
+Intrusion Switch Cable          A6093-63044
+
+
+---------------------------- Power ------------------------------------
+AC Power Supply			A6752-69213(noncomp)  A6752-69044(compliant)
+PCI Power Module N+		0950-4637
+VRM for PCI-X 2.0 Backplane     0950-4741     VRM# 1-4; old part#: 0950-4622
+VRM for cell, low-voltage       0950-4741     VRM# 1-12 & 14-15; old part#: 0950-4622
+VRM for cell, high-voltage      0950-4628     VRM# 0 & 13
+VRM for Systembackplane 3.3V	0950-4624     VRM# 2 & 3 order two and replace both
+
+
+---------------------------- Fans -------------------------------------
+Smart Fan (Front/Rear)		A6752-67029
+Smart Fan PCI			A6752-67030(noncomp) A6752-04071(compliant)
+CPU Turbo Cooler Fan		AB388-00005   for CPUs only - not for the CC chip
+CC Turbo Cooler Fan             A6093-00276   for Cell Controller (CC) only, not for CPU; 
+
+
+---------------------------- Miscs ------------------------------------
+Mass Storage Backplane		AB312-60203
+Front Panel Display Board       AB312-60102   including cable 
+Front Panel Light Pipe Assy     AB312-2102A
+Intrusion Switch                5040-6317
+Assy PCI Seperator(w/Lightpipe) 5065-7443
+Cable Management Arm            5065-5951
+PCI Filler Plate                5001-6892
+Side/Top Covers KIT (Graphite)	AB312-67002
+Removeable Media Rail Kit	A6752-67011
+Box, DVD Filler (Carbon)	A6912-00014
+Cell Extractor Latch Kit        AB297-2113A   contains front (left; A6913-04027) and rear (right; A6913-04028) latch
+Core I/O Plastic Guide Rail 1   0403-1126     1 per chassis; 5” (12.7 cm) long; see Advisory c01295698
+Core I/O Plastic Guide Rail 2   0403-1119     3 per chassis; 6” (15.2 cm) long; see Advisory c01295698
+
+
+DIMM Installer Tool             A5201-68003
+DIMM Remover Tool, REV.C        A5201-68017   see Advisory c01081033: Make sure you have REV.C tool, as only this is compatible with DDR2 DIMMs.
+TOOL, STAT MAT 24X36 W/GRD STR  A5201-68004
+
+============================================================================
+
+                 Page Owner:  Joerg-Udo Werner
+                 Last update: 30-March-2010 by Holger Goetker

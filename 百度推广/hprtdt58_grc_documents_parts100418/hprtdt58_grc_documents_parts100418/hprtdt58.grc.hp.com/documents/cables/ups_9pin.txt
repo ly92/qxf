@@ -1,0 +1,12 @@
+d350 ups pinout
+================
+
+pin 1     dcd
+ "  2     rxd
+ "  3     txd
+ "  4     dtr
+ "  5     gnd
+ "  6     dsr
+ "  7     cts
+ "  8     RI
+

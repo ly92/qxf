@@ -1,0 +1,126 @@
+******************* Product / Case Handling *******************
+RoHS Silent Roll product 
+
+Capture the appropriate Serial Number for use in SAW Unit Configuration, 
+PC Tracker or CSN to determine RoHS product level compliance. 
+
+Products listed as Modified or EMEA-Only are Compliant Products. All compliant 
+products must comply with the RoHS directives and must be supported with Modified spares.
+
+See http://na2.know.hp.com/teams/RoHS%20Service%20Delivery%20Implementation/default.aspx  
+or email rohsservicedeliveryprogramteam@hp.com for additional information.
+
+If unable to capture the serial number, obtain the purchase or install date from the 
+customer and compare with the compliance date below. 
+
+Compliance Date:  July, 1st 2006
+
+The ROHS status of a part is UNKNOWN unless marked with "(compliant)" or "(noncomp)".
+You may order a compliant part for a not compliant server in case the noncompliant part is unavailable
+
+The Qualifier has to check for parts compliancy himself with the above mentioned 
+tools and is solely repsonsible for this!
+***************************************************************
+
+============================================================================
+Mt.Hamilton/ rp4440 / A7124A A7134A  
+============================================================================
+
+PCA, CPU Extender               A6961-69007(noncomp) A6961-69207(compliant)
+PCA, IO Baseboard (w VRMs)      A6961-69401(noncomp) A6961-69411(compliant)   PDC 45.11 for PA-8800 and PA-8900
+                                              Switch S5102 (VGA enable) -> off
+PCA, 16 Slot Memory Board       A6961-69204(noncomp) A6961-69804(compliant)   (Multiple SBE dimm replacements = Service Note A6961A-02C/A7124A-02)
+PCA, 32 Slot Memory Board       A9739-69007(noncomp) A9739-69008(compliant)   SFW > 1.13 (old Part-#: A7124-60002 / Service Note A6961A-02C)
+PCA, Midplane Riser Board       A6961-67005(noncomp) A6961-67105(compliant)
+PCA, SCSI Duplex Board          A6961-67006
+PCA, I/O BD to DVD Connectivity A6961-67013
+PCA, Power Distribution Board   A6961-67015(noncomp) A6961-67115(compliant)
+PCA, SCSI Backplane/Management  A6961-67024(noncomp) A6961-67205 (compliant)   (includes SCSI Simplex board) 
+PCA, Visual Diag Board          A6961-67009(noncomp) A6961-67109(compliant)
+PCA, Front Panel Display        A6961-67108
+
+CPU PA8800 800 MHz 32MB Cache   A7125-69002 (Mako32) 
+CPU PA8800 1GHz 32MB Cache      A7135-69002 (Mako32) 
+CPU PA8900 800 MHz 64MB Cache   AD059-69001(noncomp) AB526-69002(compliant) (Mako64)
+CPU PA8900 1GHz 64MB Cache      AD060-69001(noncomp) AB527-69002(compliant) (Mako64)
+
+
+#Memory 1.7 " Dimms have been replaced with 1.2 " Dimms.
+#See WTEC/KMINE 4000076558   
+***NOTE: IF REPEATED SBE OCCURRED AND DIMMS ALREADY REPLACED MULTIPLE TIMES SEE Service Note A6961A-02C/A7124A-02 ***
+
+256MB DIMM              A6967AX     (do not order A6833-69001 - too high)
+512MB DIMM              A6968AX     (do not order A6746-69001 - too high)
+
+***Note: for dimms>=1 GB: PDC>=45.11, BMC>=02.30, see Service Note A7124A-02C !!!
+***Memory Carrier must be A7124-60002 or A6961-60004 with EDC>=A-4420 
+1GB Dimm                A6969-69001   (Product: A6969AX) 
+2GB Dimm                A6835-69001   (Product: A6970AX)
+
+4GB Dimm		AB475-69001   (see info one bottom of page concerning compatibility)
+
+----------------------------------------------------------------------------
+Lan Core I/O  			A6825-67101
+Lan Core I/O Dual-Port          AB352-67001    with newer systems (wake-on LAN port A)
+U160 Core I/O Dual-channel    	A6829-67001
+U320 Core I/O Dual-channel      A6961-60011    with newer systems	
+
+36GB 15K RPM SCSI Disk		A9896-69001(noncomp) AB420-69001(compliant)  
+73GB 15K RPM SCSI Disk		A9897-69001(noncomp) AB421-69001(compliant) (disk p/n:A9777A or A9897A) 
+146GB 10K RPM SCSI Disk		A9898-69002(noncomp) AB422-69001(compliant)
+146GB 15K RPM SCSI Disk		AD206-69001
+300GB 10k RPM SCSI Disk		AB423-69001 (disk p/n:AD189A)
+300GB 15k RPM SCSI Disk         AD261-69001
+
+DVD-R/CD-R Drive                A7163-04001 TEAC DV-28E-B
+DVD-R/CD-RW Drive               A7007-04001 TEAC DW-224E
+
+------------------------------------------------------------------------------
+CABLES
+Cable, internal SCSI		A6961-63006(noncomp) A6961-63017(compliant)
+Cable, Power Distr. to Midplane A6961-63003(noncomp) A6961-63014(compliant)     10 PIN Cable
+Cable, Power Distr. to Midplane A6961-63004(noncomp) A6961-63015(compliant)     Ribbon Cable
+Cable, SCSI Controller Jumper   A6961-63011(noncomp) A6961-63020(compliant)
+Cable, Visual Diag to Midplane  A6961-63005(noncomp) A6961-63016(compliant)
+Cable, SCSI Backpl. to Midplane A6961-63008(noncomp) A6961-63018(compliant)
+Cable, Display to IDE to Midpl. A6961-63002(noncomp) A6961-63013(compliant)
+ 
+HPUX USB - to - PS/2 Adapter    A7782-63001
+
+-----------------------------------------------------------------------------
+POWER
+AC Power Supply			A6961-67125(noncomp) A6961-67225(compliant)
+DC-DC Converter (VRM) 12V       0950-4417
+DC-DC Converter (VRM) 3.3V      0950-4419
+DC-DC Converter (VRM) 5V        0950-4418
+
+IO FAN  (Fan 0 + 1)             A6961-04055
+Power Supply Fan (Fan 2)        A6961-04028
+
+----------------------------------------------------------------------------
+MISC
+
+PCI Card OL* Divider            A6961-67020
+PCI Retention Clip              A6961-67021
+Filler, Memory, Air Blocker     A6961-40034
+System battery			1420-0386 (CR2330, 23mm diameter, 3mm size)
+KIT, HANDLE, I/O                A6961-04089  lever to seat I/O Baseboard; see also WTEC CI ID 2,529
+
+
+============================================================================
+****************************************************************************
+4GB DIMMs are not compatible with some memory board revisions.  
+ 
+Memory Board	Board Rev	4 GB DIMMs Compatible?
+------------------------------------------------------- 
+A6961-60004 	A3 			no
+A7124-60002 	A2 			no
+A6961-60104 	A4 			yes
+A7124-60102 	A3 			yes
+A6961-60204 	A5 			yes
+A7124-60202 	A4 			yes
+
+
+---------------------------------------------------------------------------------------
+Last Update: 09.02.2010 Holger Goetker
+---------------------------------------------------------------------------------------

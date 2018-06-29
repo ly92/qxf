@@ -1,0 +1,87 @@
+
+		<HEAD>
+			<META NAME='GENERATOR' CONTENT='WebSheet'>
+			<TITLE>WebSheet: </TITLE>
+			
+		</HEAD>
+		<BODY BGCOLOR="#FFFFFF">
+
+
+<!-- Copyright © 2005. Spidersoft Ltd -->
+<style>
+A.applink:hover {border: 2px dotted #DCE6F4;padding:2px;background-color:#ffff00;color:green;text-decoration:none}
+A.applink       {border: 2px dotted #DCE6F4;padding:2px;color:#2F5BFF;background:transparent;text-decoration:none}
+A.info          {color:#2F5BFF;background:transparent;text-decoration:none}
+A.info:hover    {color:green;background:transparent;text-decoration:underline}
+</style>
+<div style='BORDER: 1px solid #DCE6F4; MARGIN-TOP: 20px; MARGIN-BOTTOM: 20px; MARGIN-LEFT: 5px; MARGIN-RIGHT: 5px; PADDING: 5px; BACKGROUND-COLOR: #eef8ff;line-height:180%; COLOR: #000000; font-family: Arial; font-size: 8pt; width=100%; FILTER: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr="#FFFFFFFF", EndColorStr="#F2F5FAFF");'>
+This page was saved using <a class="applink" href="http://www.spidersoft.com"><b>WebZIP 7.0.2.1028</b></a>  on  04/18/10 17:27:52.<br>
+<b>Address:</b> <a class="info" href="http://hprtdt58.grc.hp.com/cgi-bin/disks/disktable.pl?disktable&adv">http://hprtdt58.grc.hp.com/cgi-bin/disks/disktable.pl?disktable&adv</a><br>
+<b>Title:</b> WebSheet: &nbsp;&bull;&nbsp; <b>Size:</b> 2732<br></div>
+<!-- /Copyright © 2005. Spidersoft Ltd -->
+
+
+	<TABLE BORDER=1 CELLSPACING=2><TR><TD>Table: <B>Disks (Supported for HP-UX)</B></TD><TD>Modified: <B>Sat, 8 Aug 2009 07:00 METDST</B></TD></TABLE>
+	<TABLE BORDER=4 CELLSPACING=2>
+
+	<TH><I><FONT SIZE=-2>edit</FONT></I></TH><TH>ID_String</TH><TH>SCSI Type</TH><TH>Product</TH><TH>PartNo</TH><TH>Capacity</TH><TH>Firmware</TH><TH>Service Notes</TH><TH>Add. Info</TH><TH>Notes</TH>
+	</TABLE>
+<HR>
+	<FORM ACTION=disktable.pl METHOD=POST>
+	<TABLE BORDER=4 CELLSPACING=2>
+	<TR><TH COLSPAN=4>
+	<FONT SIZE=4>Advanced menu</FONT>
+	</TH><TR>
+	<TR><TH COLSPAN=4>
+	<FONT SIZE=3>Editing text</FONT>
+	</TH><TR>
+	<TD><INPUT TYPE=RADIO NAME=index VALUE=hdr CHECKED> Table introduction text</TD>
+	<TD><INPUT TYPE=RADIO NAME=index VALUE=other> Other info (not yet )</TD>
+	<TR><TH COLSPAN=4>
+	<INPUT TYPE=HIDDEN NAME=DB VALUE=disktable>
+	<INPUT TYPE=HIDDEN NAME=action VALUE=edit_text>
+	<TR><TD COLSPAN=4 ALIGN=CENTER><INPUT TYPE=SUBMIT VALUE="Edit"></TD>
+
+	</FORM></TABLE>
+
+	<TABLE BORDER=4 CELLSPACING=2>
+	<TR><TH COLSPAN=4>
+	<FONT SIZE=4>Advanced Search/Sort/Save</FONT>
+	<FORM ACTION=disktable.pl METHOD=POST>
+	<INPUT TYPE=HIDDEN NAME=DB VALUE=disktable>
+	</TH><TR><TD><SELECT NAME=search1><OPTION>Anything<OPTION>ID_String<OPTION>SCSI Type<OPTION>Product<OPTION>PartNo<OPTION>Capacity<OPTION>Firmware<OPTION>Service Notes<OPTION>Add. Info</SELECT></TD>
+	<TD><SELECT NAME=match>
+	<OPTION SELECTED>match with
+	<OPTION>does not match
+	<OPTION>match anything
+	</SELECT>
+	</TD>
+	<TD><INPUT TYPE=TEXT NAME=searchparm1 SIZE=20></TD><TD>Sort by :<SELECT NAME=sort_by><OPTION><OPTION>ID_String<OPTION>SCSI Type<OPTION>Product<OPTION>PartNo<OPTION>Capacity<OPTION>Firmware<OPTION>Service Notes<OPTION>Add. Info</SELECT></TD>
+	<TR><TD COLSPAN=4 ALIGN=CENTER><INPUT TYPE=SUBMIT VALUE="Search Now"></TD>
+<TR><TD>
+	<INPUT TYPE=RADIO NAME=action VALUE=lookup CHECKED>
+	view table
+	</TD><TD>
+	<INPUT TYPE=RADIO NAME=action VALUE=export>
+	prepare for export 
+	</TD></TR>
+	<TR><TH COLSPAN=4>
+	Save the sorted table
+	<INPUT TYPE=RADIO NAME=action VALUE=save>
+	Password: <INPUT TYPE=PASSWORD NAME=password>
+	</TH></TR>
+	</FORM>
+	</TABLE>
+
+	<TABLE BORDER=4 CELLSPACING=2>
+	<TR><TH COLSPAN=4>
+	<FONT SIZE=3>Import/export from MS Excel, etc</FONT>
+	</TH>
+	<TR><TD> Import (N/Y) (see make_new_table) </TD><TD>Export (see output
+	option in search menu)</TD>
+
+	<TR><TH COLSPAN=4>
+	<FONT SIZE=3>Future features, inactive at the moment</FONT>
+	</TH>
+	<TR><TD> Lock table .... </TD><TD>Manage variables</TD>
+	<TR><TD> Make swap tables...</TD></TABLE><H6><A HREF=http://www.grc.hp.com/docs/websheet/doc>WebSheet</A> <EM>by Preben Gammelmark</EM></H6>

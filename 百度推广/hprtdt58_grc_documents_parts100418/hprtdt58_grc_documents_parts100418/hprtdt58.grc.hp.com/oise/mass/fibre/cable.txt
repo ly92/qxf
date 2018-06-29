@@ -1,0 +1,83 @@
+==SKILL Product:Fibrechannel	  Group:SAN                 Sys_flag:y
+== FIBRE CHANNEL PRODUCTS FOR S800 ====================================
+                                                        Part Number 
+ 
+Loopback Cable 50um, 2m                                 1005-0624
+Loopback Cable  9um, 2m                                 A4839-63001
+Loop back plug (LC) for short wave SFP's                254145-001 
+Loop back plug (LC) for long wave SFP's                 254146-001 
+Optical Port Protector                                  1005-0359
+
+
+LC-LC Cables
+Length (meters)                                         
+0.5 m                                                   263895-007            Noncompliant
+1   m                                                   263895-001            Noncompliant
+2   m                                                   263895-002            Noncompliant
+                                                        5065-5101             Noncompliant
+5   m                                                   263895-003            Noncompliant
+15  m                                                   263895-004            Noncompliant
+16  m                                                   5065-5102             Noncompliant
+30  m                                                   263895-005            Noncompliant
+50  m                                                   263895-006            Noncompliant
+                                                        5065-5103             Noncompliant
+200 m                                                   5065-5104             Noncompliant
+   
+
+LC-SC Cables 
+ 
+0.5                                                     263894-007            Noncompliant
+1                                                       263894-001            Noncompliant
+2                                                       5065-5106             Noncompliant
+                                                        263894-002            Noncompliant
+5                                                       263894-003            Noncompliant
+15                                                      263894-004            Noncompliant
+16                                                      5065-5107             Noncompliant
+30                                                      263894-005            Noncompliant
+50                                                      263894-006            Noncompliant
+
+SC-SC Cables 
+ 
+2               234457-B21                              234451-002            Noncompliant
+5               234457-B22                              234451-005            Noncompliant
+15              234457-B23                              234451-015            Noncompliant
+30              234457-B24                              234451-030            Noncompliant
+50              234457-B51                              234451-050            Noncompliant
+
+Adapters 
+Description 
+HP Part Number 
+ 
+Fibre Channel Adapter (SC Female - SC Female)           C7534A 
+Fibre Channel Adapter Cable Kit,(LC Male - SC Male)     C7540A1 
+ 
+Note 1: 2 meter adapter kit. Contains both C7534A (adapter) and C7529A (2 meter cable). 
+ 
+C7524A     =   2 m FC cable 50 um LC/LC M/M 		5065-5101            Noncompliant
+C7525A     =  16 m FC cable 50 um LC/LC M/M 		5065-5102            Noncompliant
+C7526A     =  50 m FC cable 50 um LC/LC M/M 		5065-5103            Noncompliant
+C7527A     = 200 m FC cable 50 um LC/LC M/M 		5065-5104            Noncompliant
+C7529A     =   2 m FC cable 50 um LC/SC M/M 		5065-5106            Noncompliant
+C7530A     =  16 m FC cable 50 um LC/SC M/M 		5065-5107            Noncompliant
+C7534A     = SC female - SC female Adapter 		5183-2684            Noncompliant
+C7540A     = 2 m LC male - SC male Adapter Kit
+F1626B     = 10/100 Fast Ethernet PC Card (for HAFM Omnibook)
+F2182KT    = OMNIBOOK 6000 for fc-64 (order with option #ABA)
+
+== Tools ====================================================================
+
+FC-Toolbox                      	FC-TESTKIT     (Germany only !!!!)
+
+Last Update: Frank Skibbe RSAA MC TEAM GERMANY
+Update: 04.07.2006              
+
+2M LC male - SC female adapter kit (C7540A) contains of:
+2M LC male - SC male adapter                     5065-5106 			          
+SC female  - SC female FC COUPLER SC F/F         5183-2684   (C7534A)    
+
+++ Tools +++++++++++++++++++++++
+FC-Toolbox                      FC-TESTKIT     (Germany only !!!!)
+
+Bildliche Übersicht über die verschiedenen FC Kabel : http://oise.grc.hp.com/PARTS/9000/S800/FIBRE/FCKabelUebersicht.jpg
+
+Last Update: Joerg-Udo Werner 15.08.2007

@@ -1,0 +1,95 @@
+******************* Product / Case Handling *******************
+All parts and products mentioned on this page are non-RoHS compliant because they were obsolete before July 1st, 2006.
+***************************************************************
+
+== A6250A - HP SURESTORE 15 Slot FC DISK SYSTEM 2405 (DS2405)===========
+== PRODUCT CODE NAME: Apex ===========
+
+
+Product Description:
+
+	The HP SureStore DS2405 (A6250A/AE/AZ)is a competitively priced 15-slot Fibre 	Channel (FC) JBOD disk system that offers 2 Gigabit per second interconnect speeds.
+	The DS2405 features redundant Link Control Cards (LCCs) and power supply/fan 
+	modules. The enclosure can accept a mixture of capacity low-profile (1 inch high)
+	disk modules (18, 36, and 73GB) simultaneously. The DS2405 is available as rackmount 	configuration only. There is no deskside model. Thirteen DS2405 racks into a 2-meter
+	System/E cabinet, yielding 3.5TB of storage with 18GB disks, 7TB of storage with 
+	36GB disks, and 14TB of storage with 73GB disks. 
+
+	The DS2405 is designed to protect against component and system-level failures and, 
+	if there is a failure, to prevent data loss and recover system functionality in a 
+	reasonable amount of time. The following features are part of the DS2405's high
+	availability design:
+
+		- Hot-pluggable, high-capacity, high-speed FC disks (loaded from the front). 
+ 		- Dual FC loops to each disk.
+ 		- Automatic post bypass control and loop recovery.
+		- Redundant, hot pluggable, and user-replaceable power supply/fan modules
+		  (mounted in the rear).
+		- Support for mirrored disks in the HP-UX environment.
+		- Online firmware upgrades.
+		- Remote moritoring and diagnostics.
+		- Real-time error reporting.
+
+	The DS2405 LCC manages system components and communicates their status to the 
+	host application. This monitoring and management of systems components includes the
+	following services:
+
+		- Number, status, and control of installed power supply/fan modules.
+		- Number of disk slots in the system (with or without disks).
+		- Number, temperature, and monitoring of temperature sensors.
+		- Audio alarms.
+		- Speaker status.
+		- Value of the PC address for each disk slot.
+		- Control and status of the Fault LED for all elements.
+		- Port Bypass Circuitry management.
+		- Host/controller status reporting and control.
+		- Self-test.
+
+
+The supported Seagate disks and
+the exchange assemblies for DS2405 are:
+
+	A6191-69001  A6191A - 18GB, 15K rpm FC disk (ST318451FC, ST318452FC)
+	A6192-69002  A6192A - 36GB, 10K rpm FC disk (ST336704FC, ST336605FC, BD03659532)
+	A6193-69001  A6193A - 36GB, 15K rpm FC disk (ST336752FC, BF03658242)
+	A6194-69002  A6194A - 73GB, 10K rpm FC disk (ST373405FC, ST373307FC, HPQ BD0725822B) (old A6194-69001)
+	A7288-69001  A7288A - 73GB, 15K rpm FC disk (ST373453FC, BF07258243)
+	A7289-69002  A7289A -146GB, 10K rpm FC Disk (HPQ BD1465822C) 
+
+pmCPQ-disks inDS2405 ??
+see: http://cybrary.inet.cpqcorp.net/ARCHIVE/ADVISORIES/CUSTOMER_NOTE/CN0666W.HTML
+
+
+	A6250-69001 Dynamite power supply assy exchange 
+	A6255-69101 Apex LCC assy 
+
+The non-exchange/parts for DS2405 are:
+
+	A6250-67003 Enclosure Bezel FRU
+	A6250-67006 Midplane PCA FRU   (old A6250-67005)
+
+_______________________________________________________________________________________
+
+
+The supported FC Host Bus Adapters (HBAs) for DS2405 are:
+
+	A5158A - 1GB PCI FC Interface
+	A6795A - 2GB PCI FC Interface
+	A6684A - 1GB HSC FC Interface
+	A6685A - 1GB HSC FC Interface
+
+
+The supported operating system releases for DS2405 are: 
+HP-UX 11.00, 11.11, Windows NT Server v4.0 SP Latest, Windows NT Server Enterprise Edition v4.0 SP Latest, Windows 2000, and Linus 
+Red Hat 7.1
+
+
+
+Additional Parts (rack rail kits) :
+
+A6209A   System/E rack rail kit 
+A6244A   Rackmount hardware kit 
+A6496A   Rittal/3rd party rack rail kit 
+A6498A   2-post center mount telco rail kit
+Y1775A   4-post carrier grade rail kit
+

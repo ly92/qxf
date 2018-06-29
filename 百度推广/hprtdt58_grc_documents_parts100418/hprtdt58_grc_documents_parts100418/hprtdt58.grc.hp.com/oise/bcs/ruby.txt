@@ -1,0 +1,122 @@
+******************* Product / Case Handling *******************
+RoHS compliant product 
+***************************************************************
+
+============================================================================
+Ruby / rx3600 / AB596A  
+============================================================================
+
+PCA, IO Backplane PCI-X         AB463-69034   #contains only PCI-X slots
+PCA, IO Backplane PCI-X         AB463-69035   #Firmware for Montvale CPUs installed
+
+!!!! replacement only old - old and new - new      !!!! 
+!!!! Hardware paths changed with new type          !!!!
+!!!! find if old or new style with the DF command  !!!!
+PCA, IO Backplane PCIe          AB463-69060   #old PCIe Backplane with PCIe switch 1.0
+                                              #FRUID Product Name: 10 Slot PCI-E IOBP
+PCA, IO Backplane PCIe          AB463-69061   #old PCIe Backplane with PCIe switch 1.0
+					      #Firmware for Monvale CPUs installed
+PCA, IO Backplane PCIe          AB463-69161   #new PCIe Backplane with PCIe switch 1.1
+                                              #FRUID Product Name: 10 Slot PCI-E 1.1 IOBP
+                                              !!! new HW pathes for slot #3 and #4 
+              # 0/6/0/0/0/0/X/0/0             !!! 1.0 : Slot 3: X=1, Slot4: X=0
+                                              !!! 1.1 : Slot 3: X=4, Slot4: X=2
+
+
+The IO Backplane is also referred to as RUSA Common I/O Board or PCI Card Cage in some documents
+
+PCA, Processor Board            AB463-69113
+PCA, Interconnect Board         AB463-67025
+PCA, Display Board              AB463-67020
+PCA, Midplane                   AB463-67010
+PCA, Doorbell Board             AB463-67002
+
+CPU Module 1,4GHz/12MB          AB576-69017     Itanium Dual Core Montecito
+CPU Module 1,6GHz/18MB          AB577-69018     Itanium Dual Core Montecito
+CPU Module 1,4GHz/12MB          AD390-69001     Itanium Dual Core Montvale 9120N        
+CPU Module 1,6GHz/18MB          AD391-69001     Itanium Dual Core Montvale 9140M
+
+8-DIMM Memory Carrier           AD124-69001
+24-DIMM Memory Carrier          AD125-69001
+
+512MB DIMM DDR2                 AB563-69001
+1GB DIMM DDR2                   AB564-69001    old part#; use till gone; see Note below
+1GB DIMM DDR2                   AB564-69002    new part#; min SFW required 3.01; see Note below
+2GB DIMM DDR2                   AB565-69001    old part#; use till gone; see Note below
+2GB DIMM DDR2                   AB565-69002    new part#; min SFW required 3.01; see Note below
+4GB DIMM DDR2                   AB566-69001    old part#; use till gone; see Note below
+4GB DIMM DDR2                   AB566-69002    new part#; min SFW required 3.01; see Note below
+Note: Old and new 1, 2 & 4GB DIMMs can be mixed, but SFW 3.01 is needed for new DIMM parts.
+See also ENGINEERING NOTICE c01290203 "rx2660, rx3600, rx6600, BL860c - 1GB, 2GB, 4GB DIMM Transition"
+http://saw.cce.hp.com/km/saw/view.do?docId=emr_na-c01290203
+
+----------------------------------------------------------------------------
+Dual Port 1GB LAN               AB352-67003     default in Slot 2
+UCIO / MP (Core IO) with VGA    AB463-67103     also replacement part for UCIO w/o VGA
+Core IO Battery   		234556-001	MP Battery on the Core IO
+SAS LSI Raid Ctrl.              435709-001      default in Slot 1
+SAS RAID Controller P600        370855-001      default in Slot 1
+256MB Mem. for P600             309522-001
+Battery for P600                307132-001
+
+SAS Raid PCIe Ctrl P800         398647-001      PCI-Express backplane needed
+DIMM,DDR2,MOD,512 MB for P800   398645-001 
+DIMM,DDR2,MOD,256MB for P800    398644-001 
+DIMM,DDR2,MOD,1 GB for P800     398646-001 
+BATTERY CHARGER,MOD for P800    398648-001 
+
+
+SAS disk backplane board        AB463-67006
+
+SCSI Devices
+
+36GB SAS Disk 10k               376596-001  
+36GB SAS Disk 15k               432322-001 	Single Port SAS Disk
+36GB SAS Disk 15k		418397-001	Dual Port SAS Disk
+72GB SAS Disk 10k               376597-001
+72GB SAS Disk 15k               432321-001
+146GB SAS Disk 10k              432320-001	Single Port SAS disk
+146GB SAS Disk 10k              418399-001	Dual Port SAS-disk
+300GB SAS Disk 10k		493083-001
+
+DVD Drive 8x (Slimline)         397928-001
+DVD+RW Drive 8x (Slimline)      AD143-2100A    
+
+------------------------------------------------------------------------------
+CABLES
+
+Display board USB signal cable  AB463-2003B     (connects to UCIO board)
+Power cable: memory fan         AB463-2005B
+Power cable: CPU fan            AB463-2006B
+Doorbell board cable            AB463-2011C
+CPU power POD cable             AB463-2012C
+SAS data cable                  AB463-2017A     two installed
+FAN assy power cable            AB463-2006D     FAN 2 + 3 / CPU
+FAN assy power cable            AB463-2005C     FAN 1 / MEM
+Serial console cable            5184-1894
+
+-----------------------------------------------------------------------------
+POWER
+
+AC Power Supply                 AD052-69003     (alternate: AD052-69002)
+VRM for IO Backplane            0950-4677     
+
+System Battery                  234556-001
+
+Fan Module                      AB463-2158A    (for ALL fans the same part)
+----------------------------------------------------------------------------
+MISC
+
+Front Bezel w Name Plate        AB463-2145A
+Memory Carrier Plastic Cover    AB463-3402F
+Trusted Platform Module (TPM)   406059-001
+HDD filler panel                376383-002
+Tool CPU Replacement 2.5mm Hex  8710-2446
+MRL Field Replacement Kit       AB463-67114     for CIO slot failures
+                                                includes 8x latches 1x door bell assy
+(Installation instructions: http://herkules.deu.hp.com/documents/systems/rx3600/mrl_kit.pdf)
+
+============================================================================
+ 
+                 Page Owner:  Joerg-Udo Werner
+                 Last update: 16-Mar-2010 by Holger Goetker

@@ -1,0 +1,102 @@
+============================================================================
+Mittelhorn PA / rp7440 / AD026A  
+============================================================================
+
+---------------------------- System Backplane -------------------------
+PCA, System Backplane		AB312-69301
+Kit, Clock Oscillator		AB297-63002
+
+
+---------------------------- Cell -------------------------------------
+#All cellboards come with 2 CPU modules mounted on the board.
+#Not needed CPUs should be removed from new cell and returned in the 
+#provided anti-static bags and compartments.
+#Take over the ZIF Dust Covers from the old cell for any empty CPU slots.
+#CPUs are FRUs. No need to exchange the complete cellboard if CPU fails. 
+
+CELL + 2x 1.068GHZ PA8900 CPU   AB313-69012   Cell with 2 PA8900 CPUs installed 
+	
+CPU Module PA8900 1.068GHZ      AD110-69001   Dual Core PA8900 
+
+CPU Turbo Cooler Fan		AB388-00005   for CPUs only - not for the CC chip
+CC Turbo Cooler Fan             A6093-00276   for Cell Controller (CC) only, not for CPU;
+
+PCIX Card Cage Assy             AB297-69001   *** PCI Backplane
+PCI OLR Assy with 16 Paddles    A6093-67214   old part#: A6093-67014; includes also PCI OLR Switch cable
+
+1GB DDR2 DIMM (single)          A9843-69001   
+2GB DDR2 DIMM (single)          A9846-69001
+4GB DDR2 DIMM (single)          A9849-69001
+
+
+---------------------------- I/O --------------------------------------
+LAN/SCSI (Castor)		AB290-60001
+MP/SCSI (Core IO)		AB315-60301
+
+SCSI Devices
+
+36GB 15K RPM U320 SCSI Disk	AB420-69001  
+73GB 15K RPM U320 SCSI Disk	AB421-69001
+146GB 10K RPM U320 SCSI Disk	AB422-69001
+146GB 15K RPM U320 SCSI Disk	AD206-69001
+300GB 10K RPM U320 SCSI Disk	AB423-69001
+300GB 15K RPM U320 SCSI Disk	AD261-69001
+
+DVD Slimline Carrier		AD013-2101A    includes 2 Adapter cards
+DVD+RW Slimline Drive		AD143-2100A
+DVD+RW Drive                    AB351-67002    
+DDS4				393484-001
+
+
+---------------------------- Cables -----------------------------------
+System Fan Internal Cable       A6752-63021
+System Fan External Cable       A6752-63025
+Cable, SCSI Bundle		AB312-2003C
+Main Power Harness		A6752-63024    Special Tool necessary
+XCELITE "99" SCREW DRIVER       NHPXSCEWDRIVER Tool for Main Power Harness 
+Int. Cable Smart Array Contr.	A7027-63003
+Mass Storage Power Cable	AB312-2002A
+DVD Power Cable			AB312-2010A
+Intrusion Switch Cable          A6093-63044
+
+
+---------------------------- Power ------------------------------------
+AC Power Supply			A6752-69213 (noncomp) A6752-69044(compliant)
+PCI Power Module N+		0950-4637
+VRM for PCI-X 2.0 Backplane     0950-4741     VRM# 1-4; old part#: 0950-4622
+VRM for cell, low-voltage       0950-4741     VRM# 1-12 & 14-15; old part#: 0950-4622
+VRM for cell, high-voltage      0950-4628     VRM# 0 & 13
+VRM for Systembackplane 3.3V    0950-4624     VRM# 2 & 3 order two and replace both
+
+
+---------------------------- Fans -------------------------------------
+Smart Fan (Front/Rear)		A6752-67029
+Smart Fan PCI			A6752-04071
+CPU Turbo Cooler Fan		AB388-00005   for CPUs only - not for the CC chip
+CC Turbo Cooler Fan             A6093-00276   for Cell Controller (CC) only, not for CPU;
+
+
+---------------------------- Miscs ------------------------------------
+Mass Storage Backplane		AB312-60203
+Front Panel Display Board       AB312-60102   including cable 
+Front Panel Light Pipe Assy     AB312-2102A
+Intrusion Switch                5040-6317
+Assy PCI Seperator(w/Lightpipe) 5065-7443
+Cable Management Arm            5065-5951
+PCI Filler Plate                5001-6892
+Side/Top Covers KIT (Graphite)	AB312-67002
+Removeable Media Rail Kit	A6752-67011
+Box, DVD Filler (Carbon)	A6912-00014
+Cell Extractor Latch Kit        AB297-2113A   contains front (left; A6913-04027) and rear (right; A6913-04028) latch
+Core I/O Plastic Guide Rail 1   0403-1126     1 per chassis; 5” (12.7 cm) long; see Advisory c01295698
+Core I/O Plastic Guide Rail 2   0403-1119     3 per chassis; 6” (15.2 cm) long; see Advisory c01295698
+
+DIMM Installer Tool             A5201-68003
+DIMM Remover Tool, REV.C        A5201-68017   see Advisory c01081033: Make sure you have REV.C tool, as only this is compatible with DDR2 DIMMs.
+TOOL, STAT MAT 24X36 W/GRD STR  A5201-68004
+
+============================================================================
+
+                 Page Owner:  Joerg-Udo Werner
+                 Last update: 30-Mar-2010 by Holger Goetker
+

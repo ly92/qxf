@@ -1,0 +1,33 @@
+******************* Product / Case Handling *******************
+All parts and products mentioned on this page are non-RoHS compliant because they were obsolete before July 1st, 2006.
+***************************************************************
+
+==SKILL Product:VA7100    Group:DISK-ARRAYS          Sys_flag:== A6206A/A6207A ==
+========================================================================
+== F&W DISK ARRAY ======================================================
+
+A6183-67005	Midplane PCA FRU
+A6211-69002	Exchange PS / Fan Module
+A6188-69006	VA7100 Exchange Controller(includes Battery but no GBIC)
+A7293-69203	VA7110 Exchange Controller(includes Battery but no GBIC)
+A6185-67001	256MB Replacement DIMM Memory
+A6186-67001	512MB Replacement DIMM Memory
+A6200-69001 1024MB Memory (PC133 only)
+A6191-69001  18GB, 15K rpm Fibre Channel disk (ST318451FC, ST318452FC)
+A6192-69002  36GB, 10K rpm Fibre Channel disk (ST336704FC, ST336605FC, ST336607FC, BD03659532)
+A6193-69001  36GB, 15K rpm Fibre Channel disk (ST336752FC, ST336753FC, BF03658242)
+A6194-69002  73GB, 10K rpm Fibre Channel disk (ST373405FC, ST373307FC, HPQ BD0725822B)
+A7288-69001	73GB, 15K rpm Fibre Channel disk (ST373453FC, BF07258243)
+A7289-69002	146GB,10K rpm fibre Channel disk (ST3146807FC, BD1465822C)
+A6197-67001	Controller filler panel
+A6198-67001	Disk filler panel
+A6188-67004	Battery Kit
+A6183-67001	Enclosure Bezel
+A6203-67001	GBIC
+A6196-60001	Deskside Assy
+A5635-60001	Rittal Rack Rail Kit
+A3231-60030	RBI Rack Rail Kit
+A6209-60001	RBII Rack Rail Kit
+
+
+last change: 20.10.2004.Sascha Brzoska, Mass, CRC Ratingen 

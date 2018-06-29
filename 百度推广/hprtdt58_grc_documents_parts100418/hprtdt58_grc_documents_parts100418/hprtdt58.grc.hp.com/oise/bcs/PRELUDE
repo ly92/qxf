@@ -1,0 +1,171 @@
+******************* Product / Case Handling *******************
+This server is non-RoHS compliant because it was obsolete before July 1st, 2006.
+
+However, you may order a compliant part for a non-compliant server
+in case the non-compliant part is unavailable.
+The ROHS status of a part is UNKNOWN unless marked with "(compliant)" or "(noncomp)".
+***************************************************************
+
+== SKILL Product:9000 N-Class Group:N4000          Sys_flag:y
+== 9000/N xxx === N4000 ======================================
+
+++ PROCESSOR Module ++
+CPU, 360MHZ                  A4883-69101        N4000
+CPU, 440MHZ                  A5500-69101
+CPU, 440MHz                  A5500-69101        min. PDC 3941 
+
+CPU, 550MHz                  A5866-69001        Landshark PA-8600 A3639B and A3639C
+CPU, 650MHz                  A6687-69001        Pirahna PA-8700 A3639C
+CPU, 750MHz                  A6688-69001        Pirahna PA-8700 A3639C
+
+CPU Socket dust Cover        A3639-40024        to cover the slot on the backplane
+ 
+CLEANING KIT
+If just replacing a CPU  use   A3639-67035  contains: 4 individually wrapped alcohol wipes.
+For system board replacement or moving a CPU use the Cleaning Kit.     
+CLEANING KIT                   A3639-70101   contains: 4 CPU Sockets, 4 thermstrate pads, 4 EMI O-rings, 1 IPA wipe & cleaning manual
+CPU PCX-W SOCKET               1253-0703     just one single CPU-socket
+
+++ To replace a CPU, order: ++
+CPU
+Cleaning Kit                         
+Vacuum-cleaner               1150-5071
+Cable for vacuum-cleaner     5184-0874
+
+
+++ Parts for AMC-chip replacement ++
+AMC Replacement Kit          A3639-70002  #not orderable anymore
+Cleaning Kit                 A3639-70101        
+Torque Driver                A3726-30001
+Vacuum-cleaner               1150-5071
+Cable for vacuum-cleaner     5184-0874
+
+
+++ SYSTEM BOARDS +++++++++++
+!!! Attention !!! Order the correct systemboard for the correct product No. !!!
+
+SYSTEM CARD (rev. A)         A3639-69806        A3639A N4000 360/440 MHz      (Cuda)
+SYSTEM CARD (rev. B)         A3639-69520        A3639B N4000 360/440/550 MHz  (Landshark)
+SYSTEM CARD (rev. C)         A3639-69125        A3639C N4000 550/650/750 MHz  (Piranha) 
+Cleaning Kit                 A3639-70101        contains 4 interposer
+                                                Order 2 Kits, if # of CPU > 4
+Vacuum-cleaner               1150-5071
+Cable for vacuum-cleaner     5184-0874
+**
+
+Trim Card                    A3639-60026      see Service Note A3639B-18A only required if
+needs to be installed                         the Rev.B System card ( pn ends with 20) 
+into the scan slot                            and 8 CPUS are installed
+++
+9000 CORE I/O Assembly       A3639-69201        Tosca GSP
+WEB ACCESS CORE I/O          A3639-69019        Maestro GSP
+Battery for GSP              234556-001          Panasonic CR2032
+
+
+++ MEMORY SYSTEM +++++++++++
+256 MB MEMORY SIMM           A3763-69101  old was #A3763-69001
+512 MB MEMORY SIMM           A4923-69101 
+  1 GB MEMORY SIMM           A5864-69001  EDC <  A-4052 (obsolete); see Notes below
+  1 GB MEMORY SIMM           A5864-69002  EDC >= A-4052; see Notes below
+
+# Note 1: The two types of 1GB DIMMs cannot be mixed in the same pair.
+# Check the FRU information of the 1GB DIMM which has to be replaced
+# with either the BCH FRU command (in BCH Information Menu) or at HP-UX
+# with STM information on system.
+# Only if no FRU information can be gathered, order both DIMM types and
+# return the unused one marked as "good and unused".
+# If an old DIMM type has to be replaced but is not on stock anymore, 
+# replace the pair with two new DIMMs.
+# See also Service Note A5191A-23
+# http://sawpro.atlanta.hp.com/km/saw/view.do?docId=emr_na-c00991982
+
+# Note 2: Systems with more than 16GB need PHKL_21165 !     
+                                             
+MEMORY CARRIER Card          A3639-69102      for all N-Class Systems
+
+
+++ POWER SYSTEM ++++++++++++
+POWER SUPPLY                 A3639-69217  see Service Note A3639B-03
+DC TO DC POWER POD ASSEMBLY  A3639-69012  360, 440, 550MHz (2.0V)
+DC TO DC POWER POD ASSEMBLY  A3639-69033  650, 750MHz (1.6V)
+
+POWER MONITOR Board          A3639-69208  (old part A3639-69108)
+
+
+++ Internal Disks +++++++++++
+ 9 GB LVD Disk Mech          A5505-69003   Ultra2  ST39102LC, ST39103LC, ST39204LC
+18 GB LVD Disk Mech          A5531-69003   Ultra2  ST318203LC, ST318404LC
+18 GB     DISK Mech          A6739-69002   Ultra160  (A6739A)
+36 GB LVD Disk Mech          A6089-69001   Ultra2  ST336704LC
+36 GB LVD Disk Mech 10K      A6740-69002   U160 MAN3367MC, Ultra3 ST336706LC (Repl. for A6089-69001)
+36 GB LVD Disk Mech 15K      A6948-69002   ST336753LC
+73 GB LVD Disk Mech 10K      A6727-69002   U160 ST373405LC 
+73 GB     Disk Mech 15k      A8706-69001(noncomp) AB425-69001(compliant)   U320 ST373453LC, MAS3735NC (A9762A/A9762AR)
+146GB LVD Disk Mech 10k      A7075-69002(noncomp) AB426-69001(compliant)   U320 ST3146807LC, MAT3147NC
+
+Disk Hot Plug PCA            A3639-69116
+Disk Backplane               A3639-69113
+
+
+++I/O +++++++++++++++++++++++
+                                      
+Right PCI I/O Backplane      A3639-69315  # seen from the back !
+Left PCI I/O Backplane       A3639-69314
+
+
+++ Fans +++++++++++++++++++++
+
+Cooling Fan (without housing)                           3160-0919
+Cooling Fan Assembly, Front (with fan and housing)      A3639-04018  (fan# 0, 1)
+Cooling Fan Assembly, Rear (with fan and housing)       A3639-04017  (fan# 6, 7)
+Cooling Fan Assembly, Side (with fan and housing)       A3639-04016  (fan# 2, 3, 4, 5)
+Front Fan Harness                                       A3639-63007
+Rear Fan Harness                                        A3639-63008
+Center Fan Harness                                      A3639-63009
+FUSE SMT 3A 125V                                        1400-1776         located on the system board
+
+
+++ MISC  ++++++++++++++++++++++++++++++++++
+** For CD-ROM,DDS Drive look under SMART Product **
+external Smart DDS3 tape module (rack ready)            C6365-69002       (C1537A)
+external Smart DVD ROM module   (rack ready)            C4315-63002 
+
+Modem 56,6k     MT5634ZBA                               0960-1074         replaced 5184-0852
+Kabel Modem - TAE                                       NHP+TAE6N6P6C6    local part
+Front Panel (PCA, with LEDs and Switch)                 A3639-60018
+Front Panel Wiring Harness                              A3639-63006
+Front Bezel Assembly                                    A3639-04023
+Chassis Assembly (sheetmetal)                           A3639-04010
+Outer Rail Assembly                                     A3639-04028
+Top Cover Front                                         A3639-00141
+Top Cover Rear                                          A3639-00142
+Front Air Baffle                                        A3639-00101
+Rear Air Baffle                                         A3639-00102
+Support Brace                                           A3639-00103
+PCX-W Socket Dust Cover                                 A3639-40024
+PCI I/O (left or right) Cover Assembly                  A3639-04013
+PCI I/O Slot Covers                                     5001-7430
+PCI Light Pipe (left or right)                          A3639-40007
+PCI Card Separator/Extractor                            A3639-04024
+PCI Card Guide (for rear bulkhead)                      A3639-40006
+PCI Card Guide (plastic snap in for forward bulkhead)   A3639-40008
+Memory Carrier Card Guide                               A3639-00149
+AC Line Filter                                          0950-3315
+Internal AC Filter Harness Kit                          A3639-67021
+Internal Disk Carrier                                   A3639-00104
+External Cable Guide                                    A3639-00194
+Disk Hot plug Tray (sheet metal)                        A3639-00213
+Front EMI Shield                                        A3639-04014
+Disk Drive Cover                                        A3639-00130
+Power Supply Filler Panel                               A3639-00214
+Card Guides (Power Monitor/Scan)                        A3639-00162
+Cable Deflector (rack)                                  A3639-00229
+Power Cord                                              8120-3996
+220V, PDU                                               E7674A
+Front bezel bracket, RH                                 A3639-04030
+Front bezel bracket, LH                                 A3639-04031
+N-Class-Lift                                            NHP%35910-1000    local part
+
+-----------------------------------------------------------------------
+
+Last update: 18-March-2010 by Holger Goetker

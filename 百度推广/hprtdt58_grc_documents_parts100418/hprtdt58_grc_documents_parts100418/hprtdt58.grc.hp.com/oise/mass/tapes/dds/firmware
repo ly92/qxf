@@ -1,0 +1,35 @@
+==SKILL Product:INFO     Group:EXAMPLE              Sys_flag:n
+== FIRMWARE === FUER SCSI DDS LAUFWERKE ======!===============================
+
+++ FIRMWARE TAPES ++++++++++
+C1503A (REVISION 7.11)      C1503-89205       ! Fuer PC Backup.
+C1503B (REVISION 10.7)      C1503-89211       ! Fuer 8x7 Multiuser.
+C1503B (REVISION 10.7)      C1503-89211       ! Fuer 9x7 Multiuser.
+C1503C (REVISION 10.7)      C1503-89211       ! Fuer 7xx Workstation.
+C1503C (REVISION 10.7)      C1503-89211       ! Fuer 3xx/4xx Workstation.
+
+C1504A (REVISION 7.11)      C1504-89204       ! Fuer PC Backup.
+C1504C (REVISION 10.7)      C1504-89215       ! Fuer 87x Multiuser.
+C1504C (REVISION 10.7)      C1504-89215       ! Fuer 8x7 Multiuser.
+C1504C (REVISION 10.7)      C1504-89215       ! Fuer 9x7 Multiuser.
+C1504C (REVISION 10.7)      C1504-89215       ! Fuer 7xx Workstation.
+
+C1520A (REVISION 9.49)      C1503-89208       ! Fuer PC Backup.
+C1520B (REVISION 10.7)      C1503-89211       ! Fuer 87x Multiuser.
+C1520B (REVISION 10.7)      C1503-89211       ! Fuer 8x7 Multiuser.
+C1520B (REVISION 10.7)      C1503-89211       ! Fuer 9x7 Multiuser.
+C1520B (REVISION 10.7)      C1503-89211       ! Fuer 7xx Workstation.
+C1520B (REVISION 10.7)      C1503-89211       ! Fuer 3xx/4xx Workstation.
+C1520B (REVISION 10.7)      C1503-89211       ! Fuer HP1000.
+
+C1521A (REVISION 9.49)      C1504-89207       ! Fuer PC Backup.
+C1521B (REVISION 10.7)      C1504-89215       ! Fuer 8xx Multiuser.
+C1521B (REVISION 10.7)      C1504-89215       ! Fuer 9x7 Multiuser.
+C1521B (REVISION 10.7)      C1504-89215       ! Fuer 7xx Workstation.
+C1521B (REVISION 10.7)      C1504-89215       ! Fuer 3xx/4xx Workstation.
+
+C1522A (REVISION 9.47)      C1503-89208       ! Fuer Apple Macintosh 2000M.
+
+C1523A (REVISION 9.47)      C1503-89208       ! Fuer High End PC's incl. SW.
+
+C1524A (REVISION 9.49)      C1504-89207       ! Fuer High End PC's incl. SW.

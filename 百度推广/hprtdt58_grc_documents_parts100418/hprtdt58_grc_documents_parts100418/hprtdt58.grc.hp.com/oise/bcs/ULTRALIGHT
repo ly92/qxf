@@ -1,0 +1,119 @@
+******************* Product / Case Handling *******************
+This server is non-RoHS compliant because it was obsolete before July 1st, 2006.
+
+However, you may order a compliant part for a non-compliant server
+in case the non-compliant part is unavailable.
+The ROHS status of a part is UNKNOWN unless marked with "(compliant)" or "(noncomp)".
+***************************************************************
+
+== 9000/D xxx === ULTRALIGHT =================|===============================
+
+++ D2xx Systems ++++++++++++
+PCX-L       75 MHz PCA      A3262-69107        D200     PA7100LC
+PCX-L      100 MHz PCA      A3262-69106        D210     PA7100LC
+PCX-L2     132 MHz PCA      A3262-69048        D220     PA7300
+PCX-L2     160 MHz PCA      A3262-69250        D230     PA7300
+PCX-T 1WAY 100 MHz PCA      A3262-69105        D250/1   PA7200
+PCX-T 2WAY 100 MHz PCA      A3262-69104        D250/2   PA7200
+PCX-T 2WAY 120 MHz PCA      A3262-69140	       D260/2   ONLY !
+PCX-U 1WAY 160 MHZ PCA      A3262-69347        D270/1   PA8000
+PCX-U 2WAY 160 MHZ PCA      A3262-69349        D270/2   PA8000
+PCX-U 1WAY 180 MHZ PCA      A3262-69157        Dx80/1   PA8000
+PCX-U 2WAY 180 MHZ PCA      A3262-69158        Dx80/2   PA8000
+D2xx SYSTEM PCA             A3262-69102     
+*
+D2xx HOT SWAP ASSEMBLY      A3262-81003
+
+++ D3xx Systems ++++++++++++
+PCX-L      100 MHz PCA      A3262-69106        D310
+PCX-L2     132 MHz PCA      A3262-69048        D320     PA7300LC
+PCX-L2     160 MHz PCA      A3262-69250        D330     PA7300LC
+PCX-T 1WAY 100 MHz PCA      A3262-69105        D350/1   PA7200
+PCX-T 2WAY 100 MHz PCA      A3262-69104        D350/2   PA7200
+PCX-T 2WAY 120 MHz PCA      A3262-69140	       D360/2   ONLY !
+PCS-U 1WAY 160 MHZ PCA      A3262-69347        D370/1   PA8000
+PCX-U 2WAY 160 MHZ PCA      A3262-69349        D370/2   PA8000
+PCX-U 1WAY 180 MHZ PCA      A3262-69157        Dx80/1   PA8000
+PCX-U 2WAY 180 MHZ PCA      A3262-69158        Dx80/2   PA8000
+PCX-U 1WAY 240 MHZ PCA      A4887-69001        D390/1
+PCX-U 2WAY 240 MHZ PCA      A4888-69101        D390/2
+D3xx SYSTEM PCA             A3262-69103     
+**
+D3xx HOT SWAP ASSEMBLY      A3268-81003
+
+350W POWER SUPPLY           0950-2726          D200/210/250/260
+450W POWER SUPPLY PCX-L2    0950-3245          Dx20/x30/310/350/360
+650W POWER SUPPLY PCX-U     0950-3123          Dx70/Dx80 Autoranging
+
+++ UltaLite-t ++++++++ Telecommunication Platform 
+-48/60 VDC power supply     Z7634-67001        D220/1
+DC Power / alarm Cable      Z7634-67002        D220/1
+
+++ Memory Modules ++++++++++ 
+16  MB  MEMORY SIMM           A2579-69001
+32  MB  MEMORY SIMM           A1236-69001
+64  MB  MEMORY SIMM           A2580-69001
+128 MB  MEMORY SIMM           A3262-69014      see Service Note: A3473A-06
+256 MB  MEMORY SIMM           A4984-69001      see Service Note: A3562A-04
+
+
+****************************************************************************
+* Due to Part-# change for 256MB Memory SIMMs in the past,                 *
+* 2 SIMMs should be ordered, even if only one SIMM needs to be replaced !  *
+* Otherwise Memory is not recognized properly.                             *
+*                                                                          *
+*                                           Joerg Brand, 17.8.2006         *
+****************************************************************************
+
+
+512 KB 2nd LEVEL CACHE        A4200-69045      Dx20 (opt.), Dx30 (std.) ONLY!, 2 per Server!
+
+
+
+++ Disk Modules ++++++++++++
+1 GB S/E SCSI DISK DRIVE    A3349-69001        D2xx only
+2 GB S/E SCSI DISK DRIVE    A3304-69001        D2xx only
+4 GB S/E SCSI DISK DRIVE    A3352-69003        ST34371N, ST34372N
+9 GB S/E SCSI DISK DRIVE    A4912-69001        ST39173N
+9 GB S/E SCSI DISK DRIVE    A5544-69002        ST39216N, ST39175LW (remove 50/68pin Adapter)
+18GB S/E SCSI DISK DRIVE    A5545-69001
+36GB S/E SCSI DISK DRIVE    A5546-69001
+**
+1 GB F/W SCSI HOT-SWAP DISK A3315-69001        D2xx/D3xx
+2 GB F/W SCSI HOT-SWAP DISK A3318-69004        D2xx/D3xx
+4 GB F/W SCSI HOT-SWAP DISK A3647-69003        D2xx/D3xx ST34371W  ST34572WC  ST34573WC (see Jamaica/HASS)
+9 GB F/W SCSI HOT-SWAP DISK A3649-69001        D2xx/D3xx ST19171W
+9 GB F/W SCSI HOT-SWAP DISK A4910-69001        D2xx/D3xx ST39173W DGHS09Y ST39175LC ST39236LC
+18GB F/D SCSI HOT-SWAP DISK A5528-69001        D2xx/D3xx A5528A / ST318275LC ST318436LC
+
+++ CD Rom / Tape Drives ++++
+4-8 GB DDS DRIVE            C1504-69201        C2478SZ
+DDS-2 DRIVE                 C1539-67203        A3183A/C1533A (LWklappe offen)   * Kit: See Notes on GSL part page!
+DDS-2 DRIVE                 C1539-69202        A3183A/C1539A (LWklappe halb geschl)
+DDS-3 DRIVE                 C1537-69202        A3542A
+Frontblende for C1539	    C1534-60225        5 1/4" flint grey
+Frontblende for C1533	    C1530-40003        Panel for 1530 fits for C1533
+QIC TAPE DRIVE              A2944-69001
+DVD-ROM                     A5220-67003        replaces old CD-ROMS        
+FLOPPY DISK DRIVE           A1658-60014     
+
+++ Misc Parts +++++++++++++ 
+HP REMOTE MANAGER CARD      A3262-69311        Access Port (on D2xx opt.)
+int. Modem (FW 1.07, new)   A2991-60022	       7.1.HS
+F/W SCSI to HSC ADAPTER     A2874-69006     
+S/E SCSI internal cable     A3262-63007        with terminator on the cable
+F/W SCSI internal cable     A3262-63006        From Bluefish-card to hot swap bay
+FRONT BEZEL (RACKMOUNTED)   A3262-60036
+FAN ASSEMBLY                A3262-63009        One assy is located on Rear Panel,
+					       another one mounts on the Front     
+Hot Swap Blower Assy        A3262-60033
+CONSOLE CABLE               24540-80011(noncomp) A6144-63008(compliant)        24542G RS-232C, 3m, 9F to 25M
+Power Switch                A3262-63001
+Battery (Systemboard)       1420-0314          Panasonic BR2325
+
+Deskside  Front Bezel       A3262-60021        D-Class Parchment White (old) 
+Rackmount Front Bezel       A3262-60036        D-Class Parchment White (old) 
+Rackmount Front Bezel       A3262-60072        D-Class Quartz Gray (new) 
+Front Bezel (only one)      A5176-40001        R-Class Quartz Gray (new)
+
+

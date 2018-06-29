@@ -1,0 +1,60 @@
+******************* Product / Case Handling *******************
+All parts and products mentioned on this page are non-RoHS 
+compliant because they were obsolete before July 1st, 2006.
+***************************************************************
+
+==SKILL Product:INFO     Group:INFO                 Sys_flag:y
+== NIO INTERFACES FOR S800 ===================!===============================
+
+++ ATM Interface +++++++++++++++
+ATM/155 Network Card (MMF)      J2803-65013    HSC Bus card for K-Serie
+ATM/155 Network Card (UTP)      J2803-65014    HSC Bus card for K-Serie
+ATM/155 Network Card (MMF)      J2803-65015    HSC Bus card for T 600
+ATM/155 Network Card (MMF)      J2498-65001    GSC card f. Dxx0 (Optical)
+ATM/155 Network Card (UTP)      J2498-65002    GSC card fuer Dxx0 (RJ45)
+
+++ CABLES FOR ATM (AMP Parts)+++
+SC-to-SC duplex cable           503140-x
+SC-to-ST duplex cable           503137-x
+Loopback connector              503141-1       for duplex SC interface   
+
+++ HSC SCSI Interface ++++++++++
+F/W SCSI Adapter Card, A2969A   A2969-69001    HSC Bus card for K-Class
+FUSE for A2969A Card		2110-0517      Fuse for SCSI-Card
+
+F/W SCSI Adapter Card, A3644A   A3329-69109    HSC Bus card for T600
+
+F/W SCSI Adapter Card, A4107A   A2874-69006    GSC Bus card for D-Class
+Resistor, Network               1810-1418      Terminator Chips (3 on one card)
+
+++ HSC FCMS Cards ++++++++++++++
+HSC Fibre Channel Card, A3636A  A3329-69120    (for T-Class, Non-OFC 1063 SW)
+HSC Fibre Channel Card, A3404A  J2389-69008    (for K-Class, FC-AL)
+HSC Fibre Channel Card, A6685A  A6685-69001    (for K-Class, Fabric !!!!)
+HSC Fibre Channel Card, A3591A  A3395-69102    (for D-Class, FC-AL)
+HSC Fibre Channel Card, A6684A  A6684-69001    (for D-Class, Fabric !!!!)
+
+GLM upgrade Kit                 J2389-69102    (upgrade Kit for all FC-Devices)
+Loopback Connector              1005-0359
+** see also |9000|S800|FIBRECHANNEL| **
+
+++ GRAPHICS Cards ++++++++++++++
+Artist graphics card A4077A     A4081-69009    (D200,Dx10,Dx50,Dx60) 
+Artist graphics card A4450A     A4450-66501    (Dx20,Dx30,Dx70)
+HP Visualize EG			  A3519-69001    (for Kx50/Kx60)
+
+++ 100BaseT Interface +++++++++++++++
+2 port 100BaseT                 J3514-69201    HSC Karte f. K-Serie (J3514A)
+2 port 100BaseT                 J3514-69201    HSC Karte f. T600 (J3514A)
+1 port 100BaseT with 10MB/s AUI J3515-69034    HSC Karte f. Dxx0 (J3515A)
+2 port 100BaseT                 J3516-69004    HSC Karte f. Dxx0 (J3516A)
+
+++ 1000Base-SX Interface ++++++++++++
+1000Base-SX Card                A4924-69001    HSC Karte f. K-Serie (A4924A)
+1000Base-SX Card                A4925-69001    HSC Karte F. D-Class (A4925A)
+
+++ HSC FDDI LAN ADPTR K CLASS +++++++
+HSC FDDI LAN ADAPTER K CLASS    A3722-69201    see Service Note A3722A-01A 
+HSC FDDI LAN ADAPTER D CLASS    A3723-69201    see Service Note A3723A-01A
+
+

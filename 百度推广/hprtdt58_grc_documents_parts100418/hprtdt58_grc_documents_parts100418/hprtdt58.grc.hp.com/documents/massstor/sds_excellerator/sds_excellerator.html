@@ -1,0 +1,193 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <title>Solid Data Disk Excellerator</title>
+</head>
+<body>
+
+
+<!-- Copyright © 2005. Spidersoft Ltd -->
+<style>
+A.applink:hover {border: 2px dotted #DCE6F4;padding:2px;background-color:#ffff00;color:green;text-decoration:none}
+A.applink       {border: 2px dotted #DCE6F4;padding:2px;color:#2F5BFF;background:transparent;text-decoration:none}
+A.info          {color:#2F5BFF;background:transparent;text-decoration:none}
+A.info:hover    {color:green;background:transparent;text-decoration:underline}
+</style>
+<div style='BORDER: 1px solid #DCE6F4; MARGIN-TOP: 20px; MARGIN-BOTTOM: 20px; MARGIN-LEFT: 5px; MARGIN-RIGHT: 5px; PADDING: 5px; BACKGROUND-COLOR: #eef8ff;line-height:180%; COLOR: #000000; font-family: Arial; font-size: 8pt; width=100%; FILTER: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr="#FFFFFFFF", EndColorStr="#F2F5FAFF");'>
+This page was saved using <a class="applink" href="http://www.spidersoft.com"><b>WebZIP 7.0.2.1028</b></a>  on  04/18/10 17:03:47.<br>
+<b>Address:</b> <a class="info" href="http://hprtdt58.grc.hp.com/documents/massstor/sds_excellerator/">http://hprtdt58.grc.hp.com/documents/massstor/sds_excellerator/</a><br>
+<b>Title:</b> Solid Data Disk Excellerator &nbsp;&bull;&nbsp; <b>Size:</b> 6111 &nbsp;&bull;&nbsp; <b>Last Modified:</b> Fri, 10 Jun 2005 14:06:01 GMT<br></div>
+<!-- /Copyright © 2005. Spidersoft Ltd -->
+
+
+<h1>
+Solid Data Disk Excellerator</h1>
+<h2>
+<img src="SDSFrontpanel.jpg">
+<hr width="100%"></h2>
+<table>
+  <tbody>
+    <tr>
+      <th>Overview</th>
+      <th> Features </th>
+    </tr>
+    <tr>
+      <td width="50%">Excellerators are a family of self-contained
+solid state storage
+systems that use non-volatile SDRAM technology. The Excellerator Ultra
+family is designed for applications with a high rate of usage such as
+digital media, internet services, relational databases, and on-line
+transaction processing (OLTP). All four models have an
+industry-standard SCSI interface and support all major Unix and
+Microsoft NT platforms. <br>
+An internal backup disk ("HD Cannister") is used to store the data in
+case of power failure or shutdown.<br>
+      </td>
+      <td>
+      <ul>
+        <li>Provides high speed access to I/O intense Unix and NT data
+files </li>
+        <li>Enhances the performance of existing RAID and JBOD storage
+systems </li>
+        <li>Scales from 536MB up to 34Gb, depending on the model </li>
+        <li>System self-configures to number of array boards installed </li>
+        <li>Up to 15 systems can be configured on a single SCSI Wide
+bus </li>
+        <li>Incorporates a non-volatile system architecture </li>
+        <li>Redundant power supplies (800 and 1000 Ultra only) and a
+hot-swappable backup disk drive </li>
+        <li>Backup and restore data rate of 536MB/min </li>
+      </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<h4> Typical ioscan and diskinfo output:</h4>
+<pre>ext_bus 1 1/0/0     c720  CLAIMED INTERFACE Ultra SCSI<br>target  2 1/0/0.1   tgt   CLAIMED DEVICE<br>disk    1 1/0/0.1.0 sdisk CLAIMED DEVICE DES 800<br><br>:/&gt;diskinfo /dev/rdsk/c22t0d0<br>SCSI describe of /dev/rdsk/c12t0d0<br>vendor: DES INC<br>product id: 800 ULTRA/WIDE<br>type: direct access<br>size: 523776 Kbytes<br>bytes per sector: 512<br></pre>
+<big><span style="color: rgb(204, 0, 0);"><span
+ style="font-weight: bold;"><blink><br>
+<br>
+!!! CAUTION !!!</blink>
+<br>
+</span></span></big><span style="font-weight: bold;">
+When replacing the Main Chassis, be sure to install the right memory
+configuration jumper block on the controller board</span>, otherwise
+datacorruption will occur.<br>
+see also: <a href="memory_config_block.pdf"> Installation Procedure
+for
+Controller Board Memory Configuration Block</a><br>
+<br>
+The parts are shipped with the Main Chassis. Choose the right config
+block for the corresponding memory board size:<br>
+<br>
+<table cellpadding="2" cellspacing="2" border="1"
+ style="text-align: center;">
+  <caption style="caption-side: bottom;">Table: Memory Config Blocks<br>
+  </caption><tbody>
+    <tr>
+      <td style="vertical-align: top;">Memory Board <br>
+      <div style="text-align: center;">Size<br>
+      </div>
+      </td>
+      <td style="vertical-align: top;">Memory Board<br>
+      <div style="text-align: center;">PN<br>
+      </div>
+      </td>
+      <td style="vertical-align: top;">Config Block<br>
+      <div style="text-align: center;">PN<br>
+      </div>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">4 GB<br>
+      </td>
+      <td style="vertical-align: top;">70125-04<br>
+      </td>
+      <td style="vertical-align: top;">70131<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">2 GB <br>
+      </td>
+      <td style="vertical-align: top;">70111<br>
+      </td>
+      <td style="vertical-align: top;">79093<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">1 GB<br>
+      </td>
+      <td style="vertical-align: top;">70107<br>
+      </td>
+      <td style="vertical-align: top;">79092<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">1 GB<br>
+      </td>
+      <td style="vertical-align: top;">70089<br>
+      </td>
+      <td style="vertical-align: top;">79062<br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<table width="100%">
+  <tbody>
+    <tr>
+      <th>Documentation</th>
+      <th> Parts </th>
+    </tr>
+    <tr>
+      <td>
+      <ul>
+        <li> <a
+ href="http://wwwpsp.atl.hp.com/lmx_mount/supplan/psp/9/psp9738.htm">PSP</a>&nbsp;<a
+ href="psp9738.htm">local copy of PSP</a></li>
+        <li><a
+ href="http://cp.germany.hp.com/cps/Solid State Disk.htm"> Customer
+viewable Documents</a></li>
+        <li> <a
+ href="http://wwwpsp.atl.hp.com/lmx_mount/supplan/psp/9/psp9738.htm#Documentation">Manuals</a></li>
+        <ul>
+          <li> <a href="e100.pdf">E100 Installation &amp; Support</a></li>
+          <li> <a href="support.pdf">E600/E800/E1000 Installation
+&amp;
+Support </a></li>
+          <li><a href="trouble.pdf">Troubleshooting &amp; Repair</a></li>
+          <li><a href="repair.pdf">Service/Repair</a></li>
+        </ul>
+	<li><a href="e3000/SSD_Op_Inst.pdf">
+	E3000 Fibrechannel attached SSD</a><img SRC="../../new_tiny.gif"></li>
+        <li><a href="http://www.soliddata.com/">SolidData Website</a><br>
+        </li>
+      </ul>
+      </td>
+      <td>Orderable Parts for all SDS Products are:
+      <ul>
+        <li>base assembly </li>
+        <li>backup disk (not E100) </li>
+        <li> memory array</li>
+      </ul>
+see <a
+ href="http://oise.grc.hp.com/PARTS/DISCS/Soliddisk/SOLIDSTATE.txt">
+Parts (Oise)</a> </td>
+    </tr>
+  </tbody>
+</table>
+<hr>
+Administrator: <a href="mailto:stefan.stechemesser@hp.com">Stefan
+Stechemesser&nbsp;</a>
+<script language="JavaScript">
+<!--
+    document.write('<small><b>')
+    document.write("Last Modified: ")
+    document.write(document.lastModified)
+    document.write('</small></b>')
+    //--> </script>
+<form><input type="button" value="Feedback"
+ onclick="parent.location='mailto:uwe.behle@hp.com; frauke_denker@hp.com; stefan_stechemesser@hp.com?subject=Feedback zur Seite SDS Excellerator (MUHW)'"></form>
+</body>
+</html>

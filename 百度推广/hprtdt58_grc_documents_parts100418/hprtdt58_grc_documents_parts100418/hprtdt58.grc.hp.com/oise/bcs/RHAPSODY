@@ -1,0 +1,171 @@
+******************* Product / Case Handling *******************
+This server is non-RoHS compliant because it was obsolete before July 1st, 2006.
+
+However, you may order a compliant part for a non-compliant server
+in case the non-compliant part is unavailable.
+The ROHS status of a part is UNKNOWN unless marked with "(compliant)" or "(noncomp)".
+***************************************************************
+
+Sys_flag:y== 9000/L xxx === LX000 ==================|===============================
+==SKILL Product:9K-RHAPSODY Group:L1000, L1500, L2000, L3000  => rp54x0
+
+++ PROCESSOR Module
+CPU, 360MHZ                   A5521-69001       L1000A/B & L2000A/B
+CPU, 440MHZ                   A5522-69001       L1000A/B & L2000A/B
+CPU, 540MHZ / 550MHz          A6146-69001	L1000B & L2000B (540MHz), L1500B & L3000A/B (550MHz)
+CPU, 650MHz (Piranha CPU)     A6798-69001       L1500B & L3000B
+CPU, 750MHz (Piranha CPU)     A6805-69001       L1500B & L3000B #if part not available, A6805-69002 maybe used (check min. PDC!)
+CPU, 750MHz (Payara CPU)      A6805-69002       L1500B & L3000B, PDC>=42.19 #if part not available, A6805-69001 maybe used
+CPU, 875MHz (Payara CPU)      A6152-69001       L1500B & L3000B, PDC>=42.19
+
+Processor Terminator          A5570-62014       see Service Note A5191A-14
+                                                (same Part as in A-Class systems)
+
+CPU Socket                    1253-0703         just the single CPU-sockets
+Cleaning Kit                  A3639-70101       contains: 4 CPU Chip Sockets, 4 thermstrate pads, 4 EMI O-rings, 1 IPA wipe & cleaning manual
+
+
+++ To replace a CPU, order: ++
+CPU
+Cleaning Kit		     A3639-70101
+Vacuum-cleaner               1150-5071
+Cable for vacuum-cleaner     5184-0874
+
+
+++ SYSTEM BOARDS +++++++++++                                                    CPUs supported
+L1000/2000 System Board Rev. B    A5191-69116                                   360 / 440 / 540 MHz CPUs
+L3000 System Board                A6144-69101                                   550MHz CPUs only
+L1500/3000 Sys Bd Rev. B          A6797-69101 (old:)   A6797-69001 rp5430/5470  550 / 650 / 750 / 875 MHz CPUs
+ 
+ 
+LAN/SCSI CARD                    A5191-69211    ex A5191-69111 (siehe S/N A5576A-14)
+GSP Card (Tosca, old)            A5191-69112
+GSP Card (Maestro)		 A6144-69112    old PN: A6144-69012 
+                                                        (use-till-gone)
+!!! if Tosca GSP is replaced by Maestro, order also:
+M-Cable                          A6144-63001(noncomp) A6144-63007(compliant)    (for Maestro GSP only)
+see: http://wtec.cup.hp.com/~cpuhw/hppa/GSP/gsp.htm
+
+
+
+++ MEMORY SYSTEM +++++++++++
+ 128 MB MEMORY DIMM           A5554-69002
+ 256 MB MEMORY DIMM           A5797-69101
+ 512 MB MEMORY DIMM           A5798-69001
+1024 MB MEMORY DIMM           A6115-69001 EDC <  A-4052 (obsolete); see Note below
+1024 MB MEMORY DIMM           A6115-69002 EDC >= A-4052; see Note below
+
+# Note: The two types of 1GB DIMMs cannot be mixed in the same pair.
+# Check the FRU information of the 1GB DIMM which has to be replaced
+# with either the BCH FRU command (in BCH Information Menu) or at HP-UX
+# with STM information on system.
+# Only if no FRU information can be gathered, order both DIMM types and
+# return the unused one marked as "good and unused".
+# If an old DIMM type has to be replaced but is not on stock anymore, 
+# replace the pair with two new DIMMs.
+# See also Service Note A5191A-23
+# http://sawpro.atlanta.hp.com/km/saw/view.do?docId=emr_na-c00991982
+
+Memory Extender               A6155-69001	L1500 & L3000 only !!!
+
+
+++ POWER SYSTEM ++++++++++++
+Processor Support Module     A3639-69012    360, 440, 550MHz (2.0V)
+Processor Support Module     A3639-69033    only for 650MHz and 750MHz (1.6V)
+POWER SUPPLY                 A5527-69001
+Power Converter              A5191-69105
+Platform Monitor             A5191-69210
+Power Harness Cable          A6144-63004
+Power-Cord EUR Black         8120-5336      2,5m C15/CEE-7 Schukostecker
+Power-Cord PDU/L-Class       8120-6358	    0,7m Jumpercable C14/C15 M/F
+Power-Cord PDU/L-Class       8120-8848	    2,5m Jumpercable C14/C15 M/F
+
+
+++ Internal Disks +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++
+++ Internals disk are the same as in SC10, but with other Product Numbers, order
+++ SC10 disks only if below disks are unavailable
+++ see disks=>enclosure=>A5272A
+++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+9GB HotPlug Disk             A5802-69003   ST39103LC ST39204LC A5802A
+9GB HotPlug Disk             A5276-69002   according to GSL this is an alt. part # to A5802-69003
+
+18GB HotPlug Disk            A5803-69003   ST318404LC, ST118202LC, ST318203LC, Fujitsu MAJ3182MC A5803A
+18GB HotPlug Ultra160 Disk   A6736-69001
+18GB Hot Plug  10k           A5282-69003   HP 18.2GMAP3367NC#HJ, HP 18.2GMAJ3182MC
+18GB Hot Plug Disk  10k      A6272-69003   HP 18.2GMAN3184MC, HP 18.2GMAP3367NC#HJ
+18 GB Host Plug Disk 15k     A6273-69002   HP 18.2GMAM3184MC, HP 18.2MAS3184NC             
+36GB HotPlug Disk            A6110-69003   ST336704LC, ST136403LC, Fujitsu MAJ3364MC A6119A
+36GB HotPlug Disk 10K        A6737-69002   Quantum U160 MAN3367MC
+36GB HotPlug U160 Disk 15k   A6846-69002   ST336753LC, MAM3367MC
+36GB Hot Plug 10k            A5595-69003   HP 36.4GMAJ3364MC
+36GB Hot Plug Disk 10k       A6274-69002   HP 36.4GMAP3367NC, HP 36.4GMAN3367MC
+36GB Hot Plug Disk 15k       A6275-69002   HP 36.4GMAM3367MC, HP 36.4GMAS3367NC
+
+73GB HotPlug      Disk 10K   A6091-69001   ST173404LC
+73GB HotPlug U160 Disk 10K   A6738-69002   ATLAS10K3_73_SCA, MAN3735MC U160
+73GB HotPlug Ultra320 15k    A9761-69001   ST373453LC
+73GB Hot Plug Disk 10k       A6276-69002   HP 73.2GMAN3373MC, HP 73.2GMAP3735NC
+
+146GB HotPlug Ultra320 10k   A7080-69002   ST3146807LC 
+
+**FUIJITSU drive model RPM key:
+  10k= MAJ / MAN / MAP
+  15k= MAM / MAS
+
+
+Embedded DVD                 A5220-67003
+Embedded 12GB DDS            C1537-69202
+
+
+++ I/O +++++++++++++++++++++++
+
+PCI I/O Backplane      		A5191-69102  L1000 L2000
+PCI I/O Backplane			A6144-69102  L1500 L3000
+
+
+++ Fans +++++++++++++++++++++
+
+HS Chassis Fan                A5191-04002  (fan# 0, 1)
+HS Card Cage Fan              A5191-04003  (fan# 2, 3, 4, 5)
+HS Pwr Conv Fan               A5191-67006  (fan# 6, 7)
+Fuse, SMT, 3A, 125V	           1400-1776     (fuse for Fan0 and Fan1 only on L1500 & L3000)
+
+
+++  MISC  +++++++++++++++++++++++++++++++++++++++++++++
+
+** For CD-ROM / DDS Drives in the SMART Rack look under SMART PRODUCTS **
+
+Console-UPS-Modem-Cable  (W-Cable, Tosca)   A5191-63001  (gray, for old GSP-boards)
+Console-UPS-Modem-Cable  (M-Cable, Maestro) A6144-63001(noncomp) A6144-63007(compliant)  (black, for new GSP-boards)
+Console cable               		    24542G
+Disk/Media Bkpln                            A5191-67104
+Display Board                               A5191-60013  (includes Power Switch)
+PCI Bkpln to Disk/Media ribbon cable        A5191-63004
+PCI Bkpln to Disk/Media power cable         A5191-63003
+DVD to Disk/Media PWR. - Cable              A5191-63002
+DVD to Disk/Media SCSI - Cable              A5191-63008
+DDS to Disk/Media PWR. - Cable              A5191-63013
+DDS to Disk/Media SCSI - Cable              A5191-63014
+LAN/SCSI to Disk/Media SCSI - Cable J5      A5191-63007  (rem. Media)
+LAN/SCSI to Disk/Media SCSI - Cable J6      A5191-63006  (SCSI bus B, 0/0/1/1)
+LAN/SCSI to Disk/Media SCSI - Cable J7      A5191-63005  (SCSI bus A, 0/0/2/0)
+Disk Filler Panel                           A5236-40024
+Rear Chassis fan cable                      A5191-63009
+Front Chassis fan cable                     A5191-63010
+
+Front Bezel Assembly  (center hinge)        A5191-04008
+One piece Front Bezel (new model numbers)   A5191-04013
+One piece Front Bezel hardware kit          A5191-70010
+
+
+for info on internal SCSI cabling, see:
+http://hprtdt58.grc.hp.com/documents/systems/lclass/nice_to_know/LAN_SCSI.html
+
+*******************************************************************
+**********   see psp A5191A or A5576A for more details ************
+*******************************************************************
+
+
+Last update: 18-March-2010 by Holger Goetker

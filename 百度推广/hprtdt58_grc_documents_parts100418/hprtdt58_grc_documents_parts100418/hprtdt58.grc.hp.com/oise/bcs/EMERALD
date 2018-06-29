@@ -1,0 +1,105 @@
+******************* Product / Case Handling *******************
+This server is non-RoHS compliant because it was obsolete before July 1st, 2006.
+
+However, you may order a compliant part for a non-compliant server
+in case the non-compliant part is unavailable.
+The ROHS status of a part is UNKNOWN unless marked with "(compliant)" or "(noncomp)".
+***************************************************************
+
+==SKILL Product:9K890    Group:EMERALD              Sys_flag:y
+== A1826A === Emerald/UX =====================|===============================
+
+++ MAIN PCA's ++++++++++++++
+Processor Board, 890        A1809-69128     Z  PCX    60MHz  ** Chimera **
+**
+Processor Module Board, 891 A1820-69103        PCX-T  90MHz
+Processor Mother Board, 891 A1820-69026        ** can cnt. up to 2 Proc. Modl.
+**
+Processor Module Board, 892 A3310-69001        PCX-T 120MHz ** Nitro **
+Processor Mother Board, 892 A3310-69002        ** can cnt. up to 2 Proc. Modl.
+**
+Processor Module Board, 893 A3329-69012        PCX-U 180MHz ** T600 **
+Processor Mother Board, 893 A3329-69001        ** can cnt. up to 2 Proc. Modl.
+L2 Cache Module, 4MB        A3329-69002        2 x 4MB for each Proc. Module
+**
+Service Processor (TNT)     A1809-69132        ** updated Version for TNT **
+Cable, Service Processor    A1809-60019
+**
+HP-HSC-I/O Bus Converter    A3329-69200        PMB to HSC    (Java)
+F/W SCSI Adapter Card,      A3329-69109        HSC Bus Karte fuer T600
+HP-PB I/O Bus Converter     A3329-69004        HSC to HP-PB  (Keyaki)
+**
+Upper Bus Converter (PMB)   A1809-69031     
+Lower Bus Converter (HP-PB) A1809-69007     Z 
+Cable, Link 10m             A1809-60049     
+** Cable, Link  6m          A1809-60050        ** not longer avail. **
+Cable, Link  1m             A1809-60051         Internal Card Cage
+**
+Console/Modem/LAN PCA       28639-69003     Z 
+Cable, 5m Console           A1703-63003
+**
+Control Panel PCA           A1809-60013
+Cable, Control Panel        A1809-60018
+**
+++ S800 EMERGENCY KIT ++++++
+Serie800 Emergency Kit      A1809-TAPES        
+**
+++ QIC Laufwerk ++++++++++++
+QIC Drive                   D2034-69006        ** Telekom Special ! **
+**
+++ MEMORY ++++++++++++++++++
+64  MB Memory               A2233-69002        See Note !!!!
+128 MB Memory               A2233-69002     Z  See Note !!!!
+256 MB Memory               A2234-69002
+256 MB Kelly Memory         KELEMS21           ** Multi Vendor Memory **
+** NOTE: Falls Modul nicht verfuegbar, bitte voruebergehend 256 MB einbauen.
+512 MB Memory               A2588-69001
+768 MB Memory               A2589-69001
+
+++ BACKPLANE +++++++++++++++
+Backplane                   A1809-69001     
+Internal Backplane (HP-PB)  A1809-60017         OPAL Backplane
+
+++ POWER SYSTEM ++++++++++++
+Power Supply, 260W          0950-2246           OPAL PWS
+SPCM - PCA (HP-PB)          A1809-60130         OPAL Card Cage
+Power Supply, PFC HVDC      0957-0057       
+MPM PS Module               0950-2232           P12
++5V 325W Converter          0957-0058           P13, P6, P7 pre-Jade only !!
++5V 325W Converter          0957-0080           P13, P6, P7, P5 for T600 (Jade)
+!
++5V 130A 650W Converter     0957-0061           P10, P1 (if more than 8 Procs.)
+
++3.3V 130A                  0950-3017           P10, P9, P11, P1 (Jade only !)
++24V Fan PS Module          0957-0060           P14
+
+Cable High Voltage             A1809-60048
+
+++ MISC PARTS ++++++++++++++
+Circuit Breaker Cover       A1820-60028
+Battery/Fuse Assy           1420-0389 
+Battery 12V                 1420-0652           4 EA
+BTRY-3V SIZE/2N             1420-0353           Battery for the SP
+PFC Fan Replacement Kit     A1809-60084
+Filter, PMB                 A1809-80079
+Filter, Power               A1809-80080
+Fan Tray Chassis            A1809-60026
+Fan - TBAX                  3160-0809
+Fan Power Harness           A1809-60046
+Fan Sensor Harness          A1809-60047
+Fan Control PCA             A1809-60016         **located in Fan Shelf**
+Fan, Extern. OPAL           A1824-63005         A1828A HP-PB Exp. Module
+Control Panel Housing       A1809-60078
+Cable, SCSI 2,5m            5063-1218
+Cable, High Voltage         A1809-60048
+Cable, IO Fan               A1809-60054
+Cable, PFC Interface        A1809-60055
+Cable, Input PFC            A1809-60056
+Cable, Battery with FUSE    A1809-60057
+Cable, Battery Jumper       A1809-60058
+Cable, Battery OPAL         A1809-63001
+Cable, HPPB AC/Signal       A1809-63002
+Cover, 650W DC Converter    A1809-60027
+AUI Retaining Clip          5062-3351
+
+

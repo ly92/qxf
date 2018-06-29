@@ -1,0 +1,153 @@
+******************* Product / Case Handling *******************
+RoHS Silent Roll product 
+
+Capture the appropriate Serial Number for use in SAW Unit Configuration, 
+PC Tracker or CSN to determine RoHS product level compliance. 
+
+Products listed as Modified or EMEA-Only are Compliant Products. All compliant 
+products must comply with the RoHS directives and must be supported with Modified spares.
+
+See http://na2.know.hp.com/teams/RoHS%20Service%20Delivery%20Implementation/default.aspx  
+or email rohsservicedeliveryprogramteam@hp.com for additional information.
+
+If unable to capture the serial number, obtain the purchase or install date from the 
+customer and compare with the compliance date below. 
+
+Compliance Date:  July, 1st 2006
+
+The ROHS status of a part is UNKNOWN unless marked with "(compliant)" or "(noncomp)".
+You may order a compliant part for a not compliant server in case the noncompliant part is unavailable
+
+The Qualifier has to check for parts compliancy himself with the above mentioned 
+tools and is solely repsonsible for this!
+***************************************************************
+
+=========== SX2000 Integrity Superdome and SX2000 PA Superdome  ===============
+
+------- System Backplane -----------------------------
+ASSY, SDBP , BACKPLANE,  LEFT & RIGHT (Sandune Backplane) 	A9834-69001(noncomp) A9834-69101(compliant)  No SandDune Backplane power boards included
+BD ASSY,  HSO (Hot Swap Oscilator)				AD291B 
+
+
+------------------  CELL  ----------------------------
+#All cellboards come with 2 CPU modules mounted on the board.
+#Not needed CPUs should be removed from new cell and returned in the  
+#provided anti-static bags and compartments. 
+#Take over the ZIF Dust Covers from the old cell for any empty CPU slots.
+#Cellboard parts come with PDH daughter board, but NO DIMMs and NO POWER BOARD.
+
+SDCB, IPF cellboard with  9 MB Madison 1.6 GHz                  AD220-69001(noncomp) AD220-69301 (compliant)
+SDCB, IPF cellboard with 24 MB Montecito 1.6 GHz                AD063-69101
+SDCB, IPF cellboard with 18 MB Montecito 1.6 GHz                AB409-69101  old part#: AB409-69001
+SDCB, IPF cellboard with 18 MB Montvale 1.6 GHz                 AH324-69001  => MP>CM>DF>S>M  shows FRU NAME: MONTV_A1_1618
+SDCB, IPF cellboard with 24 MB Montvale 1.6 GHz                 AH325-69001  => MP>CM>DF>S>M  shows FRU NAME: MONTV_A1_1624
+SDCB, PARisc cellboard with PA8900 1.068 GHz                    AD116-69001
+
+Processor Assembly, IPF (Madison) 1.6GHz,			AD255-69001(noncomp) AD003-69001(compliant)  9 MB cache, w alignment rods
+Processor Assembly,MONTECITO 1.6GHZ/24MB CPU                    A9840-69001
+Processor Assembly,MONTECITO 1.6GHZ/18MB CPU                    AB406-69001
+Processor Assembly,MONTVALE  1.6GHZ/18MB CPU			AD371-69001  => MP>CM>DF>S>M  shows FRU NAME: MONTV_A1_1618  (Itanium processor series 9100)
+Processor Assembly,MONTVALE  1.6GHZ/24MB CPU			AD374-69001  => MP>CM>DF>S>M  shows FRU NAME: MONTV_A1_1624  (Itanium processor series 9100)
+Processor Assembly,PA8900 (Shortfin) 1.068 GHZ, 64MB cache      A9853-69001  (w alignment rods)
+
+BD ASSY,  DDR-2, 1GB, single DIMM				A9843-69001
+BD ASSY,  DDR-2, 2GB, single DIMM				A9846-69001
+BD ASSY,  DDR-2, 4GB, single DIMM				A9849-69001 
+
+CELL POWER BOARD, SDCPB						A9837-69001(noncomp) A9837-69201(compliant)
+
+CELL VRM, Vendor C & D, 30amp. (same for FSB and SKY)		0950-4632
+
+BATTERY, Cell Board 						1420-0386
+
+
+--------------------I/O -------------------------
+MODULE, PCIX Card Cage Assy Mode 2 				A9836-69001(noncomp) A9836-69201(compliant)  (12 slot I/O chassis w/ SDIOB3, ISDPB, IOBP, xPCIXP, xPCIXPB2, Escalante ASIC)
+MODULE, PCIe/PCI-X Card Cage Assy				AB405-69001  => MP>CM>DF>S>I shows FRU NAME:AIOBP2  
+(12 slot I/0 chassis [6 PCIe and 6 PCI-X slots])
+BD ASSY, HMIOB   ( Master IO Backplane)				A5201-67001
+
+
+--------------------Cables ---------------------
+CABLE ASSY, E-Link, (repl. REO),   7' long			A9834-2000B  =>Note: Order always 2 ( E-link IN/out)
+
+*********** SD64B (Fatboy) cables *****************
+
+CABLE ASSY, Clock Distribution,(Primary backplane clock  	A9834-2003A
+to 2nd cabinet backplane)
+
+CABLE ASSY,  M-Link, Backplane to Backplane, 5' long 		A9834-2002B
+(Primary Backplane to  2nd cabinet Backplane )
+
+USB HUCB to HUCB cable SD64					A5201-63058(noncomp) A5201-63093(compliant)
+
+
+------------------ Power -----------------------
+BD ASSY, SDPB2  (Sandune Backplane Power Board) 		A9834-69002
+PWR ASSY, BPS  (Bulk Power Supply)				A5201-69118(noncomp) A5201-69026(compliant)
+
+PWR ASSY, PDCA 4-WIRE ( only for US)				A5201-69009
+PWR ASSY, PDCA 5-wire ( europe)					A5201-69016   (64amp/ 3 phase,with cable and connector)
+PWR ASSY, PDCA 5-wire ( europe)					A5201-69024   (32amp/ 3 phase,with connector, thinner cable 
+									      than A5201-69016, shipped for SDs since ~2003))
+
+--------------- Utility Subsystem ---------------
+MODULE ASSY, incl SBC2 & SBCH4	(MP)                     	A5201-69129(noncomp) A5201-69329(compliant)
+ASSY UTILITY CHASSIS, includes HUCB                      	A5201-67003(noncomp) A5201-67069(compliant)
+
+BD ASSY, UGUY5-500 ( 500Mhz Utilities Board)             	A6475-69001(noncomp) A6475-69201(compliant) or A6475-69301
+BD ASSY, SBCHL2, Single Board computer Hub               	A5201-69012
+BATTERY, SBCH (single board computer hub),               	1420-0862
+3V 1.3-AHR, LI Manganese Dioxide
+
+
+--------------- Fans -----------------------------
+FAN MODULE, CELL AREA ( mounted on top)				A5201-62048 (Cabinet Blower) (old part number: A5201-69011)
+ASSY, Blower housing Front only (incls NO Blowers)		A5201-62030 (only metal housing, no cables/connectors included)
+ASSY, Blower housing Rear only (incls NO Blowers)		A5201-62029(noncomp) A5201-62051(compliant) (includes cables/connectors)
+
+I/O Fan Module, incl. Fan  					A5201-04035(noncomp) A5201-04072(compliant)
+ASSY, I/O Fan Mounting Frame					A5201-04005(noncomp) A5201-04083(compliant)
+
+
+--------------- MISC ------------------------------
+BD ASSY, HFPB3  (Front & Rear  LED  Panel Board)     		A5201-67002
+CABLE ASSY, ON-OFF Switch, to FPB                    		A5201-63059(noncomp) A5201-63094(compliant)
+
+BD ASSY HCOLB CELL OL*REP. PART BRD.ASSY, HCOLB      		A5201-67065
+CBL ASSY, CELL OL *LED CABLE CABLE ASSY, OL/TEMP     		A5201-63049
+CABLE, 48V SENSE TO HUCB                             		A5201-63111 (see http://ci2005.cup.hp.com/list_details.php?issue=3123 ) 
+
+
+
+--------------- IOX -------------------------------
+CABLE ASSY, EE-Link,Sandune Backplane to IOX Cabinet 14'long	A9834-2001B
+MODULE, PCIX Card Cage Assy Mode 2 				A9836-69001(noncomp) A9836-69101(compliant)  (12 slot I/O chassis w/ SDIOB3, ISDPB, IOBP, xPCIXP, xPCIXPB2, Escalante ASIC) 
+EMI Plug for clock connector in XUC (Blank Ferrule Assembly)    A5861-00079
+
+ASSY, XUC, exp. utilities chassis, incl XUCB,XUC FANS           A5861-69001	
+ASSY, EXPANSION POWER CHASSIS	                                A5861-69102(noncomp) A5861-69202(compliant)	
+BD ASSY, XMIOB2  (I/O chassis backplane)	                A5862-60101(noncomp) A5862-60201(compliant)	
+
+CABLE ASSY, ICE OL*, LED 	                                A5862-63006(noncomp) A5862-63034(compliant)	
+CABLE ASSY, IOX REO, (in/out), Shielded	                        A5862-63030 see current issue 1785	
+CABLE ASSY, IOX USBE 14FT, shielded	                        A5862-63032(noncomp) A5862-63044(compliant)
+
+ASSY, XUC FAN                                                   A5861-62014
+ASSY, ICE FAN                                                   A5862-04012(noncomp) A5862-04032(compliant)
+
+
+-------------- Tools ----------------------------------
+TOOL, DIMM INSTALLER						A5201-68003
+DIMM REMOVAL KIT						A5201-68017
+TOOL, STAT MAT 24X36 W/GRD STR					A5201-68004
+LIFTING TOOL, CELL MODULE					A5201-68013
+TORQUE WRENCH, 30 - 150 in. lbs.				A5201-68006
+LAN-crossover-cable						M3199-60102M
+serial console-cable						A4700-67052
+
+-------------------------------------------------------------------------------
+
+             Last update on 30-March-2010 by Holger Goetker
+
+

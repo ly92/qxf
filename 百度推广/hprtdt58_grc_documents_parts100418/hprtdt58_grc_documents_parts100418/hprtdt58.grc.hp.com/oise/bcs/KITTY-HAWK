@@ -1,0 +1,148 @@
+******************* Product / Case Handling *******************
+This server is non-RoHS compliant because it was obsolete before July 1st, 2006.
+
+However, you may order a compliant part for a non-compliant server
+in case the non-compliant part is unavailable.
+The ROHS status of a part is UNKNOWN unless marked with "(compliant)" or "(noncomp)".
+***************************************************************
+
+
+==SKILL Product:9K-KITTY Group:KITTY-HAWK           Sys_flag:y
+== 9000/K xxx === KITTY-HAWK =================|===============================
+
+++ PROCESSOR PCA'S
+CPU, 100MHZ                 A2375-69178        K200/K400
+CPU, 120MHZ                 A2375-69055        K210/K410      256KB I/D CACHE 
+CPU, 120MHZ                 A3398-69002        K220/K420      1MB   I/D CACHE 
+CPU, 160MHZ                 A3261-69013        K250/K450      1MB   I/D CACHE
+CPU, 180MHZ                 A3261-69204        K260/K460/K360 1MB   I/D CACHE
+CPU, 200MHZ                 A3641-69222        K370/K570      2MB   I/D CACHE
+CPU, 240MHZ                 A4837-69101        K380/K580      2MB   I/D CACHE
+
+++ SYSTEM BOARDS +++++++++++
+SYSTEM CARD-1 WAY           A2373-69302        K100 (Uniprocessor Board)
+**
+SYSTEM CARD-2 WAY, NEW P/N  A3453-69214        K200/K210/K220
+SYSTEM CARD-2 WAY, NEW P/N  A3284-69510        K250/K260
+**
+SYSTEM CARD-4 WAY           A3453-69203        K400/K410/K420
+SYSTEM CARD-4 WAY           A3284-69505        K450/K460/K360
+**
+SYSTEM CARD Kx70            A3641-69517        K370 / K570 system board comes as K370
+                                                           -> ss_config to update
+**
+SYSTEM CARD Kx80            A4837-69403        K380 / K580 system board comes as K380
+                                                           -> ss_config to update
+++ 
+PAL CHIP, 4 SLOT            A2375-81401
+PAL CHIP, 8 SLOT            A2375-89801
+BATTERY 3V 0.14A-HR         1420-0314          mounted on Backplane 
+++
+9000 CORE I/O Board         A3453-69108        A2375-69196 functional equivalent!
+                                               update the system board to the latest firmware version!       
+
+++ Crystals ++
+120 MHz processor (60MHz)   1813-1017
+160 MHz processor (60MHz)   1813-1174
+180 MHz processor (45MHz)   1813-1167
+
+++ MEMORY SYSTEM +++++++++++
+16MB MEMORY SIMM            A2579-69001
+32MB MEMORY SIMM            A1236-69001
+64MB MEMORY SIMM            A2580-69001
+128MB MEMORY SIMM           A3398-69014
+256 MB SIMM                 A3737-69001
+MEMORY CARRIER Card         A2375-69054        for all K-Class Systems
+
+++ POWER SYSTEM ++++++++++++
+POWER SUPPLY                0957-0279          
+POWER SUPPLY MOHAWK         0957-0085          For PA 8000 K-Series (Kx50, Kx60)
+POWER SUPPLY BRAVEHAWK      0957-0085          For PA 8200 K-Series (K370, K380)
+POWER SUPPLY DRAGONHAWK     0957-0085          K570, K580
+FAN-KIT PS MOHAWK/BRAVEHAWK 0957-0264          
+PWR CORD SPU TO SCHUKO      8120-6899          For MOHAWK Systems, 4,5m
+PWR CORD SPU TO SCHUKO      8120-6352          For MOHAWK Systems, 2,5m
+PWR CORD SPU TO PDU         8120-6884          Or UPS to PDU, 2,5m
+PWR CORD SPU TO PDU         8120-6961          Or UPS to PDU  4,5m
+POWER CORD, 0,5m Rack       8120-6358          To Connect to Racksystem
+POWER MONITOR Board         A3641-69125        all K-class systems (new FW ROM chip for new fan assy revision!)    
+
+++ DISK-DRIVES +++++++++++++
+SCSI,36.0 GB DRIVE,         A5529-69001        ** ST136475LC
+SCSI,18.0 GB DRIVE          A4909-69002        ** ST118273WC, ST318275LC
+SCSI, 9.0 GB DRIVE, 3,5"    A3629-69003        ** ST19171W, ST39173WC, ST39175WC, ST39236LC
+SCSI, 4.0 GB DRIVE, 3,5"    A3353-69001        ** ST15150WD
+SCSI  4.0 GB DRIVE  3.5"    A3353-69003     Z  ** ST34371WD, ST34573WC  A3353A MULTIUSER
+ !! There is a new SCSI cable designed to connect the new part # A3353-69002.
+ !! Be sure to order A2375-63008 (see http://snserver.mayfield.hp.com/products/A3353A/A3353A-05A/index.htm).
+SCSI, 2.0 GB DRIVE, 3.5"    A3351-69004     Z  ** ST32550WD, XV32150WD
+SCSI, 2.0 GB DRIVE, 3.5"    C2490-69375        ** C2490WD
+SCSI, 1.0 GB LP F/W         A3058-69001        ** ST31200WD, DSP3107LWD
+SCSI, 1.0 GB LP F/W         C3660-69375        ** DEC/SEAGA. RACKVERSION
+TERMINATOR F/W              A1658-62024        ** C2905A
+
+++ TAPE DRIVES +++++++++++++
+MECH, DDS DRIVE (2 GB)      C1503-69201     Z  LED's nebeneinander !!
+MECH, DDS DRIVE (4-8 GB)    C1504-69201     Z  LED's nebeneinander, DCLZ !!
+MECH, DDS DRIVE (DDS-2)     C1539-67203        A3183A (LWklappe offen)
+MECH, DDS DRIVE (DDS-2)     C1539-69202        A3183A (LWklappe halb geschl)
+Frontblende fuer C1503	    C1503-60200        5 1/4"
+Frontblende fuer C1504	    C1504-60200        5 1/4"
+Frontblende fuer C1539	    C1534-60225        5 1/4" flint grey
+Frontblende fuer C1533	    C1530-40003        Panel fuer 1530 passt fuer C1533
+
+MECH, DDS DRIVE (DDS-3)     C1537-69202        A3542A
+MECH, 8mm 5.0 GB SCSI       A3024-69001
+
+++ CD-ROM Drive ++++++++++++
+CD-ROM Drive (4101)         A5220-67001        OLD CD-ROM replaced with DVD
+CD-ROM Drive 12x            A1658-60025        A3715A        
+
+++ MISC ++++++++++++++++++++
+HSC EXPANSION I/O, 2 SLOT   A3641-69013        
+HSC EXPANSION I/O, 4 SLOT   A3641-69005        Board only - no sheetmetal
+SHEETMETAL CARRIER          A3398-60015        For Kittyhawk/Mohawk
+SHEETMETAL CARRIER          A3641-60009        For Bravehawk   
+Upper Bus Cnvrtr(Keyaki)    A3641-69016        
+Dual Bus,4-slot HSC Exp.    A3641-69003        additional HSC for K570 an K580 only; Bus 12/ and 14/
+ 
+**
+PERIPH CAGE INTERCONNECTION A2375-60002
+INT. MODEM (FW 1.07, NEU)   A2991-60022     
+LAM, GERMANY                A2991-60002
+DISPLAY PANEL ASSY          1990-1701
+F/W SCSI Card, SHRIKE       A2969-69001     
+PERIPHERIAL HOUSING         A2375-60017
+CHASSIS DESKSIDE            A3453-60001    
+CHASSIS RACKED              A3453-60002  
+BULKHEAD, single high hppb  5062-3343   * to cover a double high HP-PB slot,
+Two-board adapter           5062-9367   * take 2 5062-3343 and 1 5062-9367
+SE DEVICE METALL COVER      A2375-00025
+PERIPHERAL POWER CABLE      A2375-63003
+F/W SCSI CABLE (internal)   A2375-63008     
+S/E SCSI CABLE              A2375-63005
+UPPER FAN CABLE             A2375-63002
+FAN ASSY                    A3453-60016  the original fan in the K-class systems, R2G175-AB31-12,
+                                         was discontinued by the supplier. 
+					 This fan has been replaced by new fan R1G175-AB75-32             
+                                         Mixing old and new fans in the same K-class chassis will
+                                         result in a system boot failure. 
+                                         Replace both front and back fan assemblies with a matching
+                                         set of A3453-60016 AND new Power Monitor Board A3641-69125
+FAN KIT (2 FANS + FW chip)  A3453-70003  OR if available, this part contains two A3453-60016 fan assys,
+                                         Power Monitor board FW chip, ROM extraction tool & manual.
+					 for details see http://wtec.cup.hp.com/~cpuhw/hppa/kclass/A3453-90001_Fan_install_Kit_readme.pdf
+                                         and Engineering Notice/K-Class Fan Kit Roll http://saw.cce.hp.com/km/saw/view.do?docId=emr_na-c00816285
+
+   
+CONSOLE CABLE               24542G
+MDP, 8 PORT                 5062-3054
+MDP KABEL                   40299-60003
+KEYSWITCH ASSEMBLY          A2375-60099 * NOTE: If cust. has silver coloured
+KEYS                        116262126   * Keys (instead of brass) and you need
+Display Assembly NEW        A3453-60015 * to repl. the KEYSWITCH, all three 
+                                          Parts with asterix (*) are needed!
+                                          (brass = messing)
+
+________________________________________
+last change: 09.02.2007 by Holger Goetker
