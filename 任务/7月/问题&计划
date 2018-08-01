@@ -340,10 +340,10 @@ word和excel中让我感觉是备件报价，关于项目报价的信息并没�
 OCR 
 https://cloud.tencent.com/document/product/866/17600
 https://cloud.tencent.com/document/product/866/17734
-peebVEl9NPMbjhV7Y9pPxYK4qUxT3bEn
-a=1257167944&b=tencentyun&k=AKIDNlImJslFwhVKCCG7FUn7UuDUmAZtnnaN&e=1540800000&t=1533031463&r=124587363&f=
+$secret_key = 'peebVEl9NPMbjhV7Y9pPxYK4qUxT3bEn'
+$srcStr = 'a=1257167944&b=tencentyun&k=AKIDNlImJslFwhVKCCG7FUn7UuDUmAZtnnaN&e=1540800000&t=1533031463&r=124587363&f='
 
-
+$signStr = base64_encode(hash_hmac('SHA1', $srcStr, $secret_key, true).$srcStr);
 
 
 
