@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<script>
+			function isWeChat() {
+				var userAgent = navigator.userAgent.toLowerCase();
+				if(userAgent.match(/MicroMessenger/i) == 'micromessenger') {
+					return true;
+				} else {
+					return false;
+				}
+			}
+
+			if( /Android/i.test(navigator.userAgent) ) {
+ 			// 执行相应代码或直接跳转到手机页面
+ 				window.location = "http://sj.qq.com/myapp/detail.htm?apkName=com.qixiaofu.qxf";
+			} else if ( /webOS/i.test(navigator.userAgent) ){
+				window.location.href = "http://sj.qq.com/myapp/detail.htm?apkName=com.qixiaofu.qxf";
+			}  else if ( /iPhone|iPad|iPod/i.test(navigator.userAgent) ){
+				window.location.href = "https://itunes.apple.com/cn/app/id1171281585?mt=8";
+			}  else if ( /BlackBerry/i.test(navigator.userAgent) ){
+				window.location.href = "http://sj.qq.com/myapp/detail.htm?apkName=com.qixiaofu.qxf";
+			} else {
+			 // 执行桌面端代码
+			 	var brow = browser();
+				if("Safari" == brow) {
+					window.location.href = "https://itunes.apple.com/cn/app/id1171281585?mt=8";
+				}else{
+					window.location.href = "http://sj.qq.com/myapp/detail.htm?apkName=com.qixiaofu.qxf";
+				}
+			}
+ 
+			function browser() {
+				//取得浏览器的userAgent字符串
+				var userAgent = navigator.userAgent;
+				var isIE = window.ActiveXObject != undefined && userAgent.indexOf("MSIE") > -1;
+				var isFirefox = userAgent.indexOf("Firefox") > -1;
+				var isOpera = window.opr != undefined;
+				var isChrome = userAgent.indexOf("Chrome") && window.chrome;
+				var isSafari = userAgent.indexOf("Safari") > -1 && userAgent.indexOf("Version") > -1;
+				if(isIE) {
+					return "IE";
+				} else if(isFirefox) {
+					return "Firefox";
+				} else if(isOpera) {
+					return "Opera";
+				} else if(isChrome) {
+					return "Chrome";
+				} else if(isSafari) {
+					return "Safari";
+				} else {
+					return "Unkown";
+				}
+			}
+
+			window.onload = function() {
+				var wechat = isWeChat();
+				if (wechat == true){
+					//微信内部
+					// alert("in wechat");
+				}else{
+					//浏览器或者其他
+					// alert("out wechat");
+				}
+
+				var brow = browser();
+				if("Chrome" == brow) {
+					alert("Chrome");
+				}
+				if("Firefox" == brow) {
+					alert("Firefox");
+				}
+				if("Opera" == brow) {
+					alert("Opera");
+				}
+				if("Safari" == brow) {
+					// alert("Safari");
+					// window.location = "https://itunes.apple.com/cn/app/id1395089423?mt=8";
+				}
+				if("IE" == brow) {
+					alert("IE");
+				}
+			}
+		</script>
+	<!-- <meta http-equiv="refresh"content="0.1;url= https://www.baidu.com"> -->
+
+<!-- <script type="text/javascript">
+        /* 当前设备浏览器版本信息 */
+        var browser = {
+            versions: function() {
+                var u = navigator.userAgent, app = navigator.appVersion;
+                return {//移动终端浏览器版本信息
+                    trident: u.indexOf('Trident') > -1, //IE内核
+                    presto: u.indexOf('Presto') > -1, //Opera内核
+                    webKit: u.indexOf('AppleWebKit') > -1, //苹果/谷歌内核
+                    gecko: u.indexOf('Gecko') > -1 && u.indexOf('KHTML') == -1, //火狐内核
+                    mobile: !!u.match(/AppleWebKit.*Mobile.*/) || !!u.match(/AppleWebKit/), //是否为移动终端
+                    ios: !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/), //iOS终端
+                    android: u.indexOf('Android') > -1 || u.indexOf('Linux') > -1, //Android终端或者UC浏览器
+                    iPhone: u.indexOf('iPhone') > -1 || u.indexOf('Mac') > -1, //是否为iPhone或者QQHD浏览器
+                    iPad: u.indexOf('iPad') > -1, //是否iPad
+                    webApp: u.indexOf('Safari') == -1 //是否Web应该程序，没有头部与底部
+                };
+            }(),
+            language: (navigator.browserLanguage || navigator.language).toLowerCase()
+        }
+
+        //根据设备的不同，可以做一些事情。
+        if (browser.versions.ios || browser.versions.iPhone || browser.versions.iPad) {
+            //window.location="http://localhost/index.html";
+        }
+        else if (browser.versions.android) {
+            //window.location="http://localhost/demo.php";
+        }
+
+        document.writeln("语言版本: " + browser.language + "<br/>");
+        document.writeln("是否为移动终端: " + browser.versions.mobile + "<br/>");
+        document.writeln("iOS终端: " + browser.versions.ios + "<br/>");
+        document.writeln("Android终端: " + browser.versions.android + "<br/>");
+        document.writeln("是否为iPhone: " + browser.versions.iPhone + "<br/>");
+        document.writeln("是否iPad: " + browser.versions.iPad + "<br/>");
+        document.writeln("用户代理: " + navigator.userAgent + "<br/>");
+        // 用户代理是一种对数据打包/创造分组头,以及编址/传递消息的部件.
+    </script> -->
+
+
+
+	<title>七小服</title>
+</head>
+<body>
+
+<!-- a标签的链接，设置为对应的下载链接；点击打开的动作，在click事件中注册 --> 
+<!--
+<a href="https://itunes.apple.com/cn/app/id1395089423?mt=8" id="openApp" style="display: none;" >贴吧客户端</a> 
+<script type="text/javascript"> 
+document.getElementById('openApp').onclick = function(e){ 
+// 通过iframe的方式试图打开APP，如果能正常打开，会直接切换到APP，并自动阻止a标签的默认行为 
+// 否则打开a标签的href链接 
+var ifr = document.createElement('iframe'); 
+ifr.src = 'com.baidu.tieba://'; 
+ifr.style.display = 'none'; 
+document.body.appendChild(ifr); 
+window.setTimeout(function(){ 
+document.body.removeChild(ifr); 
+},3000) 
+}; 
+document.getElementById('openApp').click();
+
+
+if(navigator.userAgent.match(/android/i)) {
+// 通过iframe的方式试图打开APP，如果能正常打开，会直接切换到APP，并自动阻止a标签的默认行为
+// 否则打开a标签的href链接
+var isInstalled;
+//下面是安卓端APP接口调用的地址，自己根据情况去修改
+var ifrSrc = 'cartooncomicsshowtwo://platformapi/startApp? type=0&id=${com.id}&phone_num=${com.phone_num}';
+var ifr = document.createElement('iframe');
+ifr.src = ifrSrc;
+ifr.style.display = 'none';
+ifr.onload = function() {
+// alert('Is installed.');
+isInstalled = true;
+alert(isInstalled);
+document.getElementById('openApp0').click();};
+ifr.onerror = function() {
+// alert('May be not installed.');
+isInstalled = false;
+alert(isInstalled);
+}
+document.body.appendChild(ifr);
+setTimeout(function() {
+document.body.removeChild(ifr);
+},1000);
+}
+//ios判断
+if(navigator.userAgent.match(/(iPhone|iPod|iPad);?/i))
+if(navigator.userAgent.match(/(iPhone|iPod|iPad);?/i)) {
+//Animation://com.yz.animation
+var isInstalled;
+//var gz = '{"comName":"${com.short_name}","comID":"${com.id}","comPhoneNum":"${com.phone_num}","type":"0"}';
+//var jsongz =JSON.parse(gz);
+//下面是IOS调用的地址，自己根据情况去修改
+var ifrSrc = 'Animation://?comName=${com.short_name}&comID=${com.id}&comPhoneNum=${com.phone_num}&type=0';var ifr = document.createElement('iframe');
+ifr.src = ifrSrc;
+ifr.style.display = 'none';
+ifr.onload = function() {
+// alert('Is installed.');
+isInstalled = true;
+alert(isInstalled);
+document.getElementById('openApp1').click();};
+ifr.onerror = function() {
+// alert('May be not installed.');
+isInstalled = false;
+alert(isInstalled);
+}
+document.body.appendChild(ifr);
+setTimeout(function() {
+document.body.removeChild(ifr);
+},1000);
+}
+}
+-->
+</body>
+</html>
