@@ -9,5 +9,11 @@ export default {
   category: 'Категории',
   link: 'Ссылки',
   visitor: 'Посетители',
-  system: 'Система'
+  role: 'Роли',
+  system: 'Система',
+  modules: {
+    base: 'Базовый модуль',
+    content: 'Модуль контента',
+    system: 'Системный модуль'
+  }
 }

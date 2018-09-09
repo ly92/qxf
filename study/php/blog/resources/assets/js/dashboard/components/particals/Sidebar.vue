@@ -15,8 +15,18 @@
           <a href="/setting"><i class="fas fa-cog"></i></a>
         </div>
       </div>
-      <li v-for="menu in menus">
-        <router-link :to="menu.uri">
+      <li v-for="menu in menus" :class="{ 'mb-3': menu.children }" v-if="menu.can">
+        <div class="sidebar-group" v-if="menu.children">
+          <p class="sidebar-heading text-white-50"><span>{{ $t(menu.label) }}</span></p>
+          <ul class="sidebar-group-items">
+            <li v-for="item in menu.children" v-if="item.can">
+              <router-link :to="item.uri">
+                <i :class="item.icon"></i> {{ $t(item.label) }}
+              </router-link>
+            </li>
+          </ul>
+        </div>
+        <router-link :to="menu.uri" class="mb-1" v-else>
           <i :class="menu.icon"></i> {{ $t(menu.label) }}
         </router-link>
       </li>
@@ -30,7 +40,6 @@
   export default {
     data () {
       return {
-        menus: menus,
         user: {}
       }
     },
@@ -38,6 +47,26 @@
       this.user = window.User
     },
     computed: {
+      menus () {
+        menus.forEach((item) => {
+          if (item.children) {
+            let i = 0
+
+            item.children.forEach((child) => {
+              child.can = child.permission ? this.checkPermission(child.permission) : true
+
+              i = child.can ? i + 1 : i
+            })
+
+            item.can = i > 0
+          } else {
+            item.can = item.permission ? this.checkPermission(item.permission) : true
+          }
+        })
+
+        return menus
+      },
+
       userInfo() {
         return '/user/' + this.user.name
       }
@@ -60,7 +89,7 @@
 }
 
 .sidebar-nav li {
-  text-indent: 20px;
+  text-indent: 16px;
   line-height: 40px;
 
   i {
@@ -85,7 +114,6 @@
 .user {
   text-align: center;
   padding-top: 15px;
-  background-color: #52697f;
 }
 
 .user .avatar {
@@ -107,25 +135,27 @@
   height: 40px;
   line-height: 40px;
   margin-right: 5px;
-  color: #828a9a;
+  color: #fff;
+  opacity: .5;
 }
 .buttons a:hover {
-  color: #fff;
+  opacity: 1;
 }
 .sidebar-nav li a {
   display: block;
   text-decoration: none;
-  color: #999999;
+  color: #fff;
+  opacity: .5;
 }
 
 .sidebar-nav li a:hover {
+  opacity: 1;
   text-decoration: none;
-  color: #fff;
-  background: rgba(255,255,255,0.2);
+  background: #647f9d;
 }
 
 .sidebar-nav li .active {
-  color: #fff !important;
+  opacity: 1;
 }
 
 .sidebar-nav li a i {
@@ -137,26 +167,25 @@
   text-decoration: none;
 }
 
+.sidebar-group {
+  .sidebar-heading {
+    padding-left: 16px;
+    text-transform: uppercase;
+    letter-spacing: .13rem;
+    font-size: 12px;
+    font-weight: 800;
+    margin: 0;
+  }
+  .sidebar-group-items {
+    padding: 0;
+  }
+}
+
 .active {
   background-color: #3d4e60;
   border-right: 4px solid #647f9d;
 }
 .active a {
   color: #fff !important;
-}
-
-.sidebar-nav > .sidebar-brand {
-  height: 65px;
-  font-size: 18px;
-  line-height: 60px;
-}
-
-.sidebar-nav > .sidebar-brand a {
-  color: #999999;
-}
-
-.sidebar-nav > .sidebar-brand a:hover {
-  color: #fff;
-  background: none;
 }
 </style>

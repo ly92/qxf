@@ -9,5 +9,11 @@ export default {
   category: '分类管理',
   link: '友链管理',
   visitor: '访问列表',
-  system: '系统配置'
+  role: '角色列表',
+  system: '系统配置',
+  modules: {
+    base: '基础模块',
+    content: '内容模块',
+    system: '系统模块'
+  }
 }

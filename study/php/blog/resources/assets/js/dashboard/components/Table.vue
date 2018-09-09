@@ -1,7 +1,7 @@
 <template>
-  <div :class="wrapperClass" class="ibox">
-    <div class="ibox-title d-flex">
-      <h5 class="align-self-center font-weight-normal">{{ title }}</h5>
+  <div :class="wrapperClass" class="box box-radius shadow-sm">
+    <div class="box-title d-flex">
+      <h5 class="align-self-center font-weight-normal m-0">{{ title }}</h5>
       <small class="ml-auto d-flex flex-row">
         <div class="input-group input-group-sm mr-2">
           <input type="text" class="form-control" v-model="searchable[searchKey]" :placeholder="searchPlaceholder" @keyup.enter="onSearch()">
@@ -12,13 +12,13 @@
         <slot name="buttons"></slot>
       </small>
     </div>
-    <div class="ibox-content no-padding table-responsive">
+    <div class="box-content p-0 border-0 table-responsive">
       <table :class="tableClass">
         <thead>
           <tr>
             <template v-for="field in fields">
               <template v-if="isSpecialField(field.name)">
-                <th v-if="field.name == '__actions'" :class="field.titleClass">
+                <th v-if="field.name == '__actions' && checkPermissions(itemActions)" :class="field.titleClass">
                   <template v-if="field.trans">
                     {{ $t(field.trans) }}
                   </template>
@@ -53,13 +53,13 @@
             <tr v-for="item in items">
               <template v-for="field in fields">
                 <template v-if="isSpecialField(field.name)">
-                  <template v-if="field.name == '__actions'">
+                  <template v-if="field.name == '__actions' && checkPermissions(itemActions)">
                     <td :class="field.dataClass" class="actions">
                       <template v-for="action in itemActions">
-                        <a @click="callAction(action.name, item)" :class="action.class">
-                                                    <i :class="action.icon"></i>
-                                                    {{ action.label }}
-                                                </a>
+                        <a @click="callAction(action.name, item)" :class="action.class" v-if="!action.permission || checkPermission(action.permission)">
+                          <i :class="action.icon"></i>
+                          {{ action.label }}
+                        </a>
                       </template>
                     </td>
                   </template>
@@ -101,7 +101,7 @@ export default {
     tableClass: {
       type: String,
       default () {
-        return 'table table-striped table-hover'
+        return 'table table-hover'
       }
     },
     title: {
@@ -134,8 +134,8 @@ export default {
       type: Array,
       default () {
         return [
-          { name: 'edit-item', icon: 'fas fa-pencil-alt', class: 'btn btn-info' },
-          { name: 'delete-item', icon: 'fas fa-trash-alt', class: 'btn btn-danger' }
+          { name: 'edit-item', permission: `UPDATE_${this.apiUrl.toUpperCase()}`, icon: 'fas fa-pencil-alt', class: 'btn btn-info' },
+          { name: 'delete-item', permission: `DESTROY_${this.apiUrl.toUpperCase()}`, icon: 'fas fa-trash-alt', class: 'btn btn-danger' }
         ]
       }
     },
