@@ -37,7 +37,7 @@ Route::group([
     Route::delete('discussion/{id}', 'DiscussionController@destroy')->middleware(['permission:destroy_discussion']);
     Route::post('/discussion/{id}/status', 'DiscussionController@status')->middleware(['permission:update_discussion']);
 
-    // Tag
+    // Comment
     Route::get('comment', 'CommentController@index')->middleware(['permission:list_comment']);
     Route::get('comment/{id}/edit', 'CommentController@edit')->middleware(['permission:update_comment']);
     Route::put('comment/{id}', 'CommentController@update')->middleware(['permission:update_comment']);
