@@ -17,6 +17,7 @@ class ArticleController extends ApiController
     public function index(Request $request)
     {
         $keyword = $request->get('keyword');
+
         $articles = Article::checkAuth()
             ->when($keyword, function ($query) use ($keyword) {
                 $query->where('title', 'like', "%{$keyword}%")
