@@ -40,7 +40,7 @@
     </div>
 
     <!-- Scripts -->
-    <script src="{{ mix('js/home.js') }}"></script>
+    <script src="js/home.js"></script>
 
     @yield('scripts')
 
