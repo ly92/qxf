@@ -76,7 +76,13 @@
 2、未提供驻场正式服务器的测试版本----后台未部署到正式服务器
 
 
-监狱生活
+本周学习
+最近研究了项目自动发布的技术，将代码托管到GitHub时可通过webhook来实现代码提交时的自动发布，主要有五步
+1、首先在github上创建laravel项目
+2、laravel项目中增加一个接口
+3、更改“/etc/sudoers”文件
+4、在github中对应的项目上找到webhooks，添加URL，根据需要配置选项
+5、将GitHub上面的代码clone到电脑上，修改后“git push”GitHub将会调用第四部添加的URL，执行hook方法中的命令，centos上的项目就会自动更新，通过GitHub传递的参数可在hook方法中编写代码达到自定义的更新发布。
 
 
 
