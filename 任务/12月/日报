@@ -209,11 +209,35 @@
 
 周五
 1、设计人事系统的原型图
+日报:
+工作内容 : 
+1、搭建0元发单的页面并编写页面交互逻辑
+2、给孙老师讲解项目立项内的操作逻辑
+3、开始设计PC端接发单原型图设计--准备数据
+完成率 : 90%
+原因 : 0元发单接口后台没写所以未对接
 
 
+周报
+1、项目立项原型图根据崔哥的建议需要修改几个页面并增加管理员设置的功能
+2、驻场接口梳理，找出接口bug提供后台更改
+3、向后台解释接口的问题逻辑
+4、解决产品在熟悉项目时遇到的问题
+5、0元发单原型图设计
+6、驻场接口调试，接口重新对接，数据返回格式更改，需要重新梳理接口返回数据
+7、梳理之前对接的接口，找出更新的字段并更改代码
+8、新对接工程师向招聘者发送附件简历的接口并打包提供测试
+9、配合UI设计0元单相关的页面
+10、开始开发0元发单的功能
+11、搭建0元发单的页面并编写页面交互逻辑
+12、给孙老师讲解项目立项内的操作逻辑
+13、开始设计PC端接发单原型图设计--准备数据
 
 
+读书分享
+iOS开发中瀑布流布局的方式
 
-
-
-
+实现瀑布流布局的方式有很多种，其中利用“UICollectionView”与自定义“UICollectionViewLayout”的方式在内存利用、流畅度、实现难易度等方面都比较优秀
+内存利用方面通过UICollectionView的cell复用可以有效的减少内存占用，流畅度也是表现的很出色，实现所需要的代码量也很少
+自定义的这个布局与“UICollectionViewFlowLayout”很相似，因此行间距、列间距、内边距都可以直接拿过来用，需要自己新定义这些属性。另外需要一些必须的属性，列数、属性数组，列高数组，为方便也要定义一下列宽（cell宽度）和代理（获取cell高度）属性，其中列宽与列间距、UICollectionView宽度、列数、内边距有关系，所以在这些值改变的时候记得在set方法中改变列宽。
+在重写的“prepare”方法中初步设置列宽以及获取所有cell的布局属性。此时需要重写“func layoutAttributesForItem(at indexPath: IndexPath) -> UICollectionViewLayoutAttributes?”,“func layoutAttributesForSupplementaryView(ofKind elementKind: String, at indexPath: IndexPath) -> UICollectionViewLayoutAttributes?”方法和“func layoutAttributesForElements(in rect: CGRect) -> [UICollectionViewLayoutAttributes]?”方法，第一个方法就是在设置每一个cell的布局属性的时候，第二个方法是返回rect范围内所有元素的布局属性，包含cell、组视图等的布局属性.利用一个代理方法直接获取每个item的高度
