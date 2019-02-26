@@ -1,0 +1,56 @@
+composer create-project laravel/laravel blog57 --prefer-dist
+
+npm install
+
+
+
+
+php artisan make:model -m Models/Post
+
+数据库迁移命令
+php artisan migrate
+
+php artisan make:factory PostFactory --model=Models/Post
+
+php artisan make:seeder PostsTableSeeder
+
+php artisan db:seed
+
+
+php artisan make:controller BlogController
+
+
+查看应用中的所有路由，可以使用如下命令
+php artisan route:list
+
+
+
+php artisan make:controller Admin/PostController --resource
+php artisan make:controller Admin/TagController --resource
+php artisan make:controller Admin/UploadController
+
+
+npm install datatables.net-bs4 --save-dev
+
+
+php artisan make:model Models/Tag --migration
+
+在标签（Tag）和文章（Post）之间存在多对多的关联关系，因此还要按照下面的命令创建存放文章和标签对应关系的数据表迁移：
+php artisan make:migration create_post_tag_pivot --create=post_tag_pivot
+
+php artisan make:request TagCreateRequest
+
+
+
+
+配置本地文件系统
+php artisan storage:link
+
+
+composer dumpauto
+
+
+php artisan make:migration restructure_posts_table --table=posts
+
+
+
